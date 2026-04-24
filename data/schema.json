@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZinovaCreation/verdict-platforms/schema.json",
+  "title": "VERDICT platform evaluation (Framework v0.3.1)",
+  "description": "Front matter schema for a single VERDICT platform evaluation file. Mirrors ENGINE.md v0.3.1-final.",
+  "type": "object",
+  "required": [
+    "name",
+    "slug",
+    "operator",
+    "independence",
+    "category",
+    "evaluation_number",
+    "evaluation_type",
+    "evaluated_at",
+    "evaluator_model",
+    "framework_version",
+    "layer",
+    "score",
+    "max_score",
+    "verdict",
+    "cisa_kev",
+    "cve_count_12mo",
+    "supply_chain_compromise_12mo",
+    "known_facts_applied",
+    "qa",
+    "next_review_due"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name":     { "type": "string", "minLength": 1 },
+    "slug":     { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
+    "operator": { "type": "string", "minLength": 1 },
+
+    "independence": {
+      "type": "string",
+      "enum": ["independent", "parent", "subsidiary"],
+      "description": "independent = standalone; parent = operator is itself the parent company; subsidiary = owned by a parent entity"
+    },
+    "parent_entity": {
+      "type": ["string", "null"],
+      "description": "Required (non-null) when independence = subsidiary; null otherwise."
+    },
+
+    "category": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Free-text VERDICT category. Must be consistent across platforms (e.g. 'AI Coding Agent', 'Browser Agent', 'Enterprise Agent', 'Workflow Automation')."
+    },
+    "homepage": { "type": ["string", "null"], "format": "uri" },
+    "github":   { "type": ["string", "null"], "format": "uri" },
+
+    "evaluation_number": { "type": "integer", "minimum": 1 },
+    "evaluation_type":   { "type": "string", "enum": ["initial", "update"] },
+    "evaluated_at":      { "type": "string", "format": "date" },
+    "evaluator_model":   { "type": "string", "minLength": 1 },
+    "framework_version": {
+      "type": "string",
+      "pattern": "^v[0-9]+\\.[0-9]+(\\.[0-9]+)?(-[a-z0-9]+)?$"
+    },
+    "layer":                    { "type": "string", "enum": ["0", "1", "C"] },
+    "target_version":           { "type": ["string", "null"] },
+    "previous_evaluation_date": { "type": ["string", "null"], "format": "date" },
+    "previous_score":           { "type": ["integer", "null"], "minimum": 0, "maximum": 100 },
+
+    "score":     { "type": "integer", "minimum": 0, "maximum": 100 },
+    "max_score": { "type": "integer", "enum": [85, 100] },
+    "tier":      { "type": ["string", "null"], "enum": ["S", "A", "B", "C", "D", null] },
+
+    "verdict": {
+      "type": "object",
+      "required": ["v", "r", "d", "i", "c", "t", "e"],
+      "additionalProperties": false,
+      "properties": {
+        "v": { "$ref": "#/$defs/axisScore20" },
+        "r": { "$ref": "#/$defs/axisScore20" },
+        "d": { "$ref": "#/$defs/axisScore15" },
+        "i": { "$ref": "#/$defs/axisScore10" },
+        "c": { "$ref": "#/$defs/axisScore10" },
+        "t": { "$ref": "#/$defs/axisScore10" },
+        "e": { "$ref": "#/$defs/axisScoreNullable15" }
+      }
+    },
+
+    "cisa_kev": {
+      "type": "object",
+      "required": ["present", "entries"],
+      "additionalProperties": false,
+      "properties": {
+        "present": { "type": "boolean" },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["cve_id", "kev_added_date"],
+            "additionalProperties": false,
+            "properties": {
+              "cve_id":         { "type": "string", "pattern": "^CVE-[0-9]{4}-[0-9]{4,7}$" },
+              "kev_added_date": { "type": "string", "format": "date" },
+              "fcec_deadline":  { "type": ["string", "null"], "format": "date" },
+              "elapsed_days":   { "type": ["integer", "null"], "minimum": 0 }
+            }
+          }
+        }
+      }
+    },
+
+    "cve_count_12mo":               { "type": "integer", "minimum": 0 },
+    "max_cvss_12mo":                { "type": ["number", "null"], "minimum": 0.0, "maximum": 10.0 },
+    "supply_chain_compromise_12mo": { "type": "boolean" },
+
+    "known_facts_applied": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Entity keys from KNOWN_FACTS.md that were applied during evaluation. Empty array if none applicable."
+    },
+
+    "qa": {
+      "type": "object",
+      "required": ["factual", "legal", "quality", "revision_cycles", "flagged"],
+      "additionalProperties": false,
+      "properties": {
+        "factual":         { "type": "string", "enum": ["pass", "fail", "unresolved"] },
+        "legal":           { "type": "string", "enum": ["pass", "fail", "unresolved"] },
+        "quality":         { "type": "string", "enum": ["pass", "fail", "unresolved"] },
+        "revision_cycles": { "type": "integer", "minimum": 0, "maximum": 2 },
+        "flagged":         { "type": "boolean" }
+      }
+    },
+
+    "differential": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "v": { "$ref": "#/$defs/differentialState" },
+        "r": { "$ref": "#/$defs/differentialState" },
+        "d": { "$ref": "#/$defs/differentialState" },
+        "i": { "$ref": "#/$defs/differentialState" },
+        "c": { "$ref": "#/$defs/differentialState" },
+        "t": { "$ref": "#/$defs/differentialState" },
+        "e": { "$ref": "#/$defs/differentialState" }
+      }
+    },
+
+    "next_review_due": { "type": "string", "format": "date" },
+
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+
+    "rank": { "type": ["integer", "null"], "minimum": 1 }
+  },
+
+  "$defs": {
+    "rating":            { "type": ["string", "null"], "enum": ["High", "Mid", "Low", null] },
+    "differentialState": { "type": ["string", "null"], "enum": ["re-evaluated", "carried-forward", null] },
+
+    "axisScore20": {
+      "type": "object",
+      "required": ["score", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "score":  { "type": "integer", "minimum": 0, "maximum": 20 },
+        "rating": { "$ref": "#/$defs/rating" },
+        "note":   { "type": "string", "maxLength": 80 }
+      }
+    },
+    "axisScore15": {
+      "type": "object",
+      "required": ["score", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "score":  { "type": "integer", "minimum": 0, "maximum": 15 },
+        "rating": { "$ref": "#/$defs/rating" },
+        "note":   { "type": "string", "maxLength": 80 }
+      }
+    },
+    "axisScore10": {
+      "type": "object",
+      "required": ["score", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "score":  { "type": "integer", "minimum": 0, "maximum": 10 },
+        "rating": { "$ref": "#/$defs/rating" },
+        "note":   { "type": "string", "maxLength": 80 }
+      }
+    },
+    "axisScoreNullable15": {
+      "type": "object",
+      "required": ["score", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "score":  { "type": ["integer", "null"], "minimum": 0, "maximum": 15 },
+        "rating": { "$ref": "#/$defs/rating" },
+        "note":   { "type": ["string", "null"], "maxLength": 80 }
+      }
+    }
+  }
+}

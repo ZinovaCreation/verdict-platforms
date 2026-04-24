@@ -1,0 +1,272 @@
+---
+# ─── Identity ──────────────────────────────────────────────────────
+name: "TODO Platform Name"
+slug: todo-platform-slug
+operator: "TODO Operator Legal Name"
+independence: independent                 # independent | parent | subsidiary
+parent_entity: null                       # required if independence = subsidiary
+category: "TODO Category"                 # e.g. "AI Coding Agent", "Browser Agent"
+homepage: "https://example.com"
+github: "https://github.com/owner/repo"
+
+# ─── Evaluation metadata ───────────────────────────────────────────
+evaluation_number: 0
+evaluation_type: initial                  # initial | update
+evaluated_at: 2026-04-24
+evaluator_model: "claude-opus-4-7"
+framework_version: "v0.3.1-final"
+layer: "0"                                # "0" | "1" | "C"
+target_version: null
+previous_evaluation_date: null
+previous_score: null
+
+# ─── Scoring (Layer 0: /85; Layer 1: /100) ─────────────────────────
+# Layer 0: score = V + R + D + I + C + T (max 85).
+# Layer 1: score = V + E + R + D + I + C + T (max 100).
+score: 0
+max_score: 85
+tier: null                                # S | A | B | C | D — assigned by build_index.py
+
+verdict:
+  v: { score: 0, rating: null, note: "" }   # /20
+  r: { score: 0, rating: null, note: "" }   # /20
+  d: { score: 0, rating: null, note: "" }   # /15
+  i: { score: 0, rating: null, note: "" }   # /10
+  c: { score: 0, rating: null, note: "" }   # /10
+  t: { score: 0, rating: null, note: "" }   # /10
+  e: { score: null, rating: null, note: null }  # Layer 1+ only; null at Layer 0
+
+# ─── CISA KEV (record in 4 places when present) ────────────────────
+cisa_kev:
+  present: false
+  entries: []
+  # Example entry when present: true:
+  #   - cve_id: "CVE-2025-3248"
+  #     kev_added_date: 2025-05-05
+  #     fcec_deadline: 2025-05-26
+  #     elapsed_days: 21
+
+# ─── Incident summary (trailing 12 months) ─────────────────────────
+cve_count_12mo: 0
+max_cvss_12mo: null                       # 0.0 – 10.0 or null if none
+supply_chain_compromise_12mo: false
+
+# ─── Known facts applied ───────────────────────────────────────────
+known_facts_applied: []                   # entity keys from KNOWN_FACTS.md
+
+# ─── QA record ─────────────────────────────────────────────────────
+qa:
+  factual: pass                           # pass | fail | unresolved
+  legal: pass
+  quality: pass
+  revision_cycles: 0
+  flagged: false
+
+# ─── Differential (update evaluations only; null for initial) ──────
+differential: null
+
+# ─── Review cadence ────────────────────────────────────────────────
+next_review_due: 2026-07-23               # evaluated_at + 90 days (auto)
+
+# ─── Tags ──────────────────────────────────────────────────────────
+tags: []
+
+# ─── Auto-managed — do not hand-edit ───────────────────────────────
+rank: null
+---
+
+# TODO Platform Name
+
+## Executive Summary
+
+<!-- 3–5 sentences. What the data shows, not what users should do.
+Open with a specific finding, not a grand abstract statement. -->
+
+_TBD_
+
+## Scorecard
+
+| Dimension | Score | Max | Rating |
+|---|---:|---:|---|
+| V — Verifiability       | 0 | 20 | _TBD_ |
+| R — Resilience          | 0 | 20 | _TBD_ |
+| D — Data Conduct        | 0 | 15 | _TBD_ |
+| I — Identity & Control  | 0 | 10 | _TBD_ |
+| C — Containment         | 0 | 10 | _TBD_ |
+| T — Transparency        | 0 | 10 | _TBD_ |
+| **Total (Layer 0)**     | **0** | **85** | — |
+
+**CISA KEV:** None
+
+<!-- When present: "CISA KEV: ✅ CVE-XXXX-XXXXX (added YYYY.MM.DD)" -->
+
+## Dimension Detail
+
+### V — Verifiability
+
+| Criterion | Result | Score | Evidence |
+|---|---|---:|---|
+| Developer / company identity         | _TBD_ | 0/4 | _URL_ |
+| Source code disclosure               | _TBD_ | 0/4 | _URL_ |
+| Version management transparency      | _TBD_ | 0/3 | _URL_ |
+| Third-party dependency disclosure    | _TBD_ | 0/3 | _URL_ |
+| Independent certification            | _TBD_ | 0/4 | _URL_ |
+| Functional reproducibility docs      | _TBD_ | 0/2 | _URL_ |
+
+**Positive findings:** _TBD_
+
+**Recorded concerns:** _TBD_
+
+### R — Resilience
+
+| Criterion | Result | Score | Evidence |
+|---|---|---:|---|
+| CVE count (trailing 12 months)           | _TBD_ | 0/5 | _URL_ |
+| Maximum CVSS severity                    | _TBD_ | 0/6 | _URL_ |
+| Patch response speed                     | _TBD_ | 0/3 | _URL_ |
+| Structural issues                        | _TBD_ | 0/3 | _URL_ |
+| Supply chain compromise (12mo)           | _TBD_ | 0/3 | _URL_ |
+
+**Positive findings:** _TBD_
+
+**Recorded concerns:** _TBD_
+
+### D — Data Conduct
+
+| Criterion | Result | Score | Evidence |
+|---|---|---:|---|
+| GDPR compliance disclosure       | _TBD_ | 0/3 | _URL_ |
+| Data minimization                | _TBD_ | 0/3 | _URL_ |
+| AI training use                  | _TBD_ | 0/4 | _URL_ |
+| Sub-processor transparency       | _TBD_ | 0/3 | _URL_ |
+| Data retention disclosure        | _TBD_ | 0/2 | _URL_ |
+
+**Positive findings:** _TBD_
+
+**Recorded concerns:** _TBD_
+
+### I — Identity & Control
+
+| Criterion | Result | Score | Evidence |
+|---|---|---:|---|
+| Emergency stop documentation           | _TBD_ | 0/4 | _URL_ |
+| Human-in-the-loop design               | _TBD_ | 0/3 | _URL_ |
+| Permission delegation transparency     | _TBD_ | 0/3 | _URL_ |
+
+**Positive findings:** _TBD_
+
+**Recorded concerns:** _TBD_
+
+### C — Containment
+
+| Criterion | Result | Score | Evidence |
+|---|---|---:|---|
+| Sandbox design              | _TBD_ | 0/4 | _URL_ |
+| Least privilege             | _TBD_ | 0/3 | _URL_ |
+| Tenant isolation (cloud)    | _TBD_ | 0/3 | _URL_ |
+
+**Positive findings:** _TBD_
+
+**Recorded concerns:** _TBD_
+
+### T — Transparency
+
+| Criterion | Result | Score | Evidence |
+|---|---|---:|---|
+| CVE publication posture              | _TBD_ | 0/2 | _URL_ |
+| Incident disclosure speed            | _TBD_ | 0/2 | _URL_ |
+| Security policy publication          | _TBD_ | 0/2 | _URL_ |
+| AI safety framework reference        | _TBD_ | 0/2 | _URL_ |
+| AI system identity disclosure        | _TBD_ | 0/2 | _URL_ |
+
+**Positive findings:** _TBD_
+
+**Recorded concerns:** _TBD_
+
+## Incident Timeline
+
+No public CVEs were confirmed in the trailing 12 months (YYYY-MM-DD to YYYY-MM-DD).
+
+<!-- When CVEs exist:
+
+| Date | CVE ID | CVSS | Description | Patch status | KEV |
+|---|---|---:|---|---|---|
+| YYYY-MM-DD | CVE-XXXX-XXXXX | 0.0 | _description_ | _status_ | No |
+
+-->
+
+## Contextual Analysis
+
+<!-- Qualitative observations. Represent the vendor's position fairly. Never attribute
+intent. Include mitigating factors. Reads like expert analysis, not a committee report. -->
+
+_TBD_
+
+## VERDICT Record
+
+**Summary:** _1–2 sentences. Score and the single most important finding._
+
+**Risk Factor Summary by Use Case:**
+
+| Use case                  | Risk level | Note |
+|---|---|---|
+| Internal testing          | _TBD_ | _TBD_ |
+| Credential-handling       | _TBD_ | _TBD_ |
+| Cloud multi-tenant        | _TBD_ | _TBD_ |
+| Regulated-data workloads  | _TBD_ | _TBD_ |
+
+**Reference Information:**
+
+- Option 1: _TBD_
+- Option 2: _TBD_
+- Option 3: _TBD_
+
+**Bias Disclosure:**
+
+> This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
+
+## Future Evaluation Plan
+
+- **Layer 1 timing:** _TBD_
+- **Layer C monitoring cadence:** _TBD_
+
+---
+
+## Japanese Summary
+
+```japanese-summary
+# TODO プラットフォーム名 評価結果サマリー
+
+## 基本情報
+- スコア: 0/85 (Layer 0)
+- ランク: _/ 総評価数
+- 評価日: 2026.04.24
+- 対象バージョン: _
+- 運営: _
+- 独立性: ✅ Independent
+
+## 次元スコア
+- V (検証可能性): 0/20
+- R (耐性): 0/20
+- D (データ運用): 0/15
+- I (制御): 0/10
+- C (封じ込め): 0/10
+- T (透明性): 0/10
+
+## 主要ポジティブ所見
+- _
+
+## 主要リスク所見
+- _
+
+## インシデント
+- 直近12ヶ月の公開CVEなし
+
+## CISA KEV
+- 該当なし
+
+## HTMLカード用タグ
+- tags: []
+- incident_tags: []
+- owner: _
+```

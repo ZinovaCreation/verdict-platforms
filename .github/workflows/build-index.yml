@@ -1,0 +1,69 @@
+name: build-index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "platforms/**"
+      - "scripts/**"
+      - "data/schema.json"
+      - ".github/workflows/build-index.yml"
+  pull_request:
+    paths:
+      - "platforms/**"
+      - "scripts/**"
+      - "data/schema.json"
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Validate every platform file
+        run: python scripts/validate.py
+
+  build:
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Rebuild index and rankings
+        run: python scripts/build_index.py
+
+      - name: Commit regenerated artifacts
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/platforms.json rankings/ README.md platforms/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: rebuild index and rankings [skip ci]"
+            git push
+          fi
