@@ -1,6 +1,224 @@
 {
-  "generated_at": "2026-04-25T00:44:08+00:00",
-  "framework_version": null,
-  "count": 0,
-  "platforms": []
+  "generated_at": "2026-04-27T05:49:23+00:00",
+  "framework_version": "v0.3.1-final",
+  "count": 3,
+  "platforms": [
+    {
+      "rank": 1,
+      "tier": "S",
+      "slug": "gemini-code-assist",
+      "name": "Gemini Code Assist",
+      "operator": "Google LLC",
+      "independence": "subsidiary",
+      "parent_entity": "Alphabet Inc.",
+      "category": "AI Coding Agent",
+      "homepage": "https://cloud.google.com/products/gemini/code-assist",
+      "github": "https://github.com/google-gemini/gemini-cli",
+      "score": 67,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 11,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 10,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-11",
+      "evaluator_model": "claude-opus-4-7",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-07-10",
+      "tags": [
+        "ai-coding-agent",
+        "enterprise-saas",
+        "closed-source",
+        "iso-42001",
+        "saif",
+        "ip-indemnification",
+        "source-citation",
+        "vpc-service-controls"
+      ]
+    },
+    {
+      "rank": 2,
+      "tier": "B",
+      "slug": "aider",
+      "name": "aider",
+      "operator": "Aider AI LLC",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Coding Agent",
+      "homepage": "https://aider.chat",
+      "github": "https://github.com/Aider-AI/aider",
+      "score": 52,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-21",
+      "evaluator_model": "claude-opus-4-7",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-07-20",
+      "tags": [
+        "open-source",
+        "apache-2.0",
+        "ai-coding-agent",
+        "terminal-cli",
+        "byok",
+        "python",
+        "local-only"
+      ]
+    },
+    {
+      "rank": 3,
+      "tier": "B",
+      "slug": "cline",
+      "name": "Cline",
+      "operator": "Cline Bot, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Coding Agent",
+      "homepage": "https://cline.bot",
+      "github": "https://github.com/cline/cline",
+      "score": 50,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 10,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": true,
+      "evaluated_at": "2026-04-27",
+      "evaluator_model": "claude-opus-4-7",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-07-26",
+      "tags": [
+        "open-source",
+        "vscode-extension",
+        "jetbrains",
+        "byok",
+        "hitl",
+        "apache-2.0",
+        "ai-coding-agent"
+      ]
+    }
+  ]
 }

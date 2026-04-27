@@ -37,7 +37,11 @@ Full specification in [`verdict-engine/ENGINE.md`](https://github.com/zinova-lab
 ## Top 10 (auto-generated)
 
 <!-- BEGIN:TOP10 -->
-_Ranking will populate once platforms are added. Run `python scripts/build_index.py` to regenerate._
+| Rank | Tier | Platform | Operator | Category | Score | KEV |
+|---:|:---:|---|---|---|---:|:---:|
+| 1 | S | [Gemini Code Assist](./platforms/gemini-code-assist.md) | Google LLC | AI Coding Agent | 67/85 |  |
+| 2 | B | [aider](./platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 |  |
+| 3 | B | [Cline](./platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 |  |
 <!-- END:TOP10 -->
 
 Full ranking: [`rankings/overall.md`](./rankings/overall.md)
