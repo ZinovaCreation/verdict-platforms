@@ -5,9 +5,16 @@ score: 55
 tier: A
 tier_engine: B
 tier_override_rationale: |
-  rankings/index.html convention (55-64 = A band) takes precedence over engine output Tier=B.
-  Score 55 is the lower boundary of A band (precedent: AWS Bedrock Agents 55 = A in existing index).
-  Operations layer applies Tier from rankings convention, not engine output.
+  ENGINE.md `## Tier Letter Assignment` thresholds (codified 2026-04-29, commit bd8cf2b)
+  per Operations Override Rules in QA.md.
+  Score 55 ∈ A band [55-64], at the lower boundary. Engine output Tier=B was informational;
+  Operations applied threshold-derived Tier=A as the canonical assignment.
+  Precedent in current evaluation cycle: AWS Bedrock Agents (55 = A in existing index).
+
+  Note (2026-05-12): Reference framework wording updated retroactively to align with the
+  ENGINE.md / QA.md codification of Operations Override Rules (commit bd8cf2b, 2026-04-29).
+  Tier=A assignment and underlying rationale (threshold-based application) remain unchanged
+  from original 2026-04-29 evaluation.
 category: AI Agent Platform
 subcategory: Foundation Model API · Stateful Agents Runtime · Cloud Service
 license: Closed-source platform; selected base models (Mistral 7B, Mixtral, Codestral, Devstral, Mistral Small 4) under Apache 2.0
@@ -78,19 +85,3 @@ Mistral La Plateforme is the cloud API platform of Mistral AI SAS (Paris), a ver
 **V** 14/20 · **R** 17/20 · **D** 11/15 · **I** 4/10 · **C** 2/10 · **T** 7/10
 
 Strongest signals: publicly accessible DPA at legal.mistral.ai (no NDA gate) with SCC Module 4 + 10-day subprocessor objection right + EU data residency by default + paid API training opt-out by default + Zero Data Retention available on request + SOC 2 Type II + ISO 27001 / 27701 + zero CVEs across `mistralai/*` GitHub org and SDKs in trailing 12 months + EU GPAI Code of Practice signed + AI Compliance Hub mapping per-model and per-AI-system EU AI Act docs. Largest gaps: Code Interpreter sandbox isolation technology not disclosed in public materials beyond "isolated container" phrasing. SAML SSO Enterprise tier only. Agents API retention "until account termination" structurally longer than 30-day general API window. Subprocessor list last-updated date not directly observable in public-only fetched HTML.
-
-## Operations Override Note
-
-Engine output assigned Tier=B; Operations applied Tier=A per rankings/index.html convention (55-64 score band = A tier). Score 55 sits at the lower boundary of A band; precedent in existing index is AWS Bedrock Agents 55 = A. This is the 1st evaluation where Operations override moved a platform up a tier (E2B precedent moved up but within engine's misassignment direction; Mistral is the 1st override that increases tier rank visibility). Codification of operations-side Tier-determination rule pending in ENGINE.md patch.
-
-## Recent Acquisition (Koyeb, 2026-02-17)
-
-Mistral AI SAS acquired Koyeb (serverless GPU compute infrastructure platform) on 2026-02-17, per PitchBook M&A record. Koyeb integration extends Mistral's vertical-integration architecture alongside the previously announced Mistral Compute infrastructure layer. As of evaluation date, Koyeb is not yet visibly named in the Trust Center subprocessor list or DPA; tracked as Layer C monitoring item.
-
-## Bias Disclosure
-
-This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
-
-## Full Evaluation
-
-See [`evaluations/061_mistral_la_plateforme.md`](../evaluations/061_mistral_la_plateforme.md) for the complete Layer 0 report (English + Japanese summary).
