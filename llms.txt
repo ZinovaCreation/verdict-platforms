@@ -1,0 +1,30 @@
+# VERDICT Platforms
+
+> Canonical dataset and published evaluation reports for VERDICT, an
+> independent AI agent trust evaluation index. Framework v0.3.1.
+> Individual reports are NOT enumerated here: resolve them via the
+> naming convention plus the single index entrypoint below. This keeps
+> this file O(1) as the report count grows.
+
+## Authority order
+
+canonical (this repo) > compiled brief > Project Knowledge bootstrap.
+On divergence, this repo's files win.
+
+## Index entrypoint
+
+- [Platforms index](data/platforms.json): the authoritative list of all
+  evaluated platforms with current state. Fetch this FIRST, then resolve
+  individual files via the naming convention below.
+
+## Naming convention (resolve individual files; do not enumerate)
+
+- Evaluation report: `evaluations/{NNN}_{slug}.md`  (NNN = zero-padded number)
+- Platform canonical: `platforms/{slug}.md`
+- Evaluation schema:  `data/schema.json`
+- Rankings:           `rankings/{overall|by-tier|by-category|cisa-kev}.md`
+
+## Notes
+
+- Public, source-cited, public-data-only evaluations.
+- The schema in `data/schema.json` is the front-matter contract.
