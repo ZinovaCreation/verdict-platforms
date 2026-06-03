@@ -149,6 +149,12 @@
       "items": { "type": "string", "minLength": 1 }
     },
 
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" },
+      "description": "Public-data source URLs the evaluation relies on; structured index of body Evidence citations. Optional. Percent-encoded URIs (e.g. %20) are valid per RFC 3986."
+    },
+
     "rank": { "type": ["integer", "null"], "minimum": 1 }
   },
 

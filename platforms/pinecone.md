@@ -1,87 +1,94 @@
 ---
+name: Pinecone
 slug: pinecone
-title: Pinecone
-score: 71
-tier: S
-tier_engine: S
-tier_override_rationale: |
-  No override applied. Engine output Tier=S; ENGINE.md `## Tier Letter Assignment` threshold
-  (score 71 ∈ S band [65-85]) yields Tier=S. Engine output and threshold-derived Tier are
-  consistent; canonical Tier follows engine output unchanged.
-category: Vector Database
-subcategory: Retrieval Infrastructure · Cloud Service · BYOC · Enterprise Options
-license: Closed-source platform; SDKs (Python `pinecone-client`, TypeScript `@pinecone-database/pinecone`, Java, Go community) open-source under pinecone-io GitHub organization
 operator: Pinecone Systems, Inc.
-operator_jurisdiction: New York, NY, United States (Delaware C-corporation; NY State DOS #6443133)
-founders: Edo Liberty (founder, transitioned to Chief Scientist September 2025); Ash Ashutosh (CEO from September 2025)
-funding: ~$138M total disclosed across rounds; Series B lead Andreessen Horowitz ($100M, April 2023, ~$750M post-money per third-party reporting)
-major_investors: Andreessen Horowitz, ICONIQ Growth, Wing Venture Capital, Menlo Ventures, Tiger Global
-evaluation_date: 2026-05-12
-evaluation_number: 063
-framework_version: VERDICT v0.3.1
-layer: 0
-independence: ✅ Independent (no Anthropic / Anthropic Ventures equity overlap per public investor records)
-anthropic_relationship: |
-  Direct commercial integration via Pinecone Assistant. Pinecone Assistant directly consumes
-  Anthropic Claude API as a supported LLM provider; January 2026 release notes document
-  operator-side routing logic that automatically redirects requests specifying claude-3-5-sonnet
-  or claude-3-7-sonnet to claude-sonnet-4-5 following Anthropic's model deprecation. No equity
-  relationship exists per public investor records. VERDICT applies identical evaluation criteria.
-dimensions:
-  V: { score: 16, max: 20, rating: High }
-  E: { score: 0,  max: 15, rating: NotEvaluated, note: "Layer 1+ only" }
-  R: { score: 20, max: 20, rating: High }
-  D: { score: 11, max: 15, rating: High }
-  I: { score: 8,  max: 10, rating: High }
-  C: { score: 8,  max: 10, rating: High }
-  T: { score: 8,  max: 10, rating: High }
-total: 71
-max: 85
-percentage: 83.5
-cisa_kev: false
+independence: independent
+parent_entity: null
+category: Vector Database
+homepage: https://www.pinecone.io
+github: https://github.com/pinecone-io
+evaluation_number: 63
+evaluation_type: initial
+evaluated_at: '2026-05-12'
+evaluator_model: unrecorded
+framework_version: v0.3.1-final
+layer: '0'
+target_version: Pinecone Serverless (current GA); BYOC public preview (multi-cloud, Feb 2026); Python SDK pinecone v8.x; TypeScript SDK @pinecone-database/pinecone v6.x
+previous_evaluation_date: null
+previous_score: null
+score: 71
+max_score: 85
+tier: null
+verdict:
+  v:
+    score: 16
+    rating: High
+    note: SOC 2 Type II zero-deviation, ISO 27001 active; engine closed, SOC2 report gated
+  r:
+    score: 20
+    rating: High
+    note: Zero product CVEs 12mo; four affirmative supply-chain not-affected statements
+  d:
+    score: 11
+    rating: High
+    note: Public DPA, SCC M2/M3, no-train clause; telemetry default undocumented
+  i:
+    score: 8
+    rating: High
+    note: Control/data-plane keys, RBAC, SAML, service accounts GA; MFA Coming Soon
+  c:
+    score: 8
+    rating: High
+    note: Namespace isolation, BYOC zero-access, CMEK GA; default keys broad-permission
+  t:
+    score: 8
+    rating: High
+    note: Trust Center advisories, public status timelines; SOC2/Pentest SafeBase-gated
+  e:
+    score: null
+    rating: null
+    note: null
+cisa_kev:
+  present: false
+  entries: []
 cve_count_12mo: 0
-supply_chain_compromise_12mo: 0
-acquisition: None applicable.
-category_precedent: |
-  First vector database category evaluation under VERDICT framework. C dimension adapted from
-  sandbox-isolation semantics (used for agent platforms) to multi-tenant index isolation
-  semantics (namespace separation, BYOC infrastructure isolation, customer-managed encryption
-  keys). Adaptation recorded for framework precedent.
+max_cvss_12mo: null
+supply_chain_compromise_12mo: false
+known_facts_applied: []
+qa:
+  factual: pass
+  legal: pass
+  quality: pass
+  revision_cycles: 0
+  flagged: false
+differential: null
+next_review_due: '2026-08-10'
 tags:
-  - vector-database
-  - retrieval-infrastructure
-  - pinecone-serverless
-  - byoc
-  - cmek
-  - rag
-  - multi-cloud
-  - soc2-type2
-  - iso27001
-  - hipaa-addon
-  - public-dpa
-  - ai-services-addendum
-  - eu-ai-act-reference
-incident_tags:
-  - zero-cve-12mo
-  - no-kev
-  - shai-hulud-unaffected
-  - shai-hulud-2-unaffected
-  - axios-unaffected
-  - vercel-context-unaffected
-  - status-page-public
-  - supply-chain-clean
+- vector-database
+- retrieval-infrastructure
+- pinecone-serverless
+- byoc
+- cmek
+- rag
+- multi-cloud
+- soc2-type2
+- iso27001
+- hipaa-addon
+- public-dpa
+- ai-services-addendum
+- eu-ai-act-reference
 sources:
-  - https://www.pinecone.io/
-  - https://docs.pinecone.io/
-  - https://docs.pinecone.io/release-notes/2026
-  - https://security.pinecone.io/
-  - https://www.pinecone.io/security/
-  - https://www.pinecone.io/legal/data-processing-addendum/
-  - https://www.pinecone.io/legal/2025.1_Pinecone%20AI%20Services%20Addendum.pdf
-  - https://www.pinecone.io/blog/hipaa/
-  - https://github.com/pinecone-io
-  - https://status.pinecone.io/
-evaluation_url: https://github.com/ZinovaCreation/verdict-platforms/blob/main/evaluations/063_pinecone.md
+- https://www.pinecone.io/
+- https://docs.pinecone.io/
+- https://docs.pinecone.io/release-notes/2026
+- https://security.pinecone.io/
+- https://www.pinecone.io/security/
+- https://www.pinecone.io/legal/data-processing-addendum/
+- https://www.pinecone.io/legal/2025.1_Pinecone%20AI%20Services%20Addendum.pdf
+- https://www.pinecone.io/blog/hipaa/
+- https://github.com/pinecone-io
+- https://status.pinecone.io/
+rank: null
 ---
 
 # Pinecone
@@ -97,3 +104,7 @@ Strongest signals: every dimension reaches High rating threshold + SOC 2 Type II
 Largest gaps: multi-factor authentication marked "Coming Soon" on security page at evaluation date (SSO via SAML mitigates this for federated identity flows only) + SOC 2 / HIPAA / Pentest reports access-gated through SafeBase Trust Center + AI Services (Pinecone Assistant, Pinecone Inference) by default excluded from BAA scope per AI Services Addendum §7(e) absent separate written agreement + telemetry default collection position not publicly documented (silence-is-data zero) + default-issued API keys carry broad permissions (least-privilege configurable but not default) + BYOC multi-cloud at public preview rather than GA at evaluation date + /legal/subprocessors/ page last-updated 2024-05-24 out of sync with current Trust Center version.
 
 CISA KEV: none. Trailing 12-month CVE count: 0. Trailing 12-month supply-chain compromise: 0 (with four affirmative not-affected disclosures during evaluation window).
+
+## Bias Disclosure
+
+This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
