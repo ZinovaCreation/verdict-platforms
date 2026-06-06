@@ -83,6 +83,25 @@ sources:
 - https://github.com/e2b-dev
 - https://status.e2b.dev/
 rank: null
+"og_description": |-
+  Independent security evaluation of E2B by FoundryLabs, Inc. Score: 46/85. Firecracker microVM sandbox. Apache 2.0. Zero CVEs trailing 12 months. No SOC 2. Framework v0.3.1.
+"category_line": |-
+  AI Agent Code Execution Sandbox · Cloud Runtime Infrastructure · Open Source (Apache 2.0)
+display_tags:
+- text: Firecracker microVM · Apache 2.0
+  color: safe
+- text: 0 CVEs · Trailing 12 Months
+  color: safe
+- text: No SOC 2 · No SECURITY.md · No DPA
+  color: amber
+- text: Allow-All Egress Default · ToS Submissions Broad
+  color: amber
+"finding": |-
+  Sandbox-runtime infrastructure powering downstream platforms including Perplexity, Hugging Face, Manus, Groq, and Lindy. Firecracker microVM provides hardware-level KVM tenant isolation. Zero CVEs across NVD / OSV / GHSA in trailing 12 months. Apache 2.0 across SDK, infra, dashboard, code-interpreter, and forked Firecracker. Largest scoring gaps: no public SOC 2 / ISO 27001 attestation, no sub-processors list, no DPA, no SECURITY.md in primary repository. Privacy policy last revised April 2024 (~24 months stale). ToS "Submissions" clause grants perpetual royalty-free license without explicit AI-training-exclusion statement. Default network egress is allow-all; deny-by-default requires explicit configuration. Secrets pass via environment variables visible inside the sandbox (Issue #1160 tracks host-side broker discussion). RBAC marked "SOON" on enterprise page.
+"meta_owner": |-
+  FoundryLabs, Inc. · Founders Vasek Mlejnsky & Tomas Valenta · Insight Partners $21M Series A · YC W23
+"meta_description": |-
+  Independent security evaluation of E2B by FoundryLabs, Inc. Score: 46/85. Firecracker microVM sandbox runtime infrastructure. Apache 2.0. Zero CVEs trailing 12 months. No SOC 2 / no SECURITY.md / no DPA. ToS Submissions clause broad. Framework v0.3.1.
 ---
 
 # E2B

@@ -155,7 +155,39 @@
       "description": "Public-data source URLs the evaluation relies on; structured index of body Evidence citations. Optional. Percent-encoded URIs (e.g. %20) are valid per RFC 3986."
     },
 
-    "rank": { "type": ["integer", "null"], "minimum": 1 }
+    "rank": { "type": ["integer", "null"], "minimum": 1 },
+    "finding": {
+      "type": "string",
+      "description": "HTML .finding block: one-paragraph human-authored compression of the evaluation, sourced from evaluations/{NNN}.md. Pipeline carries verbatim; pipeline must not generate or alter."
+    },
+    "meta_owner": {
+      "type": "string",
+      "description": "HTML meta-owner line: operator/funding one-liner, human-authored from evaluations Contextual Analysis. Pipeline carries verbatim."
+    },
+    "meta_description": {
+      "type": "string",
+      "description": "HTML meta description / og:description: human-authored SEO summary. Pipeline carries verbatim."
+    },
+    "og_description": {
+      "type": "string",
+      "description": "HTML og:description: human-authored short social summary, distinct from meta_description. Pipeline carries verbatim."
+    },
+    "category_line": {
+      "type": "string",
+      "description": "HTML category meta line (full): human-authored, e.g. 'Vector Database · Retrieval Infrastructure · ...'. Distinct from structured 'category'. Pipeline carries verbatim."
+    },
+    "display_tags": {
+      "type": "array",
+      "description": "HTML colored tag chips: human-authored text + risk color. Pipeline renders verbatim.",
+      "items": {
+        "type": "object",
+        "required": ["text", "color"],
+        "properties": {
+          "text":  { "type": "string", "minLength": 1 },
+          "color": { "type": "string", "enum": ["safe", "amber", "red", "dim"] }
+        }
+      }
+    }
   },
 
   "$defs": {
