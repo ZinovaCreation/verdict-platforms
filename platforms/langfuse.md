@@ -1,79 +1,92 @@
 ---
+name: Langfuse
 slug: langfuse
-title: Langfuse
-score: 62
-tier: A
-tier_engine: A
-tier_override_rationale: None (engine output Tier=A matches rankings convention 55-64 band)
-category: AI / LLM Application Observability
-subcategory: Open Core (MIT + Commercial EE)
-license: MIT (core) + Enterprise Edition (commercial license, /ee directory)
 operator: Langfuse GmbH
-operator_parent: ClickHouse, Inc. (acquired 2026-01-16)
-operator_jurisdiction: Berlin, Germany (Langfuse GmbH); San Francisco, USA (ClickHouse, Inc.)
-funding: Y Combinator W23, Lightspeed, La Famiglia ($4.5M seed)
-parent_funding: ClickHouse Inc. Series D $400M / total $1.05B / $15B valuation (2026-01-16)
-yc_batch: W23
-evaluation_date: 2026-04-29
-evaluation_number: 060
-framework_version: VERDICT v0.3.1
-layer: 0
-independence: ⚠️ Subsidiary of ClickHouse, Inc. since 2026-01-16
-anthropic_relationship: |
-  Indirect commercial customer relationship at parent-company level: Anthropic is publicly disclosed as a major
-  customer of ClickHouse, Inc. (parent company). No equity overlap with Langfuse or ClickHouse — Anthropic /
-  Anthropic Ventures absent from both investor lists per Tracxn / PitchBook.
-dimensions:
-  V: { score: 14, max: 20, rating: High }
-  E: { score: 0,  max: 15, rating: NotEvaluated, note: "Layer 1+ only" }
-  R: { score: 12, max: 20, rating: Mid }
-  D: { score: 11, max: 15, rating: High }
-  I: { score: 8,  max: 10, rating: High }
-  C: { score: 8,  max: 10, rating: High }
-  T: { score: 9,  max: 10, rating: High }
-total: 62
-max: 85
-percentage: 73
-cisa_kev: false
+independence: subsidiary
+parent_entity: ClickHouse, Inc.
+category: AI / LLM Application Observability
+homepage: https://langfuse.com
+github: https://github.com/langfuse
+evaluation_number: 60
+evaluation_type: initial
+evaluated_at: '2026-04-29'
+evaluator_model: unrecorded
+framework_version: v0.3.1-final
+layer: '0'
+target_version: null
+previous_evaluation_date: null
+previous_score: null
+score: 62
+max_score: 85
+tier: A
+verdict:
+  v:
+    score: 14
+    rating: High
+    note: ''
+  r:
+    score: 12
+    rating: Mid
+    note: ''
+  d:
+    score: 11
+    rating: High
+    note: ''
+  i:
+    score: 8
+    rating: High
+    note: ''
+  c:
+    score: 8
+    rating: High
+    note: ''
+  t:
+    score: 9
+    rating: High
+    note: ''
+  e:
+    score: null
+    rating: null
+    note: null
+cisa_kev:
+  present: false
+  entries: []
 cve_count_12mo: 6
-cve_max_cvss: 7.6
-cve_top_id: CVE-2025-59305
-supply_chain_compromise_12mo: 0
-acquisition: ClickHouse, Inc. acquired Langfuse GmbH on 2026-01-16
+max_cvss_12mo: null
+supply_chain_compromise_12mo: false
+known_facts_applied: []
+qa:
+  factual: pass
+  legal: pass
+  quality: pass
+  revision_cycles: 0
+  flagged: false
+differential: null
+next_review_due: '2026-07-28'
 tags:
-  - llm-observability
-  - ai-tracing
-  - prompt-management
-  - evaluation-platform
-  - open-core
-  - mit-license
-  - soc2-type2
-  - iso27001
-  - hipaa
-  - gdpr
-  - self-hostable
-  - air-gapped
-  - clickhouse-acquired
-incident_tags:
-  - improper-access-control
-  - cwe-284
-  - cross-tenant-enumeration
-  - sso-csrf
-  - ssrf-webhook
-  - slack-oauth-unauthenticated
-  - llm-credential-exposure
-  - rapid-patch-cadence
+- llm-observability
+- ai-tracing
+- prompt-management
+- evaluation-platform
+- open-core
+- mit-license
+- soc2-type2
+- iso27001
+- hipaa
+- gdpr
+- self-hostable
+- air-gapped
+- clickhouse-acquired
 sources:
-  - https://langfuse.com/
-  - https://langfuse.com/security
-  - https://langfuse.com/docs
-  - https://github.com/langfuse/langfuse
-  - https://langfuse.com/security/dpa
-  - https://langfuse.com/security/privacy-policy
-  - https://github.com/langfuse/langfuse/security/advisories
-evaluation_url: https://github.com/zinova-lab/verdict-platforms/blob/main/evaluations/060_langfuse.md
+- https://langfuse.com/
+- https://langfuse.com/security
+- https://langfuse.com/docs
+- https://github.com/langfuse/langfuse
+- https://langfuse.com/security/dpa
+- https://langfuse.com/security/privacy-policy
+- https://github.com/langfuse/langfuse/security/advisories
+rank: null
 ---
-
 # Langfuse
 
 Langfuse is an open-source LLM application observability platform. The core is MIT-licensed, with an Enterprise Edition under separate commercial license (the `/ee` directory boundary). Operated by Langfuse GmbH, a Berlin company that became a subsidiary of ClickHouse, Inc. (San Francisco) on 2026-01-16. Public compliance posture is unusually complete for an open-core observability vendor at this maturity stage.
