@@ -72,6 +72,25 @@ tags:
 - apache-2.0
 - ai-coding-agent
 rank: 3
+"finding": |-
+  OSS VS Code / JetBrains AI coding agent with HITL approval default — 10/10 on Identity & Control. BYOK keeps prompts and code off Cline servers. Apache 2.0, signed GitHub releases, named US C-corp operator. Mindgard disclosed 4 prompt-injection / RCE flaws (Aug 2025, partial mitigation v3.35.0). "Clinejection" supply-chain attack: GitHub Actions cache poisoning → unauthorized npm publish, contained in ~8h with OIDC provenance migration (Feb 2026). No SOC 2 / ISO 27001 attestation. Host-level execution with full user privileges.
+"meta_owner": |-
+  Cline Bot, Inc. · Founder Saoud Rizwan · $32M Seed+Series A · v3.79.0
+"meta_description": |-
+  Independent security evaluation of Cline by Cline Bot, Inc. Score: 50/85. OSS VS Code/JetBrains AI coding agent. HITL default (10/10). Apache 2.0. Mindgard disclosures + Clinejection supply-chain incident (contained ~8h, OIDC migration). Framework v0.3.1.
+"og_description": |-
+  Independent security evaluation of Cline by Cline Bot, Inc. Score: 50/85. OSS VS Code/JetBrains agent. HITL default. Mindgard + Clinejection findings. Framework v0.3.1.
+"category_line": |-
+  AI Coding Agent · IDE Extension · Open Source (Apache 2.0)
+display_tags:
+- text: HITL Default · I:10/10
+  color: safe
+- text: BYOK · Apache 2.0
+  color: safe
+- text: Mindgard 4 Disclosures · Aug 2025
+  color: amber
+- text: Clinejection Supply-Chain · Feb 2026
+  color: red
 ---
 
 # Cline

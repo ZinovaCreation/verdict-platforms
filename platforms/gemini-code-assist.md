@@ -73,6 +73,25 @@ tags:
 - source-citation
 - vpc-service-controls
 rank: 1
+"finding": |-
+  Highest cert portfolio in the index. ISO 42001 (May 2025) — unique among AI agent platforms in VERDICT. SOC 1/2/3 + ISO 27001 + FedRAMP + HIPAA-BAA + PCI DSS. SAIF + NIST AI RMF. Zero direct Code Assist CVEs in trailing 12 months. Standard/Enterprise contractually exempt from training; Individuals tier defaults to data collection (opt-out flow reported confusing in GitHub Issues #14104, #17480, #20569).
+"meta_owner": |-
+  Google LLC · Subsidiary of Alphabet Inc. · Public Company
+"meta_description": |-
+  Independent security evaluation of Gemini Code Assist by Google LLC. Score: 67/85. ISO 42001 (only in index) + SOC 1/2/3 + FedRAMP + HIPAA-BAA. Zero direct CVEs. SAIF + NIST AI RMF. Tier-stratified training policy. Framework v0.3.1.
+"og_description": |-
+  Independent security evaluation of Gemini Code Assist by Google LLC. Score: 67/85. ISO 42001 (only in index) + SOC 1/2/3 + FedRAMP + HIPAA-BAA. Zero direct CVEs. SAIF + NIST AI RMF. Framework v0.3.1.
+"category_line": |-
+  AI Coding Agent · Enterprise SaaS · Proprietary
+display_tags:
+- text: ISO 42001 · Only in Index
+  color: safe
+- text: SOC 1/2/3 + FedRAMP + HIPAA
+  color: safe
+- text: SAIF + NIST AI RMF
+  color: safe
+- text: Individuals Tier Training Default-On
+  color: amber
 ---
 
 # Gemini Code Assist

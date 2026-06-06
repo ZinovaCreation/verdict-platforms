@@ -72,6 +72,25 @@ tags:
 - python
 - local-only
 rank: 2
+"finding": |-
+  Apache 2.0 open-source terminal coding agent. Zero CVEs in trailing 12 months across NVD, OSV, GitHub Security Advisories, Safety DB. Dependency pinning (litellm==1.75.0 in v0.85.3) structurally blocked the March 2026 TeamPCP litellm 1.82.7/1.82.8 supply-chain compromise from reaching pip-install users. Local-only, BYOK architecture — no aider-operated server holds user code. HITL approval default. No SECURITY.md / SOC 2 / ISO 27001 / DPA published.
+"meta_owner": |-
+  Aider AI LLC · United States · aider-chat 0.86.2
+"meta_description": |-
+  Independent security evaluation of aider by Aider AI LLC. Score: 52/85. Apache 2.0 OSS terminal coding agent. Zero CVEs in 12 months. litellm pinning blocked March 2026 supply-chain compromise. Local-only, BYOK. Framework v0.3.1.
+"og_description": |-
+  Independent security evaluation of aider by Aider AI LLC. Score: 52/85. Apache 2.0 OSS terminal coding agent. Zero CVEs. Local-only BYOK. Framework v0.3.1.
+"category_line": |-
+  AI Coding Agent · Terminal CLI · Open Source (Apache 2.0)
+display_tags:
+- text: 0 CVEs · 12 Months
+  color: safe
+- text: litellm Pinning · Supply-Chain Protected
+  color: safe
+- text: Local-Only · BYOK
+  color: safe
+- text: No SECURITY.md · No SOC 2
+  color: amber
 ---
 
 # aider

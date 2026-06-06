@@ -84,6 +84,25 @@ sources:
 - https://status.mistral.ai/
 - https://annuaire-entreprises.data.gouv.fr/entreprise/mistral-ai-952418325
 rank: null
+"finding": |-
+  Vertically integrated foundation model + agent platform from Paris-headquartered Mistral AI SAS. Public DPA at legal.mistral.ai with SCC Module 4, 10-day subprocessor objection right. EU data residency default, US opt-in. Paid API and Le Chat Enterprise opted out of training by default; Zero Data Retention available on request. SOC 2 Type II + ISO 27001/27701 (NDA-gated reports). Zero CVEs in trailing 12 months across mistralai/* GitHub org and SDKs. EU GPAI Code of Practice signed; AI Compliance Hub maps per-model and per-system EU AI Act docs. Code Interpreter sandbox described as "isolated container" without specific isolation technology disclosed. SAML SSO Enterprise-tier only. Agents API retention "until account termination" structurally longer than 30-day general API. Acquired Koyeb on 2026.02.17; subprocessor list update pending. Independent of Anthropic at every layer.
+"meta_owner": |-
+  Mistral AI SAS · Paris · RCS 952 418 325 · Founders Mensch / Lacroix / Lample · ASML 11% · ~$2.7B-$3.05B
+"meta_description": |-
+  Independent security evaluation of Mistral La Plateforme (incl. Agents API) by Mistral AI SAS (Paris, RCS 952 418 325). Score: 55/85. Foundation model + agent platform. SOC 2 II + ISO 27001/27701. Public DPA, SCC Module 4, EU residency default. Zero CVEs trailing 12 months. Code Interpreter sandbox isolation undisclosed. Koyeb acquisition 2026.02.17. Framework v0.3.1.
+"og_description": |-
+  Independent security evaluation of Mistral La Plateforme by Mistral AI SAS. Score: 55/85. Foundation model + agent platform. SOC 2 II + ISO 27001/27701. Public DPA. Zero CVEs. Framework v0.3.1.
+"category_line": |-
+  AI Agent Platform · Foundation Model API · Stateful Agents Runtime · Cloud Service
+display_tags:
+- text: Public DPA + SCC Module 4 + EU Default
+  color: safe
+- text: SOC 2 II + ISO 27001/27701
+  color: safe
+- text: 0 CVEs · 12 Months
+  color: safe
+- text: Sandbox Isolation Tech Undisclosed
+  color: amber
 ---
 # Mistral La Plateforme
 

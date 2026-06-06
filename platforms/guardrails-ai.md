@@ -85,6 +85,27 @@ sources:
 - https://pypi.org/project/guardrails-ai/
 - https://bizfileonline.sos.ca.gov/search/business
 rank: null
+"finding": |-
+  Open-source LLM guardrails / validators framework (Apache 2.0) from Guardrails AI, Inc. (Menlo Park) plus Guardrails Hub community validator marketplace and commercial Pro / Snowglobe cloud platform. Operator post-Seed ($7.5M February 2024, Zetta Venture Partners lead) with approximately 11 employees per Tracxn January 2026. Named founders verifiable across operator surfaces (Shreya Rajpal CEO ex-Apple ML / Predibase; Diego Oppenheimer ex-Algorithmia / DataRobot; Safeer Mohiuddin ex-AWS; Zayd Simjee ex-AWS). Investor list includes AI angels (Ian Goodfellow / DeepMind, Logan Kilpatrick / Google, Lip-Bu Tan). Zero confirmed CVEs in trailing twelve months across NVD / OSV / Snyk / GHSA; historical CVE-2024-45858 (eval-based code execution via RAIL XML, CVSS 7.8 / 8.5) fixed in v0.5.10 September 2024 and aged out of evaluation window. Published responsible-disclosure policy with safe-harbor language and dedicated security@guardrailsai.com channel. Customer references partially verifiable from third-party coverage (Masterclass via MarkTechPost August 2025; Changi Airport Group, IMDA AI Verify, Stanford LIFT Lab independently confirmed; Robinhood unverifiable from customer-side public sources at evaluation date). Largest documentation gaps cluster in D-dimension (no public DPA URL, no public sub-processor list, no public statement on AI training use of customer data) and operator-side surfaces of C-dimension (no published sandbox / tenant isolation architecture for commercial Pro / Snowglobe surfaces). No publicly available SOC 2 / ISO 27001 / HIPAA / equivalent independent certification at evaluation date. GitHub SECURITY.md absent at repository root (substituted by blog post). Dependency-availability event in March 2026 (litellm PyPI removal) broke fresh installs of guardrails-ai 0.5.1 and guardrails-api 0.2.1–0.3.2; operator workaround documented. First AI-safety / LLM-guardrails category evaluation under VERDICT framework. Independent of Anthropic at every layer (framework-integration relationship only; framework supports Claude as one of multiple LLM providers by design).
+"meta_owner": |-
+  Guardrails AI, Inc. · Menlo Park, CA · Delaware C-corp · Founders Rajpal / Oppenheimer / Mohiuddin / Simjee · Seed $7.5M (Zetta lead) · ~11 employees
+"meta_description": |-
+  Independent security evaluation of Guardrails AI by Guardrails AI, Inc. (Delaware C-corp + California foreign-entity, Menlo Park). Score: 40/85. Open-source LLM guardrails framework (Apache 2.0) + commercial Pro / Snowglobe platform. Zero CVEs trailing 12 months. Early-stage operator (~11 employees, Seed $7.5M). No public SOC 2 / ISO 27001 / Trust Center / DPA URL. 1st AI-safety category evaluation. Framework v0.3.1.
+"og_description": |-
+  Independent security evaluation of Guardrails AI by Guardrails AI Inc. Score: 40/85. Open-source LLM guardrails framework + commercial platform. Zero CVEs. Early-stage operator. No public Trust Center. 1st AI-safety category evaluation. Framework v0.3.1.
+"category_line": |-
+  AI Safety · LLM Guardrails · Validators · Open-Source Framework + Commercial Cloud Platform
+display_tags:
+- text: Apache 2.0 OSS Framework
+  color: safe
+- text: 0 CVEs · 12 Months
+  color: safe
+- text: No SOC 2 · No Trust Center · No Public DPA URL
+  color: amber
+- text: Early-Stage Operator · ~11 Employees
+  color: amber
+- text: Operator-Side Sandbox Undisclosed
+  color: amber
 ---
 # Guardrails AI
 
