@@ -82,6 +82,33 @@ sources:
 - https://www.nvidia.com/en-us/security/
 - https://www.sec.gov/
 rank: null
+"finding": |-
+  Strengths: an Apache 2.0 fully open-source codebase, a clearly identified corporate operator in NVIDIA Corporation (SEC-registered, Delaware C-corporation), an EMNLP 2023 peer-reviewed origin, NVIDIA CVE Numbering Authority status with a formal PSIRT coordinated-disclosure process, zero nemoguardrails-package CVEs across the trailing twelve months (distinct from the broader NeMo Framework), and no CISA KEV listing — producing Verifiability 18/20 and Resilience 17/20. The lower Data Conduct (5/15), Identity & Control (4/10), and Containment (3/10) scores reflect documentation gaps and the toolkit's architecturally-local scope rather than identified runtime risk: product-level governance evidence (GDPR DPA, sub-processor list, training-use statement, SOC 2 report) is gated to NVIDIA AI Enterprise sales or otherwise unpublished, the server endpoint ships without default authentication, and the library executes inside the developer's own Python process with no built-in sandbox for custom actions — deployment isolation being the operator's responsibility, as the project's own security guidelines state.
+"meta_owner": |-
+  NVIDIA Corporation · Delaware C-corporation · Santa Clara, California, USA
+"meta_description": |-
+  Independent VERDICT v0.3.1 Layer 0 evaluation of NeMo Guardrails, operated by NVIDIA Corporation. Score 52/85 (Tier B): strong verifiability and resilience — Apache 2.0 open source, EMNLP 2023 peer-reviewed origin, NVIDIA CNA/PSIRT disclosure, zero package CVEs over the trailing 12 months, no CISA KEV — with lower data-conduct, identity-control, and containment scores driven by sales-gated or unpublished governance documentation and the toolkit's local, in-process execution model.
+"og_description": |-
+  NeMo Guardrails scores 52/85 (Tier B) on VERDICT v0.3.1 Layer 0: strong open-source verifiability and resilience (Apache 2.0, NVIDIA CNA/PSIRT, zero package CVEs in the trailing 12 months, no CISA KEV), with concerns in sales-gated or unpublished data-governance documentation and a library that runs in-process with no built-in custom-action sandbox.
+"category_line": |-
+  AI Safety · LLM Guardrails · Programmable Constraints · Open-Source Toolkit (Apache 2.0) · Commercial NIM Deployment Tier
+display_tags:
+- text: Apache 2.0 fully open-source
+  color: safe
+- text: EMNLP 2023 peer-reviewed origin
+  color: safe
+- text: NVIDIA CNA + formal PSIRT process
+  color: safe
+- text: Zero package CVEs, trailing 12 mo · no CISA KEV
+  color: safe
+- text: Public data-governance docs sales-gated (DPA, sub-processors, SOC 2)
+  color: amber
+- text: Server endpoint ships without default authentication
+  color: amber
+- text: No built-in sandbox for custom actions
+  color: amber
+- text: Runs in-process; deployment isolation is operator's responsibility
+  color: dim
 ---
 
 # NeMo Guardrails

@@ -85,6 +85,35 @@ sources:
 - https://trustcenter.cohere.com/
 - https://www.sec.gov/
 rank: null
+"finding": |-
+  Cohere Inc., a Canadian federal corporation in Toronto, scores 42/85 (Tier C) on VERDICT Layer 0 public-documentation review. Verifiability (14/20) and Transparency (7/10) are the strengths: corporate identity that is consistent across primary sources, SOC 2 Type II / ISO 27001 / ISO 42001 certifications, a published Secure AI Frontier Model Framework, a multi-jurisdictional Data Processing Addendum incorporating EU Standard Contractual Clauses, and a public operational status page. Resilience (8/20) reflects one Critical-severity vulnerability in the trailing twelve months — CVE-2026-5752 (CVSS 9.3), a sandbox escape in the Cohere Terrarium Python sandbox via JavaScript prototype-chain traversal that yields root code execution on the host — disclosed through CERT/CC VU#414811, whose published timeline records a 61-day window from vendor notification to disclosure with vendor status listed as "Unknown," after which the affected project was archived as end-of-life rather than placed under continued maintenance. Containment (2/10) is constrained because no public architectural documentation describes the tool and code-execution boundary for the North agentic workspace following Terrarium's archival. Open-weight Command R+ research releases are licensed under CC-BY-NC-4.0 (non-commercial), which is not equivalent to OSI open-source and is distinct from the proprietary commercial Cohere API.
+"meta_owner": |-
+  Cohere Inc., a Canadian federal corporation headquartered in Toronto (founders Aidan Gomez, Nick Frosst, Ivan Zhang); cumulative funding is reported across an unreconciled range (~$935M to ~$1.7B across public sources) rather than a single confirmed figure.
+"meta_description": |-
+  VERDICT's independent Layer 0 review scores Cohere (Command, Embed, Rerank, and the North agentic platform) 42/85 (Tier C) using only public data. Strengths include SOC 2 Type II / ISO 27001 / ISO 42001 certification, a published Secure AI Frontier Model Framework, and a multi-jurisdictional DPA with EU Standard Contractual Clauses; the score is constrained by CVE-2026-5752 (CVSS 9.3, Cohere Terrarium sandbox escape) and the absence of public containment documentation for the North agent runtime.
+"og_description": |-
+  Cohere scores 42/85 (Tier C) on VERDICT's public-data trust review — strong on certification and transparency (SOC 2 Type II, ISO 27001/42001, published safety framework), constrained by a Critical sandbox-escape CVE (CVE-2026-5752, CVSS 9.3) and limited public containment documentation for its North agentic platform.
+"category_line": |-
+  Foundation Model API · Enterprise AI Platform · Agentic AI · Retrieval and Embedding Infrastructure
+display_tags:
+- text: SOC 2 Type II · ISO 27001 · ISO 42001
+  color: safe
+- text: Canadian federal corporation · verifiable founder identity
+  color: safe
+- text: Secure AI Frontier Model Framework published
+  color: safe
+- text: Multi-jurisdiction DPA · EU SCC · Transfer Impact Assessment
+  color: safe
+- text: Public status page · bug bounty program
+  color: safe
+- text: CVE-2026-5752 · CVSS 9.3 · Terrarium archived EOL
+  color: amber
+- text: North agent runtime containment undocumented
+  color: amber
+- text: Command R+ open-weight CC-BY-NC-4.0 · not OSI open-source
+  color: amber
+- text: SOC 2 Type II report mNDA-gated
+  color: amber
 ---
 
 # Cohere
