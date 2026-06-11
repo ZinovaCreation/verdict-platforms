@@ -187,6 +187,18 @@
           "color": { "type": "string", "enum": ["safe", "amber", "red", "dim"] }
         }
       }
+    },
+    "key_finding": {
+      "type": "string",
+      "description": "Top-index card body summary: long-form human-authored card text, distinct from the shorter per-platform 'finding'. Authored content under the two-regime SSOT rule: SSOT is this verbatim text (captured from live card or authored by Engine from the evaluation). Pipeline carries verbatim; pipeline must not generate, recompute, or alter."
+    },
+    "card_owner": {
+      "type": "string",
+      "description": "Top-index card owner display text: card-specific intermediate summary (e.g. 'Pinecone Systems, Inc. \u00b7 New York \u00b7 a16z Series B'), distinct from structured 'operator' and from 'meta_owner'. Authored content; SSOT is this verbatim text. Pipeline carries verbatim; must not generate or alter."
+    },
+    "card_category": {
+      "type": "string",
+      "description": "Top-index card category display text: short-form card variant, distinct from structured 'category' and from the longer 'category_line'. Authored content; SSOT is this verbatim text. Pipeline carries verbatim; must not generate or alter."
     }
   },
 
