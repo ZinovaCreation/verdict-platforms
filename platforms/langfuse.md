@@ -77,6 +77,7 @@ tags:
 - self-hostable
 - air-gapped
 - clickhouse-acquired
+rank: 3
 sources:
 - https://langfuse.com/
 - https://langfuse.com/security
@@ -85,17 +86,28 @@ sources:
 - https://langfuse.com/security/dpa
 - https://langfuse.com/security/privacy-policy
 - https://github.com/langfuse/langfuse/security/advisories
-rank: null
-"finding": |-
-  LLM observability platform with annual SOC 2 Type II + ISO 27001 + HIPAA + GDPR self-serve DPA + 13-page security center. Configurable retention 3 days to unlimited, nightly purge. Explicit no-AI-training commitment. Open-core: MIT outside ee/ + EE under separate license. Six CVEs in trailing 12 months, max CVSS 7.6 (CVE-2025-59305 background-migration improper authorization, same-day patch). Four CVEs categorized CWE-284 across distinct subsystems — recurrence pattern recorded for cross-tenant deployments. Acquired by ClickHouse, Inc. on 2026.01.16; legal-entity disclosures on subprocessors page and footer not yet updated. Anthropic is publicly disclosed as a major customer of parent ClickHouse, Inc.; no equity overlap with Langfuse or ClickHouse.
-"meta_owner": |-
-  Langfuse GmbH (Berlin) · Subsidiary of ClickHouse, Inc. since 2026.01.16 · Founders Marc Klingen · YC W23 + Lightspeed
-"meta_description": |-
-  Independent security evaluation of Langfuse by Langfuse GmbH (subsidiary of ClickHouse, Inc. since 2026.01.16). Score: 62/85. LLM observability platform. SOC 2 Type II + ISO 27001 + HIPAA. MIT core + EE. Six CVEs trailing 12 months, four CWE-284 access control. Anthropic indirect commercial customer of parent ClickHouse. Framework v0.3.1.
-"og_description": |-
-  Independent security evaluation of Langfuse by Langfuse GmbH (ClickHouse subsidiary). Score: 62/85. LLM observability. SOC 2 II + ISO 27001 + HIPAA. Six CVEs (4 access control). Framework v0.3.1.
-"category_line": |-
-  AI / LLM Application Observability Platform · Open Core (MIT + Commercial EE)
+finding: 'LLM observability platform with annual SOC 2 Type II + ISO 27001 + HIPAA
+  + GDPR self-serve DPA + 13-page security center. Configurable retention 3 days to
+  unlimited, nightly purge. Explicit no-AI-training commitment. Open-core: MIT outside
+  ee/ + EE under separate license. Six CVEs in trailing 12 months, max CVSS 7.6 (CVE-2025-59305
+  background-migration improper authorization, same-day patch). Four CVEs categorized
+  CWE-284 across distinct subsystems — recurrence pattern recorded for cross-tenant
+  deployments. Acquired by ClickHouse, Inc. on 2026.01.16; legal-entity disclosures
+  on subprocessors page and footer not yet updated. Anthropic is publicly disclosed
+  as a major customer of parent ClickHouse, Inc.; no equity overlap with Langfuse
+  or ClickHouse.'
+meta_owner: Langfuse GmbH (Berlin) · Subsidiary of ClickHouse, Inc. since 2026.01.16
+  · Founders Marc Klingen · YC W23 + Lightspeed
+meta_description: 'Independent security evaluation of Langfuse by Langfuse GmbH (subsidiary
+  of ClickHouse, Inc. since 2026.01.16). Score: 62/85. LLM observability platform.
+  SOC 2 Type II + ISO 27001 + HIPAA. MIT core + EE. Six CVEs trailing 12 months, four
+  CWE-284 access control. Anthropic indirect commercial customer of parent ClickHouse.
+  Framework v0.3.1.'
+og_description: 'Independent security evaluation of Langfuse by Langfuse GmbH (ClickHouse
+  subsidiary). Score: 62/85. LLM observability. SOC 2 II + ISO 27001 + HIPAA. Six
+  CVEs (4 access control). Framework v0.3.1.'
+category_line: AI / LLM Application Observability Platform · Open Core (MIT + Commercial
+  EE)
 display_tags:
 - text: SOC 2 II + ISO 27001 + HIPAA
   color: safe
@@ -106,6 +118,7 @@ display_tags:
 - text: ClickHouse Acquisition · 2026.01.16
   color: amber
 ---
+
 # Langfuse
 
 Langfuse is an open-source LLM application observability platform. The core is MIT-licensed, with an Enterprise Edition under separate commercial license (the `/ee` directory boundary). Operated by Langfuse GmbH, a Berlin company that became a subsidiary of ClickHouse, Inc. (San Francisco) on 2026-01-16. Public compliance posture is unusually complete for an open-core observability vendor at this maturity stage.

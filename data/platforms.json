@@ -1,10 +1,88 @@
 {
-  "generated_at": "2026-04-27T05:50:50+00:00",
+  "generated_at": "2026-06-11T07:20:32+00:00",
   "framework_version": "v0.3.1-final",
-  "count": 3,
+  "count": 14,
   "platforms": [
     {
       "rank": 1,
+      "tier": "S",
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "operator": "Pinecone Systems, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Vector Database",
+      "homepage": "https://www.pinecone.io",
+      "github": "https://github.com/pinecone-io",
+      "score": 71,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": "SOC 2 Type II zero-deviation, ISO 27001 active; engine closed, SOC2 report gated"
+        },
+        "r": {
+          "score": 20,
+          "rating": "High",
+          "note": "Zero product CVEs 12mo; four affirmative supply-chain not-affected statements"
+        },
+        "d": {
+          "score": 11,
+          "rating": "High",
+          "note": "Public DPA, SCC M2/M3, no-train clause; telemetry default undocumented"
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": "Control/data-plane keys, RBAC, SAML, service accounts GA; MFA Coming Soon"
+        },
+        "c": {
+          "score": 8,
+          "rating": "High",
+          "note": "Namespace isolation, BYOC zero-access, CMEK GA; default keys broad-permission"
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": "Trust Center advisories, public status timelines; SOC2/Pentest SafeBase-gated"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-05-12",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-08-10",
+      "tags": [
+        "vector-database",
+        "retrieval-infrastructure",
+        "pinecone-serverless",
+        "byoc",
+        "cmek",
+        "rag",
+        "multi-cloud",
+        "soc2-type2",
+        "iso27001",
+        "hipaa-addon",
+        "public-dpa",
+        "ai-services-addendum",
+        "eu-ai-act-reference"
+      ]
+    },
+    {
+      "rank": 2,
       "tier": "S",
       "slug": "gemini-code-assist",
       "name": "Gemini Code Assist",
@@ -77,7 +155,388 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "tier": "A",
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "operator": "Langfuse GmbH",
+      "independence": "subsidiary",
+      "parent_entity": "ClickHouse, Inc.",
+      "category": "AI / LLM Application Observability",
+      "homepage": "https://langfuse.com",
+      "github": "https://github.com/langfuse",
+      "score": 62,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 11,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "t": {
+          "score": 9,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 6,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-29",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-07-28",
+      "tags": [
+        "llm-observability",
+        "ai-tracing",
+        "prompt-management",
+        "evaluation-platform",
+        "open-core",
+        "mit-license",
+        "soc2-type2",
+        "iso27001",
+        "hipaa",
+        "gdpr",
+        "self-hostable",
+        "air-gapped",
+        "clickhouse-acquired"
+      ]
+    },
+    {
+      "rank": 3,
+      "tier": "A",
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "operator": "Weaviate B.V.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Vector Database",
+      "homepage": "https://weaviate.io",
+      "github": "https://github.com/weaviate/weaviate",
+      "score": 62,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 2,
+      "max_cvss_12mo": 8.7,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-05-15",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-08-13",
+      "tags": [
+        "vector-database",
+        "weaviate",
+        "bsd-3-clause",
+        "oss",
+        "gdpr",
+        "soc2-type2",
+        "iso27001-2022",
+        "hipaa-dedicated",
+        "rbac",
+        "oidc",
+        "multi-tenancy",
+        "byoc",
+        "weaviate-cloud"
+      ]
+    },
+    {
+      "rank": 5,
+      "tier": "A",
+      "slug": "langsmith",
+      "name": "LangSmith",
+      "operator": "LangChain, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "LLM Observability",
+      "homepage": "https://www.langchain.com",
+      "github": "https://github.com/langchain-ai",
+      "score": 55,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 9,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 11,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 5,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-05-12",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-08-10",
+      "tags": [
+        "llm-observability",
+        "agent-evaluation",
+        "soc2-type2",
+        "gdpr",
+        "hipaa-enterprise",
+        "us-eu-regions",
+        "self-hosted-enterprise",
+        "public-changelog",
+        "github-security-advisory",
+        "bug-bounty"
+      ]
+    },
+    {
+      "rank": 5,
+      "tier": "A",
+      "slug": "mistral-la-plateforme",
+      "name": "Mistral La Plateforme",
+      "operator": "Mistral AI SAS",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Agent Platform",
+      "homepage": "https://mistral.ai",
+      "github": "https://github.com/mistralai",
+      "score": 55,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 11,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-29",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-07-28",
+      "tags": [
+        "foundation-model-api",
+        "agents-api",
+        "eu-ai-provider",
+        "gdpr-default-eu",
+        "soc2-iso27001",
+        "public-dpa",
+        "zdr-on-request",
+        "apache-2.0-base-models",
+        "vertical-integration"
+      ]
+    },
+    {
+      "rank": 7,
+      "tier": "B",
+      "slug": "nemo-guardrails",
+      "name": "NeMo Guardrails",
+      "operator": "NVIDIA Corporation",
+      "independence": "parent",
+      "parent_entity": null,
+      "category": "AI Safety",
+      "homepage": "https://developer.nvidia.com/nemo-guardrails",
+      "github": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "score": 52,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 18,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-05-15",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-08-13",
+      "tags": [
+        "nvidia",
+        "ai-safety",
+        "llm-guardrails",
+        "open-source-toolkit",
+        "apache-2.0",
+        "programmable-rails",
+        "colang",
+        "nim",
+        "evaluator-coi",
+        "direct-investment",
+        "commercial-channel"
+      ]
+    },
+    {
+      "rank": 7,
       "tier": "B",
       "slug": "aider",
       "name": "aider",
@@ -149,7 +608,81 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 9,
+      "tier": "B",
+      "slug": "arize-ai",
+      "name": "Arize AI",
+      "operator": "Arize AI, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "LLM Observability",
+      "homepage": "https://arize.com",
+      "github": "https://github.com/Arize-ai/phoenix",
+      "score": 51,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-05-15",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-08-13",
+      "tags": [
+        "llm-observability",
+        "ai-evaluation",
+        "ml-monitoring",
+        "opentelemetry",
+        "openinference",
+        "elv2",
+        "evaluator-coi",
+        "shared-investor",
+        "commercial-channel"
+      ]
+    },
+    {
+      "rank": 10,
       "tier": "B",
       "slug": "cline",
       "name": "Cline",
@@ -218,6 +751,310 @@
         "hitl",
         "apache-2.0",
         "ai-coding-agent"
+      ]
+    },
+    {
+      "rank": 11,
+      "tier": "B",
+      "slug": "e2b",
+      "name": "E2B",
+      "operator": "FoundryLabs, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Agent Code Execution Sandbox",
+      "homepage": "https://e2b.dev",
+      "github": "https://github.com/e2b-dev",
+      "score": 46,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": "Entity/OSS/changelog confirmed; independent cert and sub-processor list absent"
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": "Zero CVEs trailing 12mo; no supply-chain compromise"
+        },
+        "d": {
+          "score": 2,
+          "rating": "Low",
+          "note": "No DPA, sub-processor list, or AI-training-exclusion in public docs"
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": "Lifecycle controls complete; RBAC marked SOON, not yet GA"
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Firecracker microVM isolation; egress default allow-all"
+        },
+        "t": {
+          "score": 3,
+          "rating": "Low",
+          "note": "No SECURITY.md; no AI safety framework reference"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-28",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-07-27",
+      "tags": [
+        "sandbox",
+        "firecracker",
+        "microvm",
+        "code-execution",
+        "agent-runtime",
+        "open-source",
+        "apache-2.0",
+        "byoc",
+        "self-hostable",
+        "layer-0"
+      ]
+    },
+    {
+      "rank": 12,
+      "tier": "C",
+      "slug": "zep",
+      "name": "Zep",
+      "operator": "Zep Software, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Agent Memory Layer",
+      "homepage": "https://www.getzep.com",
+      "github": "https://github.com/getzep/graphiti",
+      "score": 43,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 0,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": 8.1,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-05-15",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-08-13",
+      "tags": [
+        "agent-memory",
+        "temporal-knowledge-graph",
+        "context-engineering",
+        "soc2-type2",
+        "hipaa",
+        "open-source-core",
+        "byok",
+        "byom",
+        "byoc",
+        "yc-w24",
+        "delaware-c-corp"
+      ]
+    },
+    {
+      "rank": 13,
+      "tier": "C",
+      "slug": "cohere",
+      "name": "Cohere",
+      "operator": "Cohere Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Foundation Model API",
+      "homepage": "https://cohere.com",
+      "github": "https://github.com/cohere-ai",
+      "score": 42,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 7,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": 9.3,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-05-15",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-08-13",
+      "tags": [
+        "foundation-model",
+        "enterprise-ai",
+        "agentic-ai",
+        "sovereign-ai",
+        "canada",
+        "command-r",
+        "north",
+        "embed",
+        "rerank",
+        "iso-42001",
+        "aleph-alpha-pending",
+        "evaluator-coi",
+        "shared-investor",
+        "commercial-channel"
+      ]
+    },
+    {
+      "rank": 14,
+      "tier": "C",
+      "slug": "guardrails-ai",
+      "name": "Guardrails AI",
+      "operator": "Guardrails AI, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Safety",
+      "homepage": "https://www.guardrailsai.com",
+      "github": "https://github.com/guardrails-ai",
+      "score": 40,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 1,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-05-12",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1-final",
+      "next_review_due": "2026-08-10",
+      "tags": [
+        "ai-safety",
+        "llm-guardrails",
+        "validators",
+        "apache-2-0",
+        "open-source-framework",
+        "guardrails-hub",
+        "snowglobe",
+        "seed-stage",
+        "early-stage"
       ]
     }
   ]

@@ -77,6 +77,7 @@ tags:
 - multi-tenancy
 - byoc
 - weaviate-cloud
+rank: 3
 sources:
 - https://weaviate.io/
 - https://docs.weaviate.io
@@ -85,17 +86,38 @@ sources:
 - https://trust.weaviate.io
 - https://weaviate.io/privacy
 - https://weaviate.io/blog/weaviate-iso-compliant
-rank: null
-"finding": |-
-  Weaviate scores 62/85 (Tier A) under VERDICT v0.3.1 Layer 0, evaluated at Database 1.33.x / 1.34.0. Verifiability and data conduct lead: a BSD 3-Clause open-source core, a dual-entity legal structure (Weaviate B.V. in Amsterdam and Weaviate, LLC in the US) published with jurisdictional clarity, a versioned and dated Data Processing Agreement (v1.4, February 2026) whose §2.2 states Personal Data is not processed for model training without documented customer instruction, a publicly dated sub-processor list (October 2025), and ISO 27001:2022 certification (September 2025) alongside existing SOC 2 Type II. Two path-traversal CVEs — CVE-2025-67818 (Backup ZipSlip, CVSS v4.0 8.7) and CVE-2025-67819 (Shard Movement, CVSS 4.9) — were reported through Weaviate's Vulnerability Disclosure Program by an external researcher and patched in coordinated release across four supported minor branches (1.30.20 / 1.31.19 / 1.32.16 / 1.33.4) in November–December 2025. Recorded concerns cluster in identity-control and containment: OSS telemetry is on by default with cloud-metadata shared with hyperscalers for commercial lead identification (opt-out via DISABLE_TELEMETRY=true), generative modules execute in the main process without a documented egress allowlist, human-in-the-loop is not stated as a default-enforced control for the Query Agent and Transformation Agent surfaces, SOC 2 and ISO 27001 evidence is gated behind the trust portal, and no AI-specific safety framework (NIST AI RMF, ISO/IEC 42001) is referenced in public documentation.
-"meta_owner": |-
-  Weaviate B.V. (Amsterdam, NL) / Weaviate, LLC (US) · Independent, venture-backed · Series B, 2023, Index Ventures lead · No parent company, no acquisition history
-"meta_description": |-
-  Weaviate (Vector Database) scores 62/85, Tier A, under VERDICT v0.3.1 Layer 0. Strengths: a BSD 3-Clause open-source core, a dated DPA (v1.4) stating no model training without customer instruction, ISO 27001:2022 plus SOC 2 Type II, and coordinated patching of two path-traversal CVEs. Concerns: default-on OSS telemetry with cloud-metadata sharing, in-process generative modules without a documented egress allowlist, and trust-portal-gated audit evidence.
-"og_description": |-
-  Weaviate scores 62/85 (Tier A) on VERDICT v0.3.1 Layer 0: strong open-source verifiability and data conduct, with concerns in default-on telemetry, in-process module egress, and gated audit evidence.
-"category_line": |-
-  Vector Database · Open Source (BSD 3-Clause) · Self-Hosted & Managed Cloud · Bring Your Own Cloud · Retrieval Infrastructure
+finding: 'Weaviate scores 62/85 (Tier A) under VERDICT v0.3.1 Layer 0, evaluated at
+  Database 1.33.x / 1.34.0. Verifiability and data conduct lead: a BSD 3-Clause open-source
+  core, a dual-entity legal structure (Weaviate B.V. in Amsterdam and Weaviate, LLC
+  in the US) published with jurisdictional clarity, a versioned and dated Data Processing
+  Agreement (v1.4, February 2026) whose §2.2 states Personal Data is not processed
+  for model training without documented customer instruction, a publicly dated sub-processor
+  list (October 2025), and ISO 27001:2022 certification (September 2025) alongside
+  existing SOC 2 Type II. Two path-traversal CVEs — CVE-2025-67818 (Backup ZipSlip,
+  CVSS v4.0 8.7) and CVE-2025-67819 (Shard Movement, CVSS 4.9) — were reported through
+  Weaviate''s Vulnerability Disclosure Program by an external researcher and patched
+  in coordinated release across four supported minor branches (1.30.20 / 1.31.19 /
+  1.32.16 / 1.33.4) in November–December 2025. Recorded concerns cluster in identity-control
+  and containment: OSS telemetry is on by default with cloud-metadata shared with
+  hyperscalers for commercial lead identification (opt-out via DISABLE_TELEMETRY=true),
+  generative modules execute in the main process without a documented egress allowlist,
+  human-in-the-loop is not stated as a default-enforced control for the Query Agent
+  and Transformation Agent surfaces, SOC 2 and ISO 27001 evidence is gated behind
+  the trust portal, and no AI-specific safety framework (NIST AI RMF, ISO/IEC 42001)
+  is referenced in public documentation.'
+meta_owner: Weaviate B.V. (Amsterdam, NL) / Weaviate, LLC (US) · Independent, venture-backed
+  · Series B, 2023, Index Ventures lead · No parent company, no acquisition history
+meta_description: 'Weaviate (Vector Database) scores 62/85, Tier A, under VERDICT
+  v0.3.1 Layer 0. Strengths: a BSD 3-Clause open-source core, a dated DPA (v1.4) stating
+  no model training without customer instruction, ISO 27001:2022 plus SOC 2 Type II,
+  and coordinated patching of two path-traversal CVEs. Concerns: default-on OSS telemetry
+  with cloud-metadata sharing, in-process generative modules without a documented
+  egress allowlist, and trust-portal-gated audit evidence.'
+og_description: 'Weaviate scores 62/85 (Tier A) on VERDICT v0.3.1 Layer 0: strong
+  open-source verifiability and data conduct, with concerns in default-on telemetry,
+  in-process module egress, and gated audit evidence.'
+category_line: Vector Database · Open Source (BSD 3-Clause) · Self-Hosted & Managed
+  Cloud · Bring Your Own Cloud · Retrieval Infrastructure
 display_tags:
 - text: BSD 3-Clause open-source core
   color: safe

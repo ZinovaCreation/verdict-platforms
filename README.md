@@ -39,9 +39,16 @@ Full specification in [`verdict-engine/ENGINE.md`](https://github.com/zinova-lab
 <!-- BEGIN:TOP10 -->
 | Rank | Tier | Platform | Operator | Category | Score | KEV |
 |---:|:---:|---|---|---|---:|:---:|
-| 1 | S | [Gemini Code Assist](./platforms/gemini-code-assist.md) | Google LLC | AI Coding Agent | 67/85 |  |
-| 2 | B | [aider](./platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 |  |
-| 3 | B | [Cline](./platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 |  |
+| 1 | S | [Pinecone](./platforms/pinecone.md) | Pinecone Systems, Inc. | Vector Database | 71/85 |  |
+| 2 | S | [Gemini Code Assist](./platforms/gemini-code-assist.md) | Google LLC | AI Coding Agent | 67/85 |  |
+| 3 | A | [Langfuse](./platforms/langfuse.md) | Langfuse GmbH | AI / LLM Application Observability | 62/85 |  |
+| 3 | A | [Weaviate](./platforms/weaviate.md) | Weaviate B.V. | Vector Database | 62/85 |  |
+| 5 | A | [LangSmith](./platforms/langsmith.md) | LangChain, Inc. | LLM Observability | 55/85 |  |
+| 5 | A | [Mistral La Plateforme](./platforms/mistral-la-plateforme.md) | Mistral AI SAS | AI Agent Platform | 55/85 |  |
+| 7 | B | [NeMo Guardrails](./platforms/nemo-guardrails.md) | NVIDIA Corporation | AI Safety | 52/85 |  |
+| 7 | B | [aider](./platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 |  |
+| 9 | B | [Arize AI](./platforms/arize-ai.md) | Arize AI, Inc. | LLM Observability | 51/85 |  |
+| 10 | B | [Cline](./platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 |  |
 <!-- END:TOP10 -->
 
 Full ranking: [`rankings/overall.md`](./rankings/overall.md)

@@ -74,6 +74,7 @@ tags:
 - public-changelog
 - github-security-advisory
 - bug-bounty
+rank: 5
 sources:
 - https://www.langchain.com/langsmith
 - https://docs.langchain.com/langsmith
@@ -85,17 +86,33 @@ sources:
 - https://github.com/langchain-ai/langsmith-sdk/security
 - https://status.smith.langchain.com/
 - https://eu.status.smith.langchain.com/
-rank: null
-"finding": |-
-  Commercial observability, evaluation, and deployment platform from LangChain, Inc. (San Francisco). SOC 2 Type II attested (extended to LangGraph Platform / LangSmith Deployment August 2025). GDPR compliance, HIPAA at Enterprise tier, US and EU regions, self-hosted Enterprise on customer-managed Kubernetes. Explicit "no model training on customer data" commitment in Pricing FAQ; customer data ownership. SDK MIT-licensed (Python `langsmith`, JS `langsmith`); platform backend closed-source. Five distinct platform / SDK vulnerabilities disclosed in trailing 12 months: AgentSmith CVSS 8.8 (Prompt Hub proxy provider URL), CVE-2026-25750 CVSS 8.5 (Studio baseUrl account takeover), CVE-2026-25528 CVSS 6.4 (SDK distributed tracing SSRF), CVE-2026-40190 CVSS 5.6 (lodash prototype pollution), CVE-2026-41182 (streaming-event redaction bypass). Three of five share a recurring URL-validation root-cause class across distinct surfaces (Prompt Hub / SDK / Studio). Trust Center centralizes compliance artifacts but gates access behind authenticated request. LangSmith Sandboxes (microVM-isolated) in Private Preview. Independent of Anthropic at every layer (no equity overlap); indirect commercial relationship via Claude framework support.
-"meta_owner": |-
-  LangChain, Inc. · San Francisco, CA · Delaware C-corp · Founders Chase / Gola · ~$1.1B Series A (Sequoia / Benchmark)
-"meta_description": |-
-  Independent security evaluation of LangSmith by LangChain, Inc. (Delaware C-corp, San Francisco). Score: 55/85. LLM observability + agent evaluation platform. SOC 2 Type II + GDPR + HIPAA Enterprise. US/EU regions + self-hosted Enterprise. 5 CVEs trailing 12 months including URL-validation root-cause pattern across 3 surfaces. Framework v0.3.1.
-"og_description": |-
-  Independent security evaluation of LangSmith by LangChain, Inc. Score: 55/85. LLM observability platform. SOC 2 Type II + GDPR. 5 CVEs trailing 12 months. URL-validation root-cause pattern. Framework v0.3.1.
-"category_line": |-
-  LLM Observability · Agent Evaluation Platform · Cloud Service · Self-Hosted Enterprise Option
+finding: 'Commercial observability, evaluation, and deployment platform from LangChain,
+  Inc. (San Francisco). SOC 2 Type II attested (extended to LangGraph Platform / LangSmith
+  Deployment August 2025). GDPR compliance, HIPAA at Enterprise tier, US and EU regions,
+  self-hosted Enterprise on customer-managed Kubernetes. Explicit "no model training
+  on customer data" commitment in Pricing FAQ; customer data ownership. SDK MIT-licensed
+  (Python `langsmith`, JS `langsmith`); platform backend closed-source. Five distinct
+  platform / SDK vulnerabilities disclosed in trailing 12 months: AgentSmith CVSS
+  8.8 (Prompt Hub proxy provider URL), CVE-2026-25750 CVSS 8.5 (Studio baseUrl account
+  takeover), CVE-2026-25528 CVSS 6.4 (SDK distributed tracing SSRF), CVE-2026-40190
+  CVSS 5.6 (lodash prototype pollution), CVE-2026-41182 (streaming-event redaction
+  bypass). Three of five share a recurring URL-validation root-cause class across
+  distinct surfaces (Prompt Hub / SDK / Studio). Trust Center centralizes compliance
+  artifacts but gates access behind authenticated request. LangSmith Sandboxes (microVM-isolated)
+  in Private Preview. Independent of Anthropic at every layer (no equity overlap);
+  indirect commercial relationship via Claude framework support.'
+meta_owner: LangChain, Inc. · San Francisco, CA · Delaware C-corp · Founders Chase
+  / Gola · ~$1.1B Series A (Sequoia / Benchmark)
+meta_description: 'Independent security evaluation of LangSmith by LangChain, Inc.
+  (Delaware C-corp, San Francisco). Score: 55/85. LLM observability + agent evaluation
+  platform. SOC 2 Type II + GDPR + HIPAA Enterprise. US/EU regions + self-hosted Enterprise.
+  5 CVEs trailing 12 months including URL-validation root-cause pattern across 3 surfaces.
+  Framework v0.3.1.'
+og_description: 'Independent security evaluation of LangSmith by LangChain, Inc. Score:
+  55/85. LLM observability platform. SOC 2 Type II + GDPR. 5 CVEs trailing 12 months.
+  URL-validation root-cause pattern. Framework v0.3.1.'
+category_line: LLM Observability · Agent Evaluation Platform · Cloud Service · Self-Hosted
+  Enterprise Option
 display_tags:
 - text: SOC 2 II + GDPR + HIPAA Enterprise
   color: safe
@@ -106,6 +123,7 @@ display_tags:
 - text: URL-Validation Recurrence Pattern
   color: amber
 ---
+
 # LangSmith
 
 LangSmith is the commercial observability, evaluation, and deployment platform operated by LangChain, Inc. (Delaware C-corporation, San Francisco). The platform ingests trace events from customer LLM and agent applications via SDK or HTTP API, runs dataset-based evaluations, manages versioned prompts, and offers managed deployment for LangGraph agents via LangSmith Deployment. SaaS surfaces are available in US (smith.langchain.com) and EU (eu.smith.langchain.com) regions; a self-hosted Enterprise deployment runs on customer-managed Kubernetes on AWS, GCP, or Azure.

@@ -13,17 +13,20 @@ evaluated_at: '2026-05-12'
 evaluator_model: unrecorded
 framework_version: v0.3.1-final
 layer: '0'
-target_version: Pinecone Serverless (current GA); BYOC public preview (multi-cloud, Feb 2026); Python SDK pinecone v8.x; TypeScript SDK @pinecone-database/pinecone v6.x
+target_version: Pinecone Serverless (current GA); BYOC public preview (multi-cloud,
+  Feb 2026); Python SDK pinecone v8.x; TypeScript SDK @pinecone-database/pinecone
+  v6.x
 previous_evaluation_date: null
 previous_score: null
 score: 71
 max_score: 85
-tier: null
+tier: S
 verdict:
   v:
     score: 16
     rating: High
-    note: SOC 2 Type II zero-deviation, ISO 27001 active; engine closed, SOC2 report gated
+    note: SOC 2 Type II zero-deviation, ISO 27001 active; engine closed, SOC2 report
+      gated
   r:
     score: 20
     rating: High
@@ -77,6 +80,7 @@ tags:
 - public-dpa
 - ai-services-addendum
 - eu-ai-act-reference
+rank: 1
 sources:
 - https://www.pinecone.io/
 - https://docs.pinecone.io/
@@ -88,11 +92,12 @@ sources:
 - https://www.pinecone.io/blog/hipaa/
 - https://github.com/pinecone-io
 - https://status.pinecone.io/
-rank: null
-"og_description": |-
-  Independent security evaluation of Pinecone by Pinecone Systems Inc. Score: 71/85. Managed vector database. SOC 2 II zero deviations. Zero CVEs. BYOC zero-access. Direct Anthropic Claude integration via Pinecone Assistant. Framework v0.3.1.
-"category_line": |-
-  Vector Database · Retrieval Infrastructure · Cloud Service · BYOC · Enterprise Options
+og_description: 'Independent security evaluation of Pinecone by Pinecone Systems Inc.
+  Score: 71/85. Managed vector database. SOC 2 II zero deviations. Zero CVEs. BYOC
+  zero-access. Direct Anthropic Claude integration via Pinecone Assistant. Framework
+  v0.3.1.'
+category_line: Vector Database · Retrieval Infrastructure · Cloud Service · BYOC ·
+  Enterprise Options
 display_tags:
 - text: SOC 2 II Zero Deviations + ISO 27001:2022
   color: safe
@@ -104,12 +109,32 @@ display_tags:
   color: safe
 - text: MFA "Coming Soon"
   color: amber
-"finding": |-
-  Fully managed vector database from Pinecone Systems, Inc. (New York). Every dimension reaches High rating threshold. SOC 2 Type II 2025 audit completed with zero deviations; ISO 27001:2022 surveillance audit active (verifiable via IAF CertSearch independent of operator materials). Zero Pinecone-product CVEs in trailing twelve months across NVD / GHSA / OSV. Trust Center carries four affirmative not-affected statements within evaluation window (Shai-Hulud and Shai-Hulud 2.0 NPM worm campaigns, Axios package compromise, Vercel/Context.ai April 2026 incident). Publicly accessible Data Processing Addendum incorporates SCC Modules 2 and 3, UK Addendum, and Swiss FADP; EDPO appointed as GDPR Article 27 representative. AI Services Addendum §5 explicit no-training commitment for any shared model. HIPAA via Standard add-on ($190/month) or Enterprise inclusion. BYOC zero-access operating model (no SSH / VPN / inbound network access; vectors / metadata / queries never leave customer cloud account) at public-preview multi-cloud February 2026. CMEK GA March 2026; service accounts and audit logs GA March 2026. First vector database category evaluation under VERDICT framework; C dimension adapted for multi-tenant index isolation semantics. Direct commercial integration with Anthropic Claude via Pinecone Assistant (automatic routing of deprecated Claude 3.5/3.7 Sonnet to Claude Sonnet 4.5 documented in January 2026 release notes). Independent of Anthropic at every equity layer. MFA marked "Coming Soon" at evaluation date.
-"meta_owner": |-
-  Pinecone Systems, Inc. · New York, NY · Delaware C-corp · Founder Liberty · CEO Ashutosh (Sep 2025) · ~$138M (a16z Series B lead)
-"meta_description": |-
-  Independent security evaluation of Pinecone by Pinecone Systems, Inc. (Delaware C-corp, NY HQ). Score: 71/85. Managed vector database (Pinecone Serverless + Assistant + Inference + BYOC). SOC 2 II 2025 zero deviations + ISO 27001:2022 + HIPAA + GDPR. Zero CVEs trailing 12 months. Affirmative Shai-Hulud / Axios / Vercel-Context unaffected disclosures. 1st vector database category evaluation. Framework v0.3.1.
+finding: Fully managed vector database from Pinecone Systems, Inc. (New York). Every
+  dimension reaches High rating threshold. SOC 2 Type II 2025 audit completed with
+  zero deviations; ISO 27001:2022 surveillance audit active (verifiable via IAF CertSearch
+  independent of operator materials). Zero Pinecone-product CVEs in trailing twelve
+  months across NVD / GHSA / OSV. Trust Center carries four affirmative not-affected
+  statements within evaluation window (Shai-Hulud and Shai-Hulud 2.0 NPM worm campaigns,
+  Axios package compromise, Vercel/Context.ai April 2026 incident). Publicly accessible
+  Data Processing Addendum incorporates SCC Modules 2 and 3, UK Addendum, and Swiss
+  FADP; EDPO appointed as GDPR Article 27 representative. AI Services Addendum §5
+  explicit no-training commitment for any shared model. HIPAA via Standard add-on
+  ($190/month) or Enterprise inclusion. BYOC zero-access operating model (no SSH /
+  VPN / inbound network access; vectors / metadata / queries never leave customer
+  cloud account) at public-preview multi-cloud February 2026. CMEK GA March 2026;
+  service accounts and audit logs GA March 2026. First vector database category evaluation
+  under VERDICT framework; C dimension adapted for multi-tenant index isolation semantics.
+  Direct commercial integration with Anthropic Claude via Pinecone Assistant (automatic
+  routing of deprecated Claude 3.5/3.7 Sonnet to Claude Sonnet 4.5 documented in January
+  2026 release notes). Independent of Anthropic at every equity layer. MFA marked
+  "Coming Soon" at evaluation date.
+meta_owner: Pinecone Systems, Inc. · New York, NY · Delaware C-corp · Founder Liberty
+  · CEO Ashutosh (Sep 2025) · ~$138M (a16z Series B lead)
+meta_description: 'Independent security evaluation of Pinecone by Pinecone Systems,
+  Inc. (Delaware C-corp, NY HQ). Score: 71/85. Managed vector database (Pinecone Serverless
+  + Assistant + Inference + BYOC). SOC 2 II 2025 zero deviations + ISO 27001:2022
+  + HIPAA + GDPR. Zero CVEs trailing 12 months. Affirmative Shai-Hulud / Axios / Vercel-Context
+  unaffected disclosures. 1st vector database category evaluation. Framework v0.3.1.'
 ---
 
 # Pinecone

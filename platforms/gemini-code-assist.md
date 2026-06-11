@@ -72,17 +72,21 @@ tags:
 - ip-indemnification
 - source-citation
 - vpc-service-controls
-rank: 1
-"finding": |-
-  Highest cert portfolio in the index. ISO 42001 (May 2025) — unique among AI agent platforms in VERDICT. SOC 1/2/3 + ISO 27001 + FedRAMP + HIPAA-BAA + PCI DSS. SAIF + NIST AI RMF. Zero direct Code Assist CVEs in trailing 12 months. Standard/Enterprise contractually exempt from training; Individuals tier defaults to data collection (opt-out flow reported confusing in GitHub Issues #14104, #17480, #20569).
-"meta_owner": |-
-  Google LLC · Subsidiary of Alphabet Inc. · Public Company
-"meta_description": |-
-  Independent security evaluation of Gemini Code Assist by Google LLC. Score: 67/85. ISO 42001 (only in index) + SOC 1/2/3 + FedRAMP + HIPAA-BAA. Zero direct CVEs. SAIF + NIST AI RMF. Tier-stratified training policy. Framework v0.3.1.
-"og_description": |-
-  Independent security evaluation of Gemini Code Assist by Google LLC. Score: 67/85. ISO 42001 (only in index) + SOC 1/2/3 + FedRAMP + HIPAA-BAA. Zero direct CVEs. SAIF + NIST AI RMF. Framework v0.3.1.
-"category_line": |-
-  AI Coding Agent · Enterprise SaaS · Proprietary
+rank: 2
+finding: 'Highest cert portfolio in the index. ISO 42001 (May 2025) — unique among
+  AI agent platforms in VERDICT. SOC 1/2/3 + ISO 27001 + FedRAMP + HIPAA-BAA + PCI
+  DSS. SAIF + NIST AI RMF. Zero direct Code Assist CVEs in trailing 12 months. Standard/Enterprise
+  contractually exempt from training; Individuals tier defaults to data collection
+  (opt-out flow reported confusing in GitHub Issues #14104, #17480, #20569).'
+meta_owner: Google LLC · Subsidiary of Alphabet Inc. · Public Company
+meta_description: 'Independent security evaluation of Gemini Code Assist by Google
+  LLC. Score: 67/85. ISO 42001 (only in index) + SOC 1/2/3 + FedRAMP + HIPAA-BAA.
+  Zero direct CVEs. SAIF + NIST AI RMF. Tier-stratified training policy. Framework
+  v0.3.1.'
+og_description: 'Independent security evaluation of Gemini Code Assist by Google LLC.
+  Score: 67/85. ISO 42001 (only in index) + SOC 1/2/3 + FedRAMP + HIPAA-BAA. Zero
+  direct CVEs. SAIF + NIST AI RMF. Framework v0.3.1.'
+category_line: AI Coding Agent · Enterprise SaaS · Proprietary
 display_tags:
 - text: ISO 42001 · Only in Index
   color: safe
@@ -93,21 +97,21 @@ display_tags:
 - text: Individuals Tier Training Default-On
   color: amber
 sources:
-  - https://cloud.google.com/products/gemini/code-assist
-  - https://cloud.google.com/gemini/docs/codeassist/overview
-  - https://cloud.google.com/gemini/docs/codeassist/security-privacy-compliance
-  - https://developers.google.com/gemini-code-assist/resources/privacy-notice-gemini-code-assist-individuals
-  - https://developers.google.com/gemini-code-assist/resources/faqs
-  - https://developers.google.com/gemini-code-assist/docs/overview
-  - https://codeassist.google/products/business
-  - https://google-gemini.github.io/gemini-cli/docs/tos-privacy.html
-  - https://github.com/google-gemini/gemini-cli
-  - https://github.com/google-gemini/gemini-cli/issues/14104
-  - https://github.com/google-gemini/gemini-cli/issues/17480
-  - https://github.com/google-gemini/gemini-cli/issues/20569
-  - https://developers.google.com/gemini-code-assist/docs/data-governance
-  - https://cloud.google.com/gemini/enterprise/docs/compliance-security-controls
-  - https://cloud.google.com/terms/data-processing-addendum
+- https://cloud.google.com/products/gemini/code-assist
+- https://cloud.google.com/gemini/docs/codeassist/overview
+- https://cloud.google.com/gemini/docs/codeassist/security-privacy-compliance
+- https://developers.google.com/gemini-code-assist/resources/privacy-notice-gemini-code-assist-individuals
+- https://developers.google.com/gemini-code-assist/resources/faqs
+- https://developers.google.com/gemini-code-assist/docs/overview
+- https://codeassist.google/products/business
+- https://google-gemini.github.io/gemini-cli/docs/tos-privacy.html
+- https://github.com/google-gemini/gemini-cli
+- https://github.com/google-gemini/gemini-cli/issues/14104
+- https://github.com/google-gemini/gemini-cli/issues/17480
+- https://github.com/google-gemini/gemini-cli/issues/20569
+- https://developers.google.com/gemini-code-assist/docs/data-governance
+- https://cloud.google.com/gemini/enterprise/docs/compliance-security-controls
+- https://cloud.google.com/terms/data-processing-addendum
 ---
 
 # Gemini Code Assist
