@@ -112,6 +112,9 @@ sources:
 - https://developers.google.com/gemini-code-assist/docs/data-governance
 - https://cloud.google.com/gemini/enterprise/docs/compliance-security-controls
 - https://cloud.google.com/terms/data-processing-addendum
+key_finding: "Highest cert portfolio in the index. ISO 42001 (May 2025) — only platform in VERDICT with this AI-specific certification. SOC 1/2/3 + ISO 27001 + FedRAMP + HIPAA-BAA + PCI DSS. SAIF + NIST AI RMF. Zero direct Code Assist CVEs. Tier-stratified training policy."
+card_owner: "Google LLC (Alphabet Inc.)"
+card_category: "AI Coding Agent · Enterprise SaaS"
 ---
 
 # Gemini Code Assist

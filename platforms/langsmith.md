@@ -122,6 +122,9 @@ display_tags:
   color: amber
 - text: URL-Validation Recurrence Pattern
   color: amber
+key_finding: "Commercial observability, evaluation, and deployment platform from LangChain, Inc. SOC 2 Type II attested (extended to LangGraph Platform / LangSmith Deployment Aug 2025). GDPR compliance, HIPAA at Enterprise tier, US and EU regions, self-hosted Enterprise. Explicit no-training commitment. Five CVEs trailing 12 months: AgentSmith CVSS 8.8, CVE-2026-25750 CVSS 8.5, CVE-2026-25528, CVE-2026-40190, CVE-2026-41182. Three share URL-validation root-cause recurrence pattern across distinct surfaces."
+card_owner: "LangChain, Inc. · San Francisco · Sequoia / Benchmark"
+card_category: "LLM Observability · Agent Evaluation Platform · Cloud + Self-Hosted Enterprise"
 ---
 
 # LangSmith

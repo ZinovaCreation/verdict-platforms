@@ -135,6 +135,9 @@ meta_description: 'Independent security evaluation of Pinecone by Pinecone Syste
   + Assistant + Inference + BYOC). SOC 2 II 2025 zero deviations + ISO 27001:2022
   + HIPAA + GDPR. Zero CVEs trailing 12 months. Affirmative Shai-Hulud / Axios / Vercel-Context
   unaffected disclosures. 1st vector database category evaluation. Framework v0.3.1.'
+key_finding: "Fully managed vector database from Pinecone Systems, Inc. Every dimension reaches High rating. SOC 2 Type II 2025 with zero deviations + ISO 27001:2022. Zero CVEs trailing 12 months. Affirmative Shai-Hulud / Axios / Vercel-Context unaffected disclosures. BYOC zero-access multi-cloud public preview Feb 2026. CMEK GA March 2026. Direct Anthropic Claude integration via Pinecone Assistant. First vector database category evaluation. MFA \"Coming Soon\" at evaluation date."
+card_owner: "Pinecone Systems, Inc. · New York · a16z Series B"
+card_category: "Vector Database · Retrieval Infrastructure · Cloud Service + BYOC"
 ---
 
 # Pinecone

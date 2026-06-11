@@ -117,6 +117,9 @@ display_tags:
   color: amber
 - text: ClickHouse Acquisition · 2026.01.16
   color: amber
+key_finding: "LLM observability platform with annual SOC 2 II + ISO 27001 + HIPAA + GDPR DPA. Configurable retention 3 days to unlimited; explicit no-AI-training. Open-core (MIT outside ee/). Six CVEs trailing 12 months, max CVSS 7.6 (same-day patch). Four CWE-284 access control across distinct subsystems. Acquired by ClickHouse, Inc. on 2026.01.16."
+card_owner: "Langfuse GmbH (subsidiary of ClickHouse, Inc.)"
+card_category: "AI / LLM Application Observability Platform · Open Core (MIT + Commercial EE)"
 ---
 
 # Langfuse

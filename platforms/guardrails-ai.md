@@ -136,6 +136,9 @@ display_tags:
   color: amber
 - text: Operator-Side Sandbox Undisclosed
   color: amber
+key_finding: "Open-source LLM guardrails / validators framework (Apache 2.0) plus commercial Pro / Snowglobe cloud platform from Guardrails AI, Inc. Post-Seed operator with approximately 11 employees. Zero confirmed CVEs in trailing 12 months. Largest documentation gaps in D-dimension (no public DPA URL, no public sub-processor list, no AI training statement) and operator-side C-dimension. No public SOC 2 / ISO 27001 / Trust Center. First AI-safety category evaluation. Dependency-availability event March 2026 (litellm PyPI removal) broke fresh installs."
+card_owner: "Guardrails AI, Inc. · Menlo Park · Seed $7.5M · ~11 employees"
+card_category: "AI Safety · LLM Guardrails · OSS Framework + Commercial Cloud"
 ---
 
 # Guardrails AI
