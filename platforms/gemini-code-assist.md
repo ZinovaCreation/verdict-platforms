@@ -92,6 +92,22 @@ display_tags:
   color: safe
 - text: Individuals Tier Training Default-On
   color: amber
+sources:
+  - https://cloud.google.com/products/gemini/code-assist
+  - https://cloud.google.com/gemini/docs/codeassist/overview
+  - https://cloud.google.com/gemini/docs/codeassist/security-privacy-compliance
+  - https://developers.google.com/gemini-code-assist/resources/privacy-notice-gemini-code-assist-individuals
+  - https://developers.google.com/gemini-code-assist/resources/faqs
+  - https://developers.google.com/gemini-code-assist/docs/overview
+  - https://codeassist.google/products/business
+  - https://google-gemini.github.io/gemini-cli/docs/tos-privacy.html
+  - https://github.com/google-gemini/gemini-cli
+  - https://github.com/google-gemini/gemini-cli/issues/14104
+  - https://github.com/google-gemini/gemini-cli/issues/17480
+  - https://github.com/google-gemini/gemini-cli/issues/20569
+  - https://developers.google.com/gemini-code-assist/docs/data-governance
+  - https://cloud.google.com/gemini/enterprise/docs/compliance-security-controls
+  - https://cloud.google.com/terms/data-processing-addendum
 ---
 
 # Gemini Code Assist

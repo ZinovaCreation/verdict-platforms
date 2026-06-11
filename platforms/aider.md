@@ -91,6 +91,28 @@ display_tags:
   color: safe
 - text: No SECURITY.md · No SOC 2
   color: amber
+sources:
+  - https://aider.chat/
+  - https://aider.chat/docs/
+  - https://aider.chat/HISTORY.html
+  - https://aider.chat/docs/legal/privacy.html
+  - https://aider.chat/docs/faq.html
+  - https://aider.chat/docs/more/analytics.html
+  - https://aider.chat/docs/troubleshooting/imports.html
+  - https://aider.chat/docs/scripting.html
+  - https://aider.chat/docs/usage/commands.html
+  - https://aider.chat/docs/usage/modes.html
+  - https://aider.chat/docs/usage/tips.html
+  - https://aider.chat/docs/config/options.html
+  - https://aider.chat/docs/git.html#commit-attribution
+  - https://github.com/Aider-AI/aider
+  - https://github.com/Aider-AI/aider/blob/main/LICENSE.txt
+  - https://github.com/Aider-AI/aider/releases
+  - https://github.com/Aider-AI/aider/issues
+  - https://github.com/Aider-AI/aider/issues/3520
+  - https://github.com/Aider-AI/aider/security/advisories
+  - https://github.com/Aider-AI/aider/security/policy
+  - https://docs.litellm.ai/blog/security-update-march-2026
 ---
 
 # aider

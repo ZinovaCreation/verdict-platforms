@@ -91,6 +91,22 @@ display_tags:
   color: amber
 - text: Clinejection Supply-Chain · Feb 2026
   color: red
+sources:
+  - https://cline.bot/privacy
+  - https://cline.bot/tos
+  - https://cline.bot/enterprise
+  - https://cline.bot/mcp-marketplace
+  - https://cline.bot/blog/introducing-anonymous-telemetry-in-cline
+  - https://docs.cline.bot
+  - https://docs.cline.bot/more-info/telemetry
+  - https://docs.cline.bot/enterprise-solutions/security-concerns
+  - https://github.com/cline/cline
+  - https://github.com/cline/cline/security
+  - https://github.com/cline/cline/releases
+  - https://github.com/cline/cline/security/advisories/GHSA-9ppg-jx86-fqw7
+  - https://github.com/cline/cline/discussions/411
+  - https://github.com/cline/cline/pull/9211
+  - https://raw.githubusercontent.com/cline/cline/refs/heads/main/CHANGELOG.md
 ---
 
 # Cline
