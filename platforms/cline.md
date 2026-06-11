@@ -161,8 +161,11 @@ E (Effectiveness) — not evaluated (Layer 1+ only).
 | Criterion | Result | Score | Evidence |
 |---|---|---:|---|
 | Disclosed vuln count (trailing 12 months: 2025-04-27 → 2026-04-27) | ~5 publicly disclosed flaws (4 Mindgard + 1 Cline GHSA); no NVD CVE assignments verified | 2/5 | https://mindgard.ai/blog/cline-coding-agent-vulnerabilities ; https://github.com/cline/cline/security/advisories/GHSA-9ppg-jx86-fqw7 |
+| | Third-party security research (Mindgard). The corresponding vendor advisory GHSA-3c6h-5gc7-73gj is private as of this evaluation; no NVD/CVE assigned. Facts publicly acknowledged by the vendor. | | |
 | Maximum severity | Mindgard self-classifies findings as critical (RCE, API-key exfil); no formal CVSS published | 2/6 | https://mindgard.ai/blog/cline-coding-agent-vulnerabilities ; https://hackread.com/cline-bot-ai-agent-vulnerable-data-theft-code-execution/ |
+| | Third-party security research (Mindgard). The corresponding vendor advisory GHSA-3c6h-5gc7-73gj is private as of this evaluation; no NVD/CVE assigned. Facts publicly acknowledged by the vendor. | | |
 | Patch response speed | Mindgard disclosed 2025-08-22; partial mitigation in v3.35.0 (~2025-10-31), >60d. Clinejection: privately reported 2026-01-01; public disclosure 2026-02-09; PR #9211 fix ~30 min after public disclosure | 0/3 | https://adnanthekhan.com/posts/clinejection/ ; https://mindgard.ai/blog/cline-coding-agent-vulnerabilities |
+| | Third-party security research (Mindgard). The corresponding vendor advisory GHSA-3c6h-5gc7-73gj is private as of this evaluation; no NVD/CVE assigned. Facts publicly acknowledged by the vendor. | | |
 | Structural issues | Recurring root cause: prompt-injection boundary failures in agentic contexts (host machine via .clinerules; CI/CD via issue-triage workflow) | 0/3 | https://snyk.io/blog/cline-supply-chain-attack-prompt-injection-github-actions/ |
 | Supply chain compromise (trailing 12 months) | Confirmed: unauthorized cline@2.3.0 npm publish 2026-02-17, ~8h live; 2.4.0 published as remediation; tokens revoked; OIDC provenance adopted | 1/3 | https://github.com/cline/cline/security/advisories/GHSA-9ppg-jx86-fqw7 ; https://safedep.io/cline-cli-compromised/ |
 
@@ -214,6 +217,7 @@ E (Effectiveness) — not evaluated (Layer 1+ only).
 |---|---|---:|---|
 | CVE / advisory publication posture | GitHub Security Advisories published (GHSA-9ppg-jx86-fqw7); SECURITY.md with reporting channel and SLA | 2/2 | https://github.com/cline/cline/security |
 | Incident disclosure speed | Mixed: Mindgard >60d; Clinejection ~40d (private→public); 2026-02-17 unauthorized publish disclosed within hours | 1/2 | https://mindgard.ai/blog/cline-coding-agent-vulnerabilities ; https://adnanthekhan.com/posts/clinejection/ |
+| | Third-party security research (Mindgard). The corresponding vendor advisory GHSA-3c6h-5gc7-73gj is private as of this evaluation; no NVD/CVE assigned. Facts publicly acknowledged by the vendor. | | |
 | Security policy publication | SECURITY.md present; 48h ack target, 30d fix target; Security Concerns docs page describes architecture | 2/2 | https://github.com/cline/cline/security ; https://docs.cline.bot/enterprise-solutions/security-concerns |
 | AI safety framework reference | No public reference to NIST AI RMF / OWASP LLM Top 10 / MITRE ATLAS as adopted external framework | 0/2 | Cline public docs |
 | AI system identity disclosure | Agent operation is plainly visible in IDE UI; plan/act mode and tool-use blocks are surfaced in chat | 2/2 | https://github.com/cline/cline |
@@ -230,7 +234,7 @@ Trailing 12 months: 2025-04-27 → 2026-04-27.
 
 | Date | Identifier | Severity | Description | Status | KEV |
 |---|---|---|---|---|---|
-| 2025-08-22 → 2025-08-24 | Mindgard #1–4 (no CVE assigned) | Critical (researcher self-assessment; RCE / API-key exfil / safety-rule bypass / model-info leakage) | Prompt-injection chain via source-file analysis; ping (whitelisted as "safe") used for DNS-based exfil; .clinerules override of `requires_approval`; TOCTOU race | Partial mitigation v3.35.0 (~2025-10-31); researcher notes mitigation depth not fully verified | No |
+| 2025-08-22 → 2025-08-24 | Mindgard #1–4 (no CVE assigned) | Critical (researcher self-assessment; RCE / API-key exfil / safety-rule bypass / model-info leakage) | Prompt-injection chain via source-file analysis; ping (whitelisted as "safe") used for DNS-based exfil; .clinerules override of `requires_approval`; TOCTOU race Third-party security research (Mindgard). The corresponding vendor advisory GHSA-3c6h-5gc7-73gj is private as of this evaluation; no NVD/CVE assigned. Facts publicly acknowledged by the vendor. | Partial mitigation v3.35.0 (~2025-10-31); researcher notes mitigation depth not fully verified | No |
 | 2026-01-01 | Clinejection (GHSA submitted) | High (chained: prompt injection → Actions cache poisoning → publication-token theft) | Issue-triage Claude Action with broad permissions reachable by any GitHub-account holder via crafted issue title | Public disclosure 2026-02-09; fix PR #9211 ~30 min after public disclosure (removes AI workflows; nightly jobs no longer consume Actions cache) | No |
 | 2026-02-17 | GHSA-9ppg-jx86-fqw7 | Supply-chain compromise (unauthorized npm publish using stolen token) | `cline@2.3.0` published with added `postinstall` (`npm install -g openclaw@latest`); CLI binary unmodified; live ~8 hours | Remediated: `cline@2.4.0` published; 2.3.0 deprecated; tokens revoked; OIDC provenance adopted; VS Code Marketplace + OpenVSX + JetBrains plugin unaffected | No |
 
