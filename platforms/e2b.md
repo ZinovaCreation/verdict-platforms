@@ -119,6 +119,15 @@ meta_description: 'Independent security evaluation of E2B by FoundryLabs, Inc. S
 key_finding: "Sandbox-runtime infrastructure backing Perplexity, Hugging Face, Manus, Groq, Lindy. Firecracker microVM hardware isolation. Apache 2.0 across SDK + infra + dashboard. Zero CVEs trailing 12 months. No SOC 2 / SECURITY.md / DPA. ToS Submissions clause grants perpetual royalty-free license; no AI-training-exclusion. Network egress allow-all default."
 card_owner: "FoundryLabs, Inc."
 card_category: "AI Agent Code Execution Sandbox · Cloud Runtime Infrastructure · Open Source"
+card_tags:
+  - text: "Firecracker microVM · Apache 2.0"
+    color: safe
+  - text: "0 CVEs · 12 Months"
+    color: safe
+  - text: "No SOC 2 · No SECURITY.md · No DPA"
+    color: amber
+  - text: "Allow-All Egress Default"
+    color: amber
 ---
 
 # E2B

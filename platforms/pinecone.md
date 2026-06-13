@@ -138,6 +138,17 @@ meta_description: 'Independent security evaluation of Pinecone by Pinecone Syste
 key_finding: "Fully managed vector database from Pinecone Systems, Inc. Every dimension reaches High rating. SOC 2 Type II 2025 with zero deviations + ISO 27001:2022. Zero CVEs trailing 12 months. Affirmative Shai-Hulud / Axios / Vercel-Context unaffected disclosures. BYOC zero-access multi-cloud public preview Feb 2026. CMEK GA March 2026. Direct Anthropic Claude integration via Pinecone Assistant. First vector database category evaluation. MFA \"Coming Soon\" at evaluation date."
 card_owner: "Pinecone Systems, Inc. · New York · a16z Series B"
 card_category: "Vector Database · Retrieval Infrastructure · Cloud Service + BYOC"
+card_tags:
+  - text: "SOC 2 II Zero Deviations + ISO 27001:2022"
+    color: safe
+  - text: "0 CVEs · 12 Months"
+    color: safe
+  - text: "Shai-Hulud / Axios / Vercel Unaffected"
+    color: safe
+  - text: "BYOC Zero-Access + CMEK GA"
+    color: safe
+  - text: "MFA Coming Soon"
+    color: amber
 ---
 
 # Pinecone

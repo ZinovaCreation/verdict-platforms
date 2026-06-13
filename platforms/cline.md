@@ -116,6 +116,13 @@ sources:
 key_finding: "OSS VS Code / JetBrains agent. HITL approval default — 10/10 on Identity & Control. BYOK keeps prompts/code off Cline servers. Mindgard disclosed 4 prompt-injection / RCE flaws (Aug 2025). \"Clinejection\" supply-chain attack contained in ~8h with OIDC migration (Feb 2026). $32M Seed+Series A."
 card_owner: "Cline Bot, Inc."
 card_category: "AI Coding Agent · IDE Extension · Open Source (Apache 2.0)"
+card_tags:
+  - text: "HITL Default · I:10/10"
+    color: safe
+  - text: "Mindgard 4 Disclosures"
+    color: amber
+  - text: "Clinejection Supply-Chain"
+    color: red
 ---
 
 # Cline

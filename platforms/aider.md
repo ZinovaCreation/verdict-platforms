@@ -120,6 +120,13 @@ sources:
 key_finding: "Apache 2.0 OSS terminal coding agent. Zero CVEs in 12 months across NVD/OSV/GHSA. litellm pinning structurally blocked the March 2026 TeamPCP supply-chain compromise from reaching pip-install users. Local-only, BYOK. No SECURITY.md / SOC 2 attestation."
 card_owner: "Aider AI LLC"
 card_category: "AI Coding Agent · Terminal CLI · Open Source (Apache 2.0)"
+card_tags:
+  - text: "0 CVEs · 12 Months"
+    color: safe
+  - text: "litellm Pinning · Supply-Chain Protected"
+    color: safe
+  - text: "No SECURITY.md · No SOC 2"
+    color: amber
 ---
 
 # aider

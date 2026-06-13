@@ -115,6 +115,13 @@ sources:
 key_finding: "Highest cert portfolio in the index. ISO 42001 (May 2025) — only platform in VERDICT with this AI-specific certification. SOC 1/2/3 + ISO 27001 + FedRAMP + HIPAA-BAA + PCI DSS. SAIF + NIST AI RMF. Zero direct Code Assist CVEs. Tier-stratified training policy."
 card_owner: "Google LLC (Alphabet Inc.)"
 card_category: "AI Coding Agent · Enterprise SaaS"
+card_tags:
+  - text: "SOC 1/2/3 · FedRAMP · HIPAA"
+    color: dim
+  - text: "ISO 42001 · Only in Index"
+    color: dim
+  - text: "Individuals Tier Training Default-On"
+    color: amber
 ---
 
 # Gemini Code Assist

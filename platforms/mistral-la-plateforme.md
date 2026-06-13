@@ -119,6 +119,15 @@ display_tags:
 key_finding: "Vertically integrated foundation model + agent platform from Paris-headquartered Mistral AI SAS. Public DPA + SCC Module 4. EU residency default. Paid API + Le Chat Enterprise opted out of training by default; ZDR on request. SOC 2 II + ISO 27001/27701. Zero CVEs trailing 12 months. EU GPAI Code of Practice signed. Code Interpreter sandbox isolation tech undisclosed. Koyeb acquired 2026.02.17."
 card_owner: "Mistral AI SAS, Paris (RCS 952 418 325)"
 card_category: "AI Agent Platform · Foundation Model API · Stateful Agents Runtime · Cloud Service"
+card_tags:
+  - text: "Public DPA + SCC + EU Default"
+    color: safe
+  - text: "SOC 2 II + ISO 27001/27701"
+    color: safe
+  - text: "0 CVEs · 12 Months"
+    color: safe
+  - text: "Sandbox Isolation Tech Undisclosed"
+    color: amber
 ---
 
 # Mistral La Plateforme
