@@ -184,7 +184,7 @@
         "required": ["text", "color"],
         "properties": {
           "text":  { "type": "string", "minLength": 1 },
-          "color": { "type": "string", "enum": ["safe", "amber", "red", "dim"] }
+          "color": { "type": "string", "enum": ["safe", "amber", "red", "dim", "warn"] }
         }
       }
     },
@@ -208,7 +208,7 @@
         "required": ["text", "color"],
         "properties": {
           "text": { "type": "string", "minLength": 1 },
-          "color": { "type": "string", "enum": ["safe", "amber", "red", "dim"] }
+          "color": { "type": "string", "enum": ["safe", "amber", "red", "dim", "warn"] }
         }
       }
     }
