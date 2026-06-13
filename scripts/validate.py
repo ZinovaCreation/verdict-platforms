@@ -15,7 +15,7 @@ Checks performed per file:
       / Contextual Analysis (4-location check per ENGINE.md)
   7.  Bias Disclosure verbatim check (body must contain ENGINE.md mandated text)
   8.  Rating consistency: each axis rating matches threshold (70/40)
-  9.  next_review_due == evaluated_at + 90 days
+  9.  next_review_due == base + 90 days (base = updated_at if present else evaluated_at)
   10. Update evaluations must declare differential states
 
 Usage:
@@ -99,7 +99,7 @@ def plus_days(iso_date: str, days: int) -> str:
 def normalize_for_schema(meta: dict) -> dict:
     """YAML may parse dates as date objects; schema expects strings."""
     normalized = dict(meta)
-    for k in ("evaluated_at", "previous_evaluation_date", "next_review_due"):
+    for k in ("evaluated_at", "updated_at", "previous_evaluation_date", "next_review_due"):
         v = normalized.get(k)
         if isinstance(v, (datetime.date, datetime.datetime)):
             normalized[k] = v.isoformat() if isinstance(v, datetime.date) else v.date().isoformat()
@@ -230,14 +230,15 @@ def validate_file(path: Path, validator: Draft202012Validator) -> list[str]:
             )
 
     # 9. next_review_due
-    evaluated_at = normalized.get("evaluated_at")
+    base = normalized.get("updated_at") or normalized.get("evaluated_at")
     next_due = normalized.get("next_review_due")
-    if evaluated_at and next_due:
-        expected_due = plus_days(evaluated_at, REVIEW_CADENCE_DAYS)
+    if base and next_due:
+        expected_due = plus_days(base, REVIEW_CADENCE_DAYS)
         if next_due != expected_due:
             errors.append(
                 f"next_review_due: expected {expected_due} "
-                f"(evaluated_at + {REVIEW_CADENCE_DAYS}d), got {next_due}"
+                f"(base + {REVIEW_CADENCE_DAYS}d; base = updated_at if present "
+                f"else evaluated_at), got {next_due}"
             )
 
     # 10. Differential evaluations
