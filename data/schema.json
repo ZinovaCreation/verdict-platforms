@@ -199,6 +199,18 @@
     "card_category": {
       "type": "string",
       "description": "Top-index card category display text: short-form card variant, distinct from structured 'category' and from the longer 'category_line'. Authored content; SSOT is this verbatim text. Pipeline carries verbatim; must not generate or alter."
+    },
+    "card_tags": {
+      "type": "array",
+      "description": "Top-index card tag strip: card-specific authored tag set, distinct from the page-regime 'display_tags' (independently edited: text, count, color, and order may diverge). Authored content under the two-regime SSOT rule: SSOT is this verbatim array (captured from live card or authored by Engine from the evaluation). Pipeline carries verbatim; must not generate, recompute, or alter. HTML wrapper markup is renderer-derived and is NOT part of this field.",
+      "items": {
+        "type": "object",
+        "required": ["text", "color"],
+        "properties": {
+          "text": { "type": "string", "minLength": 1 },
+          "color": { "type": "string", "enum": ["safe", "amber", "red", "dim"] }
+        }
+      }
     }
   },
 
