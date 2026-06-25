@@ -34,8 +34,8 @@
 
     "independence": {
       "type": "string",
-      "enum": ["independent", "parent", "subsidiary"],
-      "description": "independent = standalone; parent = operator is itself the parent company; subsidiary = owned by a parent entity"
+      "enum": ["independent", "parent", "subsidiary", "unrecorded"],
+      "description": "independent = standalone; parent = operator is itself the parent company; subsidiary = owned by a parent entity; unrecorded = ownership/control structure was NOT assessed/recorded in the original published evaluation (MIGRATION-ONLY honest value; co-occurs with the migrated-capture tag). New Layer 0 evaluations MUST assess independence and MUST NOT use 'unrecorded'."
     },
     "parent_entity": {
       "type": ["string", "null"],
