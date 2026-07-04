@@ -21,6 +21,7 @@
     "verdict",
     "cisa_kev",
     "cve_count_12mo",
+    "cve_count_basis",
     "supply_chain_compromise_12mo",
     "known_facts_applied",
     "qa",
@@ -110,7 +111,25 @@
       }
     },
 
-    "cve_count_12mo":               { "type": "integer", "minimum": 0 },
+    "cve_count_12mo": {
+
+      "type": ["integer", "null"],
+
+      "minimum": 0,
+
+      "description": "Exact published trailing-12mo CVE count. null ONLY when the original evaluation published no exact integer (see cve_count_basis). For migrated evals; new evals MUST publish an exact integer with basis 'exact'."
+
+    },
+
+    "cve_count_basis": {
+
+      "type": "string",
+
+      "enum": ["exact", "lower_bound", "range", "unrecorded", "conflicting"],
+
+      "description": "Provenance of cve_count_12mo. exact = published exact integer (count = that integer). lower_bound = eval published 'N+' (count = N, the published floor; NOT asserted exact). range = eval published 'A-B' (count = A, the published lower end). unrecorded = no published count anywhere (count = null; may be qualitatively non-zero — see body). conflicting = published sources disagree (count = null; divergence recorded in body, NOT silently reconciled). Co-occurs with migrated-capture tag."
+
+    },
     "max_cvss_12mo":                { "type": ["number", "null"], "minimum": 0.0, "maximum": 10.0 },
     "supply_chain_compromise_12mo": { "type": "boolean" },
 

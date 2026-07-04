@@ -52,6 +52,7 @@ cisa_kev:
   present: false
   entries: []
 cve_count_12mo: 0
+cve_count_basis: exact
 max_cvss_12mo: null
 supply_chain_compromise_12mo: true
 known_facts_applied: []
