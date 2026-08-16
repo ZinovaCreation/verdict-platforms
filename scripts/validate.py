@@ -118,6 +118,13 @@ def normalize_for_schema(meta: dict) -> dict:
     return normalized
 
 
+def is_migrated_capture(meta: dict) -> bool:
+    """QAConvention-001: migrated (captured-not-authored) files carry qa factual/legal/quality
+    = 'unresolved'. Used ONLY to scope migration honesty rules; new evals keep full strictness."""
+    qa = meta.get("qa") or {}
+    return all(qa.get(k) == "unresolved" for k in ("factual", "legal", "quality"))
+
+
 def section_text(body: str, section: str) -> str:
     """
     Extract text under a markdown heading (##/###) whose title contains the
@@ -171,7 +178,7 @@ def validate_file(path: Path, validator: Draft202012Validator) -> list[str]:
     # 3. Composite formula
     if verdict and layer in ("0", "1"):
         expected_composite = composite_from_verdict(verdict, layer)
-        if authored_score != expected_composite:
+        if not (is_migrated_capture(meta) and meta.get('score_basis') == 'published_inconsistent') and (authored_score != expected_composite):
             errors.append(
                 f"score: expected {expected_composite} from "
                 f"{'V+E+R+D+I+C+T' if layer == '1' else 'V+R+D+I+C+T'} "
@@ -202,7 +209,8 @@ def validate_file(path: Path, validator: Draft202012Validator) -> list[str]:
     if kev_present:
         for section in KEV_REQUIRED_SECTIONS:
             text = section_text(body, section)
-            if "KEV" not in text and "kev" not in text:
+            disclosed = is_migrated_capture(meta) and "no KEV language" in text and "captured as-published" in text
+            if "KEV" not in text and "kev" not in text and not disclosed:
                 errors.append(
                     f"cisa_kev: 'KEV' not mentioned in '{section}' section "
                     f"(required in Scorecard / Incident Timeline / Executive Summary / Contextual Analysis)"
@@ -248,7 +256,7 @@ def validate_file(path: Path, validator: Draft202012Validator) -> list[str]:
             errors.append("differential: must be an object for evaluation_type=update")
         else:
             for axis in LAYER_0_AXES:
-                if diff.get(axis) not in ("re-evaluated", "carried-forward"):
+                if diff.get(axis) not in ("re-evaluated", "carried-forward") and not (is_migrated_capture(meta) and diff.get(axis) is None):
                     errors.append(
                         f"differential.{axis}: must be 're-evaluated' or 'carried-forward' "
                         f"for update evaluations"

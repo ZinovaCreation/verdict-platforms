@@ -72,6 +72,11 @@
     "score":     { "type": "integer", "minimum": 0, "maximum": 100 },
     "max_score": { "type": "integer", "enum": [85, 100] },
     "tier":      { "type": ["string", "null"], "enum": ["S", "A", "B", "C", "D", null] },
+    "score_basis": {
+      "type": "string",
+      "enum": ["consistent", "published_inconsistent"],
+      "description": "consistent = published total equals published dimension sum (default; validate enforces sum-check). published_inconsistent = the published sources for this evaluation disagree such that the captured total does not equal the captured dimension sum (e.g., live-card dims vs evaluation-record dims); both captured as-published, divergence disclosed in body, NOT reconciled in migration; resolution = re-evaluation. validate skips the sum-check ONLY for this value."
+    },
 
     "verdict": {
       "type": "object",
