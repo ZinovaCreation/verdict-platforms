@@ -10,6 +10,7 @@ github: null
 evaluation_number: 2
 evaluation_type: initial
 evaluated_at: '2026-03-12'
+updated_at: 2026-05-13
 evaluator_model: unrecorded
 framework_version: v0.3.1
 layer: '0'
@@ -56,7 +57,7 @@ qa:
   revision_cycles: 0
   flagged: false
 differential: null
-next_review_due: '2026-06-10'
+next_review_due: 2026-08-11
 tags: []
 rank: null
 sources: []

@@ -60,6 +60,7 @@ next_review_due: '2026-06-23'
 tags: []
 rank: null
 sources: []
+og_description: "Independent security evaluation of AWS Bedrock Agents. Score: 55/85. DNS tunneling path classified as intended functionality. Strong compliance infrastructure. Framework v0.3.1."
 category_line: Managed Agent Platform · Enterprise SaaS
 display_tags: &id001
 - text: CVE-2026-4269 · Supply Chain · Build-Time Injection
@@ -70,7 +71,8 @@ display_tags: &id001
   color: amber
 - text: Cedar Policy · LLM-Bypass-Resistant Enforcement
   color: amber
-finding: ''
+finding: "Broadest compliance certification stack: SOC 1/2/3 Type 2, FedRAMP High, ISO family, HIPAA eligibility. Clearest AI training data commitment. CVE-2026-4269: S3 ownership bypass (supply chain, patched). DNS tunneling in Code Interpreter Sandbox: AWS classified as &quot;intended functionality&quot; — no code-level remedy. AgentCore Cedar Policy: deterministic enforcement outside LLM reasoning loop."
+meta_description: "Independent security evaluation of AWS Bedrock Agents. Score: 55/85. DNS tunneling path classified as intended functionality. Strong compliance infrastructure. Framework v0.3.1."
 key_finding: 'Broadest compliance certification stack in this index: SOC 1/2/3 Type 2, FedRAMP High, ISO family, HIPAA eligibility. Clearest AI training data commitment: "Amazon Bedrock doesn''t store or use your data to train models." CVE-2026-4269: S3 ownership bypass allowing build-time code injection into AgentCore Runtime (supply chain, patched). DNS tunneling in Code Interpreter Sandbox: AWS reverted the fix, then classified the behavior as "intended functionality" — documentation-only guidance, no code-level remedy deployed. AgentCore Cedar Policy: deterministic enforcement outside LLM reasoning loop.'
 card_owner: Amazon Web Services, Inc.
 card_category: Managed Agent Platform · Enterprise SaaS

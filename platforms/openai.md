@@ -60,6 +60,7 @@ next_review_due: '2026-06-23'
 tags: []
 rank: null
 sources: []
+og_description: "Independent security evaluation of OpenAI Assistants API. Score: 61/85. Zero CVEs but used as C2 channel (SesameOp). Deprecation August 2026. Framework v0.3.1."
 category_line: LLM Agent API · Managed SaaS
 display_tags: &id001
 - text: ISO 42001:2023 · AI Management System
@@ -70,7 +71,8 @@ display_tags: &id001
   color: dim
 - text: Deprecating August 2026 → Responses API
   color: warn
-finding: ''
+finding: "Broadest certification set among evaluated API platforms: SOC 2 Type II, ISO 27001 family, and ISO 42001:2023 (AI Management System). Explicit no-training policy confirmed across three independent sources. Code Interpreter runs in a &quot;fully sandboxed virtual machine.&quot; SesameOp (Nov 2025): threat actors abused the Assistants API as a C2 channel — API abuse, not a platform vulnerability. Assistants API deprecated August 2026."
+meta_description: "Independent security evaluation of OpenAI Assistants API. Score: 61/85. Zero CVEs but used as C2 channel (SesameOp). Deprecation August 2026. Framework v0.3.1."
 key_finding: 'Broadest certification set among evaluated API platforms: SOC 2 Type II, ISO 27001 family, and ISO 42001:2023 (AI Management System) — the only platform with a formally audited AI-specific management system standard. Explicit no-training policy confirmed across three independent sources. Code Interpreter runs in a "fully sandboxed virtual machine." SesameOp (Nov 2025): threat actors abused the Assistants API as a C2 channel — API abuse, not a platform vulnerability. Assistants API deprecated August 2026; Responses API is the successor.'
 card_owner: OpenAI, L.L.C. · Deprecating August 2026
 card_category: LLM Agent API · Managed SaaS
