@@ -57,7 +57,7 @@
     "updated_at": {
       "type": "string",
       "format": "date",
-      "description": "Most-recent re-evaluation date (Layer C update or differential 'Update' evaluation), distinct from 'evaluated_at' (original Layer 0 date). Captured from the re-evaluation event; SSOT is this value. Pipeline MUST NOT derive it from file commit metadata \u2014 a non-evaluative edit (e.g., sources / card_tags backfill) is not a re-evaluation and must not surface an 'Updated' date. Optional; absent when no re-evaluation has occurred. Pairs with evaluation_type='update'."
+      "description": "Most-recent re-evaluation date (Layer C update or differential 'Update' evaluation), distinct from 'evaluated_at' (original Layer 0 date). Captured from the re-evaluation event; SSOT is this value. Pipeline MUST NOT derive it from file commit metadata \u2014 a non-evaluative edit (e.g., sources / card_tags backfill) is not a re-evaluation and must not surface an 'Updated' date. Optional; absent when no re-evaluation has occurred. Pairs with evaluation_type='update'. In the fresh-evaluation flow this pairs with evaluation_type='update'; migrated captures MAY carry updated_at with evaluation_type='initial' when the published card shows an Updated date but the record publishes no differential content (date published, revision content unpublished \u2014 captured as-is)."
     },
     "evaluator_model":   { "type": "string", "minLength": 1 },
     "framework_version": {

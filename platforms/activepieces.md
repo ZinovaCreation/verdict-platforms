@@ -96,6 +96,10 @@ HIPAA-compliant — the only platform in this index to achieve it. Cloud hosted 
 
 該当なし — no Activepieces packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Activepieces in the trailing 12 months (captured).
 
+## Updated-Date Source Note
+
+The live index card for this platform shows Updated 2026.05.13; the live detail page shows Updated 2026.03.24. Both as-published. Capture SSOT for dates is the live card (Migration-001-A01 §3.1); updated_at above is therefore 2026-05-13. The divergence is recorded here and not reconciled in migration (UpdatedAt-001-A02).
+
 ## Bias Disclosure
 
 This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
