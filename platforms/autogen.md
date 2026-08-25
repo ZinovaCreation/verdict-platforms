@@ -22,7 +22,7 @@ tier: A
 verdict:
   v:
     score: 11
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 20
-    rating: null
+    rating: High
     note: ''
   d:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 8
-    rating: null
+    rating: High
     note: ''
   c:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 8
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -72,7 +72,7 @@ tags:
 - MIT-license
 - docker-sandbox
 - maintenance-mode
-rank: null
+rank: 16
 sources:
 - https://github.com/microsoft/autogen
 - https://github.com/microsoft/autogen/releases

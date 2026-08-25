@@ -22,24 +22,31 @@ tier: B
 verdict:
   v:
     score: 15
+    rating: High
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 8
+    rating: Mid
     note: ''
   d:
     score: 7
+    rating: Mid
     note: ''
   i:
     score: 6
+    rating: Mid
     note: ''
   c:
     score: 6
+    rating: Mid
     note: ''
   t:
     score: 7
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -58,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: null
+rank: 30
 sources: []
 og_description: 'Independent security evaluation of LangChain. Score: 49/85. LangGrinch CVE-2025-68664 (CVSS 9.3). SOC 2 Type II certified, $1.25B valuation. LiteLLM dependency exposure. Framework v0.3.1.'
 category_line: LLM Agent Framework · Open Source (MIT core)

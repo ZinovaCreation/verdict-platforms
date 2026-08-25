@@ -22,7 +22,7 @@ tier: B
 verdict:
   v:
     score: 12
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 17
-    rating: null
+    rating: High
     note: ''
   d:
     score: 4
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 7
-    rating: null
+    rating: High
     note: ''
   t:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -74,7 +74,7 @@ tags:
 - Anthropic-Claude
 - YC-backed
 - high-growth
-rank: null
+rank: 34
 sources:
 - https://bolt.new/
 - https://github.com/stackblitz/bolt.new

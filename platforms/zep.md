@@ -76,7 +76,7 @@ tags:
 - byoc
 - yc-w24
 - delaware-c-corp
-rank: 12
+rank: 46
 sources:
 - https://www.getzep.com/
 - https://help.getzep.com

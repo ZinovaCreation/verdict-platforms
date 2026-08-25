@@ -22,7 +22,7 @@ tier: A
 verdict:
   v:
     score: 13
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 17
-    rating: null
+    rating: High
     note: ''
   d:
     score: 13
-    rating: null
+    rating: High
     note: ''
   i:
     score: 7
-    rating: null
+    rating: High
     note: ''
   c:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -74,7 +74,7 @@ tags:
 - no-code
 - multi-model
 - regional-hosting
-rank: null
+rank: 14
 sources:
 - https://docs.dust.tt/
 - https://dust.tt/

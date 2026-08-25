@@ -22,24 +22,31 @@ tier: A
 verdict:
   v:
     score: 17
+    rating: High
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 15
+    rating: High
     note: ''
   d:
     score: 13
+    rating: High
     note: ''
   i:
     score: 4
+    rating: Mid
     note: ''
   c:
     score: 5
+    rating: Mid
     note: ''
   t:
     score: 7
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -58,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: null
+rank: 9
 sources: []
 og_description: "Independent security evaluation of OpenAI Assistants API. Score: 61/85. Zero CVEs but used as C2 channel (SesameOp). Deprecation August 2026. Framework v0.3.1."
 category_line: LLM Agent API · Managed SaaS

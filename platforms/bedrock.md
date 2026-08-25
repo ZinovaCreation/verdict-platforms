@@ -22,24 +22,31 @@ tier: A
 verdict:
   v:
     score: 14
+    rating: High
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 11
+    rating: Mid
     note: ''
   d:
     score: 12
+    rating: High
     note: ''
   i:
     score: 8
+    rating: High
     note: ''
   c:
     score: 5
+    rating: Mid
     note: ''
   t:
     score: 5
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -58,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: null
+rank: 19
 sources: []
 og_description: "Independent security evaluation of AWS Bedrock Agents. Score: 55/85. DNS tunneling path classified as intended functionality. Strong compliance infrastructure. Framework v0.3.1."
 category_line: Managed Agent Platform · Enterprise SaaS

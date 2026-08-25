@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 7
-    rating: null
+    rating: Low
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 9
-    rating: null
+    rating: Mid
     note: ''
   i:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   c:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - multi-region
 - Australian-company
 - series-B
-rank: null
+rank: 46
 sources:
 - https://marketplace.relevanceai.com/
 - https://relevanceai.com/

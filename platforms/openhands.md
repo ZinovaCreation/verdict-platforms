@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 13
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 12
-    rating: null
+    rating: Mid
     note: ''
   d:
     score: 1
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   c:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 7
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -75,7 +75,7 @@ tags:
 - CLI
 - SDK
 - cloud service
-rank: null
+rank: 46
 sources:
 - https://github.com/OpenHands/OpenHands
 - https://github.com/OpenHands/OpenHands/releases

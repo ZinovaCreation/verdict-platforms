@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-11T07:20:32+00:00",
+  "generated_at": "2026-08-23T08:20:30+00:00",
   "framework_version": "v0.3.1-final",
-  "count": 14,
+  "count": 69,
   "platforms": [
     {
       "rank": 1,
@@ -84,6 +84,83 @@
     {
       "rank": 2,
       "tier": "S",
+      "slug": "amazon-q-business",
+      "name": "Amazon Q Business",
+      "operator": "Amazon Web Services",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Enterprise AI Assistant · Cloud SaaS (AWS)",
+      "homepage": null,
+      "github": null,
+      "score": 68,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 20,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 9,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-30",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-28",
+      "tags": [
+        "enterprise-ai",
+        "managed-saas",
+        "aws",
+        "rag",
+        "iam",
+        "soc2",
+        "iso27001",
+        "fedramp",
+        "hipaa",
+        "iso42001",
+        "cmek",
+        "vpc-privatelink"
+      ]
+    },
+    {
+      "rank": 3,
+      "tier": "S",
       "slug": "gemini-code-assist",
       "name": "Gemini Code Assist",
       "operator": "Google LLC",
@@ -155,7 +232,221 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "tier": "S",
+      "slug": "vertex-ai",
+      "name": "Vertex AI Agent Builder",
+      "operator": "Google LLC (Alphabet Inc.)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "No-Code Agent Builder · Enterprise SaaS",
+      "homepage": null,
+      "github": null,
+      "score": 65,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 18,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 9,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 2,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-26",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-24",
+      "tags": []
+    },
+    {
+      "rank": 5,
+      "tier": "A",
+      "slug": "lovable",
+      "name": "Lovable",
+      "operator": "Lovable Labs AB · Sweden · $6.6B",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI App Builder · Cloud SaaS",
+      "homepage": "https://lovable.dev",
+      "github": "https://github.com/AntonOsika",
+      "score": 63,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-04",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-03",
+      "tags": [
+        "closed-source",
+        "cloud-SaaS",
+        "AI-app-builder",
+        "SOC2-Type-II",
+        "ISO27001",
+        "GDPR",
+        "EU-origin",
+        "Supabase",
+        "React",
+        "Swedish",
+        "enterprise"
+      ]
+    },
+    {
+      "rank": 6,
+      "tier": "A",
+      "slug": "devin",
+      "name": "Devin",
+      "operator": "Cognition AI · $10.2B",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Coding Agent · Cloud SaaS",
+      "homepage": "https://devin.ai",
+      "github": null,
+      "score": 62,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 12,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-03",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-02",
+      "tags": [
+        "closed-source",
+        "cloud-SaaS",
+        "autonomous-coding-agent",
+        "SOC2-Type-II",
+        "SOC1",
+        "FedRAMP-High-aligned",
+        "VPC-deployment",
+        "enterprise",
+        "Fortune-500-customers"
+      ]
+    },
+    {
+      "rank": 6,
       "tier": "A",
       "slug": "langfuse",
       "name": "Langfuse",
@@ -233,7 +524,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 6,
       "tier": "A",
       "slug": "weaviate",
       "name": "Weaviate",
@@ -311,7 +602,782 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 9,
+      "tier": "A",
+      "slug": "copilot-studio",
+      "name": "Microsoft Copilot Studio",
+      "operator": "Microsoft Corporation",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "No-Code Agent Builder · Enterprise SaaS",
+      "homepage": null,
+      "github": null,
+      "score": 61,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "t": {
+          "score": 9,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 5,
+      "max_cvss_12mo": 9.3,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-23",
+      "tags": []
+    },
+    {
+      "rank": 9,
+      "tier": "A",
+      "slug": "openai",
+      "name": "OpenAI Assistants API",
+      "operator": "OpenAI, L.L.C. · Deprecating August 2026",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "LLM Agent API · Managed SaaS",
+      "homepage": null,
+      "github": null,
+      "score": 61,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 15,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-23",
+      "tags": []
+    },
+    {
+      "rank": 11,
+      "tier": "A",
+      "slug": "browserbase",
+      "name": "Browserbase",
+      "operator": "Browserbase Inc. · Y Combinator S24 · $67.5M",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Browser Infrastructure · Cloud (Proprietary)",
+      "homepage": "https://docs.browserbase.com",
+      "github": "https://github.com/browserbase",
+      "score": 58,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 20,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 9,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-07",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-06",
+      "tags": [
+        "browser-agent-infrastructure",
+        "cloud-saas",
+        "headless-browser",
+        "ycombinator-s24",
+        "soc2-type2",
+        "hipaa",
+        "zero-trust-isolation",
+        "vm-per-session",
+        "gdpr-ready",
+        "stagehand-oss",
+        "mit-license",
+        "sso-saml",
+        "byo-llm",
+        "multi-region",
+        "zero-data-retention-option",
+        "no-training-on-data",
+        "1password-integration"
+      ]
+    },
+    {
+      "rank": 11,
+      "tier": "A",
+      "slug": "agentforce",
+      "name": "Salesforce Agentforce",
+      "operator": "Salesforce, Inc. (NYSE: CRM)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "CRM-Native Agent Builder · Enterprise SaaS",
+      "homepage": null,
+      "github": null,
+      "score": 58,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": 9.4,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-23",
+      "tags": []
+    },
+    {
+      "rank": 11,
+      "tier": "A",
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "operator": "Cognition AI · $10.2B",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Coding IDE · VS Code Fork",
+      "homepage": "https://windsurf.com",
+      "github": null,
+      "score": 58,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 12,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 9,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-06",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-05",
+      "tags": [
+        "closed-source",
+        "AI-IDE",
+        "VS-Code-fork",
+        "SOC2-Type-II",
+        "FedRAMP-High",
+        "HIPAA",
+        "ZDR-default",
+        "self-hosted-option",
+        "Cognition-AI",
+        "Cascade-agent"
+      ]
+    },
+    {
+      "rank": 14,
+      "tier": "A",
+      "slug": "dust",
+      "name": "Dust",
+      "operator": "Dust SAS · Paris, France",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Enterprise AI Assistant · OSS + Cloud SaaS",
+      "homepage": "https://dust.tt",
+      "github": "https://github.com/dust-tt",
+      "score": 57,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "enterprise-SaaS",
+        "french-company",
+        "EU-GDPR-native",
+        "SOC2-TypeII",
+        "HIPAA",
+        "Sequoia-backed",
+        "no-code",
+        "multi-model",
+        "regional-hosting"
+      ]
+    },
+    {
+      "rank": 14,
+      "tier": "A",
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "operator": "GitHub (Microsoft)",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Coding Agent · Microsoft",
+      "homepage": "https://github.blog",
+      "github": null,
+      "score": 57,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 7,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 9,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-06",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-05",
+      "tags": [
+        "closed-source",
+        "Microsoft",
+        "AI-coding-agent",
+        "SOC2-Type-II",
+        "ISO27001",
+        "FedRAMP",
+        "IP-indemnity",
+        "training-opt-in-controversy",
+        "enterprise"
+      ]
+    },
+    {
+      "rank": 16,
+      "tier": "A",
+      "slug": "autogen",
+      "name": "AutoGen",
+      "operator": "Microsoft Research",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Multi-Agent Framework · Open Source (MIT)",
+      "homepage": null,
+      "github": "https://github.com/microsoft",
+      "score": 56,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 20,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-23",
+      "tags": [
+        "open-source",
+        "multi-agent",
+        "microsoft-research",
+        "python",
+        "MIT-license",
+        "docker-sandbox",
+        "maintenance-mode"
+      ]
+    },
+    {
+      "rank": 16,
+      "tier": "A",
+      "slug": "pipedream",
+      "name": "Pipedream",
+      "operator": "Acquired by Workday (Dec 2025)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Workflow Automation · API Integration",
+      "homepage": null,
+      "github": null,
+      "score": 56,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 16,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 12,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-13",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-08-11",
+      "tags": []
+    },
+    {
+      "rank": 16,
+      "tier": "A",
+      "slug": "v0",
+      "name": "v0",
+      "operator": "Vercel · $3.25B",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI App Builder · Cloud SaaS",
+      "homepage": "https://v0.app",
+      "github": null,
+      "score": 56,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-06",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-05",
+      "tags": [
+        "closed-source",
+        "cloud-SaaS",
+        "AI-app-builder",
+        "SOC2-Type-II",
+        "ISO27001",
+        "TISAX",
+        "PCI-DSS",
+        "DPF",
+        "Vercel",
+        "Next.js",
+        "React",
+        "shadcn-ui",
+        "enterprise"
+      ]
+    },
+    {
+      "rank": 19,
+      "tier": "A",
+      "slug": "bedrock",
+      "name": "AWS Bedrock Agents",
+      "operator": "Amazon Web Services, Inc.",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Managed Agent Platform · Enterprise SaaS",
+      "homepage": null,
+      "github": null,
+      "score": 55,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 12,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": true,
+      "evaluated_at": "2026-03-25",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-23",
+      "tags": []
+    },
+    {
+      "rank": 19,
       "tier": "A",
       "slug": "langsmith",
       "name": "LangSmith",
@@ -386,7 +1452,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 19,
       "tier": "A",
       "slug": "mistral-la-plateforme",
       "name": "Mistral La Plateforme",
@@ -460,7 +1526,71 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 22,
+      "tier": "B",
+      "slug": "activepieces",
+      "name": "Activepieces",
+      "operator": "Independent · Y Combinator",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Workflow Automation · Open Source (MIT)",
+      "homepage": null,
+      "github": null,
+      "score": 52,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 15,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-13",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-08-11",
+      "tags": []
+    },
+    {
+      "rank": 22,
       "tier": "B",
       "slug": "nemo-guardrails",
       "name": "NeMo Guardrails",
@@ -536,7 +1666,236 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 22,
+      "tier": "B",
+      "slug": "skyvern",
+      "name": "Skyvern",
+      "operator": "Skyvern Inc. · Y Combinator S23 · $9.5M",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Browser Agent · AGPL-3.0 + Cloud",
+      "homepage": "https://www.skyvern.com",
+      "github": "https://github.com/Skyvern-AI",
+      "score": 52,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-07",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-06",
+      "tags": [
+        "hybrid-license",
+        "AGPL-3.0",
+        "browser-agent",
+        "SOC2-Type-II",
+        "HIPAA",
+        "multi-agent-architecture",
+        "Y-Combinator-S23",
+        "Felicis-backed",
+        "regulated-verticals",
+        "insurance",
+        "healthcare",
+        "finance"
+      ]
+    },
+    {
+      "rank": 22,
+      "tier": "B",
+      "slug": "stagehand",
+      "name": "Stagehand",
+      "operator": "Browserbase Inc. · $67.5M · 21.7k stars",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Browser Agent SDK · Open Source (MIT)",
+      "homepage": null,
+      "github": "https://github.com/browserbase",
+      "score": 52,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-07",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-06",
+      "tags": [
+        "open-source",
+        "MIT",
+        "browser-automation-framework",
+        "TypeScript-first",
+        "Python-port",
+        "Playwright-compatible",
+        "three-primitives",
+        "observe-HITL",
+        "1Password-integration",
+        "Browserbase-parent",
+        "Notable-Capital-Series-B"
+      ]
+    },
+    {
+      "rank": 22,
+      "tier": "B",
+      "slug": "voiceflow",
+      "name": "Voiceflow",
+      "operator": "Voiceflow Inc. · Toronto, Canada",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Conversational AI · Cloud SaaS",
+      "homepage": "https://www.voiceflow.com",
+      "github": null,
+      "score": 52,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "closed-source",
+        "cloud-SaaS",
+        "Canadian",
+        "SOC2-Type1",
+        "ISO27001",
+        "GDPR",
+        "HIPAA",
+        "conversational-AI",
+        "no-code",
+        "voice-agents",
+        "enterprise"
+      ]
+    },
+    {
+      "rank": 22,
       "tier": "B",
       "slug": "aider",
       "name": "aider",
@@ -608,7 +1967,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 28,
       "tier": "B",
       "slug": "arize-ai",
       "name": "Arize AI",
@@ -682,7 +2041,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 29,
       "tier": "B",
       "slug": "cline",
       "name": "Cline",
@@ -754,7 +2113,643 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 30,
+      "tier": "B",
+      "slug": "langchain",
+      "name": "LangChain",
+      "operator": "Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "LLM Agent Framework · Open Source (MIT core)",
+      "homepage": null,
+      "github": null,
+      "score": 49,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 15,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 7,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 3,
+      "max_cvss_12mo": 9.3,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-23",
+      "tags": []
+    },
+    {
+      "rank": 31,
+      "tier": "B",
+      "slug": "watsonx-orchestrate",
+      "name": "IBM watsonx Orchestrate",
+      "operator": "IBM Corporation",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Enterprise AI Agent Platform · Cloud SaaS + On-Prem",
+      "homepage": null,
+      "github": null,
+      "score": 48,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 7,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 9,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 10,
+      "max_cvss_12mo": 9.1,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-30",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-28",
+      "tags": [
+        "enterprise",
+        "closed-source",
+        "IBM-cloud",
+        "FedRAMP",
+        "SOC2",
+        "multi-agent",
+        "governance",
+        "hybrid-deploy",
+        "subscription"
+      ]
+    },
+    {
+      "rank": 31,
+      "tier": "B",
+      "slug": "replit",
+      "name": "Replit",
+      "operator": "Replit Inc. · $1.16B",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Coding Agent / Cloud IDE",
+      "homepage": "https://replit.com",
+      "github": null,
+      "score": 48,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-06",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-05",
+      "tags": [
+        "closed-source",
+        "cloud-IDE",
+        "AI-agent",
+        "SOC2-Type-II-zero-exceptions",
+        "GCP",
+        "container-isolation",
+        "education-market",
+        "Semgrep-scanning"
+      ]
+    },
+    {
+      "rank": 31,
+      "tier": "B",
+      "slug": "zapier",
+      "name": "Zapier",
+      "operator": "Independent",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Workflow Automation · Cloud SaaS",
+      "homepage": null,
+      "github": null,
+      "score": 48,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 15,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 9,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-12",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-08-11",
+      "tags": []
+    },
+    {
+      "rank": 34,
+      "tier": "B",
+      "slug": "bolt-new",
+      "name": "Bolt.new",
+      "operator": "StackBlitz · $700M",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI App Builder · OSS Core",
+      "homepage": "https://bolt.new",
+      "github": "https://github.com/stackblitz",
+      "score": 47,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-03",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-02",
+      "tags": [
+        "open-source-core",
+        "WebContainers",
+        "browser-native",
+        "AI-app-builder",
+        "React",
+        "Node.js",
+        "Anthropic-Claude",
+        "YC-backed",
+        "high-growth"
+      ]
+    },
+    {
+      "rank": 34,
+      "tier": "B",
+      "slug": "cursor",
+      "name": "Cursor",
+      "operator": "Anysphere · $29.3B",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Coding IDE · Proprietary",
+      "homepage": "https://trust.cursor.com",
+      "github": "https://github.com/cursor",
+      "score": 47,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 11,
+          "rating": "High",
+          "note": ""
+        },
+        "i": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 3,
+      "max_cvss_12mo": 8.6,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-03",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-02",
+      "tags": [
+        "AI IDE",
+        "proprietary",
+        "VS Code fork",
+        "SOC 2 Type II",
+        "Privacy Mode",
+        "MCP",
+        "agent mode",
+        "enterprise",
+        "SSO",
+        "SCIM",
+        "RBAC",
+        "desktop application"
+      ]
+    },
+    {
+      "rank": 34,
+      "tier": "B",
+      "slug": "haystack",
+      "name": "Haystack",
+      "operator": "deepset GmbH · Berlin, Germany",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Application Framework · Open Source (Apache 2.0)",
+      "homepage": "https://docs.haystack.deepset.ai",
+      "github": "https://github.com/deepset-ai",
+      "score": 47,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 15,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-30",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-28",
+      "tags": [
+        "open-source",
+        "apache-2.0",
+        "python",
+        "RAG",
+        "pipeline-framework",
+        "german-company",
+        "SOC2-enterprise",
+        "modular"
+      ]
+    },
+    {
+      "rank": 37,
+      "tier": "B",
+      "slug": "composio",
+      "name": "Composio",
+      "operator": "Composio Inc. · San Francisco",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Agent Tool Integration · OSS SDK + Cloud",
+      "homepage": "https://composio.dev",
+      "github": "https://github.com/ComposioHQ",
+      "score": 46,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-30",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-28",
+      "tags": [
+        "open-source-sdk",
+        "cloud-SaaS",
+        "SOC2",
+        "ISO27001",
+        "managed-auth",
+        "credential-isolation",
+        "tool-integration",
+        "YC-backed"
+      ]
+    },
+    {
+      "rank": 37,
+      "tier": "B",
+      "slug": "dify",
+      "name": "Dify",
+      "operator": "Independent · $30M Series Pre-A (2026)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "LLM Application Builder · Open Source",
+      "homepage": null,
+      "github": null,
+      "score": 46,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 6,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 3,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-13",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-08-11",
+      "tags": []
+    },
+    {
+      "rank": 37,
       "tier": "B",
       "slug": "e2b",
       "name": "E2B",
@@ -829,7 +2824,571 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 37,
+      "tier": "B",
+      "slug": "langgraph",
+      "name": "LangGraph",
+      "operator": "LangChain Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Agent Orchestration · OSS (MIT)",
+      "homepage": "https://trust.langchain.com",
+      "github": "https://github.com/langchain-ai",
+      "score": 46,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 7,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 9,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 3,
+      "max_cvss_12mo": 9.3,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-04",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-03",
+      "tags": [
+        "open-source",
+        "MIT",
+        "agent-orchestration",
+        "graph-based",
+        "HITL-first-class",
+        "LangChain-ecosystem",
+        "SOC2-Type-II",
+        "high-adoption"
+      ]
+    },
+    {
+      "rank": 37,
+      "tier": "B",
+      "slug": "make",
+      "name": "Make.com",
+      "operator": "Independent (Celonis portfolio)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Workflow Automation · Cloud SaaS",
+      "homepage": null,
+      "github": null,
+      "score": 46,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 17,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-12",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-08-11",
+      "tags": []
+    },
+    {
+      "rank": 37,
+      "tier": "B",
+      "slug": "semantic-kernel",
+      "name": "Semantic Kernel",
+      "operator": "Microsoft Research · Migrating to Agent Framework",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "AI Orchestration SDK · Open Source (MIT)",
+      "homepage": null,
+      "github": null,
+      "score": 46,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 2,
+      "max_cvss_12mo": 10.0,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-26",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-24",
+      "tags": []
+    },
+    {
+      "rank": 43,
+      "tier": "B",
+      "slug": "botpress",
+      "name": "Botpress",
+      "operator": "Botpress Inc. · Montreal, Canada",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Chatbot / Agent Builder · Open Source (MIT integrations)",
+      "homepage": null,
+      "github": null,
+      "score": 45,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 7,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-23",
+      "tags": []
+    },
+    {
+      "rank": 44,
+      "tier": "C",
+      "slug": "crewai",
+      "name": "CrewAI",
+      "operator": "Independent · $18M Series A · Andrew Ng investor",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Multi-Agent Orchestration · Open Source",
+      "homepage": null,
+      "github": null,
+      "score": 44,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 7,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": 9.2,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-13",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-08-11",
+      "tags": []
+    },
+    {
+      "rank": 44,
+      "tier": "C",
+      "slug": "runner-h",
+      "name": "Runner H",
+      "operator": "H Company (H.AI SAS) · France · $220M",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Browser Agent · Proprietary (EU)",
+      "homepage": null,
+      "github": "https://github.com/hcompai",
+      "score": 44,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 20,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-07",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-06",
+      "tags": [
+        "browser-agent",
+        "computer-use-agent",
+        "proprietary-saas",
+        "france",
+        "eu-jurisdiction",
+        "gdpr-native",
+        "deepmind-alumni",
+        "h-company",
+        "runner-h",
+        "holo-1",
+        "holo-1-5",
+        "surfer-h",
+        "surfer-2",
+        "holotab",
+        "open-weights",
+        "bsd-3-clause-cli",
+        "vlm",
+        "action-language-model",
+        "webvoyager-sota",
+        "osworld-sota",
+        "mithril-security-acquisition",
+        "sensitive-domain-blocklist"
+      ]
+    },
+    {
+      "rank": 46,
+      "tier": "C",
+      "slug": "openhands",
+      "name": "OpenHands",
+      "operator": "All Hands AI · Cambridge, MA",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Coding Agent · OSS (MIT)",
+      "homepage": null,
+      "github": "https://github.com/OpenHands",
+      "score": 43,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 1,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-01",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-30",
+      "tags": [
+        "AI coding agent",
+        "open source",
+        "MIT license",
+        "Docker sandbox",
+        "HITL",
+        "LLM-agnostic",
+        "Python",
+        "CLI",
+        "SDK",
+        "cloud service"
+      ]
+    },
+    {
+      "rank": 46,
+      "tier": "C",
+      "slug": "relevance-ai",
+      "name": "Relevance AI",
+      "operator": "Relevance AI Pty Ltd · Sydney, Australia",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Agent Platform · Cloud SaaS",
+      "homepage": "https://relevanceai.com",
+      "github": null,
+      "score": 43,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 7,
+          "rating": "Low",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 9,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-30",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-28",
+      "tags": [
+        "closed-source",
+        "SaaS",
+        "GTM-focused",
+        "no-code",
+        "SOC2-type2",
+        "multi-region",
+        "Australian-company",
+        "series-B"
+      ]
+    },
+    {
+      "rank": 46,
       "tier": "C",
       "slug": "zep",
       "name": "Zep",
@@ -905,7 +3464,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 49,
       "tier": "C",
       "slug": "cohere",
       "name": "Cohere",
@@ -984,7 +3543,289 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 49,
+      "tier": "C",
+      "slug": "superagent",
+      "name": "Superagent",
+      "operator": "Superagent · Gothenburg, Sweden",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Agent Security Platform · OSS + Cloud",
+      "homepage": "https://www.superagent.sh",
+      "github": "https://github.com/superagent-ai",
+      "score": 42,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 9,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "pivoted-to-security",
+        "open-source-MIT",
+        "YC-W24",
+        "red-teaming",
+        "guardrails",
+        "ai-firewall",
+        "Swedish-origin",
+        "small-team"
+      ]
+    },
+    {
+      "rank": 51,
+      "tier": "C",
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "operator": "Independent · Norwest / Greylock · Series A Mar 2025",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "RAG / Data Framework · Open Source (MIT core)",
+      "homepage": null,
+      "github": null,
+      "score": 41,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 15,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 7,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 3,
+      "max_cvss_12mo": 9.8,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-23",
+      "tags": []
+    },
+    {
+      "rank": 52,
+      "tier": "C",
+      "slug": "ag2",
+      "name": "AG2",
+      "operator": "AG2AI Inc. · Community Fork",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Multi-Agent Framework · OSS (Apache 2.0)",
+      "homepage": "https://docs.ag2.ai",
+      "github": "https://github.com/ag2ai",
+      "score": 40,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "open-source",
+        "apache-2.0",
+        "autoGen-fork",
+        "community-governance",
+        "python",
+        "multi-agent",
+        "volunteer-maintained"
+      ]
+    },
+    {
+      "rank": 52,
+      "tier": "C",
+      "slug": "browser-use",
+      "name": "Browser Use",
+      "operator": "Browser Use Inc. · Y Combinator W25",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Browser Agent Library · Open Source (MIT)",
+      "homepage": "https://browser-use.com",
+      "github": "https://github.com/browser-use",
+      "score": 40,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 9,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": 9.3,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-07",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-06",
+      "tags": [
+        "open-source",
+        "MIT-license",
+        "browser-agent",
+        "Playwright-based",
+        "Y-Combinator",
+        "Felicis-backed",
+        "LLM-agnostic",
+        "ETH-Zurich-origin"
+      ]
+    },
+    {
+      "rank": 52,
       "tier": "C",
       "slug": "guardrails-ai",
       "name": "Guardrails AI",
@@ -1055,6 +3896,1080 @@
         "snowglobe",
         "seed-stage",
         "early-stage"
+      ]
+    },
+    {
+      "rank": 55,
+      "tier": "C",
+      "slug": "rivet",
+      "name": "Rivet",
+      "operator": "Ironclad Inc. · San Francisco",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Visual AI Agent IDE · OSS (MIT)",
+      "homepage": "https://rivet.ironcladapp.com",
+      "github": "https://github.com/Ironclad",
+      "score": 39,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "open-source",
+        "MIT",
+        "visual-programming",
+        "desktop-app",
+        "Tauri",
+        "local-first",
+        "TypeScript",
+        "corporate-backed",
+        "Ironclad",
+        "legal-tech"
+      ]
+    },
+    {
+      "rank": 56,
+      "tier": "C",
+      "slug": "phidata",
+      "name": "Phidata (Agno)",
+      "operator": "Phidata Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Multi-Agent Framework · OSS (MPL 2.0)",
+      "homepage": "https://www.agno.com",
+      "github": "https://github.com/agno-agi",
+      "score": 38,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "open-source",
+        "MPL-2.0",
+        "self-hosted",
+        "multi-agent",
+        "multi-modal",
+        "HITL-native",
+        "telemetry-default-on",
+        "rebranded"
+      ]
+    },
+    {
+      "rank": 57,
+      "tier": "C",
+      "slug": "letta",
+      "name": "Letta",
+      "operator": "Letta Inc. · San Francisco (UC Berkeley)",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Stateful AI Agent Framework · Open Source (Apache 2.0)",
+      "homepage": "https://www.letta.com",
+      "github": "https://github.com/letta-ai",
+      "score": 37,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-30",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-28",
+      "tags": [
+        "open-source",
+        "apache-2.0",
+        "stateful-agents",
+        "persistent-memory",
+        "UC-Berkeley",
+        "seed-stage",
+        "python",
+        "self-hosted"
+      ]
+    },
+    {
+      "rank": 58,
+      "tier": "C",
+      "slug": "autogpt",
+      "name": "AutoGPT",
+      "operator": "Determinist Ltd · UK",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Autonomous AI Agent · Source-Available",
+      "homepage": "https://agpt.co",
+      "github": "https://github.com/Significant-Gravitas",
+      "score": 36,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 10,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": null,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "source-available",
+        "Polyform-Shield",
+        "MIT-partial",
+        "UK-company",
+        "autonomous-agent",
+        "most-starred-github",
+        "platform-beta",
+        "Docker"
+      ]
+    },
+    {
+      "rank": 59,
+      "tier": "C",
+      "slug": "coze",
+      "name": "Coze",
+      "operator": "ByteDance · SPRING (SG) PTE. LTD.",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "AI Agent Platform · Closed Source",
+      "homepage": null,
+      "github": null,
+      "score": 35,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 9,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 13,
+          "rating": "Mid",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-13",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-08-11",
+      "tags": []
+    },
+    {
+      "rank": 59,
+      "tier": "C",
+      "slug": "manus-ai",
+      "name": "Manus AI",
+      "operator": "Butterfly Effect Pte. Ltd. · Singapore",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Autonomous Browser Agent · Cloud",
+      "homepage": "https://manus.im",
+      "github": "https://github.com/whit3rabbit",
+      "score": 35,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-03",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-07-02",
+      "tags": [
+        "closed-source",
+        "cloud-SaaS",
+        "browser-agent",
+        "autonomous",
+        "Meta-acquired",
+        "Singapore-entity",
+        "Chinese-founding-team",
+        "Sandbox-VM",
+        "credit-based"
+      ]
+    },
+    {
+      "rank": 59,
+      "tier": "C",
+      "slug": "wordware",
+      "name": "Wordware",
+      "operator": "HeyDaily Inc. · San Francisco",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "AI Agent IDE · Cloud SaaS",
+      "homepage": "https://www.wordware.ai",
+      "github": null,
+      "score": 35,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 6,
+          "rating": "Low",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "closed-source",
+        "cloud-SaaS",
+        "YC-W24",
+        "natural-language-programming",
+        "IDE",
+        "enterprise-AI",
+        "Spark-Capital"
+      ]
+    },
+    {
+      "rank": 59,
+      "tier": "C",
+      "slug": "n8n",
+      "name": "n8n",
+      "operator": "Independent · n8n GmbH (Berlin)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Workflow Automation · Open Source",
+      "homepage": null,
+      "github": null,
+      "score": 35,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": true,
+        "entries": [
+          {
+            "cve_id": "CVE-2025-68613",
+            "kev_added_date": "2026-03-11",
+            "fcec_deadline": "2026-03-25"
+          }
+        ]
+      },
+      "cve_count_12mo": 12,
+      "max_cvss_12mo": 10.0,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-24",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-22",
+      "tags": []
+    },
+    {
+      "rank": 63,
+      "tier": "D",
+      "slug": "langroid",
+      "name": "Langroid",
+      "operator": "Prasad Chalasani (CMU) · Individual",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Multi-Agent LLM Framework · OSS (MIT)",
+      "homepage": "https://langroid.substack.com",
+      "github": "https://github.com/langroid",
+      "score": 34,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "i": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": 9.4,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "open-source",
+        "MIT",
+        "python",
+        "academic-origin",
+        "CMU",
+        "multi-agent",
+        "actor-model",
+        "lightweight"
+      ]
+    },
+    {
+      "rank": 64,
+      "tier": "D",
+      "slug": "camel-ai",
+      "name": "CAMEL-AI",
+      "operator": "CAMEL-AI.org · UK (KAUST)",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Multi-Agent Research · OSS (Apache 2.0)",
+      "homepage": "https://www.camel-ai.org",
+      "github": "https://github.com/camel-ai",
+      "score": 33,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 1,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 1,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-01",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-30",
+      "tags": [
+        "open-source",
+        "Apache-2.0",
+        "academic-origin",
+        "KAUST",
+        "NeurIPS-2023",
+        "role-playing",
+        "multi-agent",
+        "research-focused",
+        "UK-entity",
+        "unfunded"
+      ]
+    },
+    {
+      "rank": 64,
+      "tier": "D",
+      "slug": "flowise",
+      "name": "Flowise",
+      "operator": "Acquired by Workday (Aug 2025)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "LLM Agent Builder · Open Source",
+      "homepage": null,
+      "github": null,
+      "score": 33,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 10,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 12,
+      "max_cvss_12mo": 9.8,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-24",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-22",
+      "tags": []
+    },
+    {
+      "rank": 66,
+      "tier": "D",
+      "slug": "langflow",
+      "name": "Langflow",
+      "operator": "IBM (DataStax Acquisition)",
+      "independence": "unrecorded",
+      "parent_entity": null,
+      "category": "Visual AI Agent Builder · Open Source",
+      "homepage": null,
+      "github": null,
+      "score": 30,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "r": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": true,
+        "entries": [
+          {
+            "cve_id": "CVE-2025-3248",
+            "kev_added_date": "2025-05-05",
+            "fcec_deadline": null
+          }
+        ]
+      },
+      "cve_count_12mo": null,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-24",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-22",
+      "tags": []
+    },
+    {
+      "rank": 67,
+      "tier": "D",
+      "slug": "babyagi",
+      "name": "BabyAGI",
+      "operator": "Yohei Nakajima · Individual",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Experimental Autonomous Agent · OSS (MIT)",
+      "homepage": "https://yoheinakajima.com",
+      "github": "https://github.com/yoheinakajima",
+      "score": 24,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 8,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": ""
+        },
+        "d": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 0,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 0,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 0,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "experimental",
+        "MIT",
+        "individual-maintainer",
+        "historical-significance",
+        "self-building-agent",
+        "non-production",
+        "VC-creator"
+      ]
+    },
+    {
+      "rank": 68,
+      "tier": "D",
+      "slug": "metagpt",
+      "name": "MetaGPT",
+      "operator": "DeepWisdom · Shenzhen, China",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Multi-Agent Dev Framework · OSS (MIT)",
+      "homepage": null,
+      "github": "https://github.com/FoundationAgents",
+      "score": 23,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": ""
+        },
+        "r": {
+          "score": 4,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 0,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 5,
+          "rating": "Mid",
+          "note": ""
+        },
+        "t": {
+          "score": 1,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 4,
+      "max_cvss_12mo": 9.8,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-29",
+      "tags": [
+        "multi-agent",
+        "OSS",
+        "MIT",
+        "Python",
+        "DeepWisdom",
+        "code-generation",
+        "ICLR",
+        "academic",
+        "Shenzhen"
+      ]
+    },
+    {
+      "rank": 69,
+      "tier": "D",
+      "slug": "superagi",
+      "name": "SuperAGI",
+      "operator": "TransformErr Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Agent Management · OSS (MIT)",
+      "homepage": "https://superagi.com",
+      "github": "https://github.com/TransformerOptimus",
+      "score": 21,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 7,
+          "rating": "Low",
+          "note": ""
+        },
+        "r": {
+          "score": 5,
+          "rating": "Low",
+          "note": ""
+        },
+        "d": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "i": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": ""
+        },
+        "t": {
+          "score": 2,
+          "rating": "Low",
+          "note": ""
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 1,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-04-01",
+      "evaluator_model": "unrecorded",
+      "framework_version": "v0.3.1",
+      "next_review_due": "2026-06-30",
+      "tags": [
+        "open-source",
+        "MIT",
+        "effectively-unmaintained",
+        "Docker",
+        "agent-management",
+        "marketplace",
+        "credential-exposure"
       ]
     }
   ]

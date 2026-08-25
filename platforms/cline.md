@@ -72,7 +72,7 @@ tags:
 - hitl
 - apache-2.0
 - ai-coding-agent
-rank: 10
+rank: 29
 finding: 'OSS VS Code / JetBrains AI coding agent with HITL approval default — 10/10
   on Identity & Control. BYOK keeps prompts and code off Cline servers. Apache 2.0,
   signed GitHub releases, named US C-corp operator. Mindgard disclosed 4 prompt-injection

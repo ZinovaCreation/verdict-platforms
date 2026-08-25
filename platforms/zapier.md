@@ -23,24 +23,31 @@ tier: B
 verdict:
   v:
     score: 10
+    rating: Mid
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 15
+    rating: High
     note: ''
   d:
     score: 9
+    rating: Mid
     note: ''
   i:
     score: 3
+    rating: Low
     note: ''
   c:
     score: 6
+    rating: Mid
     note: ''
   t:
     score: 5
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -59,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: null
+rank: 31
 sources: []
 og_description: 'Independent security evaluation of Zapier. Score: 48/85. Two supply chain incidents in 2025 (npm SDK, repo breach) but strongest incident disclosure in the index. SOC 2 certified. Framework v0.3.1.'
 category_line: Workflow Automation · Cloud SaaS

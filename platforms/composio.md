@@ -22,7 +22,7 @@ tier: B
 verdict:
   v:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 8
-    rating: null
+    rating: Mid
     note: ''
   d:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   i:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   c:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - credential-isolation
 - tool-integration
 - YC-backed
-rank: null
+rank: 37
 sources:
 - https://composio.dev/
 - https://composio.dev/enterprise

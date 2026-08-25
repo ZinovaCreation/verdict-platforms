@@ -78,7 +78,7 @@ tags:
 - multi-tenancy
 - byoc
 - weaviate-cloud
-rank: 3
+rank: 6
 sources:
 - https://weaviate.io/
 - https://docs.weaviate.io

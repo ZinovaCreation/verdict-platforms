@@ -22,7 +22,7 @@ tier: B
 verdict:
   v:
     score: 15
-    rating: null
+    rating: High
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 17
-    rating: null
+    rating: High
     note: ''
   d:
     score: 5
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - german-company
 - SOC2-enterprise
 - modular
-rank: null
+rank: 34
 sources:
 - https://docs.haystack.deepset.ai/
 - https://github.com/deepset-ai/haystack

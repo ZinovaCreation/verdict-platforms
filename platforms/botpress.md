@@ -22,24 +22,31 @@ tier: B
 verdict:
   v:
     score: 12
+    rating: Mid
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 14
+    rating: High
     note: ''
   d:
     score: 7
+    rating: Mid
     note: ''
   i:
     score: 5
+    rating: Mid
     note: ''
   c:
     score: 2
+    rating: Low
     note: ''
   t:
     score: 5
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -58,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: null
+rank: 43
 sources: []
 og_description: 'Independent security evaluation of Botpress. Score: 45/85. No documented sandbox for plugin execution. SOC 2 certified. Open-source chatbot and agent framework. Framework v0.3.1.'
 category_line: Chatbot / Agent Builder · Open Source (MIT integrations)

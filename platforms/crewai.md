@@ -23,24 +23,31 @@ tier: C
 verdict:
   v:
     score: 12
+    rating: Mid
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 12
+    rating: Mid
     note: ''
   d:
     score: 7
+    rating: Mid
     note: ''
   i:
     score: 5
+    rating: Mid
     note: ''
   c:
     score: 4
+    rating: Mid
     note: ''
   t:
     score: 4
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -59,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: null
+rank: 44
 sources: []
 og_description: 'Independent security evaluation of CrewAI. Score: 44/85. Uncrew vulnerability (CVSS 9.2) patched in 5 hours — fastest response in index. LiteLLM direct dependency. Andrew Ng backed. Framework v0.3.1.'
 category_line: Multi-Agent Orchestration · Open Source

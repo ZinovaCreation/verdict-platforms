@@ -22,7 +22,7 @@ tier: B
 verdict:
   v:
     score: 16
-    rating: null
+    rating: High
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 17
-    rating: null
+    rating: High
     note: ''
   d:
     score: 4
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   c:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -76,7 +76,7 @@ tags:
 - 1Password-integration
 - Browserbase-parent
 - Notable-Capital-Series-B
-rank: null
+rank: 22
 sources:
 - https://github.com/browserbase/stagehand
 - https://github.com/browserbase/stagehand/releases

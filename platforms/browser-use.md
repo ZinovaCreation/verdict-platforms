@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 14
-    rating: null
+    rating: High
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 9
-    rating: null
+    rating: Mid
     note: ''
   d:
     score: 4
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
   c:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - Felicis-backed
 - LLM-agnostic
 - ETH-Zurich-origin
-rank: null
+rank: 52
 sources:
 - https://browser-use.com/
 - https://docs.cloud.browser-use.com/pricing

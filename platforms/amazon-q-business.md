@@ -22,7 +22,7 @@ tier: S
 verdict:
   v:
     score: 14
-    rating: null
+    rating: High
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 20
-    rating: null
+    rating: High
     note: ''
   d:
     score: 13
-    rating: null
+    rating: High
     note: ''
   i:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   c:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 9
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -77,7 +77,7 @@ tags:
 - iso42001
 - cmek
 - vpc-privatelink
-rank: null
+rank: 2
 sources:
 - https://aws.amazon.com/contact-us/
 og_description: 'Independent security evaluation of Amazon Q Business. Score: 68/85 — highest in the VERDICT index. SOC 1/2/3, ISO 27001, ISO 42001, FedRAMP, HIPAA. Zero CVEs. Framework v0.3.1.'

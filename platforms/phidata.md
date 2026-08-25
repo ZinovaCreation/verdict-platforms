@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 11
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   c:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 2
-    rating: null
+    rating: Low
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - HITL-native
 - telemetry-default-on
 - rebranded
-rank: null
+rank: 56
 sources:
 - https://docs.phidata.com/introduction
 - https://github.com/agno-agi

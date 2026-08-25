@@ -22,7 +22,7 @@ tier: A
 verdict:
   v:
     score: 12
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 17
-    rating: null
+    rating: High
     note: ''
   d:
     score: 7
-    rating: null
+    rating: Mid
     note: ''
   i:
     score: 7
-    rating: null
+    rating: High
     note: ''
   c:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 9
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -74,7 +74,7 @@ tags:
 - IP-indemnity
 - training-opt-in-controversy
 - enterprise
-rank: null
+rank: 14
 sources:
 - https://github.blog/
 og_description: 'Independent security evaluation of GitHub Copilot Agent Mode. Score: 57/85. Most extensive certifications (SOC 1/2/3 + ISO 27001 + FedRAMP). April 2026 training opt-in controversy. IP indemnity. Framework v0.3.1.'

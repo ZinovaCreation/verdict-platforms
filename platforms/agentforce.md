@@ -22,24 +22,31 @@ tier: A
 verdict:
   v:
     score: 16
+    rating: High
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 8
+    rating: Mid
     note: ''
   d:
     score: 13
+    rating: High
     note: ''
   i:
     score: 8
+    rating: High
     note: ''
   c:
     score: 6
+    rating: Mid
     note: ''
   t:
     score: 7
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -58,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: null
+rank: 11
 sources: []
 og_description: 'Independent security evaluation of Salesforce Agentforce. Score: 58/85. ForcedLeak vulnerability (CVSS 9.4), 42-day patch window. Strong compliance documentation. Framework v0.3.1.'
 category_line: CRM-Native Agent Builder · Enterprise SaaS

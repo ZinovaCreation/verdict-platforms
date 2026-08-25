@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 8
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 4
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 3
-    rating: null
+    rating: Low
     note: ''
 cisa_kev:
   present: false
@@ -74,7 +74,7 @@ tags:
 - Chinese-founding-team
 - Sandbox-VM
 - credit-based
-rank: null
+rank: 59
 sources:
 - https://github.com/whit3rabbit/manus-open
 - https://help.manus.im/

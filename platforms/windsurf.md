@@ -22,7 +22,7 @@ tier: A
 verdict:
   v:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 12
-    rating: null
+    rating: High
     note: ''
   i:
     score: 7
-    rating: null
+    rating: High
     note: ''
   c:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 9
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -75,7 +75,7 @@ tags:
 - self-hosted-option
 - Cognition-AI
 - Cascade-agent
-rank: null
+rank: 11
 sources:
 - https://windsurf.com/
 - https://windsurf.com/blog/

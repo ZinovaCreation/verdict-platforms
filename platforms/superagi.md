@@ -22,7 +22,7 @@ tier: D
 verdict:
   v:
     score: 7
-    rating: null
+    rating: Low
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 5
-    rating: null
+    rating: Low
     note: ''
   d:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 2
-    rating: null
+    rating: Low
     note: ''
 cisa_kev:
   present: false
@@ -72,7 +72,7 @@ tags:
 - agent-management
 - marketplace
 - credential-exposure
-rank: null
+rank: 69
 sources:
 - https://github.com/TransformerOptimus
 - https://github.com/TransformerOptimus/SuperAGI

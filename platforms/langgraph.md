@@ -22,7 +22,7 @@ tier: B
 verdict:
   v:
     score: 13
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 4
-    rating: null
+    rating: Low
     note: ''
   d:
     score: 7
-    rating: null
+    rating: Mid
     note: ''
   i:
     score: 8
-    rating: null
+    rating: High
     note: ''
   c:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 9
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - LangChain-ecosystem
 - SOC2-Type-II
 - high-adoption
-rank: null
+rank: 37
 sources:
 - https://github.com/langchain-ai/langgraph
 - https://github.com/langchain-ai/langgraph/releases

@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 14
-    rating: null
+    rating: High
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 5
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 2
-    rating: null
+    rating: Low
     note: ''
 cisa_kev:
   present: false
@@ -75,7 +75,7 @@ tags:
 - corporate-backed
 - Ironclad
 - legal-tech
-rank: null
+rank: 55
 sources:
 - https://github.com/Ironclad/rivet
 - https://github.com/Ironclad/rivet/releases

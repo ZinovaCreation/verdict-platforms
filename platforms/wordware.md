@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 6
-    rating: null
+    rating: Low
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 4
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -72,7 +72,7 @@ tags:
 - IDE
 - enterprise-AI
 - Spark-Capital
-rank: null
+rank: 59
 sources:
 - https://blog.wordware.ai/
 - https://trust.wordware.ai/

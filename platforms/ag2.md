@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 12
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 5
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 2
-    rating: null
+    rating: Low
     note: ''
 cisa_kev:
   present: false
@@ -72,7 +72,7 @@ tags:
 - python
 - multi-agent
 - volunteer-maintained
-rank: null
+rank: 52
 sources:
 - https://docs.ag2.ai/
 - https://github.com/ag2ai

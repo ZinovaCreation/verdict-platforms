@@ -209,6 +209,58 @@ def load_platforms() -> list[tuple[Path, frontmatter.Post]]:
     return out
 
 
+
+def surgical_write_back(path: Path, rank, verdict: dict) -> None:
+    """Replace only `rank:` and per-axis `rating:` lines in the YAML frontmatter.
+    - rank line must exist exactly once (else HALT).
+    - rating: replaced in place if the axis has a rating line; if absent, inserted
+      directly after that axis's `score:` line (deterministic position).
+    - existing non-null rating that differs from the band value -> conflict: NOT
+      overwritten; recorded to build_index.conflicts (surface).
+    All other bytes untouched."""
+    text = path.read_text(encoding="utf-8")
+    parts = text.split("---\n", 2)
+    if len(parts) < 3 or parts[0] != "":
+        raise SystemExit(f"HALT {path.name}: unexpected frontmatter delimiters")
+    fm, body = parts[1], parts[2]
+    lines = fm.split("\n")
+    # rank
+    ri = [i for i, l in enumerate(lines) if re.match(r"^rank:", l)]
+    if len(ri) != 1:
+        raise SystemExit(f"HALT {path.name}: rank line count={len(ri)}")
+    lines[ri[0]] = f"rank: {rank}"
+    # ratings per axis under 'verdict:' (2-space axis keys, 4-space fields)
+    vi = [i for i, l in enumerate(lines) if re.match(r"^verdict:\s*$", l)]
+    if len(vi) != 1:
+        raise SystemExit(f"HALT {path.name}: verdict key count={len(vi)}")
+    i = vi[0] + 1
+    axis = None
+    while i < len(lines) and (lines[i].startswith("  ") or lines[i] == ""):
+        m_ax = re.match(r"^  ([vrdicte]):\s*$", lines[i])
+        if m_ax:
+            axis = m_ax.group(1); i += 1; continue
+        if axis and re.match(r"^    score:", lines[i]):
+            band = (verdict.get(axis) or {}).get("rating")
+            band_s = "null" if band is None else str(band)
+            # look ahead: is there a rating line for this axis before the next axis/key?
+            j = i + 1; found = None
+            while j < len(lines) and lines[j].startswith("    "):
+                if re.match(r"^    rating:", lines[j]): found = j; break
+                j += 1
+            if found is not None:
+                cur = lines[found].split(":", 1)[1].strip()
+                if cur not in ("null", "", "~") and cur != band_s:
+                    CONFLICTS.append((path.name, axis, cur, band_s))   # surface, don't overwrite
+                else:
+                    lines[found] = f"    rating: {band_s}"
+            else:
+                lines.insert(i + 1, f"    rating: {band_s}")
+        i += 1
+    path.write_text("---\n" + "\n".join(lines) + "---\n" + body, encoding="utf-8")
+
+
+CONFLICTS: list = []
+
 def enrich_and_rank(posts: list[tuple[Path, frontmatter.Post]]) -> list[dict]:
     """Compute derived fields, assign rank, write back to each file."""
     records: list[dict] = []
@@ -288,8 +340,9 @@ def enrich_and_rank(posts: list[tuple[Path, frontmatter.Post]]) -> list[dict]:
         # After normalization, pull the canonicalized verdict (with ratings
         # auto-assigned) back onto the record so the JSON reflects it.
         rec["verdict"] = rec["post"].metadata.get("verdict", rec["verdict"])
-        with open(rec["path"], "wb") as fh:
-            frontmatter.dump(rec["post"], fh, sort_keys=False, allow_unicode=True)
+        # BuildIndex-WriteBack-001: surgical write-back (rank + rating lines only);
+        # no frontmatter round-trip; band-vs-published rating conflict -> surface, never overwrite.
+        surgical_write_back(rec["path"], rec["rank"], rec["post"].metadata.get("verdict", {}))
 
     return records
 
@@ -501,6 +554,8 @@ def main() -> int:
     write_cisa_kev(records)
     update_readme_top10(records)
     print(f"Built index for {len(records)} platform(s).")
+    if CONFLICTS:
+        print(f"RATING CONFLICTS (not overwritten, surface): {CONFLICTS}")
     return 0
 
 

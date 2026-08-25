@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 4
-    rating: null
+    rating: Low
     note: ''
   d:
     score: 5
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 10
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - most-starred-github
 - platform-beta
 - Docker
-rank: null
+rank: 58
 sources:
 - https://agpt.co/
 - https://github.com/Significant-Gravitas/AutoGPT

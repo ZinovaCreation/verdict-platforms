@@ -72,7 +72,7 @@ tags:
 - byok
 - python
 - local-only
-rank: 7
+rank: 22
 finding: Apache 2.0 open-source terminal coding agent. Zero CVEs in trailing 12 months
   across NVD, OSV, GitHub Security Advisories, Safety DB. Dependency pinning (litellm==1.75.0
   in v0.85.3) structurally blocked the March 2026 TeamPCP litellm 1.82.7/1.82.8 supply-chain

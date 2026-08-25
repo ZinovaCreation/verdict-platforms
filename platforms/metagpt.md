@@ -22,7 +22,7 @@ tier: D
 verdict:
   v:
     score: 11
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 4
-    rating: null
+    rating: Low
     note: ''
   d:
     score: 0
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 1
-    rating: null
+    rating: Low
     note: ''
 cisa_kev:
   present: false
@@ -74,7 +74,7 @@ tags:
 - ICLR
 - academic
 - Shenzhen
-rank: null
+rank: 68
 sources:
 - https://github.com/FoundationAgents/MetaGPT
 - https://github.com/FoundationAgents/MetaGPT/releases

@@ -74,7 +74,7 @@ tags:
 - zdr-on-request
 - apache-2.0-base-models
 - vertical-integration
-rank: 5
+rank: 19
 sources:
 - https://mistral.ai/
 - https://docs.mistral.ai/

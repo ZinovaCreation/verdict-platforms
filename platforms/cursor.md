@@ -22,7 +22,7 @@ tier: B
 verdict:
   v:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 8
-    rating: null
+    rating: Mid
     note: ''
   d:
     score: 11
-    rating: null
+    rating: High
     note: ''
   i:
     score: 7
-    rating: null
+    rating: High
     note: ''
   c:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -77,7 +77,7 @@ tags:
 - SCIM
 - RBAC
 - desktop application
-rank: null
+rank: 34
 sources:
 - https://cursor.com/changelog
 - https://cursor.com/data-use

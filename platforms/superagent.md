@@ -22,7 +22,7 @@ tier: C
 verdict:
   v:
     score: 9
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 8
-    rating: null
+    rating: Mid
     note: ''
   i:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - ai-firewall
 - Swedish-origin
 - small-team
-rank: null
+rank: 49
 sources:
 - https://docs.superagent.sh/
 - https://docs.superagent.sh/mcp

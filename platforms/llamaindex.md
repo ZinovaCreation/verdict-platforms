@@ -22,24 +22,31 @@ tier: C
 verdict:
   v:
     score: 15
+    rating: High
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 7
+    rating: Low
     note: ''
   d:
     score: 5
+    rating: Low
     note: ''
   i:
     score: 4
+    rating: Mid
     note: ''
   c:
     score: 5
+    rating: Mid
     note: ''
   t:
     score: 5
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -58,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: null
+rank: 51
 sources: []
 og_description: 'Independent security evaluation of LlamaIndex. Score: 41/85. RAG and agent framework. Limited public security documentation. Norwest Venture Partners backed. Framework v0.3.1.'
 category_line: RAG / Data Framework · Open Source (MIT core)

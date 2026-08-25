@@ -80,7 +80,7 @@ tags:
 - evaluator-coi
 - shared-investor
 - commercial-channel
-rank: 13
+rank: 49
 sources:
 - https://cohere.com/
 - https://docs.cohere.com

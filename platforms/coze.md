@@ -23,24 +23,31 @@ tier: C
 verdict:
   v:
     score: 9
+    rating: Mid
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 13
+    rating: Mid
     note: ''
   d:
     score: 4
+    rating: Low
     note: ''
   i:
     score: 3
+    rating: Low
     note: ''
   c:
     score: 4
+    rating: Mid
     note: ''
   t:
     score: 2
+    rating: Low
     note: ''
 cisa_kev:
   present: false
@@ -59,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: null
+rank: 59
 sources: []
 og_description: 'Independent security evaluation of Coze (ByteDance). Score: 35/85. Terms of Service waive all confidentiality obligations. Parent company subject to China National Intelligence Law. Framework v0.3.1.'
 category_line: AI Agent Platform · Closed Source

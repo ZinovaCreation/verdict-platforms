@@ -22,7 +22,7 @@ tier: B
 verdict:
   v:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   i:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   c:
     score: 5
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 8
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - container-isolation
 - education-market
 - Semgrep-scanning
-rank: null
+rank: 31
 sources:
 - https://blog.replit.com/
 - https://blog.replit.com/2025-replit-in-review

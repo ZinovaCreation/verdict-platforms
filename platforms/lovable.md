@@ -22,7 +22,7 @@ tier: A
 verdict:
   v:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 17
-    rating: null
+    rating: High
     note: ''
   d:
     score: 13
-    rating: null
+    rating: High
     note: ''
   i:
     score: 8
-    rating: null
+    rating: High
     note: ''
   c:
     score: 7
-    rating: null
+    rating: High
     note: ''
   t:
     score: 8
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -76,7 +76,7 @@ tags:
 - React
 - Swedish
 - enterprise
-rank: null
+rank: 5
 sources:
 - https://github.com/AntonOsika/gpt-engineer
 - https://lovable.dev/

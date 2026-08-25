@@ -22,7 +22,7 @@ tier: D
 verdict:
   v:
     score: 11
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   i:
     score: 1
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 1
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -75,7 +75,7 @@ tags:
 - research-focused
 - UK-entity
 - unfunded
-rank: null
+rank: 64
 sources:
 - https://github.com/camel-ai/camel
 - https://github.com/camel-ai/camel/security

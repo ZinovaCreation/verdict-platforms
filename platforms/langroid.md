@@ -22,7 +22,7 @@ tier: D
 verdict:
   v:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 5
-    rating: null
+    rating: Low
     note: ''
   d:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
   i:
     score: 2
-    rating: null
+    rating: Low
     note: ''
   c:
     score: 3
-    rating: null
+    rating: Low
     note: ''
   t:
     score: 8
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -73,7 +73,7 @@ tags:
 - multi-agent
 - actor-model
 - lightweight
-rank: null
+rank: 63
 sources:
 - https://github.com/langroid/langroid
 - https://github.com/langroid/langroid/security

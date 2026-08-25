@@ -22,24 +22,31 @@ tier: D
 verdict:
   v:
     score: 10
+    rating: Mid
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 4
+    rating: Low
     note: ''
   d:
     score: 4
+    rating: Low
     note: ''
   i:
     score: 5
+    rating: Mid
     note: ''
   c:
     score: 4
+    rating: Mid
     note: ''
   t:
     score: 6
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -65,7 +72,7 @@ differential:
   e: null
 next_review_due: '2026-06-22'
 tags: []
-rank: null
+rank: 64
 sources: []
 og_description: 'Independent security evaluation of Flowise. Score: 33/85. Six CVEs in March 2026 cluster including two CVSS 9.8. Authentication not enforced by default. Acquired by Workday. Framework v0.3.1.'
 category_line: LLM Agent Builder · Open Source

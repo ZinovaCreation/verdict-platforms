@@ -22,7 +22,7 @@ tier: A
 verdict:
   v:
     score: 11
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 17
-    rating: null
+    rating: High
     note: ''
   d:
     score: 12
-    rating: null
+    rating: High
     note: ''
   i:
     score: 7
-    rating: null
+    rating: High
     note: ''
   c:
     score: 7
-    rating: null
+    rating: High
     note: ''
   t:
     score: 8
-    rating: null
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -74,7 +74,7 @@ tags:
 - VPC-deployment
 - enterprise
 - Fortune-500-customers
-rank: null
+rank: 6
 sources:
 - https://devin.ai/
 - https://devin.ai/enterprise

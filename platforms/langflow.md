@@ -22,24 +22,31 @@ tier: D
 verdict:
   v:
     score: 5
+    rating: Low
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 4
+    rating: Low
     note: ''
   d:
     score: 4
+    rating: Low
     note: ''
   i:
     score: 5
+    rating: Mid
     note: ''
   c:
     score: 4
+    rating: Mid
     note: ''
   t:
     score: 6
+    rating: Mid
     note: ''
 cisa_kev:
   present: true
@@ -68,7 +75,7 @@ differential:
   e: null
 next_review_due: '2026-06-22'
 tags: []
-rank: null
+rank: 66
 sources: []
 og_description: 'Independent security evaluation of Langflow. Score: 30/85 — lowest in the VERDICT index. CISA KEV listed (CVE-2025-3248, CVSS 9.8). Flodrix botnet exploitation. IBM acquired. Framework v0.3.1.'
 category_line: Visual AI Agent Builder · Open Source

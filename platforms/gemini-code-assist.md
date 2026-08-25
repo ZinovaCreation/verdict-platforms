@@ -73,7 +73,7 @@ tags:
 - ip-indemnification
 - source-citation
 - vpc-service-controls
-rank: 2
+rank: 3
 finding: 'Highest cert portfolio in the index. ISO 42001 (May 2025) — unique among
   AI agent platforms in VERDICT. SOC 1/2/3 + ISO 27001 + FedRAMP + HIPAA-BAA + PCI
   DSS. SAIF + NIST AI RMF. Zero direct Code Assist CVEs in trailing 12 months. Standard/Enterprise

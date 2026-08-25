@@ -22,7 +22,7 @@ tier: B
 verdict:
   v:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   e:
     score: null
@@ -30,23 +30,23 @@ verdict:
     note: null
   r:
     score: 14
-    rating: null
+    rating: High
     note: ''
   d:
     score: 10
-    rating: null
+    rating: Mid
     note: ''
   i:
     score: 8
-    rating: null
+    rating: High
     note: ''
   c:
     score: 4
-    rating: null
+    rating: Mid
     note: ''
   t:
     score: 6
-    rating: null
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -76,7 +76,7 @@ tags:
 - no-code
 - voice-agents
 - enterprise
-rank: null
+rank: 22
 sources:
 - https://www.voiceflow.com/
 - https://www.voiceflow.com/blog

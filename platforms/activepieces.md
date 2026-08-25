@@ -23,24 +23,31 @@ tier: B
 verdict:
   v:
     score: 13
+    rating: Mid
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 15
+    rating: High
     note: ''
   d:
     score: 10
+    rating: Mid
     note: ''
   i:
     score: 4
+    rating: Mid
     note: ''
   c:
     score: 6
+    rating: Mid
     note: ''
   t:
     score: 4
+    rating: Mid
     note: ''
 cisa_kev:
   present: false
@@ -59,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: null
+rank: 22
 sources: []
 og_description: 'Independent security evaluation of Activepieces. Score: 52/85. Only HIPAA-compliant platform in the index. Germany-hosted cloud, zero critical CVEs. Y Combinator backed. Framework v0.3.1.'
 category_line: Workflow Automation · Open Source (MIT)

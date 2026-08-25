@@ -22,24 +22,31 @@ tier: B
 verdict:
   v:
     score: 14
+    rating: High
     note: ''
   e:
     score: null
+    rating: null
     note: null
   r:
     score: 11
+    rating: Mid
     note: ''
   d:
     score: 5
+    rating: Low
     note: ''
   i:
     score: 4
+    rating: Mid
     note: ''
   c:
     score: 4
+    rating: Mid
     note: ''
   t:
     score: 8
+    rating: High
     note: ''
 cisa_kev:
   present: false
@@ -58,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-24'
 tags: []
-rank: null
+rank: 37
 sources: []
 og_description: 'Independent security evaluation of Microsoft Semantic Kernel. Score: 46/85. No documented sandbox — plugins execute in-process. Microsoft Research project with MSRC coverage. Framework v0.3.1.'
 category_line: AI Orchestration SDK · Open Source (MIT)
