@@ -80,6 +80,18 @@ tags:
 - evaluator-coi
 - shared-investor
 - commercial-channel
+key_finding: "Cohere scores 42/85 (Tier C) on VERDICT v0.3.1 Layer 0: SOC 2 Type II, ISO 27001, and ISO 42001 certifications, a published Secure AI Frontier Model Framework, and a multi-jurisdictional DPA incorporating EU Standard Contractual Clauses. Resilience reflects CVE-2026-5752 (CVSS 9.3), a Terrarium sandbox escape yielding root code execution on the host, disclosed via CERT/CC with vendor status recorded as \"Unknown\" before the project was archived as end-of-life — and no public documentation describes the North agentic workspace's code-execution containment boundary after Terrarium's archival."
+card_owner: "Cohere Inc. · Toronto, Canada · Series D ($500M, NVIDIA)"
+card_category: "Foundation Model API · Enterprise AI"
+card_tags:
+  - text: "SOC 2 Type II · ISO 27001 · ISO 42001"
+    color: safe
+  - text: "Secure AI Frontier Model Framework published"
+    color: safe
+  - text: "CVE-2026-5752 · CVSS 9.3 · Terrarium archived EOL"
+    color: amber
+  - text: "North agent runtime containment undocumented"
+    color: amber
 rank: 49
 sources:
 - https://cohere.com/

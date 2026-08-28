@@ -76,6 +76,18 @@ tags:
 - evaluator-coi
 - direct-investment
 - commercial-channel
+key_finding: "NeMo Guardrails scores 52/85 (Tier B) on VERDICT v0.3.1 Layer 0: an Apache 2.0 fully open-source toolkit from SEC-registered NVIDIA — a CVE Numbering Authority with a formal PSIRT process — with zero package CVEs in the trailing twelve months and a local-execution architecture that sends no prompts or telemetry to NVIDIA by default. Recorded concerns: the SOC 2 report, GDPR DPA, sub-processor list, and AI-training-use statement are sales-gated rather than published, the server HTTP endpoint ships without built-in authentication, and custom Python actions run in-process with no built-in sandbox."
+card_owner: "NVIDIA Corporation · Santa Clara, CA · public (SEC-registered)"
+card_category: "AI Safety · LLM Guardrails"
+card_tags:
+  - text: "Apache 2.0 fully open-source"
+    color: safe
+  - text: "Zero package CVEs, trailing 12 mo · no CISA KEV"
+    color: safe
+  - text: "Public data-governance docs sales-gated (DPA, sub-processors, SOC 2)"
+    color: amber
+  - text: "Server endpoint ships without default authentication"
+    color: amber
 rank: 22
 sources:
 - https://github.com/NVIDIA-NeMo/Guardrails

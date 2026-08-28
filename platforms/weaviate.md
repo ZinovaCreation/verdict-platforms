@@ -78,6 +78,18 @@ tags:
 - multi-tenancy
 - byoc
 - weaviate-cloud
+key_finding: "Weaviate scores 62/85 (Tier A) on VERDICT v0.3.1 Layer 0: a BSD 3-Clause open-source core, ISO 27001:2022 alongside SOC 2 Type II, a versioned DPA (v1.4, February 2026) stating personal data is not used for model training without documented customer instruction, and two path-traversal CVEs (CVSS v4.0 8.7 / 4.9) patched in a coordinated release across four supported branches. Recorded concerns: OSS telemetry is on by default with cloud-metadata shared for lead identification, generative modules execute in-process without a documented egress allowlist, and audit evidence is gated behind the trust portal."
+card_owner: "Weaviate B.V. · Amsterdam, NL · Series B (Index Ventures)"
+card_category: "Vector Database · Open Source"
+card_tags:
+  - text: "BSD 3-Clause open-source core"
+    color: safe
+  - text: "ISO 27001:2022 + SOC 2 Type II"
+    color: safe
+  - text: "OSS telemetry on by default"
+    color: amber
+  - text: "Two path-traversal CVEs (CWE-22), patched"
+    color: dim
 rank: 6
 sources:
 - https://weaviate.io/

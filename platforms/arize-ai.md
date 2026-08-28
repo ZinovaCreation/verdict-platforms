@@ -74,6 +74,18 @@ tags:
 - evaluator-coi
 - shared-investor
 - commercial-channel
+key_finding: "Arize AI scores 51/85 (Tier B) on VERDICT v0.3.1 Layer 0: zero CVEs in the trailing twelve months, arize-phoenix releases signed via PyPI Trusted Publishing and GPG, documented SSO / RBAC / three-tier audit logging, and SOC 2 Type II, ISO 27001, HIPAA, and PCI DSS 4.0 certifications. Data Conduct is the principal gap (3/15): the Terms grant a broad license to use Customer Data to \"enhance and improve\" the Application with no explicit no-training statement for Arize's evaluator models, no publicly dated sub-processor list or public DPA was located, and Phoenix is Elastic License 2.0 — source-available, not OSI open source."
+card_owner: "Arize AI, Inc. · Berkeley, CA · Series C (M12 / Microsoft)"
+card_category: "LLM Observability · AI Evaluation"
+card_tags:
+  - text: "Zero CVEs (trailing 12 mo)"
+    color: safe
+  - text: "Signed releases (Trusted Publishing + GPG)"
+    color: safe
+  - text: "No explicit no-training commitment"
+    color: amber
+  - text: "Phoenix is ELv2, not OSI open source"
+    color: amber
 rank: 28
 sources:
 - https://arize.com/

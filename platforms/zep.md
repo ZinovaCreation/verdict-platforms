@@ -76,6 +76,18 @@ tags:
 - byoc
 - yc-w24
 - delaware-c-corp
+key_finding: "Zep scores 43/85 (Tier C) on VERDICT v0.3.1 Layer 0: the Apache 2.0 Graphiti temporal knowledge graph engine, SOC 2 Type 2 with a published HIPAA tier, a BYOK / BYOM / BYOC deployment matrix, and same-day patching of CVE-2026-32247 (CVSS 8.1, Cypher injection via LLM prompt injection) with GHSA credit to the external reporter. The publicly accessible privacy policy does not address customer conversation content, GDPR, AI-training use, sub-processors, or retention, and the DPA and sub-processor list are gated behind a trust-center contact flow — so Data Conduct scores 0/15 under VERDICT's silence-is-data principle."
+card_owner: "Zep Software, Inc. · Delaware C-corp · YC W24"
+card_category: "Agent Memory Layer · Temporal Knowledge Graph"
+card_tags:
+  - text: "Apache 2.0 open-source core (Graphiti)"
+    color: safe
+  - text: "SOC 2 Type 2 + HIPAA tier"
+    color: safe
+  - text: "Generic privacy policy, no public DPA"
+    color: amber
+  - text: "CVE-2026-32247 (Cypher injection), patched"
+    color: dim
 rank: 46
 sources:
 - https://www.getzep.com/
