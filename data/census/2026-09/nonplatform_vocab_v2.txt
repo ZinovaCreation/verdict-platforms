@@ -1,0 +1,3 @@
+# non-platform vocabulary v2 (2026-09-19). Queue-ordering aid only; never applied to the population denominator (SelectionFrame-003 J-1).
+text: awesome, skill, skills, prompt, prompts, guide, guides, tutorial, tutorials, course, courses, cheatsheet, cheat sheet, cookbook, example, examples, template, templates, boilerplate, starter, curated, collection, handbook, roadmap, paper, papers, survey, workshop, how to, how-to, learn, resources, system prompt, system prompts, leaked, beginners, for-beginners, checklist, best practice, best practices, best-practice, best-practices
+topics: awesome, awesome-list, skills, agent-skills, claude-skills, prompts, prompt-engineering, tutorial, tutorials, course, learning, cheatsheet, papers, survey, checklist

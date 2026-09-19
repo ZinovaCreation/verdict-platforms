@@ -1,0 +1,640 @@
+{
+ "summary": {
+  "version_date": "2026-09-19",
+  "total": 69,
+  "inside": 34,
+  "outside": 35,
+  "outside_by_reason": {
+   "open-source repository without an approved topic": 16,
+   "hosted product not present in the adopted lists": 17,
+   "no push within the 12-month window": 2
+  }
+ },
+ "entries": [
+  {
+   "slug": "activepieces",
+   "name": "Activepieces",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "activepieces/activepieces"
+  },
+  {
+   "slug": "ag2",
+   "name": "AG2",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "ag2ai/ag2"
+  },
+  {
+   "slug": "agentforce",
+   "name": "Salesforce Agentforce",
+   "in_population": true,
+   "via": [
+    "mit-ai-agent-index"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "aider",
+   "name": "aider",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "Aider-AI/aider"
+  },
+  {
+   "slug": "amazon-q-business",
+   "name": "Amazon Q Business",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "arize-ai",
+   "name": "Arize AI",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "Arize-ai/phoenix"
+  },
+  {
+   "slug": "autogen",
+   "name": "AutoGen",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "microsoft/autogen"
+  },
+  {
+   "slug": "autogpt",
+   "name": "AutoGPT",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "Significant-Gravitas/AutoGPT"
+  },
+  {
+   "slug": "babyagi",
+   "name": "BabyAGI",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "yoheinakajima/babyagi"
+  },
+  {
+   "slug": "bedrock",
+   "name": "AWS Bedrock Agents",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "bolt-new",
+   "name": "Bolt.new",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "no push within the 12-month window",
+   "repository": "stackblitz/bolt.new"
+  },
+  {
+   "slug": "botpress",
+   "name": "Botpress",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "botpress/botpress"
+  },
+  {
+   "slug": "browser-use",
+   "name": "Browser Use",
+   "in_population": true,
+   "via": [
+    "mit-ai-agent-index",
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "browser-use/browser-use"
+  },
+  {
+   "slug": "browserbase",
+   "name": "Browserbase",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "camel-ai",
+   "name": "CAMEL-AI",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "camel-ai/camel"
+  },
+  {
+   "slug": "cline",
+   "name": "Cline",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "cline/cline"
+  },
+  {
+   "slug": "cohere",
+   "name": "Cohere",
+   "in_population": true,
+   "via": [
+    "forbes-ai50"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "composio",
+   "name": "Composio",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "ComposioHQ/composio"
+  },
+  {
+   "slug": "copilot-studio",
+   "name": "Microsoft Copilot Studio",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "coze",
+   "name": "Coze",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "crewai",
+   "name": "CrewAI",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "crewAIInc/crewAI"
+  },
+  {
+   "slug": "cursor",
+   "name": "Cursor",
+   "in_population": true,
+   "via": [
+    "forbes-ai50",
+    "a16z-top100"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "devin",
+   "name": "Devin",
+   "in_population": true,
+   "via": [
+    "forbes-ai50"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "dify",
+   "name": "Dify",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "langgenius/dify"
+  },
+  {
+   "slug": "dust",
+   "name": "Dust",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "dust-tt/dust"
+  },
+  {
+   "slug": "e2b",
+   "name": "E2B",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "e2b-dev/E2B"
+  },
+  {
+   "slug": "flowise",
+   "name": "Flowise",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "FlowiseAI/Flowise"
+  },
+  {
+   "slug": "gemini-code-assist",
+   "name": "Gemini Code Assist",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "google-gemini/gemini-cli"
+  },
+  {
+   "slug": "github-copilot",
+   "name": "GitHub Copilot",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "guardrails-ai",
+   "name": "Guardrails AI",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "guardrails-ai/guardrails"
+  },
+  {
+   "slug": "haystack",
+   "name": "Haystack",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "deepset-ai/haystack"
+  },
+  {
+   "slug": "langchain",
+   "name": "LangChain",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "langchain-ai/langchain"
+  },
+  {
+   "slug": "langflow",
+   "name": "Langflow",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "langflow-ai/langflow"
+  },
+  {
+   "slug": "langfuse",
+   "name": "Langfuse",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "langfuse/langfuse"
+  },
+  {
+   "slug": "langgraph",
+   "name": "LangGraph",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "langchain-ai/langgraph"
+  },
+  {
+   "slug": "langroid",
+   "name": "Langroid",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "langroid/langroid"
+  },
+  {
+   "slug": "langsmith",
+   "name": "LangSmith",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "letta",
+   "name": "Letta",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "letta-ai/letta"
+  },
+  {
+   "slug": "llamaindex",
+   "name": "LlamaIndex",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "run-llama/llama_index"
+  },
+  {
+   "slug": "lovable",
+   "name": "Lovable",
+   "in_population": true,
+   "via": [
+    "forbes-ai50",
+    "a16z-top100"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "make",
+   "name": "Make.com",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "manus-ai",
+   "name": "Manus AI",
+   "in_population": true,
+   "via": [
+    "mit-ai-agent-index",
+    "a16z-top100"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "metagpt",
+   "name": "MetaGPT",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "FoundationAgents/MetaGPT"
+  },
+  {
+   "slug": "mistral-la-plateforme",
+   "name": "Mistral La Plateforme",
+   "in_population": true,
+   "via": [
+    "forbes-ai50"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "n8n",
+   "name": "n8n",
+   "in_population": true,
+   "via": [
+    "mit-ai-agent-index"
+   ],
+   "outside_reason": "",
+   "repository": "n8n-io/n8n"
+  },
+  {
+   "slug": "nemo-guardrails",
+   "name": "NeMo Guardrails",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "NVIDIA-NeMo/Guardrails"
+  },
+  {
+   "slug": "openai",
+   "name": "OpenAI Assistants API",
+   "in_population": true,
+   "via": [
+    "forbes-ai50"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "openhands",
+   "name": "OpenHands",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "OpenHands/OpenHands"
+  },
+  {
+   "slug": "phidata",
+   "name": "Phidata (Agno)",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "agno-agi/agno"
+  },
+  {
+   "slug": "pinecone",
+   "name": "Pinecone",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "pipedream",
+   "name": "Pipedream",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "relevance-ai",
+   "name": "Relevance AI",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "replit",
+   "name": "Replit",
+   "in_population": true,
+   "via": [
+    "forbes-ai50",
+    "a16z-top100"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "rivet",
+   "name": "Rivet",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "Ironclad/rivet"
+  },
+  {
+   "slug": "runner-h",
+   "name": "Runner H",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "semantic-kernel",
+   "name": "Semantic Kernel",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "microsoft/semantic-kernel"
+  },
+  {
+   "slug": "skyvern",
+   "name": "Skyvern",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "Skyvern-AI/skyvern"
+  },
+  {
+   "slug": "stagehand",
+   "name": "Stagehand",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "browserbase/stagehand"
+  },
+  {
+   "slug": "superagent",
+   "name": "Superagent",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "superagent-ai/superagent"
+  },
+  {
+   "slug": "superagi",
+   "name": "SuperAGI",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "no push within the 12-month window",
+   "repository": "TransformerOptimus/SuperAGI"
+  },
+  {
+   "slug": "v0",
+   "name": "v0",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "vertex-ai",
+   "name": "Vertex AI Agent Builder",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "voiceflow",
+   "name": "Voiceflow",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "watsonx-orchestrate",
+   "name": "IBM watsonx Orchestrate",
+   "in_population": true,
+   "via": [
+    "mit-ai-agent-index"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "weaviate",
+   "name": "Weaviate",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "open-source repository without an approved topic",
+   "repository": "weaviate/weaviate"
+  },
+  {
+   "slug": "windsurf",
+   "name": "Windsurf",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "wordware",
+   "name": "Wordware",
+   "in_population": false,
+   "via": [],
+   "outside_reason": "hosted product not present in the adopted lists",
+   "repository": ""
+  },
+  {
+   "slug": "zapier",
+   "name": "Zapier",
+   "in_population": true,
+   "via": [
+    "mit-ai-agent-index"
+   ],
+   "outside_reason": "",
+   "repository": ""
+  },
+  {
+   "slug": "zep",
+   "name": "Zep",
+   "in_population": true,
+   "via": [
+    "github-topic"
+   ],
+   "outside_reason": "",
+   "repository": "getzep/graphiti"
+  }
+ ]
+}

@@ -1,0 +1,941 @@
+{
+ "activepieces": {
+  "fn": "activepieces/activepieces",
+  "renamed": false,
+  "stars": 24546,
+  "pushed": "2026-09-18",
+  "language": "TypeScript",
+  "topics": [
+   "ai-agent",
+   "ai-agent-tools",
+   "ai-agents",
+   "ai-agents-framework",
+   "mcp",
+   "mcp-server",
+   "mcp-tools",
+   "mcps",
+   "n8n-alternative",
+   "no-code-automation",
+   "workflow",
+   "workflow-automation",
+   "workflows"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "ag2": {
+  "fn": "ag2ai/ag2",
+  "renamed": false,
+  "stars": 4940,
+  "pushed": "2026-09-17",
+  "language": "Python",
+  "topics": [
+   "a2a",
+   "ag2",
+   "agent-framework",
+   "agentic",
+   "agentic-ai",
+   "ai",
+   "ai-agents-framework",
+   "aiagents",
+   "genai",
+   "llm",
+   "llms",
+   "mcp",
+   "multi-agent",
+   "multi-agent-system",
+   "open-source",
+   "python"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "aider": {
+  "fn": "Aider-AI/aider",
+  "renamed": false,
+  "stars": 49048,
+  "pushed": "2026-05-22",
+  "language": "Python",
+  "topics": [
+   "anthropic",
+   "chatgpt",
+   "claude-3",
+   "cli",
+   "command-line",
+   "gemini",
+   "gpt-3",
+   "gpt-35-turbo",
+   "gpt-4",
+   "gpt-4o",
+   "llama",
+   "openai",
+   "sonnet"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "arize-ai": {
+  "fn": "Arize-ai/phoenix",
+  "renamed": false,
+  "stars": 11538,
+  "pushed": "2026-09-19",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "ai-monitoring",
+   "ai-observability",
+   "aiengineering",
+   "anthropic",
+   "datasets",
+   "evals",
+   "langchain",
+   "llamaindex",
+   "llm-eval",
+   "llm-evaluation",
+   "llmops",
+   "llms",
+   "openai",
+   "prompt-engineering",
+   "smolagents"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "autogen": {
+  "fn": "microsoft/autogen",
+  "renamed": false,
+  "stars": 61057,
+  "pushed": "2026-04-15",
+  "language": "Python",
+  "topics": [
+   "agentic",
+   "agentic-agi",
+   "agents",
+   "ai",
+   "autogen",
+   "autogen-ecosystem",
+   "chatgpt",
+   "framework",
+   "llm-agent",
+   "llm-framework"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "autogpt": {
+  "fn": "Significant-Gravitas/AutoGPT",
+  "renamed": false,
+  "stars": 187442,
+  "pushed": "2026-09-19",
+  "language": "Python",
+  "topics": [
+   "agentic-ai",
+   "agents",
+   "ai",
+   "artificial-intelligence",
+   "autonomous-agents",
+   "claude",
+   "gpt",
+   "llama-api",
+   "llm",
+   "openai",
+   "python"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "babyagi": {
+  "fn": "yoheinakajima/babyagi",
+  "renamed": false,
+  "stars": 22352,
+  "pushed": "2026-01-31",
+  "language": "Python",
+  "topics": [],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "bolt-new": {
+  "fn": "stackblitz/bolt.new",
+  "renamed": false,
+  "stars": 16557,
+  "pushed": "2024-12-17",
+  "language": "TypeScript",
+  "topics": [
+   "ai-playground",
+   "anthropic",
+   "chatbot",
+   "webcontainers-api"
+  ],
+  "inside": false,
+  "reasons": [
+   "not-live(2024-12-17)",
+   "no-approved-topic"
+  ]
+ },
+ "botpress": {
+  "fn": "botpress/botpress",
+  "renamed": false,
+  "stars": 14920,
+  "pushed": "2026-09-19",
+  "language": "TypeScript",
+  "topics": [
+   "agent",
+   "ai",
+   "botpress",
+   "chatbot",
+   "chatgpt",
+   "gpt",
+   "gpt-4",
+   "langchain",
+   "llm",
+   "nlp",
+   "openai",
+   "prompt"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "browser-use": {
+  "fn": "browser-use/browser-use",
+  "renamed": false,
+  "stars": 115204,
+  "pushed": "2026-09-18",
+  "language": "Python",
+  "topics": [
+   "ai-agents",
+   "ai-tools",
+   "browser-automation",
+   "browser-use",
+   "llm",
+   "playwright",
+   "python"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "camel-ai": {
+  "fn": "camel-ai/camel",
+  "renamed": false,
+  "stars": 17745,
+  "pushed": "2026-09-14",
+  "language": "Python",
+  "topics": [
+   "agent",
+   "ai-societies",
+   "artificial-intelligence",
+   "communicative-ai",
+   "cooperative-ai",
+   "deep-learning",
+   "large-language-models",
+   "multi-agent-systems",
+   "natural-language-processing"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "cline": {
+  "fn": "cline/cline",
+  "renamed": false,
+  "stars": 68714,
+  "pushed": "2026-09-19",
+  "language": "TypeScript",
+  "topics": [],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "composio": {
+  "fn": "ComposioHQ/composio",
+  "renamed": false,
+  "stars": 30238,
+  "pushed": "2026-09-18",
+  "language": "TypeScript",
+  "topics": [
+   "agentic-ai",
+   "agents",
+   "ai",
+   "ai-agents",
+   "aiagents",
+   "developer-tools",
+   "function-calling",
+   "gpt-4",
+   "javascript",
+   "js",
+   "llm",
+   "llmops",
+   "mcp",
+   "python",
+   "remote-mcp-server",
+   "sse",
+   "typescript"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "crewai": {
+  "fn": "crewAIInc/crewAI",
+  "renamed": false,
+  "stars": 58749,
+  "pushed": "2026-09-19",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "ai",
+   "ai-agents",
+   "aiagentframework",
+   "llms"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "dify": {
+  "fn": "langgenius/dify",
+  "renamed": false,
+  "stars": 156385,
+  "pushed": "2026-09-19",
+  "language": "TypeScript",
+  "topics": [
+   "agent",
+   "agentic-ai",
+   "agentic-framework",
+   "agentic-workflow",
+   "ai",
+   "automation",
+   "claude",
+   "deepseek",
+   "genai",
+   "gpt",
+   "llm",
+   "low-code",
+   "mcp",
+   "nextjs",
+   "no-code",
+   "openai",
+   "python",
+   "skills",
+   "workflow"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "dust": {
+  "fn": "dust-tt/dust",
+  "renamed": false,
+  "stars": 1467,
+  "pushed": "2026-09-19",
+  "language": "TypeScript",
+  "topics": [
+   "agents",
+   "large-language-models",
+   "llm",
+   "rust"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "e2b": {
+  "fn": "e2b-dev/E2B",
+  "renamed": false,
+  "stars": 13876,
+  "pushed": "2026-09-18",
+  "language": "Python",
+  "topics": [
+   "agent",
+   "ai",
+   "ai-agent",
+   "ai-agents",
+   "code-interpreter",
+   "copilot",
+   "development",
+   "devtools",
+   "gpt",
+   "gpt-4",
+   "javascript",
+   "llm",
+   "nextjs",
+   "openai",
+   "python",
+   "react",
+   "software",
+   "typescript"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "flowise": {
+  "fn": "FlowiseAI/Flowise",
+  "renamed": false,
+  "stars": 55467,
+  "pushed": "2026-08-13",
+  "language": "TypeScript",
+  "topics": [
+   "agentic-ai",
+   "agentic-workflow",
+   "agents",
+   "artificial-intelligence",
+   "chatbot",
+   "chatgpt",
+   "javascript",
+   "langchain",
+   "large-language-models",
+   "low-code",
+   "multiagent-systems",
+   "no-code",
+   "openai",
+   "rag",
+   "react",
+   "typescript",
+   "workflow-automation"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "gemini-code-assist": {
+  "fn": "google-gemini/gemini-cli",
+  "renamed": false,
+  "stars": 107074,
+  "pushed": "2026-09-19",
+  "language": "TypeScript",
+  "topics": [
+   "ai",
+   "ai-agents",
+   "cli",
+   "gemini",
+   "gemini-api",
+   "mcp-client",
+   "mcp-server"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "guardrails-ai": {
+  "fn": "guardrails-ai/guardrails",
+  "renamed": false,
+  "stars": 7434,
+  "pushed": "2026-09-18",
+  "language": "Python",
+  "topics": [
+   "ai",
+   "foundation-model",
+   "gpt-3",
+   "llm",
+   "openai"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "haystack": {
+  "fn": "deepset-ai/haystack",
+  "renamed": false,
+  "stars": 26546,
+  "pushed": "2026-09-19",
+  "language": "Python",
+  "topics": [
+   "agent-framework",
+   "agentic-ai",
+   "agentic-rag",
+   "agents",
+   "ai",
+   "ai-agents",
+   "context-engineering",
+   "framework",
+   "genai",
+   "generative-ai",
+   "information-retrieval",
+   "large-language-models",
+   "llm",
+   "mcp",
+   "multi-agent",
+   "orchestration",
+   "python",
+   "rag",
+   "retrieval-augmented-generation",
+   "semantic-search"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "langchain": {
+  "fn": "langchain-ai/langchain",
+  "renamed": false,
+  "stars": 146632,
+  "pushed": "2026-09-19",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "ai",
+   "ai-agents",
+   "anthropic",
+   "chatgpt",
+   "deepagents",
+   "enterprise",
+   "framework",
+   "gemini",
+   "generative-ai",
+   "langchain",
+   "langgraph",
+   "llm",
+   "multiagent",
+   "open-source",
+   "openai",
+   "pydantic",
+   "python",
+   "rag",
+   "typescript"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "langflow": {
+  "fn": "langflow-ai/langflow",
+  "renamed": false,
+  "stars": 154998,
+  "pushed": "2026-09-19",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "chatgpt",
+   "generative-ai",
+   "large-language-models",
+   "multiagent",
+   "react-flow"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "langfuse": {
+  "fn": "langfuse/langfuse",
+  "renamed": false,
+  "stars": 34798,
+  "pushed": "2026-09-19",
+  "language": "TypeScript",
+  "topics": [
+   "analytics",
+   "autogen",
+   "evaluation",
+   "langchain",
+   "large-language-models",
+   "llama-index",
+   "llm",
+   "llm-evaluation",
+   "llm-observability",
+   "llmops",
+   "monitoring",
+   "observability",
+   "open-source",
+   "openai",
+   "playground",
+   "prompt-engineering",
+   "prompt-management",
+   "self-hosted",
+   "ycombinator"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "langgraph": {
+  "fn": "langchain-ai/langgraph",
+  "renamed": false,
+  "stars": 41917,
+  "pushed": "2026-09-18",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "ai",
+   "ai-agents",
+   "chatgpt",
+   "deepagents",
+   "enterprise",
+   "framework",
+   "gemini",
+   "generative-ai",
+   "langchain",
+   "langgraph",
+   "llm",
+   "multiagent",
+   "open-source",
+   "openai",
+   "pydantic",
+   "python",
+   "rag"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "langroid": {
+  "fn": "langroid/langroid",
+  "renamed": false,
+  "stars": 4103,
+  "pushed": "2026-09-17",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "ai",
+   "chatgpt",
+   "function-calling",
+   "gpt",
+   "gpt-4",
+   "gpt4",
+   "information-retrieval",
+   "language-model",
+   "llama",
+   "llm",
+   "llm-agent",
+   "llm-framework",
+   "local-llm",
+   "multi-agent-systems",
+   "openai-api",
+   "rag",
+   "retrieval-augmented-generation"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "letta": {
+  "fn": "letta-ai/letta",
+  "renamed": false,
+  "stars": 24793,
+  "pushed": "2026-09-10",
+  "language": "",
+  "topics": [
+   "ai",
+   "ai-agents",
+   "llm",
+   "llm-agent"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "llamaindex": {
+  "fn": "run-llama/llama_index",
+  "renamed": false,
+  "stars": 52223,
+  "pushed": "2026-09-19",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "application",
+   "data",
+   "fine-tuning",
+   "framework",
+   "llamaindex",
+   "llm",
+   "multi-agents",
+   "rag",
+   "vector-database"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "metagpt": {
+  "fn": "FoundationAgents/MetaGPT",
+  "renamed": false,
+  "stars": 70492,
+  "pushed": "2026-01-21",
+  "language": "Python",
+  "topics": [
+   "agent",
+   "gpt",
+   "llm",
+   "metagpt",
+   "multi-agent"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "n8n": {
+  "fn": "n8n-io/n8n",
+  "renamed": false,
+  "stars": 205314,
+  "pushed": "2026-09-19",
+  "language": "TypeScript",
+  "topics": [
+   "ai",
+   "apis",
+   "automation",
+   "cli",
+   "data-flow",
+   "development",
+   "integration-framework",
+   "integrations",
+   "ipaas",
+   "low-code",
+   "low-code-platform",
+   "mcp",
+   "mcp-client",
+   "mcp-server",
+   "n8n",
+   "no-code",
+   "self-hosted",
+   "typescript",
+   "workflow",
+   "workflow-automation"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "nemo-guardrails": {
+  "fn": "NVIDIA-NeMo/Guardrails",
+  "renamed": false,
+  "stars": 7168,
+  "pushed": "2026-09-18",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "generative-ai",
+   "guardrails",
+   "llm-safety",
+   "llm-security",
+   "llms",
+   "nvidia",
+   "python",
+   "safety"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "openhands": {
+  "fn": "OpenHands/OpenHands",
+  "renamed": false,
+  "stars": 88467,
+  "pushed": "2026-09-19",
+  "language": "TypeScript",
+  "topics": [
+   "agent",
+   "artificial-intelligence",
+   "chatgpt",
+   "claude-ai",
+   "cli",
+   "developer-tools",
+   "gpt",
+   "llm",
+   "openai"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "phidata": {
+  "fn": "agno-agi/agno",
+  "renamed": false,
+  "stars": 42243,
+  "pushed": "2026-09-18",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "ai",
+   "ai-agents",
+   "developer-tools",
+   "python"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "rivet": {
+  "fn": "Ironclad/rivet",
+  "renamed": false,
+  "stars": 4696,
+  "pushed": "2026-08-26",
+  "language": "TypeScript",
+  "topics": [
+   "ai",
+   "llm",
+   "openai",
+   "typescript"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "semantic-kernel": {
+  "fn": "microsoft/semantic-kernel",
+  "renamed": false,
+  "stars": 28577,
+  "pushed": "2026-09-19",
+  "language": "C#",
+  "topics": [
+   "ai",
+   "artificial-intelligence",
+   "llm",
+   "openai",
+   "sdk"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "skyvern": {
+  "fn": "Skyvern-AI/skyvern",
+  "renamed": false,
+  "stars": 23034,
+  "pushed": "2026-09-19",
+  "language": "Python",
+  "topics": [
+   "ai",
+   "api",
+   "automation",
+   "browser",
+   "browser-automation",
+   "computer",
+   "gpt",
+   "llm",
+   "playwright",
+   "powerautomate",
+   "puppeteer",
+   "python",
+   "rpa",
+   "selenium",
+   "vision",
+   "workflow"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "stagehand": {
+  "fn": "browserbase/stagehand",
+  "renamed": false,
+  "stars": 24439,
+  "pushed": "2026-09-18",
+  "language": "TypeScript",
+  "topics": [
+   "agents",
+   "ai",
+   "ai-agents",
+   "browser-agent",
+   "browser-automation",
+   "cdp",
+   "cloud-browser",
+   "data-extraction",
+   "headless-chrome",
+   "playwright",
+   "python",
+   "typescript",
+   "web-automation",
+   "web-scraping"
+  ],
+  "inside": true,
+  "reasons": []
+ },
+ "superagent": {
+  "fn": "superagent-ai/superagent",
+  "renamed": false,
+  "stars": 6752,
+  "pushed": "2026-08-25",
+  "language": "TypeScript",
+  "topics": [
+   "ai",
+   "anthropic",
+   "guardrails",
+   "llm",
+   "openai",
+   "prompt-injection",
+   "security"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "superagi": {
+  "fn": "TransformerOptimus/SuperAGI",
+  "renamed": false,
+  "stars": 17685,
+  "pushed": "2025-01-22",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "agi",
+   "ai",
+   "artificial-general-intelligence",
+   "artificial-intelligence",
+   "autonomous-agents",
+   "gpt-4",
+   "hacktoberfest",
+   "llm",
+   "llmops",
+   "nextjs",
+   "openai",
+   "pinecone",
+   "python",
+   "superagi"
+  ],
+  "inside": false,
+  "reasons": [
+   "not-live(2025-01-22)"
+  ]
+ },
+ "weaviate": {
+  "fn": "weaviate/weaviate",
+  "renamed": false,
+  "stars": 16823,
+  "pushed": "2026-09-18",
+  "language": "Go",
+  "topics": [
+   "approximate-nearest-neighbor-search",
+   "generative-search",
+   "grpc",
+   "hnsw",
+   "hybrid-search",
+   "image-search",
+   "information-retrieval",
+   "mlops",
+   "nearest-neighbor-search",
+   "neural-search",
+   "recommender-system",
+   "search-engine",
+   "semantic-search",
+   "semantic-search-engine",
+   "similarity-search",
+   "vector-database",
+   "vector-search",
+   "vector-search-engine",
+   "vectors",
+   "weaviate"
+  ],
+  "inside": false,
+  "reasons": [
+   "no-approved-topic"
+  ]
+ },
+ "zep": {
+  "fn": "getzep/graphiti",
+  "renamed": false,
+  "stars": 30998,
+  "pushed": "2026-09-17",
+  "language": "Python",
+  "topics": [
+   "agents",
+   "graph",
+   "llms",
+   "rag"
+  ],
+  "inside": true,
+  "reasons": []
+ }
+}

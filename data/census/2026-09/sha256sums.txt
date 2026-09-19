@@ -1,0 +1,7 @@
+488dbef69b54e20f089a432c9f4d03aae71ea639fc1f1df454e0e5fe7db87587  snapshots/mit_ai_agent_index_2025.html  (35445 bytes) MIT AI Agent Index 2025 edition, CC-BY 4.0
+c9466b0b5dcf8a3e91300e18f8fc5ddcbc2b4cb941570f977611e1f6a4fe968b  snapshots/mit_ai_agent_index_2024.html  (522543 bytes) supplementary
+0a1f59f1df087dd740de2531653d9b18ca17cd7e26fdd590e220df43d3a71ab2  snapshots/forbes_ai50_2026_api.json  (88353 bytes) Forbes AI 50 2026 list data (local archive only)
+b14f38971161c5944ceee7e408f9e7d450a77f3c9e0c8a5c1b891e23d87fdc68  snapshots/forbes_ai50_2026_page.html  (666988 bytes) local archive only
+f2123dde4e40f5dcf83f2c799db8a6d055cade0dcc359b2d8c9aed0669dc689a  snapshots/a16z_top100_6th_2026-03.html  (425944 bytes) local archive only
+db062c798654c5f6dec1ddedf7ab823c70d11d2f66ccf2a7036171f1e5b6eaa8  snapshots/awesome-ai-agents_README_main.md  (212139 bytes) secondary cross-check source (B-1), not in population
+cdd442acdfff037aa76250dda0d6375fe46bf36a488ebd1e7d84cbd2d2e89828  census_v1_2026-09-19.csv
