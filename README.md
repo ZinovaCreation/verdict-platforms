@@ -25,7 +25,7 @@ VERDICT is the Independent AI Agent Trust Index operated by [ZinovaCreation](htt
 
 ## Framework
 
-- **Version:** VERDICT v0.3.1-final
+- **Version:** VERDICT v0.3.2
 - **Dimensions:** V / E / R / D / I / C / T (E is Layer 1+ only)
 - **Layer 0 max:** 85 points — V + R + D + I + C + T
 - **Layer 1 max:** 100 points — V + E + R + D + I + C + T

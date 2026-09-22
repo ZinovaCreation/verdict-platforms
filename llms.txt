@@ -1,7 +1,7 @@
 # VERDICT Platforms
 
 > Canonical dataset and published evaluation reports for VERDICT, an
-> independent AI agent trust evaluation index. Framework v0.3.1.
+> independent AI agent trust evaluation index. Framework v0.3.2.
 > Individual reports are NOT enumerated here: resolve them via the
 > naming convention plus the single index entrypoint below. This keeps
 > this file O(1) as the report count grows.

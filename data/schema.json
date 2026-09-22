@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/ZinovaCreation/verdict-platforms/schema.json",
-  "title": "VERDICT platform evaluation (Framework v0.3.1)",
-  "description": "Front matter schema for a single VERDICT platform evaluation file. Mirrors ENGINE.md v0.3.1-final.",
+  "title": "VERDICT platform evaluation (Framework v0.3.2)",
+  "description": "Front matter schema for a single VERDICT platform evaluation file. Mirrors ENGINE.md v0.3.2.",
   "type": "object",
   "required": [
     "name",
@@ -49,7 +49,11 @@
       "description": "Free-text VERDICT category. Must be consistent across platforms (e.g. 'AI Coding Agent', 'Browser Agent', 'Enterprise Agent', 'Workflow Automation')."
     },
     "homepage": { "type": ["string", "null"], "format": "uri" },
-    "github":   { "type": ["string", "null"], "format": "uri" },
+    "github": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Public GitHub location bound to the evaluated target (see target_version): the repository URL (https://github.com/<owner>/<repo>) when the target is a repository or package with one canonical repository — a user-owned repository is written in this full form; the operator's official organization URL (https://github.com/<org>) when the target is a hosted product whose operator maintains an official organization; null otherwise. Never a personal account URL by itself. Identity/provenance field: carried into data/platforms.json, not rendered on the site, not used in scoring, ranking, or population census derivations."
+    },
 
     "evaluation_number": { "type": "integer", "minimum": 1 },
     "evaluation_type":   { "type": "string", "enum": ["initial", "update"] },
@@ -60,6 +64,11 @@
       "description": "Most-recent re-evaluation date (Layer C update or differential 'Update' evaluation), distinct from 'evaluated_at' (original Layer 0 date). Captured from the re-evaluation event; SSOT is this value. Pipeline MUST NOT derive it from file commit metadata \u2014 a non-evaluative edit (e.g., sources / card_tags backfill) is not a re-evaluation and must not surface an 'Updated' date. Optional; absent when no re-evaluation has occurred. Pairs with evaluation_type='update'. In the fresh-evaluation flow this pairs with evaluation_type='update'; migrated captures MAY carry updated_at with evaluation_type='initial' when the published card shows an Updated date but the record publishes no differential content (date published, revision content unpublished \u2014 captured as-is)."
     },
     "evaluator_model":   { "type": "string", "minLength": 1 },
+    "selection_basis": {
+      "type": "string",
+      "pattern": "^(list:[a-z0-9]+(-[a-z0-9]+)*|interrupt:(kev:)?CVE-[0-9]{4}-[0-9]{4,7}|interrupt:GHSA-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4})$",
+      "description": "Why this platform was selected (SelectionFrame-002). list:<list-id>-<edition> names an adopted list edition of the Population Definition in force (e.g. list:mit-2025, list:forbes-ai50-2026, list:a16z-top100-6, list:github-topic-2026-09-19); interrupt:<CVE or GHSA id> (or interrupt:kev:<CVE id>) records an interrupt-lane selection. Recorded for evaluations #070 onward. Absent = selected before the selection frame existed; never backfilled and never replaced by a placeholder label."
+    },
     "framework_version": {
       "type": "string",
       "pattern": "^v[0-9]+\\.[0-9]+(\\.[0-9]+)?(-[a-z0-9]+)?$"
@@ -172,6 +181,11 @@
     },
 
     "next_review_due": { "type": "string", "format": "date" },
+    "dormant_since": {
+      "type": "string",
+      "format": "date",
+      "description": "Present only while the evaluation is in the frozen (dormant) state defined in ENGINE.md Layer C: the last publicly observed activity date of the evaluated target (release, commit, or changelog entry), source-cited in the body's Dormancy note. Presence = frozen: verdict unchanged, routine lane suspended, interrupt lane active. Removed when public activity resumes."
+    },
 
     "tags": {
       "type": "array",
