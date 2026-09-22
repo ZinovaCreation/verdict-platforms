@@ -9,7 +9,7 @@ homepage: null
 github: null
 evaluation_number: 1
 evaluation_type: update
-evaluated_at: '2026-03-24'
+evaluated_at: '2026-03-13'
 evaluator_model: unrecorded
 framework_version: v0.3.1
 layer: '0'
@@ -125,6 +125,15 @@ CISA's March 11, 2026 KEV designation for CVE-2025-68613 carries operational
 ## Bias Disclosure
 
 This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
+
+## Evaluation History
+
+| Date | Type | Score | Tier | Framework |
+|---|---|---|---|---|
+| 2026-03-13 | Initial (Layer 0) | 40 | C | v0.3.1 |
+| 2026-03-24 | Update | 35 | C | v0.3.1 |
+
+Provenance correction (2026-09-22): `evaluated_at` restored to the original Layer 0 date, 2026-03-13; the capture date 2026-03-24 stands as the first update (`updated_at`). Verdict, score and tier unchanged (StrategyApproval-001 clause (c), approved 2026-09-22).
 
 ## Full Evaluation
 

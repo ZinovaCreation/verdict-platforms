@@ -9,7 +9,7 @@ homepage: null
 github: null
 evaluation_number: 8
 evaluation_type: update
-evaluated_at: '2026-03-24'
+evaluated_at: '2026-03-13'
 evaluator_model: unrecorded
 framework_version: v0.3.1
 layer: '0'
@@ -130,6 +130,15 @@ Published live card: score 30/85; card dimension scores V 5 / R 4 / D 4 / I 5 / 
 ## Bias Disclosure
 
 This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
+
+## Evaluation History
+
+| Date | Type | Score | Tier | Framework |
+|---|---|---|---|---|
+| 2026-03-13 | Initial (Layer 0) | 33 | D | v0.3.1 |
+| 2026-03-24 | Update | 30 | D | v0.3.1 |
+
+Provenance correction (2026-09-22): `evaluated_at` restored to the original Layer 0 date, 2026-03-13; the capture date 2026-03-24 stands as the first update (`updated_at`). Verdict, score and tier unchanged (StrategyApproval-001 clause (c), approved 2026-09-22).
 
 ## Full Evaluation
 
