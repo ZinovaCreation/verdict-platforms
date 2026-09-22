@@ -6,7 +6,7 @@ independence: independent
 parent_entity: null
 category: AI App Builder · Cloud SaaS
 homepage: https://lovable.dev
-github: https://github.com/AntonOsika
+github: null
 evaluation_number: 45
 evaluation_type: initial
 evaluated_at: '2026-04-04'

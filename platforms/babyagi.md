@@ -6,7 +6,7 @@ independence: independent
 parent_entity: null
 category: Experimental Autonomous Agent · OSS (MIT)
 homepage: https://yoheinakajima.com
-github: https://github.com/yoheinakajima
+github: https://github.com/yoheinakajima/babyagi
 evaluation_number: 35
 evaluation_type: initial
 evaluated_at: '2026-03-31'

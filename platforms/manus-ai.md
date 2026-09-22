@@ -6,7 +6,7 @@ independence: independent
 parent_entity: null
 category: Autonomous Browser Agent · Cloud
 homepage: https://manus.im
-github: https://github.com/whit3rabbit
+github: null
 evaluation_number: 43
 evaluation_type: initial
 evaluated_at: '2026-04-03'
