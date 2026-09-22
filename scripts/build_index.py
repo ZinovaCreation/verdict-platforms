@@ -297,6 +297,7 @@ def enrich_and_rank(posts: list[tuple[Path, frontmatter.Post]]) -> list[dict]:
             "evaluation_number": m.get("evaluation_number"),
             "evaluation_type": m.get("evaluation_type"),
             "evaluated_at": evaluated_at,
+            "updated_at": coerce_date(m.get("updated_at")) if m.get("updated_at") else None,
             "evaluator_model": m.get("evaluator_model"),
             "framework_version": m.get("framework_version"),
             "layer": layer,
@@ -376,9 +377,9 @@ def write_json_index(records: list[dict]) -> None:
                 "max_cvss_12mo": r["max_cvss_12mo"],
                 "supply_chain_compromise_12mo": r["supply_chain_compromise_12mo"],
                 "evaluated_at": r["evaluated_at"],
+                "updated_at": r["updated_at"],
                 "evaluator_model": r["evaluator_model"],
                 "framework_version": r["framework_version"],
-                "next_review_due": r["next_review_due"],
                 "tags": r["tags"],
             }
             for r in records

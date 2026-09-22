@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:37:42+00:00",
+  "generated_at": "2026-09-22T05:51:48+00:00",
   "framework_version": "v0.3.1-final",
   "count": 69,
   "platforms": [
@@ -62,9 +62,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-05-12",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-08-10",
       "tags": [
         "vector-database",
         "retrieval-infrastructure",
@@ -140,9 +140,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-30",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-28",
       "tags": [
         "enterprise-ai",
         "managed-saas",
@@ -217,9 +217,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-11",
+      "updated_at": null,
       "evaluator_model": "claude-opus-4-7",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-07-10",
       "tags": [
         "ai-coding-agent",
         "enterprise-saas",
@@ -290,9 +290,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-26",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-24",
       "tags": []
     },
     {
@@ -354,9 +354,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-04",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-03",
       "tags": [
         "closed-source",
         "cloud-SaaS",
@@ -430,9 +430,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-03",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-02",
       "tags": [
         "closed-source",
         "cloud-SaaS",
@@ -504,9 +504,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-29",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-07-28",
       "tags": [
         "llm-observability",
         "ai-tracing",
@@ -582,9 +582,9 @@
       "max_cvss_12mo": 8.7,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-05-15",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-08-13",
       "tags": [
         "vector-database",
         "weaviate",
@@ -660,9 +660,9 @@
       "max_cvss_12mo": 9.3,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-25",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-23",
       "tags": []
     },
     {
@@ -724,9 +724,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-25",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-23",
       "tags": []
     },
     {
@@ -788,9 +788,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-07",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-06",
       "tags": [
         "browser-agent-infrastructure",
         "cloud-saas",
@@ -870,9 +870,9 @@
       "max_cvss_12mo": 9.4,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-25",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-23",
       "tags": []
     },
     {
@@ -934,9 +934,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-06",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-05",
       "tags": [
         "closed-source",
         "AI-IDE",
@@ -1009,9 +1009,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "enterprise-SaaS",
         "french-company",
@@ -1083,9 +1083,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-06",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-05",
       "tags": [
         "closed-source",
         "Microsoft",
@@ -1157,9 +1157,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-25",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-23",
       "tags": [
         "open-source",
         "multi-agent",
@@ -1229,9 +1229,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-13",
+      "updated_at": "2026-05-13",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-08-11",
       "tags": []
     },
     {
@@ -1293,9 +1293,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-06",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-05",
       "tags": [
         "closed-source",
         "cloud-SaaS",
@@ -1371,9 +1371,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": true,
       "evaluated_at": "2026-03-25",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-23",
       "tags": []
     },
     {
@@ -1435,9 +1435,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-05-12",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-08-10",
       "tags": [
         "llm-observability",
         "agent-evaluation",
@@ -1510,9 +1510,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-29",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-07-28",
       "tags": [
         "foundation-model-api",
         "agents-api",
@@ -1584,9 +1584,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-13",
+      "updated_at": "2026-05-13",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-08-11",
       "tags": []
     },
     {
@@ -1648,9 +1648,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-05-15",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-08-13",
       "tags": [
         "nvidia",
         "ai-safety",
@@ -1724,9 +1724,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-07",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-06",
       "tags": [
         "hybrid-license",
         "AGPL-3.0",
@@ -1801,9 +1801,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-07",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-06",
       "tags": [
         "open-source",
         "MIT",
@@ -1877,9 +1877,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "closed-source",
         "cloud-SaaS",
@@ -1953,9 +1953,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-21",
+      "updated_at": null,
       "evaluator_model": "claude-opus-4-7",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-07-20",
       "tags": [
         "open-source",
         "apache-2.0",
@@ -2025,9 +2025,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-05-15",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-08-13",
       "tags": [
         "llm-observability",
         "ai-evaluation",
@@ -2099,9 +2099,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": true,
       "evaluated_at": "2026-04-27",
+      "updated_at": null,
       "evaluator_model": "claude-opus-4-7",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-07-26",
       "tags": [
         "open-source",
         "vscode-extension",
@@ -2171,9 +2171,9 @@
       "max_cvss_12mo": 9.3,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-25",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-23",
       "tags": []
     },
     {
@@ -2235,9 +2235,9 @@
       "max_cvss_12mo": 9.1,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-30",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-28",
       "tags": [
         "enterprise",
         "closed-source",
@@ -2309,9 +2309,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-06",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-05",
       "tags": [
         "closed-source",
         "cloud-IDE",
@@ -2382,9 +2382,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-12",
+      "updated_at": "2026-05-13",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-08-11",
       "tags": []
     },
     {
@@ -2446,9 +2446,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-03",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-02",
       "tags": [
         "open-source-core",
         "WebContainers",
@@ -2520,9 +2520,9 @@
       "max_cvss_12mo": 8.6,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-03",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-02",
       "tags": [
         "AI IDE",
         "proprietary",
@@ -2597,9 +2597,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-30",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-28",
       "tags": [
         "open-source",
         "apache-2.0",
@@ -2670,9 +2670,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-30",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-28",
       "tags": [
         "open-source-sdk",
         "cloud-SaaS",
@@ -2743,9 +2743,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-13",
+      "updated_at": "2026-05-13",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-08-11",
       "tags": []
     },
     {
@@ -2807,9 +2807,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-28",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-07-27",
       "tags": [
         "sandbox",
         "firecracker",
@@ -2882,9 +2882,9 @@
       "max_cvss_12mo": 9.3,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-04",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-03",
       "tags": [
         "open-source",
         "MIT",
@@ -2955,9 +2955,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-12",
+      "updated_at": "2026-05-13",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-08-11",
       "tags": []
     },
     {
@@ -3019,9 +3019,9 @@
       "max_cvss_12mo": 10.0,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-26",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-24",
       "tags": []
     },
     {
@@ -3083,9 +3083,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-25",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-23",
       "tags": []
     },
     {
@@ -3147,9 +3147,9 @@
       "max_cvss_12mo": 9.2,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-13",
+      "updated_at": "2026-05-13",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-08-11",
       "tags": []
     },
     {
@@ -3211,9 +3211,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-07",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-06",
       "tags": [
         "browser-agent",
         "computer-use-agent",
@@ -3298,9 +3298,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-01",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-30",
       "tags": [
         "AI coding agent",
         "open source",
@@ -3373,9 +3373,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-30",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-28",
       "tags": [
         "closed-source",
         "SaaS",
@@ -3446,9 +3446,9 @@
       "max_cvss_12mo": 8.1,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-05-15",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-08-13",
       "tags": [
         "agent-memory",
         "temporal-knowledge-graph",
@@ -3522,9 +3522,9 @@
       "max_cvss_12mo": 9.3,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-05-15",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-08-13",
       "tags": [
         "foundation-model",
         "enterprise-ai",
@@ -3601,9 +3601,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "pivoted-to-security",
         "open-source-MIT",
@@ -3674,9 +3674,9 @@
       "max_cvss_12mo": 9.8,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-25",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-23",
       "tags": []
     },
     {
@@ -3738,9 +3738,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "open-source",
         "apache-2.0",
@@ -3810,9 +3810,9 @@
       "max_cvss_12mo": 9.3,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-07",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-06",
       "tags": [
         "open-source",
         "MIT-license",
@@ -3883,9 +3883,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-05-12",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1-final",
-      "next_review_due": "2026-08-10",
       "tags": [
         "ai-safety",
         "llm-guardrails",
@@ -3957,9 +3957,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "open-source",
         "MIT",
@@ -4032,9 +4032,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "open-source",
         "MPL-2.0",
@@ -4105,9 +4105,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-30",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-28",
       "tags": [
         "open-source",
         "apache-2.0",
@@ -4178,9 +4178,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "source-available",
         "Polyform-Shield",
@@ -4251,9 +4251,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-13",
+      "updated_at": "2026-05-13",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-08-11",
       "tags": []
     },
     {
@@ -4315,9 +4315,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-03",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-07-02",
       "tags": [
         "closed-source",
         "cloud-SaaS",
@@ -4389,9 +4389,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "closed-source",
         "cloud-SaaS",
@@ -4467,9 +4467,9 @@
       "max_cvss_12mo": 10.0,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-24",
+      "updated_at": "2026-03-24",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-22",
       "tags": []
     },
     {
@@ -4531,9 +4531,9 @@
       "max_cvss_12mo": 9.4,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "open-source",
         "MIT",
@@ -4604,9 +4604,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-01",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-30",
       "tags": [
         "open-source",
         "Apache-2.0",
@@ -4679,9 +4679,9 @@
       "max_cvss_12mo": 9.8,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-24",
+      "updated_at": "2026-03-24",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-22",
       "tags": []
     },
     {
@@ -4749,9 +4749,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-24",
+      "updated_at": "2026-03-24",
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-22",
       "tags": []
     },
     {
@@ -4813,9 +4813,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "experimental",
         "MIT",
@@ -4885,9 +4885,9 @@
       "max_cvss_12mo": 9.8,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-31",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-29",
       "tags": [
         "multi-agent",
         "OSS",
@@ -4959,9 +4959,9 @@
       "max_cvss_12mo": null,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-04-01",
+      "updated_at": null,
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
-      "next_review_due": "2026-06-30",
       "tags": [
         "open-source",
         "MIT",
