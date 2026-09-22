@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:21:47+00:00",
+  "generated_at": "2026-09-22T05:37:42+00:00",
   "framework_version": "v0.3.1-final",
   "count": 69,
   "platforms": [
@@ -305,7 +305,7 @@
       "parent_entity": null,
       "category": "AI App Builder · Cloud SaaS",
       "homepage": "https://lovable.dev",
-      "github": "https://github.com/AntonOsika",
+      "github": null,
       "score": 63,
       "max_score": 85,
       "layer": "0",
@@ -4266,7 +4266,7 @@
       "parent_entity": null,
       "category": "Autonomous Browser Agent · Cloud",
       "homepage": "https://manus.im",
-      "github": "https://github.com/whit3rabbit",
+      "github": null,
       "score": 35,
       "max_score": 85,
       "layer": "0",
@@ -4764,7 +4764,7 @@
       "parent_entity": null,
       "category": "Experimental Autonomous Agent · OSS (MIT)",
       "homepage": "https://yoheinakajima.com",
-      "github": "https://github.com/yoheinakajima",
+      "github": "https://github.com/yoheinakajima/babyagi",
       "score": 24,
       "max_score": 85,
       "layer": "0",
