@@ -65,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: 51
+rank: 52
 sources: []
 og_description: 'Independent security evaluation of LlamaIndex. Score: 41/85. RAG and agent framework. Limited public security documentation. Norwest Venture Partners backed. Framework v0.3.1.'
 category_line: RAG / Data Framework · Open Source (MIT core)

@@ -86,7 +86,7 @@ card_tags:
     color: amber
   - text: "Phoenix is ELv2, not OSI open source"
     color: amber
-rank: 28
+rank: 29
 sources:
 - https://arize.com/
 - https://docs.arize.com

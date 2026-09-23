@@ -88,7 +88,7 @@ card_tags:
     color: amber
   - text: "Server endpoint ships without default authentication"
     color: amber
-rank: 22
+rank: 23
 sources:
 - https://github.com/NVIDIA-NeMo/Guardrails
 - https://docs.nvidia.com/nemo/guardrails/

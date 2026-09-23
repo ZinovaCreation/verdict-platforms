@@ -81,7 +81,7 @@ tags:
 - public-dpa
 - ai-services-addendum
 - eu-ai-act-reference
-rank: 1
+rank: 2
 sources:
 - https://www.pinecone.io/
 - https://docs.pinecone.io/

@@ -76,7 +76,7 @@ tags:
 - React
 - Swedish
 - enterprise
-rank: 5
+rank: 6
 sources:
 - https://github.com/AntonOsika/gpt-engineer
 - https://lovable.dev/

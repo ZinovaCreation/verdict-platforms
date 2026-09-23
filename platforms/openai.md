@@ -65,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: 9
+rank: 10
 sources: []
 og_description: "Independent security evaluation of OpenAI Assistants API. Score: 61/85. Zero CVEs but used as C2 channel (SesameOp). Deprecation August 2026. Framework v0.3.1."
 category_line: LLM Agent API · Managed SaaS

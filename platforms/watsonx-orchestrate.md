@@ -74,7 +74,7 @@ tags:
 - governance
 - hybrid-deploy
 - subscription
-rank: 31
+rank: 32
 sources: []
 og_description: 'Independent security evaluation of IBM watsonx Orchestrate. Score: 48/85. FedRAMP authorized, SOC 2 certified. 10+ CVEs including CVSS 9.1. Langflow (CISA KEV) integrated. Framework v0.3.1.'
 category_line: Enterprise AI Agent Platform · Cloud SaaS + On-Prem

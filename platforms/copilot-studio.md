@@ -65,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: 9
+rank: 10
 sources: []
 og_description: 'Independent security evaluation of Microsoft Copilot Studio. Score: 61/85. EchoLeak CVE-2025-32711 (CVSS 9.3) — first zero-click prompt injection on a production AI system. Framework v0.3.1.'
 category_line: No-Code Agent Builder · Enterprise SaaS

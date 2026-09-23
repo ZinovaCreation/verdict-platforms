@@ -82,7 +82,7 @@ tags:
 - zero-data-retention-option
 - no-training-on-data
 - 1password-integration
-rank: 11
+rank: 12
 sources:
 - https://docs.browserbase.com/
 - https://github.com/browserbase/stagehand

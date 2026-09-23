@@ -74,7 +74,7 @@ tags:
 - IP-indemnity
 - training-opt-in-controversy
 - enterprise
-rank: 14
+rank: 15
 sources:
 - https://github.blog/
 og_description: 'Independent security evaluation of GitHub Copilot Agent Mode. Score: 57/85. Most extensive certifications (SOC 1/2/3 + ISO 27001 + FedRAMP). April 2026 training opt-in controversy. IP indemnity. Framework v0.3.1.'

@@ -1,10 +1,91 @@
 {
-  "generated_at": "2026-09-23T11:26:44+00:00",
-  "framework_version": "v0.3.1-final",
-  "count": 69,
+  "generated_at": "2026-09-23T22:37:39+00:00",
+  "framework_version": "v0.3.2",
+  "count": 70,
   "platforms": [
     {
       "rank": 1,
+      "tier": "S",
+      "slug": "glean-agents",
+      "name": "Glean Agents",
+      "operator": "Glean Technologies, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Enterprise AI Assistant · Agent Platform · Cloud SaaS",
+      "homepage": "https://www.glean.com",
+      "github": "https://github.com/gleanwork",
+      "score": 73,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": "Delaware corp; dated sub-processor list; SOC 2 report NDA-only; closed source"
+        },
+        "r": {
+          "score": 20,
+          "rating": "High",
+          "note": "No product-scoped CVE or public incident in trailing 12mo; zero-CVE convention"
+        },
+        "d": {
+          "score": 12,
+          "rating": "High",
+          "note": "DPA + DPF; no-training + zero-retention stated; analytics export lacks opt-out"
+        },
+        "i": {
+          "score": 10,
+          "rating": "High",
+          "note": "Write actions pause for approval by default; executor-identity enforcement"
+        },
+        "c": {
+          "score": 10,
+          "rating": "High",
+          "note": "Allowlist Agent Sandbox; no credentials in sandbox; single-tenant project"
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": "SDLC + status page public; ISO 42001; no CVE/advisory channel beyond Bugcrowd"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-09-24",
+      "updated_at": null,
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "enterprise-ai",
+        "agent-platform",
+        "enterprise-search",
+        "managed-saas",
+        "customer-hosted",
+        "soc2",
+        "iso27001",
+        "iso42001",
+        "hipaa",
+        "gdpr",
+        "txramp",
+        "human-in-the-loop",
+        "agent-sandbox",
+        "model-agnostic",
+        "mit-2025",
+        "evaluator-coi"
+      ]
+    },
+    {
+      "rank": 2,
       "tier": "S",
       "slug": "pinecone",
       "name": "Pinecone",
@@ -82,7 +163,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "tier": "S",
       "slug": "amazon-q-business",
       "name": "Amazon Q Business",
@@ -159,7 +240,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "tier": "S",
       "slug": "gemini-code-assist",
       "name": "Gemini Code Assist",
@@ -232,7 +313,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "tier": "S",
       "slug": "vertex-ai",
       "name": "Vertex AI Agent Builder",
@@ -296,7 +377,7 @@
       "tags": []
     },
     {
-      "rank": 5,
+      "rank": 6,
       "tier": "A",
       "slug": "lovable",
       "name": "Lovable",
@@ -372,7 +453,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "tier": "A",
       "slug": "devin",
       "name": "Devin",
@@ -446,7 +527,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "tier": "A",
       "slug": "langfuse",
       "name": "Langfuse",
@@ -524,7 +605,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "tier": "A",
       "slug": "weaviate",
       "name": "Weaviate",
@@ -602,7 +683,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "tier": "A",
       "slug": "copilot-studio",
       "name": "Microsoft Copilot Studio",
@@ -666,7 +747,7 @@
       "tags": []
     },
     {
-      "rank": 9,
+      "rank": 10,
       "tier": "A",
       "slug": "openai",
       "name": "OpenAI Assistants API",
@@ -730,7 +811,7 @@
       "tags": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "tier": "A",
       "slug": "browserbase",
       "name": "Browserbase",
@@ -812,7 +893,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "tier": "A",
       "slug": "agentforce",
       "name": "Salesforce Agentforce",
@@ -876,7 +957,7 @@
       "tags": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "tier": "A",
       "slug": "windsurf",
       "name": "Windsurf",
@@ -951,7 +1032,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "tier": "A",
       "slug": "dust",
       "name": "Dust",
@@ -1025,7 +1106,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "tier": "A",
       "slug": "github-copilot",
       "name": "GitHub Copilot",
@@ -1099,7 +1180,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "tier": "A",
       "slug": "autogen",
       "name": "AutoGen",
@@ -1171,7 +1252,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "tier": "A",
       "slug": "pipedream",
       "name": "Pipedream",
@@ -1235,7 +1316,7 @@
       "tags": []
     },
     {
-      "rank": 16,
+      "rank": 17,
       "tier": "A",
       "slug": "v0",
       "name": "v0",
@@ -1313,7 +1394,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "tier": "A",
       "slug": "bedrock",
       "name": "AWS Bedrock Agents",
@@ -1377,7 +1458,7 @@
       "tags": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "tier": "A",
       "slug": "langsmith",
       "name": "LangSmith",
@@ -1452,7 +1533,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "tier": "A",
       "slug": "mistral-la-plateforme",
       "name": "Mistral La Plateforme",
@@ -1526,7 +1607,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "tier": "B",
       "slug": "activepieces",
       "name": "Activepieces",
@@ -1590,7 +1671,7 @@
       "tags": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "tier": "B",
       "slug": "nemo-guardrails",
       "name": "NeMo Guardrails",
@@ -1666,7 +1747,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "tier": "B",
       "slug": "skyvern",
       "name": "Skyvern",
@@ -1743,7 +1824,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "tier": "B",
       "slug": "stagehand",
       "name": "Stagehand",
@@ -1819,7 +1900,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "tier": "B",
       "slug": "voiceflow",
       "name": "Voiceflow",
@@ -1895,7 +1976,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "tier": "B",
       "slug": "aider",
       "name": "aider",
@@ -1967,7 +2048,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "tier": "B",
       "slug": "arize-ai",
       "name": "Arize AI",
@@ -2041,7 +2122,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "tier": "B",
       "slug": "cline",
       "name": "Cline",
@@ -2113,7 +2194,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 31,
       "tier": "B",
       "slug": "langchain",
       "name": "LangChain",
@@ -2177,7 +2258,7 @@
       "tags": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "tier": "B",
       "slug": "watsonx-orchestrate",
       "name": "IBM watsonx Orchestrate",
@@ -2251,7 +2332,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 32,
       "tier": "B",
       "slug": "replit",
       "name": "Replit",
@@ -2324,7 +2405,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 32,
       "tier": "B",
       "slug": "zapier",
       "name": "Zapier",
@@ -2388,7 +2469,7 @@
       "tags": []
     },
     {
-      "rank": 34,
+      "rank": 35,
       "tier": "B",
       "slug": "bolt-new",
       "name": "Bolt.new",
@@ -2462,7 +2543,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 35,
       "tier": "B",
       "slug": "cursor",
       "name": "Cursor",
@@ -2539,7 +2620,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 35,
       "tier": "B",
       "slug": "haystack",
       "name": "Haystack",
@@ -2612,7 +2693,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "tier": "B",
       "slug": "composio",
       "name": "Composio",
@@ -2685,7 +2766,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "tier": "B",
       "slug": "dify",
       "name": "Dify",
@@ -2749,7 +2830,7 @@
       "tags": []
     },
     {
-      "rank": 37,
+      "rank": 38,
       "tier": "B",
       "slug": "e2b",
       "name": "E2B",
@@ -2824,7 +2905,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "tier": "B",
       "slug": "langgraph",
       "name": "LangGraph",
@@ -2897,7 +2978,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "tier": "B",
       "slug": "make",
       "name": "Make.com",
@@ -2961,7 +3042,7 @@
       "tags": []
     },
     {
-      "rank": 37,
+      "rank": 38,
       "tier": "B",
       "slug": "semantic-kernel",
       "name": "Semantic Kernel",
@@ -3025,7 +3106,7 @@
       "tags": []
     },
     {
-      "rank": 43,
+      "rank": 44,
       "tier": "B",
       "slug": "botpress",
       "name": "Botpress",
@@ -3089,7 +3170,7 @@
       "tags": []
     },
     {
-      "rank": 44,
+      "rank": 45,
       "tier": "C",
       "slug": "crewai",
       "name": "CrewAI",
@@ -3153,7 +3234,7 @@
       "tags": []
     },
     {
-      "rank": 44,
+      "rank": 45,
       "tier": "C",
       "slug": "runner-h",
       "name": "Runner H",
@@ -3240,7 +3321,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 47,
       "tier": "C",
       "slug": "openhands",
       "name": "OpenHands",
@@ -3315,7 +3396,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 47,
       "tier": "C",
       "slug": "relevance-ai",
       "name": "Relevance AI",
@@ -3388,7 +3469,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 47,
       "tier": "C",
       "slug": "zep",
       "name": "Zep",
@@ -3464,7 +3545,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 50,
       "tier": "C",
       "slug": "cohere",
       "name": "Cohere",
@@ -3543,7 +3624,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 50,
       "tier": "C",
       "slug": "superagent",
       "name": "Superagent",
@@ -3616,7 +3697,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 52,
       "tier": "C",
       "slug": "llamaindex",
       "name": "LlamaIndex",
@@ -3680,7 +3761,7 @@
       "tags": []
     },
     {
-      "rank": 52,
+      "rank": 53,
       "tier": "C",
       "slug": "ag2",
       "name": "AG2",
@@ -3752,7 +3833,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "tier": "C",
       "slug": "browser-use",
       "name": "Browser Use",
@@ -3825,7 +3906,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "tier": "C",
       "slug": "guardrails-ai",
       "name": "Guardrails AI",
@@ -3899,7 +3980,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 56,
       "tier": "C",
       "slug": "rivet",
       "name": "Rivet",
@@ -3974,7 +4055,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 57,
       "tier": "C",
       "slug": "phidata",
       "name": "Phidata (Agno)",
@@ -4047,7 +4128,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 58,
       "tier": "C",
       "slug": "letta",
       "name": "Letta",
@@ -4120,7 +4201,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 59,
       "tier": "C",
       "slug": "autogpt",
       "name": "AutoGPT",
@@ -4193,7 +4274,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "tier": "C",
       "slug": "coze",
       "name": "Coze",
@@ -4257,7 +4338,7 @@
       "tags": []
     },
     {
-      "rank": 59,
+      "rank": 60,
       "tier": "C",
       "slug": "manus-ai",
       "name": "Manus AI",
@@ -4331,7 +4412,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "tier": "C",
       "slug": "wordware",
       "name": "Wordware",
@@ -4403,7 +4484,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "tier": "C",
       "slug": "n8n",
       "name": "n8n",
@@ -4473,7 +4554,7 @@
       "tags": []
     },
     {
-      "rank": 63,
+      "rank": 64,
       "tier": "D",
       "slug": "langroid",
       "name": "Langroid",
@@ -4546,7 +4627,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 65,
       "tier": "D",
       "slug": "camel-ai",
       "name": "CAMEL-AI",
@@ -4621,7 +4702,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 65,
       "tier": "D",
       "slug": "flowise",
       "name": "Flowise",
@@ -4685,7 +4766,7 @@
       "tags": []
     },
     {
-      "rank": 66,
+      "rank": 67,
       "tier": "D",
       "slug": "langflow",
       "name": "Langflow",
@@ -4791,7 +4872,7 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 68,
       "tier": "D",
       "slug": "babyagi",
       "name": "BabyAGI",
@@ -4863,7 +4944,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 69,
       "tier": "D",
       "slug": "metagpt",
       "name": "MetaGPT",
@@ -4937,7 +5018,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 70,
       "tier": "D",
       "slug": "superagi",
       "name": "SuperAGI",

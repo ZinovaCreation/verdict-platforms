@@ -77,7 +77,7 @@ tags:
 - iso42001
 - cmek
 - vpc-privatelink
-rank: 2
+rank: 3
 sources:
 - https://aws.amazon.com/contact-us/
 og_description: 'Independent security evaluation of Amazon Q Business. Score: 68/85 — highest in the VERDICT index. SOC 1/2/3, ISO 27001, ISO 42001, FedRAMP, HIPAA. Zero CVEs. Framework v0.3.1.'

@@ -73,7 +73,7 @@ tags:
 - ai-firewall
 - Swedish-origin
 - small-team
-rank: 49
+rank: 50
 sources:
 - https://docs.superagent.sh/
 - https://docs.superagent.sh/mcp

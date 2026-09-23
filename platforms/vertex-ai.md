@@ -65,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-24'
 tags: []
-rank: 4
+rank: 5
 sources: []
 og_description: 'Independent security and privacy evaluation of Google Vertex AI Agent Builder. Score: 65/85 — highest in the VERDICT index. Container isolation, two cross-tenant incidents disclosed. Framework v0.3.1.'
 category_line: No-Code Agent Builder · Enterprise SaaS

@@ -75,7 +75,7 @@ tags:
 - public-changelog
 - github-security-advisory
 - bug-bounty
-rank: 19
+rank: 20
 sources:
 - https://www.langchain.com/langsmith
 - https://docs.langchain.com/langsmith

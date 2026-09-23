@@ -65,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: 43
+rank: 44
 sources: []
 og_description: 'Independent security evaluation of Botpress. Score: 45/85. No documented sandbox for plugin execution. SOC 2 certified. Open-source chatbot and agent framework. Framework v0.3.1.'
 category_line: Chatbot / Agent Builder · Open Source (MIT integrations)

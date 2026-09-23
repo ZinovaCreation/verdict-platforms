@@ -73,7 +73,7 @@ tags:
 - multi-region
 - Australian-company
 - series-B
-rank: 46
+rank: 47
 sources:
 - https://marketplace.relevanceai.com/
 - https://relevanceai.com/

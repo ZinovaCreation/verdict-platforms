@@ -72,7 +72,7 @@ tags:
 - self-building-agent
 - non-production
 - VC-creator
-rank: 67
+rank: 68
 sources:
 - https://github.com/yoheinakajima
 - https://github.com/yoheinakajima/babyagi

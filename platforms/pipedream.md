@@ -66,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: 16
+rank: 17
 sources: []
 og_description: 'Independent security evaluation of Pipedream. Score: 56/85. VM-isolated sandbox with zero public CVEs — strongest containment in the VERDICT index. Acquired by Workday. Framework v0.3.1.'
 category_line: Workflow Automation · API Integration

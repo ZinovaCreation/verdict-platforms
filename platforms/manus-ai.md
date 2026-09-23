@@ -74,7 +74,7 @@ tags:
 - Chinese-founding-team
 - Sandbox-VM
 - credit-based
-rank: 59
+rank: 60
 sources:
 - https://github.com/whit3rabbit/manus-open
 - https://help.manus.im/

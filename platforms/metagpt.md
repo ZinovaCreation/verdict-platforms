@@ -74,7 +74,7 @@ tags:
 - ICLR
 - academic
 - Shenzhen
-rank: 68
+rank: 69
 sources:
 - https://github.com/FoundationAgents/MetaGPT
 - https://github.com/FoundationAgents/MetaGPT/releases

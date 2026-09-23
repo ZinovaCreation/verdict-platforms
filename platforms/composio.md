@@ -73,7 +73,7 @@ tags:
 - credential-isolation
 - tool-integration
 - YC-backed
-rank: 37
+rank: 38
 sources:
 - https://composio.dev/
 - https://composio.dev/enterprise

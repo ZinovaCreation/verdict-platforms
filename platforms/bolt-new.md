@@ -74,7 +74,7 @@ tags:
 - Anthropic-Claude
 - YC-backed
 - high-growth
-rank: 34
+rank: 35
 sources:
 - https://bolt.new/
 - https://github.com/stackblitz/bolt.new

@@ -66,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: 37
+rank: 38
 sources: []
 og_description: 'Independent security evaluation of Make.com. Score: 46/85. Zero public CVEs under non-disclosure policy. ISO 27001 and SOC 2 certified. AI training use of data unconfirmed. Framework v0.3.1.'
 category_line: Workflow Automation · Cloud SaaS

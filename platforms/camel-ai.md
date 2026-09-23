@@ -75,7 +75,7 @@ tags:
 - research-focused
 - UK-entity
 - unfunded
-rank: 64
+rank: 65
 sources:
 - https://github.com/camel-ai/camel
 - https://github.com/camel-ai/camel/security

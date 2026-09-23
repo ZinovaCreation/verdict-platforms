@@ -65,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: 19
+rank: 20
 sources: []
 og_description: "Independent security evaluation of AWS Bedrock Agents. Score: 55/85. DNS tunneling path classified as intended functionality. Strong compliance infrastructure. Framework v0.3.1."
 category_line: Managed Agent Platform · Enterprise SaaS

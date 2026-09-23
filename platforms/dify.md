@@ -66,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: 37
+rank: 38
 sources: []
 og_description: 'Independent security evaluation of Dify. Score: 46/85. React2Shell CVE-2025-55182 caused cryptominer infections. Strong transparency with 4 certifications. Structural SSRF issue persists. Framework v0.3.1.'
 category_line: LLM Application Builder · Open Source

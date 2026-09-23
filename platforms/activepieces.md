@@ -66,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: 22
+rank: 23
 sources: []
 og_description: 'Independent security evaluation of Activepieces. Score: 52/85. Only HIPAA-compliant platform in the index. Germany-hosted cloud, zero critical CVEs. Y Combinator backed. Framework v0.3.1.'
 category_line: Workflow Automation · Open Source (MIT)

@@ -87,7 +87,7 @@ tags:
 - osworld-sota
 - mithril-security-acquisition
 - sensitive-domain-blocklist
-rank: 44
+rank: 45
 sources:
 - https://github.com/hcompai/surfer-h-cli
 og_description: VERDICT independent evaluation of Runner H. Score 44/85.

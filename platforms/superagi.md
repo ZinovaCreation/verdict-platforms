@@ -72,7 +72,7 @@ tags:
 - agent-management
 - marketplace
 - credential-exposure
-rank: 69
+rank: 70
 sources:
 - https://github.com/TransformerOptimus
 - https://github.com/TransformerOptimus/SuperAGI

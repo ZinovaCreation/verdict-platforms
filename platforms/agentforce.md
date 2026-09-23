@@ -65,7 +65,7 @@ qa:
 differential: null
 next_review_due: '2026-06-23'
 tags: []
-rank: 11
+rank: 12
 sources: []
 og_description: 'Independent security evaluation of Salesforce Agentforce. Score: 58/85. ForcedLeak vulnerability (CVSS 9.4), 42-day patch window. Strong compliance documentation. Framework v0.3.1.'
 category_line: CRM-Native Agent Builder · Enterprise SaaS
