@@ -69,7 +69,7 @@ _Auto-generated — 69 platform(s). Do not edit by hand._
 | 63 | D | [Langroid](../platforms/langroid.md) | Prasad Chalasani (CMU) · Individual | Multi-Agent LLM Framework · OSS (MIT) | 34/85 | 10 | 5 | 6 | 2 | 3 | 8 |  |
 | 64 | D | [CAMEL-AI](../platforms/camel-ai.md) | CAMEL-AI.org · UK (KAUST) | Multi-Agent Research · OSS (Apache 2.0) | 33/85 | 11 | 14 | 2 | 1 | 1 | 4 |  |
 | 64 | D | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | LLM Agent Builder · Open Source | 33/85 | 10 | 4 | 4 | 5 | 4 | 6 |  |
-| 66 | D | [Langflow](../platforms/langflow.md) | IBM (DataStax Acquisition) | Visual AI Agent Builder · Open Source | 30/85 | 5 | 4 | 4 | 5 | 4 | 6 | ✅ |
+| 66 | D | [Langflow](../platforms/langflow.md) | IBM (via DataStax) | Visual AI Agent Builder · Open Source | 29/85 | 13 | 3 | 1 | 4 | 3 | 5 | ✅ |
 | 67 | D | [BabyAGI](../platforms/babyagi.md) | Yohei Nakajima · Individual | Experimental Autonomous Agent · OSS (MIT) | 24/85 | 8 | 14 | 2 | 0 | 0 | 0 |  |
 | 68 | D | [MetaGPT](../platforms/metagpt.md) | DeepWisdom · Shenzhen, China | Multi-Agent Dev Framework · OSS (MIT) | 23/85 | 11 | 4 | 0 | 2 | 5 | 1 |  |
 | 69 | D | [SuperAGI](../platforms/superagi.md) | TransformErr Inc. | Agent Management · OSS (MIT) | 21/85 | 7 | 5 | 2 | 2 | 3 | 2 |  |

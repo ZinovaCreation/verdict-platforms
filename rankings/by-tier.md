@@ -91,7 +91,7 @@ _Auto-generated. Do not edit by hand._
 | 63 | [Langroid](../platforms/langroid.md) | Prasad Chalasani (CMU) · Individual | Multi-Agent LLM Framework · OSS (MIT) | 34/85 |
 | 64 | [CAMEL-AI](../platforms/camel-ai.md) | CAMEL-AI.org · UK (KAUST) | Multi-Agent Research · OSS (Apache 2.0) | 33/85 |
 | 64 | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | LLM Agent Builder · Open Source | 33/85 |
-| 66 | [Langflow](../platforms/langflow.md) | IBM (DataStax Acquisition) | Visual AI Agent Builder · Open Source | 30/85 |
+| 66 | [Langflow](../platforms/langflow.md) | IBM (via DataStax) | Visual AI Agent Builder · Open Source | 29/85 |
 | 67 | [BabyAGI](../platforms/babyagi.md) | Yohei Nakajima · Individual | Experimental Autonomous Agent · OSS (MIT) | 24/85 |
 | 68 | [MetaGPT](../platforms/metagpt.md) | DeepWisdom · Shenzhen, China | Multi-Agent Dev Framework · OSS (MIT) | 23/85 |
 | 69 | [SuperAGI](../platforms/superagi.md) | TransformErr Inc. | Agent Management · OSS (MIT) | 21/85 |

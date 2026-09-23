@@ -343,7 +343,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 66 | D | [Langflow](../platforms/langflow.md) | IBM (DataStax Acquisition) | 30/85 |
+| 66 | D | [Langflow](../platforms/langflow.md) | IBM (via DataStax) | 29/85 |
 
 ## Visual AI Agent IDE · OSS (MIT)
 

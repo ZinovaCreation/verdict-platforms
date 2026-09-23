@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:32:31+00:00",
+  "generated_at": "2026-09-23T10:47:55+00:00",
   "framework_version": "v0.3.1-final",
   "count": 69,
   "platforms": [
@@ -4689,45 +4689,45 @@
       "tier": "D",
       "slug": "langflow",
       "name": "Langflow",
-      "operator": "IBM (DataStax Acquisition)",
-      "independence": "unrecorded",
-      "parent_entity": null,
+      "operator": "IBM (via DataStax)",
+      "independence": "subsidiary",
+      "parent_entity": "IBM",
       "category": "Visual AI Agent Builder · Open Source",
-      "homepage": null,
-      "github": null,
-      "score": 30,
+      "homepage": "https://www.langflow.org",
+      "github": "https://github.com/langflow-ai/langflow",
+      "score": 29,
       "max_score": 85,
       "layer": "0",
       "verdict": {
         "v": {
-          "score": 5,
-          "rating": "Low",
-          "note": ""
+          "score": 13,
+          "rating": "Mid",
+          "note": "IBM stewardship confirmed; MIT OSS; no sub-processor list or SOC report"
         },
         "r": {
-          "score": 4,
+          "score": 3,
           "rating": "Low",
-          "note": ""
+          "note": "158 CVEs; max CVSS 10.0; 6 KEV; recurring root causes; no supply-chain event"
         },
         "d": {
-          "score": 4,
+          "score": 1,
           "rating": "Low",
-          "note": ""
+          "note": "Telemetry default on (opt-out); no GDPR/DPA, sub-processor or retention notice"
         },
         "i": {
-          "score": 5,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
           "score": 4,
           "rating": "Mid",
-          "note": ""
+          "note": "Kill-switch env vars documented; no tool approval gate; RBAC is optional plugin"
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": "In-process exec default; optional microVM; no tenant isolation; IDOR exploited"
         },
         "t": {
-          "score": 6,
+          "score": 5,
           "rating": "Mid",
-          "note": ""
+          "note": "Advisories complete (GHSA/IBM PSIRT); mixed disclosure timing; no AI safety ref"
         },
         "e": {
           "score": null,
@@ -4741,18 +4741,54 @@
           {
             "cve_id": "CVE-2025-3248",
             "kev_added_date": "2025-05-05",
-            "fcec_deadline": null
+            "fcec_deadline": "2025-05-26"
+          },
+          {
+            "cve_id": "CVE-2026-33017",
+            "kev_added_date": "2026-03-25",
+            "fcec_deadline": "2026-04-08"
+          },
+          {
+            "cve_id": "CVE-2025-34291",
+            "kev_added_date": "2026-05-21",
+            "fcec_deadline": "2026-06-04"
+          },
+          {
+            "cve_id": "CVE-2026-55255",
+            "kev_added_date": "2026-07-07",
+            "fcec_deadline": "2026-07-10"
+          },
+          {
+            "cve_id": "CVE-2026-0770",
+            "kev_added_date": "2026-07-21",
+            "fcec_deadline": "2026-07-24"
+          },
+          {
+            "cve_id": "CVE-2026-9198",
+            "kev_added_date": "2026-08-04",
+            "fcec_deadline": "2026-08-07"
           }
         ]
       },
-      "cve_count_12mo": null,
-      "max_cvss_12mo": null,
+      "cve_count_12mo": 158,
+      "max_cvss_12mo": 10.0,
       "supply_chain_compromise_12mo": false,
       "evaluated_at": "2026-03-13",
-      "updated_at": "2026-03-24",
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
+      "updated_at": "2026-09-23",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "open-source",
+        "mit",
+        "visual-agent-builder",
+        "low-code",
+        "python",
+        "ibm",
+        "datastax",
+        "mcp",
+        "cisa-kev",
+        "tier-d"
+      ]
     },
     {
       "rank": 67,
