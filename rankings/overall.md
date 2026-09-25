@@ -58,8 +58,8 @@ _Auto-generated — 70 platform(s). Do not edit by hand._
 | 52 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | RAG / Data Framework · Open Source (MIT core) | 41/85 | 15 | 7 | 5 | 4 | 5 | 5 |  |
 | 53 | C | [AG2](../platforms/ag2.md) | AG2AI Inc. · Community Fork | Multi-Agent Framework · OSS (Apache 2.0) | 40/85 | 12 | 14 | 5 | 3 | 4 | 2 |  |
 | 53 | C | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | Browser Agent Library · Open Source (MIT) | 40/85 | 14 | 9 | 4 | 4 | 3 | 6 |  |
-| 55 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | Visual AI Agent IDE · OSS (MIT) | 39/85 | 14 | 14 | 5 | 2 | 2 | 2 |  |
-| 56 | C | [Phidata (Agno)](../platforms/phidata.md) | Phidata Inc. | Multi-Agent Framework · OSS (MPL 2.0) | 38/85 | 11 | 14 | 3 | 5 | 3 | 2 |  |
+| 53 | C | [Phidata (Agno)](../platforms/phidata.md) | Agno Inc. | Agent Framework | 40/85 | 16 | 4 | 7 | 6 | 4 | 3 |  |
+| 56 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | Visual AI Agent IDE · OSS (MIT) | 39/85 | 14 | 14 | 5 | 2 | 2 | 2 |  |
 | 57 | C | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | Stateful AI Agent Framework · Open Source (Apache 2.0) | 37/85 | 12 | 14 | 3 | 2 | 3 | 3 |  |
 | 58 | C | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | Autonomous AI Agent · Source-Available | 36/85 | 10 | 4 | 5 | 3 | 4 | 10 |  |
 | 59 | C | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | AI Agent Platform · Closed Source | 35/85 | 9 | 13 | 4 | 3 | 4 | 2 |  |

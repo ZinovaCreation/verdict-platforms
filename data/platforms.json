@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:55:52+00:00",
+  "generated_at": "2026-09-25T07:44:04+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -3906,7 +3906,84 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 53,
+      "tier": "C",
+      "slug": "phidata",
+      "name": "Phidata (Agno)",
+      "operator": "Agno Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Agent Framework",
+      "homepage": "https://www.agno.com",
+      "github": "https://github.com/agno-agi/agno",
+      "score": 40,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": "NY entity; Apache-2.0 OSS; changelogs; dated vendor list; SOC 2 claim only"
+        },
+        "r": {
+          "score": 4,
+          "rating": "Low",
+          "note": "4 CVEs, max CVSS 9.8; SQLi fix 77d after report; containment class recurs"
+        },
+        "d": {
+          "score": 7,
+          "rating": "Mid",
+          "note": "Telemetry default ON; GDPR bases, no DPA; dated vendor list; no training stmt"
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Run cancellation documented; HITL optional; JWT RBAC scopes documented"
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "base_dir containment + confirmation gates; authz opt-in; isolation claimed only"
+        },
+        "t": {
+          "score": 3,
+          "rating": "Low",
+          "note": "1 of 4 CVEs vendor-advised; no SECURITY.md; technical security docs only"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 4,
+      "max_cvss_12mo": 9.8,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "updated_at": "2026-09-25",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "agent-framework",
+        "agent-runtime",
+        "multi-agent",
+        "open-source",
+        "apache-2-0",
+        "self-hosted",
+        "agentos",
+        "hitl",
+        "telemetry-default-on",
+        "rebranded",
+        "critical-cve-12mo",
+        "tier-c"
+      ]
+    },
+    {
+      "rank": 56,
       "tier": "C",
       "slug": "rivet",
       "name": "Rivet",
@@ -3978,79 +4055,6 @@
         "corporate-backed",
         "Ironclad",
         "legal-tech"
-      ]
-    },
-    {
-      "rank": 56,
-      "tier": "C",
-      "slug": "phidata",
-      "name": "Phidata (Agno)",
-      "operator": "Phidata Inc.",
-      "independence": "independent",
-      "parent_entity": null,
-      "category": "Multi-Agent Framework · OSS (MPL 2.0)",
-      "homepage": "https://www.agno.com",
-      "github": "https://github.com/agno-agi",
-      "score": 38,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 11,
-          "rating": "Mid",
-          "note": ""
-        },
-        "r": {
-          "score": 14,
-          "rating": "High",
-          "note": ""
-        },
-        "d": {
-          "score": 3,
-          "rating": "Low",
-          "note": ""
-        },
-        "i": {
-          "score": 5,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
-          "score": 3,
-          "rating": "Low",
-          "note": ""
-        },
-        "t": {
-          "score": 2,
-          "rating": "Low",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 0,
-      "max_cvss_12mo": null,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-31",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": [
-        "open-source",
-        "MPL-2.0",
-        "self-hosted",
-        "multi-agent",
-        "multi-modal",
-        "HITL-native",
-        "telemetry-default-on",
-        "rebranded"
       ]
     },
     {

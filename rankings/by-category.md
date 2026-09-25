@@ -126,6 +126,12 @@ _Auto-generated. Do not edit by hand._
 | 23 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
 | 66 | D | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | 32/85 |
 
+## Agent Framework
+
+| Rank | Tier | Platform | Operator | Score |
+|---:|:---:|---|---|---:|
+| 53 | C | [Phidata (Agno)](../platforms/phidata.md) | Agno Inc. | 40/85 |
+
 ## Agent Management · OSS (MIT)
 
 | Rank | Tier | Platform | Operator | Score |
@@ -289,12 +295,6 @@ _Auto-generated. Do not edit by hand._
 |---:|:---:|---|---|---:|
 | 53 | C | [AG2](../platforms/ag2.md) | AG2AI Inc. · Community Fork | 40/85 |
 
-## Multi-Agent Framework · OSS (MPL 2.0)
-
-| Rank | Tier | Platform | Operator | Score |
-|---:|:---:|---|---|---:|
-| 56 | C | [Phidata (Agno)](../platforms/phidata.md) | Phidata Inc. | 38/85 |
-
 ## Multi-Agent Framework · Open Source (MIT)
 
 | Rank | Tier | Platform | Operator | Score |
@@ -355,7 +355,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 55 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | 39/85 |
+| 56 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | 39/85 |
 
 ## Workflow Automation · API Integration
 

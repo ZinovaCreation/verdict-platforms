@@ -1,181 +1,3 @@
----
-name: Phidata (Agno)
-slug: phidata
-operator: Agno Inc.
-independence: independent
-parent_entity: null
-category: Agent Framework
-homepage: https://www.agno.com
-github: https://github.com/agno-agi/agno
-evaluation_number: 32
-evaluation_type: update
-evaluated_at: '2026-03-31'
-updated_at: '2026-09-25'
-evaluator_model: claude-fable-5-1
-framework_version: v0.3.2
-layer: '0'
-target_version: agno 3.0.11
-previous_evaluation_date: '2026-03-31'
-previous_score: 38
-score: 40
-max_score: 85
-tier: C
-verdict:
-  v:
-    score: 16
-    rating: High
-    note: NY entity; Apache-2.0 OSS; changelogs; dated vendor list; SOC 2 claim only
-  e:
-    score: null
-    rating: null
-    note: null
-  r:
-    score: 4
-    rating: Low
-    note: 4 CVEs, max CVSS 9.8; SQLi fix 77d after report; containment class recurs
-  d:
-    score: 7
-    rating: Mid
-    note: Telemetry default ON; GDPR bases, no DPA; dated vendor list; no training stmt
-  i:
-    score: 6
-    rating: Mid
-    note: Run cancellation documented; HITL optional; JWT RBAC scopes documented
-  c:
-    score: 4
-    rating: Mid
-    note: base_dir containment + confirmation gates; authz opt-in; isolation claimed only
-  t:
-    score: 3
-    rating: Low
-    note: 1 of 4 CVEs vendor-advised; no SECURITY.md; technical security docs only
-cisa_kev:
-  present: false
-  entries: []
-cve_count_12mo: 4
-cve_count_basis: exact
-max_cvss_12mo: 9.8
-supply_chain_compromise_12mo: false
-known_facts_applied: []
-qa:
-  factual: pass
-  legal: pass
-  quality: pass
-  revision_cycles: 0
-  flagged: true
-differential:
-  v: re-evaluated
-  r: re-evaluated
-  d: re-evaluated
-  i: re-evaluated
-  c: re-evaluated
-  t: re-evaluated
-  e: null
-next_review_due: '2026-12-24'
-tags:
-- agent-framework
-- agent-runtime
-- multi-agent
-- open-source
-- apache-2-0
-- self-hosted
-- agentos
-- hitl
-- telemetry-default-on
-- rebranded
-- critical-cve-12mo
-- tier-c
-rank: 53
-sources:
-- https://www.agno.com/
-- https://www.agno.com/enterprise
-- https://www.agno.com/agentos
-- https://www.agno.com/articles/community-roundup-february-2026
-- https://os.agno.com/legal/tos
-- https://os.agno.com/legal/privacy
-- https://docs.agno.com/
-- https://docs.agno.com/telemetry
-- https://docs.agno.com/agent-os/security/overview
-- https://community.agno.com/t/logs-to-os-api-agno-com/1864
-- https://github.com/agno-agi/agno
-- https://github.com/agno-agi/agno/blob/main/LICENSE
-- https://github.com/agno-agi/agno/releases
-- https://github.com/agno-agi/agno/releases/tag/v2.3.24
-- https://github.com/agno-agi/agno/releases/tag/v2.8.5
-- https://github.com/agno-agi/agno/security/advisories
-- https://github.com/agno-agi/agno/security/advisories/GHSA-vw84-hprm-cxmm
-- https://github.com/agno-agi/agno/issues/7866
-- https://github.com/agno-agi/agno/pull/7883
-- https://github.com/agno-agi/agno/commit/cbf675521d4d2281925a051784a3b94172e56416
-- https://github.com/agno-agi/agno/commit/710d7e7f846f93b7a3eadfd3e77075428c39e803
-- https://osv.dev/list?q=agno
-- https://osv.dev/vulnerability/CVE-2026-35002
-- https://osv.dev/vulnerability/CVE-2026-76832
-- https://osv.dev/vulnerability/GHSA-82m5-3pcp-hccq
-- https://nvd.nist.gov/vuln/detail/CVE-2026-35002
-- https://nvd.nist.gov/vuln/detail/CVE-2026-10105
-- https://nvd.nist.gov/vuln/detail/CVE-2026-76832
-- https://nvd.nist.gov/vuln/detail/CVE-2025-8665
-- https://www.vulncheck.com/advisories/agno-pythontools-path-traversal-via-joinpath-file-name-argument
-- https://vulnerability.circl.lu/vuln/CVE-2026-10105
-- https://security.snyk.io/vuln/SNYK-PYTHON-AGNO-11787823
-- https://github.com/cisagov/kev-data
-- https://pypi.org/project/agno/
-- https://github.com/AlphaSphereDotAI/chattr/pull/3019
-- https://www.cbinsights.com/company/phidata/financials
-finding: 'Four product-scoped CVEs published against the agno package in the trailing 12 months: CVE-2026-35002 (CVSS 9.8; eval() injection, fixed in 2.3.24 on 2026-01-08, 84 days before publication), CVE-2026-76832 (CVSS 8.8; PythonTools path traversal, also fixed in 2.3.24), CVE-2026-10105 (CVSS 8.3; ClickHouse SQL injection, fix released in 2.8.5 on 2026-07-27, 77 days after the public report) and CVE-2025-64168 (CVSS 7.1; cross-session state exposure, fixed in 2.2.2 two days before the maintainer advisory). Three of the four fixes shipped without a vendor advisory; the path-containment class recurred across four components. Agno Inc. (New York) publishes Terms (2025-01-21) and a Privacy Notice (2026-04-20) with a named third-party list and per-category retention, but no DPA or model-training statement; SDK telemetry is on by default; no SECURITY.md. Framework v0.3.2 update; previous score 38/85.'
-meta_owner: Agno Inc. · formerly Phidata · agno 3.0.11
-meta_description: 'Independent security evaluation of Agno (formerly Phidata). Score: 40/85. Four CVEs in 12 months incl. CVSS 9.8 eval-injection RCE (fixed 2.3.24). Self-hosted runtime; telemetry default ON. Framework v0.3.2.'
-og_description: 'Independent security evaluation of Agno (formerly Phidata). Score: 40/85. Four CVEs in 12 months, max CVSS 9.8 (fixed 2.3.24). Framework v0.3.2.'
-category_line: Agent Framework & Runtime · Open-Source (Apache 2.0)
-display_tags:
-- text: 4 CVEs · 12 Months (max CVSS 9.8)
-  color: red
-- text: SQLi Fix 77 Days After Public Report
-  color: amber
-- text: Telemetry Default ON · No SECURITY.md
-  color: amber
-- text: No DPA · No Training-Use Statement
-  color: amber
-- text: Agno Inc. · Formerly Phidata
-  color: dim
-- text: Apache 2.0 OSS · Self-Hosted
-  color: safe
-key_finding: Four product-scoped CVEs in 12 months, led by CVE-2026-35002 (CVSS 9.8; eval() injection in FunctionCall field_type, fixed in 2.3.24 on 2026-01-08, 84 days before the CVE), with CVE-2026-10105 (ClickHouse SQL injection) fixed in 2.8.5 77 days after its public report and three of the four fixes shipped without a vendor advisory. Agno Inc. (New York) publishes Terms and a dated Privacy Notice with a named third-party list and per-category retention but no DPA or model-training statement; the runtime is self-hosted with JWT-based RBAC and optional HITL, SDK telemetry is on by default, and the repository has no SECURITY.md.
-card_owner: Agno Inc. · Formerly Phidata
-card_category: Agent Framework & Runtime · OSS (Apache 2.0)
-card_tags:
-- text: 4 CVEs · 12 Months (max CVSS 9.8)
-  color: red
-- text: SQLi Fix 77 Days After Report
-  color: amber
-- text: Telemetry Default ON
-  color: amber
-- text: Apache 2.0 OSS · Self-Hosted
-  color: safe
-score_basis: consistent
----
-
-# Agno (formerly Phidata)
-
-Four product-scoped CVEs published against the agno package in the trailing 12 months: CVE-2026-35002 (CVSS 9.8; eval() injection, fixed in 2.3.24 on 2026-01-08, 84 days before publication), CVE-2026-76832 (CVSS 8.8; PythonTools path traversal, also fixed in 2.3.24), CVE-2026-10105 (CVSS 8.3; ClickHouse SQL injection, fix released in 2.8.5 on 2026-07-27, 77 days after the public report) and CVE-2025-64168 (CVSS 7.1; cross-session state exposure, fixed in 2.2.2 two days before the maintainer advisory). Three of the four fixes shipped without a vendor advisory; the path-containment class recurred across four components. Agno Inc. (New York) publishes Terms (2025-01-21) and a Privacy Notice (2026-04-20) with a named third-party list and per-category retention, but no DPA or model-training statement; SDK telemetry is on by default; no SECURITY.md. Framework v0.3.2 update; previous score 38/85.
-
-## Layer 0 Score: 40/85 (Tier C)
-
-**V** 16/20 · **R** 4/20 · **D** 7/15 · **I** 6/10 · **C** 4/10 · **T** 3/10
-
-## CISA KEV
-
-None. None of CVE-2025-64168, CVE-2026-35002, CVE-2026-10105, CVE-2026-76832 or CVE-2025-8665 appears in the KEV catalog (checked 2026-09-25 against catalog version 2026.09.24, 1,723 entries, via the cisagov/kev-data mirror of known_exploited_vulnerabilities.json; no vendorProject/product "Agno" or "Phidata"). Details in the Scorecard and Incident Timeline below.
-
-## Bias Disclosure
-
-This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
-
-Disclosure layer (Trigger 0/1/2/3): None. The operator, Agno Inc., has one recorded funding round (USD 5.4M seed, 2024-08-29; GreatPoint Ventures and two other venture investors) and no Amazon, Google, Microsoft or NVIDIA equity, board or channel relationship on the public record. At product level only, Anthropic is one of two AI service providers named in the operator's Privacy Notice; this integration is not a disclosure trigger.
-
-## Full Evaluation
-
 # VERDICT Evaluation Report #032
 ## Agno (formerly Phidata)
 
@@ -396,3 +218,66 @@ This table records what risk factors the data shows. It does not recommend or pr
 | Layer 1 | Free-tier behavioral testing (30 runs × 4 difficulty levels across 3+ days) on the open-source SDK/runtime and the free Control Plane tier | After the Stage 3 backlog; not scheduled |
 | Layer C — routine | Full routine differential (R, T, V; D/I/C per carry-forward conditions against the per-dimension URLs cited above) | 365 days from 2026-09-25 (provisional, ReviewCadence-002) |
 | Layer C — interrupt | T1 / T2 / T3 sweep (NVD/GHSA/OSV for `agno`, KEV JSON); T5 follow-up on os.agno.com legal pages; read of issue #8823 to close the remaining structural-issues flag | Continuous; next quarterly sweep |
+
+---
+
+```japanese-summary
+# Agno（旧 Phidata）評価結果サマリー
+
+## 基本情報
+- 評価種別: 更新
+- スコア: 40/85 (Layer 0)
+- 前回スコア: 38/85（2026.03.31、Tier C、v0.3.1）
+- ランク: 再計算待ち（build_index.py） / —
+- 評価日: 2026.09.25（初回評価日: 2026.03.31）
+- 対象バージョン: agno 3.0.11（PyPI、2026.09.23 リリース）
+- 運営: Agno Inc.（ニューヨーク州登記、前回記録: Phidata Inc.）
+- 独立性: ✅ Independent
+
+## 次元スコア
+- V (検証可能性): 16/20
+- R (耐性): 4/20
+- D (データ運用): 7/15
+- I (制御): 6/10
+- C (封じ込め): 4/10
+- T (透明性): 3/10
+
+## 主要ポジティブ所見
+- 利用規約（2025.01.21 改定）に法人名・登記州・住所・連絡先を明記。プライバシーポリシー（2026.04.20 改定）に GDPR 法的根拠、第三者提供先の社名一覧、カテゴリ別保持期間（アカウント存続期間）を記載
+- SDK と AgentOS ランタイムを Apache-2.0 で全面公開（2026年2月に MPL 2.0 から変更）。PyPI リリースに provenance attestation
+- 直近12ヶ月の CVE 4件すべてにリリース済み修正あり。うち3件は公開前に修正済み
+- セッション・メモリ・ナレッジ・トレースを利用者自身のデータベースに保存する self-hosted 構成
+- JWT ベース RBAC のスコープとエンドポイント対応を文書化。HITL が設定で利用可。2.3.24 以降ファイル系ツールの base directory 制限がデフォルト有効
+
+## 主要リスク所見
+- CVE-2026-35002（eval() 経由の任意コード実行、CVSS 9.8）を含む4件の CVE。R は 14 → 4
+- ClickHouse SQL インジェクション（CVE-2026-10105）は公開 issue（2026.05.11）から修正リリース（v2.8.5、2026.07.27）まで77日。GHSA 記録に修正版の記載なし
+- 4件中3件にベンダーアドバイザリなし（2件は 2026.01.08 のリリースノートに不具合修正／改善として記載）
+- パス封じ込め系の弱点が4コンポーネントで個別に修正（同種の再発）
+- 学習利用の有無を述べる記載なし。顧客向け DPA なし。AI service providers として Anthropic・OpenAI を記載
+- SDK テレメトリはデフォルト ON（メタデータのみ、os-api.agno.com）。サイト側で PostHog セッションリプレイ・位置情報・GA リマーケティングを収集
+- 利用規約 §1: HIPAA・FISMA 非対応、GLBA 違反となる利用は不可。データはアメリカ合衆国でホスト
+- SECURITY.md なし。サイト上の「SOC 2 compliant」表記に公開レポートなし
+
+## インシデント
+- CVE-2025-64168, 7.1 (v3.1), 高並行時に session_state が別セッションへ保存される競合状態（2.0.0–2.2.1、2.2.2 で修正、2025.10.31 公開）
+- CVE-2026-35002, 9.8 (v3.1 NIST) / 9.3 (v4.0), FunctionCall の field_type を eval() に渡す任意コード実行（<2.3.24、2.3.24 で修正、2026.04.02 公開）
+- CVE-2026-10105, 8.3 (v3.1) / 8.7 (v4.0), ClickHouse delete_by_metadata() の SQL インジェクション（2.6.5、2.8.5 で修正、2026.05.29 公開）
+- CVE-2026-76832, 8.8 (v3.1) / 8.5 (v4.0), PythonTools の file_name によるパストラバーサル（2.3.24 で修正、2026.08.19 公開）
+- 窓外（参考）: CVE-2025-8665, 6.3 (v3.1), MCPTools のコマンドインジェクション（≤1.7.5、2025.08.06 公開、前回記録の窓内）
+
+## CISA KEV
+- 該当なし（カタログ 2026.09.24、1,723件を確認）
+
+## HTMLカード用タグ
+- tags: open-source, apache-2-0, self-hosted, multi-agent, agent-runtime, hitl, telemetry-default-on, rebranded, critical-cve-12mo, tier-c
+- incident_tags: eval-injection, sql-injection, path-traversal, race-condition, cross-session-exposure
+- owner: Agno Inc.
+```
+
+```
+Score: 40/85
+V: 16/20, R: 4/20, D: 7/15, I: 6/10, C: 4/10, T: 3/10
+Dimensions verified: V+R+D+I+C+T = 40
+Tier: C · Category: Agent Framework & Runtime · Open-Source (Apache 2.0) · Previous: 38/85 (Tier C)
+```
