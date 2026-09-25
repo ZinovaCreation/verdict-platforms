@@ -1,184 +1,3 @@
----
-name: Guardrails AI
-slug: guardrails-ai
-operator: Harvey (via Guardrails AI, Inc.)
-independence: subsidiary
-parent_entity: Harvey AI Corporation
-category: AI Safety
-homepage: https://www.guardrailsai.com
-github: https://github.com/guardrails-ai/guardrails
-evaluation_number: 64
-evaluation_type: update
-evaluated_at: '2026-05-12'
-updated_at: '2026-09-25'
-evaluator_model: claude-fable-5-1
-framework_version: v0.3.2
-layer: '0'
-target_version: guardrails-ai 0.11.0
-previous_evaluation_date: '2026-05-12'
-previous_score: 40
-score: 32
-max_score: 85
-tier: D
-verdict:
-  v:
-    score: 13
-    rating: Mid
-    note: 'Harvey-owned 2026-09; Apache-2.0 OSS; release notes; no SOC 2 or sub-processors'
-  e:
-    score: null
-    rating: null
-    note: null
-  r:
-    score: 6
-    rating: Low
-    note: '2 CVEs (9.8, 9.6); supply-chain compromise 2026-05; no patch declared for 31233'
-  d:
-    score: 2
-    rating: Low
-    note: 'Metrics default on (opt-out); DPA by reference; no training or retention notice'
-  i:
-    score: 3
-    rating: Low
-    note: 'on_fail exception/refrain documented; no HITL mode; validator scope partial'
-  c:
-    score: 3
-    rating: Low
-    note: 'In-process validators, no sandbox; broad defaults; hosted inference retired'
-  t:
-    score: 5
-    rating: Mid
-    note: 'GHSA+CVE for 45758 in 1 day; no vendor advisory for 31233; policy blog only'
-cisa_kev:
-  present: false
-  entries: []
-cve_count_12mo: 2
-cve_count_basis: exact
-max_cvss_12mo: 9.8
-supply_chain_compromise_12mo: true
-known_facts_applied: []
-qa:
-  factual: pass
-  legal: pass
-  quality: pass
-  revision_cycles: 0
-  flagged: false
-differential:
-  v: re-evaluated
-  r: re-evaluated
-  d: re-evaluated
-  i: re-evaluated
-  c: re-evaluated
-  t: re-evaluated
-  e: null
-next_review_due: '2026-12-24'
-tags:
-- ai-safety
-- llm-guardrails
-- validators
-- apache-2-0
-- open-source-framework
-- guardrails-hub
-- snowglobe
-- harvey
-- subsidiary
-- supply-chain-compromise
-- tier-d
-- evaluator-coi
-- shared-investor
-rank: 66
-sources:
-- https://www.guardrailsai.com/
-- https://guardrailsai.com/legal/terms-of-use
-- https://guardrailsai.com/legal/privacy-policy
-- https://guardrailsai.com/blog/commitment-to-responsible-vulnerability
-- https://guardrailsai.com/blog/guardrails-ai-joins-harvey
-- https://guardrailsai.com/hub
-- https://guardrailsai.com/guardrails/docs/cli
-- https://guardrailsai.com/guardrails/docs/api_reference_markdown/guards
-- https://guardrailsai.com/guardrails/docs/api_reference_markdown/types
-- https://guardrailsai.com/guardrails/docs/concepts/validator_on_fail_actions
-- https://guardrailsai.com/guardrails/docs/migration-guides/0-11-migration
-- https://github.com/guardrails-ai/guardrails
-- https://github.com/guardrails-ai/guardrails/releases
-- https://github.com/guardrails-ai/guardrails/releases/tag/v0.11.0
-- https://github.com/guardrails-ai/guardrails/security/advisories
-- https://github.com/guardrails-ai/guardrails/security/advisories/GHSA-xmpw-2vmm-p4p6
-- https://github.com/guardrails-ai/guardrails/security/policy
-- https://github.com/guardrails-ai/guardrails/blob/main/SECURITY_ADVISORY.md
-- https://github.com/guardrails-ai/guardrails/issues/1473
-- https://github.com/guardrails-ai/guardrails/issues/1560
-- https://github.com/advisories/GHSA-xmpw-2vmm-p4p6
-- https://github.com/advisories/GHSA-r6hf-g5x6-7pv9
-- https://osv.dev/list?q=guardrails-ai
-- https://osv.dev/vulnerability/GHSA-r6hf-g5x6-7pv9
-- https://osv.dev/vulnerability/PYSEC-2026-1431
-- https://osv.dev/vulnerability/PYSEC-2026-1432
-- https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/31xxx/CVE-2026-31233.json
-- https://app.opencve.io/cve/CVE-2026-45758
-- https://app.opencve.io/cve/CVE-2026-31233
-- https://pypi.org/project/guardrails-ai/
-- https://pypi.org/project/guardrails-ai/0.10.2/
-- https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral/
-- https://www.harvey.ai/blog/guardrails-ai-joins-harvey
-- https://www.harvey.ai/blog/harvey-raises-series-c
-- https://www.lw.com/en/news/2026/09/Latham%20Advises%20Harvey%20on%20Acquisition%20of%20Guardrails
-- https://www.abajournal.com/news/article/harvey-raises-550-million-in-latest-round-of-funding
-- https://www.zettavp.com/articles/guardrails-ai-pioneering-the-open-source-industry-standard-for-trustworthy-ai
-- https://bizfileonline.sos.ca.gov/search/business
-finding: 'Two Critical CVEs published against the guardrails-ai package in the trailing 12 months: CVE-2026-45758 (CVSS 9.6; a malicious 0.10.1 published to PyPI on 2026-05-11 after an employee GitHub PAT compromise, identified within ~2 hours, vendor advisory the next day, clean 0.10.2 on 2026-06-04 under Trusted Publishing) and CVE-2026-31233 (CVSS 9.8; Hub-installer code injection through 0.6.7 with no patched version declared and no vendor advisory). The Hub installer, private registry and hosted inference were retired on 2026-08-25 in favour of public PyPI validator packages. Harvey announced its acquisition of Guardrails AI on 2026-09-09. No public DPA URL, sub-processor list, retention schedule or independent certification. Framework v0.3.2 update; previous score 40/85.'
-meta_owner: Harvey (via Guardrails AI, Inc.) · acquisition announced 2026-09-09 · guardrails-ai 0.11.0
-meta_description: 'Independent security evaluation of Guardrails AI (Harvey). Score: 32/85. Two Critical CVEs in 12 months incl. a May 2026 PyPI supply-chain compromise (0.10.1). Hub installer retired Aug 2026. Framework v0.3.2.'
-og_description: 'Independent security evaluation of Guardrails AI (Harvey). Score: 32/85. Two Critical CVEs, May 2026 PyPI supply-chain compromise. Framework v0.3.2.'
-category_line: AI Safety · LLM Guardrails · Validators · Open-Source Framework (Apache 2.0)
-display_tags:
-- text: 2 CVEs · 12 Months (max CVSS 9.8)
-  color: red
-- text: Supply Chain Compromise · May 2026 (PyPI 0.10.1)
-  color: red
-- text: Hub Installer Retired · Aug 2026
-  color: amber
-- text: No SOC 2 · No Trust Center · No Public DPA URL
-  color: amber
-- text: Acquired by Harvey · Sep 2026
-  color: dim
-- text: Apache 2.0 OSS Framework
-  color: safe
-key_finding: 'Two Critical CVEs in 12 months: CVE-2026-45758 (CVSS 9.6; malicious guardrails-ai 0.10.1 published to PyPI 2026-05-11 after an employee GitHub PAT compromise, quarantined within ~2 hours, vendor advisory next day, clean 0.10.2 on 2026-06-04) and CVE-2026-31233 (CVSS 9.8; Hub-installer code injection through 0.6.7, no patched version declared). Hub installer, private registry and hosted inference retired 2026-08-25; validators now public PyPI packages. Harvey announced its acquisition of Guardrails AI on 2026-09-09. No SOC 2, Trust Center or public DPA URL.'
-card_owner: Harvey (via Guardrails AI, Inc.) · Sep 2026
-card_category: AI Safety · LLM Guardrails · OSS Framework (Apache 2.0)
-card_tags:
-- text: 2 CVEs · 12 Months (max CVSS 9.8)
-  color: red
-- text: Supply Chain Compromise · May 2026
-  color: red
-- text: Acquired by Harvey · Sep 2026
-  color: dim
-- text: Apache 2.0 OSS Framework
-  color: safe
-score_basis: consistent
----
-
-# Guardrails AI
-
-Two Critical CVEs published against the guardrails-ai package in the trailing 12 months: CVE-2026-45758 (CVSS 9.6; a malicious 0.10.1 published to PyPI on 2026-05-11 after an employee GitHub PAT compromise, identified within ~2 hours, vendor advisory the next day, clean 0.10.2 on 2026-06-04 under Trusted Publishing) and CVE-2026-31233 (CVSS 9.8; Hub-installer code injection through 0.6.7 with no patched version declared and no vendor advisory). The Hub installer, private registry and hosted inference were retired on 2026-08-25 in favour of public PyPI validator packages. Harvey announced its acquisition of Guardrails AI on 2026-09-09. No public DPA URL, sub-processor list, retention schedule or independent certification. Framework v0.3.2 update; previous score 40/85.
-
-## Layer 0 Score: 32/85 (Tier D)
-
-**V** 13/20 · **R** 6/20 · **D** 2/15 · **I** 3/10 · **C** 3/10 · **T** 5/10
-
-## CISA KEV
-
-None. Neither CVE-2026-31233 nor CVE-2026-45758 appears in the KEV catalog (checked 2026-09-25 via the OpenCVE KEV mirror for both IDs; CISA alert stream 2026-05 → 2026-09 contains no Guardrails entry). Details in the Scorecard and Incident Timeline below.
-
-## Bias Disclosure
-
-This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
-
-VERDICT additionally discloses a shared-investor relationship at the parent-entity level (Trigger 2). Harvey announced its acquisition of Guardrails AI on 2026-09-09. GV (Google Ventures, Alphabet) led Harvey's $100M Series C on 2024-07-23 and participated in its Series D; Google is a material Anthropic equity-holder as recorded in KNOWN_FACTS.md. This is a corporate-level equity relationship one level above the evaluated platform; it does not change the scoring methodology, which remains based exclusively on public sources. Separately, and at product level only, the Guardrails framework supports Claude as one of multiple LLM providers (PyPI extra `anthropic`); this integration is not a disclosure trigger. Microsoft (via GitHub Fund) participated in Guardrails AI's 2024 seed round; on the public record that participation does not meet the material-investor threshold and is noted for completeness.
-
-## Full Evaluation
-
 # VERDICT Evaluation Report #064
 ## Guardrails AI
 
@@ -406,3 +225,61 @@ VERDICT additionally discloses a shared-investor relationship at the parent-enti
 | Layer 1 | Behavioral testing on a local install (30 runs × 4 levels, 3+ days) | Not scheduled |
 | Layer C — routine | Full routine differential (R, T, V; D/I/C per carry-forward conditions) | 365 days from 2026-09-25 (provisional, ReviewCadence-002) |
 | Layer C — interrupt | T1 / T2 / T3 sweep; KEV feed weekly; T5 follow-up on the post-acquisition entity structure and framework maintenance statements | Continuous; next quarterly sweep |
+
+---
+
+```japanese-summary
+# Guardrails AI 評価結果サマリー
+
+## 基本情報
+- 評価種別: 更新
+- スコア: 32/85 (Layer 0)
+- 前回スコア: 40/85（2026.05.12、Tier C）
+- ランク: 66 / 70（build_index ローカル実行値、前回 53/69）
+- 評価日: 2026.09.25
+- 対象バージョン: guardrails-ai 0.11.0（PyPI 2026-08-14）
+- 運営: Harvey（via Guardrails AI, Inc.）— 2026-09-09 買収発表
+- 独立性: ⚠️ Harvey AI Corporation
+
+## 次元スコア
+- V (検証可能性): 13/20
+- R (耐性): 6/20
+- D (データ運用): 2/15
+- I (制御): 3/10
+- C (封じ込め): 3/10
+- T (透明性): 5/10
+
+## 主要ポジティブ所見
+- 悪性 0.10.1 の公開から約 2 時間で第三者検知・PyPI 隔離、翌 2026-05-12 に根本原因（従業員 PAT 侵害 → GitHub Action 30 repo → deploy token 抽出）を明記した vendor advisory を公開
+- API key 強制ローテーション（2026-05-13 14:00 PT）、classic PAT 禁止・fine-grained PAT 承認制・全 commit 署名必須を運営が明記
+- 0.10.2（2026-06-04）以降は PyPI Trusted Publishing + Sigstore attestation 付きリリース
+- Apache-2.0 で全コード監査可能、GitHub Release ノートと 0.11 移行ガイドを公開
+
+## 主要リスク所見
+- 12 か月で Critical CVE 2 件（最大 CVSS 9.8）、うち CVE-2026-31233（Hub installer post_install コード注入、≤0.6.7）は patched version 宣言・vendor advisory とも無し（公開後 136 日）
+- サプライチェーン侵害 1 件（運営自身の PyPI パッケージ）。clean 版 0.10.2 まで 23 日
+- Hub installer・private registry・hosted inference を 2026-08-25 に廃止、validator は public PyPI package 化（サンドボックス無し・in-process 実行は不変）
+- 公開 DPA URL・サブプロセッサ一覧・保持期間・学習利用の記載無し、SOC 2 等の第三者認証無し
+- 2026-09-09 に Harvey が買収を発表。OSS フレームワークの今後の保守方針は未表明
+
+## インシデント
+- CVE-2026-31233, CVSS 9.8, Hub installer の post_install 経由コード注入（≤0.6.7）、修正版宣言なし
+- CVE-2026-45758, CVSS 9.6, PyPI に悪性 guardrails-ai 0.10.1 が公開（2026-05-11 18:00 PT）、import 時に遠隔ペイロード実行（Linux）
+- PYSEC-2026-1431 / PYSEC-2026-1432: 2024 年 CVE（CVE-2024-6961 / CVE-2024-45858）の再掲、window 外・不算入
+- 依存関係: litellm PyPI 削除（2026-03）— 可用性事象、不算入
+
+## CISA KEV
+- 該当なし
+
+## HTMLカード用タグ
+- tags: ai-safety, llm-guardrails, validators, apache-2-0, open-source-framework, guardrails-hub, snowglobe, harvey, subsidiary, supply-chain-compromise, tier-d, evaluator-coi, shared-investor
+- incident_tags: supply-chain-compromise, cve-2026-45758, cve-2026-31233, pypi-malicious-package, hub-installer-code-injection, ownership-change
+- owner: Harvey（via Guardrails AI, Inc.）
+```
+
+```
+Score: 32/85
+V: 13/20, R: 6/20, D: 2/15, I: 3/10, C: 3/10, T: 5/10
+Dimensions verified: V+R+D+I+C+T = 32
+Tier: D · Category: AI Safety
+```

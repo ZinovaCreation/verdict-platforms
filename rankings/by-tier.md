@@ -75,23 +75,23 @@ _Auto-generated. Do not edit by hand._
 | 52 | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | RAG / Data Framework · Open Source (MIT core) | 41/85 |
 | 53 | [AG2](../platforms/ag2.md) | AG2AI Inc. · Community Fork | Multi-Agent Framework · OSS (Apache 2.0) | 40/85 |
 | 53 | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | Browser Agent Library · Open Source (MIT) | 40/85 |
-| 53 | [Guardrails AI](../platforms/guardrails-ai.md) | Guardrails AI, Inc. | AI Safety | 40/85 |
-| 56 | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | Visual AI Agent IDE · OSS (MIT) | 39/85 |
-| 57 | [Phidata (Agno)](../platforms/phidata.md) | Phidata Inc. | Multi-Agent Framework · OSS (MPL 2.0) | 38/85 |
-| 58 | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | Stateful AI Agent Framework · Open Source (Apache 2.0) | 37/85 |
-| 59 | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | Autonomous AI Agent · Source-Available | 36/85 |
-| 60 | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | AI Agent Platform · Closed Source | 35/85 |
-| 60 | [Manus AI](../platforms/manus-ai.md) | Butterfly Effect Pte. Ltd. · Singapore | Autonomous Browser Agent · Cloud | 35/85 |
-| 60 | [Wordware](../platforms/wordware.md) | HeyDaily Inc. · San Francisco | AI Agent IDE · Cloud SaaS | 35/85 |
-| 60 | [n8n](../platforms/n8n.md) | Independent · n8n GmbH (Berlin) | Workflow Automation · Open Source | 35/85 |
+| 55 | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | Visual AI Agent IDE · OSS (MIT) | 39/85 |
+| 56 | [Phidata (Agno)](../platforms/phidata.md) | Phidata Inc. | Multi-Agent Framework · OSS (MPL 2.0) | 38/85 |
+| 57 | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | Stateful AI Agent Framework · Open Source (Apache 2.0) | 37/85 |
+| 58 | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | Autonomous AI Agent · Source-Available | 36/85 |
+| 59 | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | AI Agent Platform · Closed Source | 35/85 |
+| 59 | [Manus AI](../platforms/manus-ai.md) | Butterfly Effect Pte. Ltd. · Singapore | Autonomous Browser Agent · Cloud | 35/85 |
+| 59 | [Wordware](../platforms/wordware.md) | HeyDaily Inc. · San Francisco | AI Agent IDE · Cloud SaaS | 35/85 |
+| 59 | [n8n](../platforms/n8n.md) | Independent · n8n GmbH (Berlin) | Workflow Automation · Open Source | 35/85 |
 
 ## Tier D
 
 | Rank | Platform | Operator | Category | Score |
 |---:|---|---|---|---:|
-| 64 | [Langroid](../platforms/langroid.md) | Prasad Chalasani (CMU) · Individual | Multi-Agent LLM Framework · OSS (MIT) | 34/85 |
-| 65 | [CAMEL-AI](../platforms/camel-ai.md) | CAMEL-AI.org · UK (KAUST) | Multi-Agent Research · OSS (Apache 2.0) | 33/85 |
-| 65 | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | LLM Agent Builder · Open Source | 33/85 |
+| 63 | [Langroid](../platforms/langroid.md) | Prasad Chalasani (CMU) · Individual | Multi-Agent LLM Framework · OSS (MIT) | 34/85 |
+| 64 | [CAMEL-AI](../platforms/camel-ai.md) | CAMEL-AI.org · UK (KAUST) | Multi-Agent Research · OSS (Apache 2.0) | 33/85 |
+| 64 | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | LLM Agent Builder · Open Source | 33/85 |
+| 66 | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | AI Safety | 32/85 |
 | 67 | [Langflow](../platforms/langflow.md) | IBM (via DataStax) | Visual AI Agent Builder · Open Source | 29/85 |
 | 68 | [BabyAGI](../platforms/babyagi.md) | Yohei Nakajima · Individual | Experimental Autonomous Agent · OSS (MIT) | 24/85 |
 | 69 | [MetaGPT](../platforms/metagpt.md) | DeepWisdom · Shenzhen, China | Multi-Agent Dev Framework · OSS (MIT) | 23/85 |

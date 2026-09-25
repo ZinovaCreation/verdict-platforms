@@ -18,7 +18,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 60 | C | [Wordware](../platforms/wordware.md) | HeyDaily Inc. · San Francisco | 35/85 |
+| 59 | C | [Wordware](../platforms/wordware.md) | HeyDaily Inc. · San Francisco | 35/85 |
 
 ## AI Agent Platform
 
@@ -30,7 +30,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 60 | C | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | 35/85 |
+| 59 | C | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | 35/85 |
 
 ## AI Agent Platform · Cloud SaaS
 
@@ -124,7 +124,7 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 23 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
-| 53 | C | [Guardrails AI](../platforms/guardrails-ai.md) | Guardrails AI, Inc. | 40/85 |
+| 66 | D | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | 32/85 |
 
 ## Agent Management · OSS (MIT)
 
@@ -148,13 +148,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 59 | C | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | 36/85 |
+| 58 | C | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | 36/85 |
 
 ## Autonomous Browser Agent · Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 60 | C | [Manus AI](../platforms/manus-ai.md) | Butterfly Effect Pte. Ltd. · Singapore | 35/85 |
+| 59 | C | [Manus AI](../platforms/manus-ai.md) | Butterfly Effect Pte. Ltd. · Singapore | 35/85 |
 
 ## Browser Agent Library · Open Source (MIT)
 
@@ -250,7 +250,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 65 | D | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | 33/85 |
+| 64 | D | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | 33/85 |
 
 ## LLM Agent Framework · Open Source (MIT core)
 
@@ -293,7 +293,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 57 | C | [Phidata (Agno)](../platforms/phidata.md) | Phidata Inc. | 38/85 |
+| 56 | C | [Phidata (Agno)](../platforms/phidata.md) | Phidata Inc. | 38/85 |
 
 ## Multi-Agent Framework · Open Source (MIT)
 
@@ -305,7 +305,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 64 | D | [Langroid](../platforms/langroid.md) | Prasad Chalasani (CMU) · Individual | 34/85 |
+| 63 | D | [Langroid](../platforms/langroid.md) | Prasad Chalasani (CMU) · Individual | 34/85 |
 
 ## Multi-Agent Orchestration · Open Source
 
@@ -317,7 +317,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 65 | D | [CAMEL-AI](../platforms/camel-ai.md) | CAMEL-AI.org · UK (KAUST) | 33/85 |
+| 64 | D | [CAMEL-AI](../platforms/camel-ai.md) | CAMEL-AI.org · UK (KAUST) | 33/85 |
 
 ## No-Code Agent Builder · Enterprise SaaS
 
@@ -336,7 +336,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 58 | C | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | 37/85 |
+| 57 | C | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | 37/85 |
 
 ## Vector Database
 
@@ -355,7 +355,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 56 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | 39/85 |
+| 55 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | 39/85 |
 
 ## Workflow Automation · API Integration
 
@@ -374,7 +374,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 60 | C | [n8n](../platforms/n8n.md) | Independent · n8n GmbH (Berlin) | 35/85 |
+| 59 | C | [n8n](../platforms/n8n.md) | Independent · n8n GmbH (Berlin) | 35/85 |
 
 ## Workflow Automation · Open Source (MIT)
 

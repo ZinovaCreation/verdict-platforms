@@ -73,7 +73,7 @@ tags:
 - multi-agent
 - actor-model
 - lightweight
-rank: 64
+rank: 63
 sources:
 - https://github.com/langroid/langroid
 - https://github.com/langroid/langroid/security

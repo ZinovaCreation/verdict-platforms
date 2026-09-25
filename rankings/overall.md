@@ -58,18 +58,18 @@ _Auto-generated — 70 platform(s). Do not edit by hand._
 | 52 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | RAG / Data Framework · Open Source (MIT core) | 41/85 | 15 | 7 | 5 | 4 | 5 | 5 |  |
 | 53 | C | [AG2](../platforms/ag2.md) | AG2AI Inc. · Community Fork | Multi-Agent Framework · OSS (Apache 2.0) | 40/85 | 12 | 14 | 5 | 3 | 4 | 2 |  |
 | 53 | C | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | Browser Agent Library · Open Source (MIT) | 40/85 | 14 | 9 | 4 | 4 | 3 | 6 |  |
-| 53 | C | [Guardrails AI](../platforms/guardrails-ai.md) | Guardrails AI, Inc. | AI Safety | 40/85 | 11 | 17 | 1 | 4 | 3 | 4 |  |
-| 56 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | Visual AI Agent IDE · OSS (MIT) | 39/85 | 14 | 14 | 5 | 2 | 2 | 2 |  |
-| 57 | C | [Phidata (Agno)](../platforms/phidata.md) | Phidata Inc. | Multi-Agent Framework · OSS (MPL 2.0) | 38/85 | 11 | 14 | 3 | 5 | 3 | 2 |  |
-| 58 | C | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | Stateful AI Agent Framework · Open Source (Apache 2.0) | 37/85 | 12 | 14 | 3 | 2 | 3 | 3 |  |
-| 59 | C | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | Autonomous AI Agent · Source-Available | 36/85 | 10 | 4 | 5 | 3 | 4 | 10 |  |
-| 60 | C | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | AI Agent Platform · Closed Source | 35/85 | 9 | 13 | 4 | 3 | 4 | 2 |  |
-| 60 | C | [Manus AI](../platforms/manus-ai.md) | Butterfly Effect Pte. Ltd. · Singapore | Autonomous Browser Agent · Cloud | 35/85 | 8 | 14 | 4 | 2 | 4 | 3 |  |
-| 60 | C | [Wordware](../platforms/wordware.md) | HeyDaily Inc. · San Francisco | AI Agent IDE · Cloud SaaS | 35/85 | 6 | 14 | 4 | 3 | 2 | 6 |  |
-| 60 | C | [n8n](../platforms/n8n.md) | Independent · n8n GmbH (Berlin) | Workflow Automation · Open Source | 35/85 | 12 | 5 | 3 | 6 | 3 | 6 | ✅ |
-| 64 | D | [Langroid](../platforms/langroid.md) | Prasad Chalasani (CMU) · Individual | Multi-Agent LLM Framework · OSS (MIT) | 34/85 | 10 | 5 | 6 | 2 | 3 | 8 |  |
-| 65 | D | [CAMEL-AI](../platforms/camel-ai.md) | CAMEL-AI.org · UK (KAUST) | Multi-Agent Research · OSS (Apache 2.0) | 33/85 | 11 | 14 | 2 | 1 | 1 | 4 |  |
-| 65 | D | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | LLM Agent Builder · Open Source | 33/85 | 10 | 4 | 4 | 5 | 4 | 6 |  |
+| 55 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | Visual AI Agent IDE · OSS (MIT) | 39/85 | 14 | 14 | 5 | 2 | 2 | 2 |  |
+| 56 | C | [Phidata (Agno)](../platforms/phidata.md) | Phidata Inc. | Multi-Agent Framework · OSS (MPL 2.0) | 38/85 | 11 | 14 | 3 | 5 | 3 | 2 |  |
+| 57 | C | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | Stateful AI Agent Framework · Open Source (Apache 2.0) | 37/85 | 12 | 14 | 3 | 2 | 3 | 3 |  |
+| 58 | C | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | Autonomous AI Agent · Source-Available | 36/85 | 10 | 4 | 5 | 3 | 4 | 10 |  |
+| 59 | C | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | AI Agent Platform · Closed Source | 35/85 | 9 | 13 | 4 | 3 | 4 | 2 |  |
+| 59 | C | [Manus AI](../platforms/manus-ai.md) | Butterfly Effect Pte. Ltd. · Singapore | Autonomous Browser Agent · Cloud | 35/85 | 8 | 14 | 4 | 2 | 4 | 3 |  |
+| 59 | C | [Wordware](../platforms/wordware.md) | HeyDaily Inc. · San Francisco | AI Agent IDE · Cloud SaaS | 35/85 | 6 | 14 | 4 | 3 | 2 | 6 |  |
+| 59 | C | [n8n](../platforms/n8n.md) | Independent · n8n GmbH (Berlin) | Workflow Automation · Open Source | 35/85 | 12 | 5 | 3 | 6 | 3 | 6 | ✅ |
+| 63 | D | [Langroid](../platforms/langroid.md) | Prasad Chalasani (CMU) · Individual | Multi-Agent LLM Framework · OSS (MIT) | 34/85 | 10 | 5 | 6 | 2 | 3 | 8 |  |
+| 64 | D | [CAMEL-AI](../platforms/camel-ai.md) | CAMEL-AI.org · UK (KAUST) | Multi-Agent Research · OSS (Apache 2.0) | 33/85 | 11 | 14 | 2 | 1 | 1 | 4 |  |
+| 64 | D | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | LLM Agent Builder · Open Source | 33/85 | 10 | 4 | 4 | 5 | 4 | 6 |  |
+| 66 | D | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | AI Safety | 32/85 | 13 | 6 | 2 | 3 | 3 | 5 |  |
 | 67 | D | [Langflow](../platforms/langflow.md) | IBM (via DataStax) | Visual AI Agent Builder · Open Source | 29/85 | 13 | 3 | 1 | 4 | 3 | 5 | ✅ |
 | 68 | D | [BabyAGI](../platforms/babyagi.md) | Yohei Nakajima · Individual | Experimental Autonomous Agent · OSS (MIT) | 24/85 | 8 | 14 | 2 | 0 | 0 | 0 |  |
 | 69 | D | [MetaGPT](../platforms/metagpt.md) | DeepWisdom · Shenzhen, China | Multi-Agent Dev Framework · OSS (MIT) | 23/85 | 11 | 4 | 0 | 2 | 5 | 1 |  |

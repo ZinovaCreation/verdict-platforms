@@ -72,7 +72,7 @@ differential:
   e: null
 next_review_due: '2026-06-22'
 tags: []
-rank: 65
+rank: 64
 sources: []
 og_description: 'Independent security evaluation of Flowise. Score: 33/85. Six CVEs in March 2026 cluster including two CVSS 9.8. Authentication not enforced by default. Acquired by Workday. Framework v0.3.1.'
 category_line: LLM Agent Builder · Open Source

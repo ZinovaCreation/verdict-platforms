@@ -66,7 +66,7 @@ qa:
 differential: null
 next_review_due: 2026-08-11
 tags: []
-rank: 60
+rank: 59
 sources: []
 og_description: 'Independent security evaluation of Coze (ByteDance). Score: 35/85. Terms of Service waive all confidentiality obligations. Parent company subject to China National Intelligence Law. Framework v0.3.1.'
 category_line: AI Agent Platform · Closed Source

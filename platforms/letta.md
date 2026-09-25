@@ -73,7 +73,7 @@ tags:
 - seed-stage
 - python
 - self-hosted
-rank: 58
+rank: 57
 sources:
 - https://app.letta.com/
 - https://github.com/letta-ai/letta

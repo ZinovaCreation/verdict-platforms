@@ -75,7 +75,7 @@ differential:
   e: null
 next_review_due: '2026-06-22'
 tags: []
-rank: 60
+rank: 59
 sources: []
 og_description: 'Independent security evaluation of n8n. Score: 35/85. CISA KEV listed (CVE-2025-68613, CVSS 9.9). 12+ CVEs in trailing 12 months. Structural sandbox bypass pattern across 5+ CVEs. Framework v0.3.1.'
 category_line: Workflow Automation · Open Source

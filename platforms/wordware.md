@@ -72,7 +72,7 @@ tags:
 - IDE
 - enterprise-AI
 - Spark-Capital
-rank: 60
+rank: 59
 sources:
 - https://blog.wordware.ai/
 - https://trust.wordware.ai/

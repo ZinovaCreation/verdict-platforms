@@ -73,7 +73,7 @@ tags:
 - most-starred-github
 - platform-beta
 - Docker
-rank: 59
+rank: 58
 sources:
 - https://agpt.co/
 - https://github.com/Significant-Gravitas/AutoGPT

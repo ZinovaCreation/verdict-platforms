@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T22:41:54+00:00",
+  "generated_at": "2026-09-25T01:52:59+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -3906,81 +3906,7 @@
       ]
     },
     {
-      "rank": 53,
-      "tier": "C",
-      "slug": "guardrails-ai",
-      "name": "Guardrails AI",
-      "operator": "Guardrails AI, Inc.",
-      "independence": "independent",
-      "parent_entity": null,
-      "category": "AI Safety",
-      "homepage": "https://www.guardrailsai.com",
-      "github": "https://github.com/guardrails-ai",
-      "score": 40,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 11,
-          "rating": "Mid",
-          "note": ""
-        },
-        "r": {
-          "score": 17,
-          "rating": "High",
-          "note": ""
-        },
-        "d": {
-          "score": 1,
-          "rating": "Low",
-          "note": ""
-        },
-        "i": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
-          "score": 3,
-          "rating": "Low",
-          "note": ""
-        },
-        "t": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 0,
-      "max_cvss_12mo": null,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-05-12",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1-final",
-      "tags": [
-        "ai-safety",
-        "llm-guardrails",
-        "validators",
-        "apache-2-0",
-        "open-source-framework",
-        "guardrails-hub",
-        "snowglobe",
-        "seed-stage",
-        "early-stage"
-      ]
-    },
-    {
-      "rank": 56,
+      "rank": 55,
       "tier": "C",
       "slug": "rivet",
       "name": "Rivet",
@@ -4055,7 +3981,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 56,
       "tier": "C",
       "slug": "phidata",
       "name": "Phidata (Agno)",
@@ -4128,7 +4054,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 57,
       "tier": "C",
       "slug": "letta",
       "name": "Letta",
@@ -4201,7 +4127,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 58,
       "tier": "C",
       "slug": "autogpt",
       "name": "AutoGPT",
@@ -4274,7 +4200,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 59,
       "tier": "C",
       "slug": "coze",
       "name": "Coze",
@@ -4338,7 +4264,7 @@
       "tags": []
     },
     {
-      "rank": 60,
+      "rank": 59,
       "tier": "C",
       "slug": "manus-ai",
       "name": "Manus AI",
@@ -4412,7 +4338,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 59,
       "tier": "C",
       "slug": "wordware",
       "name": "Wordware",
@@ -4484,7 +4410,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 59,
       "tier": "C",
       "slug": "n8n",
       "name": "n8n",
@@ -4554,7 +4480,7 @@
       "tags": []
     },
     {
-      "rank": 64,
+      "rank": 63,
       "tier": "D",
       "slug": "langroid",
       "name": "Langroid",
@@ -4627,7 +4553,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 64,
       "tier": "D",
       "slug": "camel-ai",
       "name": "CAMEL-AI",
@@ -4702,7 +4628,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 64,
       "tier": "D",
       "slug": "flowise",
       "name": "Flowise",
@@ -4764,6 +4690,84 @@
       "evaluator_model": "unrecorded",
       "framework_version": "v0.3.1",
       "tags": []
+    },
+    {
+      "rank": 66,
+      "tier": "D",
+      "slug": "guardrails-ai",
+      "name": "Guardrails AI",
+      "operator": "Harvey (via Guardrails AI, Inc.)",
+      "independence": "subsidiary",
+      "parent_entity": "Harvey AI Corporation",
+      "category": "AI Safety",
+      "homepage": "https://www.guardrailsai.com",
+      "github": "https://github.com/guardrails-ai/guardrails",
+      "score": 32,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": "Harvey-owned 2026-09; Apache-2.0 OSS; release notes; no SOC 2 or sub-processors"
+        },
+        "r": {
+          "score": 6,
+          "rating": "Low",
+          "note": "2 CVEs (9.8, 9.6); supply-chain compromise 2026-05; no patch declared for 31233"
+        },
+        "d": {
+          "score": 2,
+          "rating": "Low",
+          "note": "Metrics default on (opt-out); DPA by reference; no training or retention notice"
+        },
+        "i": {
+          "score": 3,
+          "rating": "Low",
+          "note": "on_fail exception/refrain documented; no HITL mode; validator scope partial"
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": "In-process validators, no sandbox; broad defaults; hosted inference retired"
+        },
+        "t": {
+          "score": 5,
+          "rating": "Mid",
+          "note": "GHSA+CVE for 45758 in 1 day; no vendor advisory for 31233; policy blog only"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 2,
+      "max_cvss_12mo": 9.8,
+      "supply_chain_compromise_12mo": true,
+      "evaluated_at": "2026-05-12",
+      "updated_at": "2026-09-25",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "ai-safety",
+        "llm-guardrails",
+        "validators",
+        "apache-2-0",
+        "open-source-framework",
+        "guardrails-hub",
+        "snowglobe",
+        "harvey",
+        "subsidiary",
+        "supply-chain-compromise",
+        "tier-d",
+        "evaluator-coi",
+        "shared-investor"
+      ]
     },
     {
       "rank": 67,

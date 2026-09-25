@@ -75,7 +75,7 @@ tags:
 - corporate-backed
 - Ironclad
 - legal-tech
-rank: 56
+rank: 55
 sources:
 - https://github.com/Ironclad/rivet
 - https://github.com/Ironclad/rivet/releases
