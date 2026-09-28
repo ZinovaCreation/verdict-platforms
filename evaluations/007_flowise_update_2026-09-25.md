@@ -1,216 +1,3 @@
----
-name: Flowise
-slug: flowise
-operator: Workday (via FlowiseAI Inc.)
-independence: subsidiary
-parent_entity: Workday, Inc.
-category: LLM Agent Builder · Open Source
-homepage: https://flowiseai.com
-github: https://github.com/FlowiseAI/Flowise
-evaluation_number: 7
-evaluation_type: update
-evaluated_at: '2026-03-13'
-updated_at: '2026-09-25'
-evaluator_model: claude-fable-5-1
-framework_version: v0.3.2
-layer: '0'
-target_version: flowise 3.1.4
-previous_evaluation_date: '2026-03-24'
-previous_score: 33
-score: 31
-max_score: 85
-tier: D
-verdict:
-  v:
-    score: 12
-    rating: Mid
-    note: Delaware corp+EIN confirmed; OSS core + commercial enterprise layer; no SOC 2
-  e:
-    score: null
-    rating: null
-    note: null
-  r:
-    score: 3
-    rating: Low
-    note: 119 CVEs in window, max 10.0 (NVD); 11 unpatched on final 3.1.4; classes recur
-  d:
-    score: 6
-    rating: Mid
-    note: Telemetry off without PostHog key; GDPR bases+SCC, no DPA; no training/retention
-  i:
-    score: 2
-    rating: Low
-    note: HITL optional (Human Input node); RBAC partial; no documented emergency stop
-  c:
-    score: 4
-    rating: Mid
-    note: NodeVM allowlist + HTTP blocklist; secrets need config; cloud isolation unknown
-  t:
-    score: 4
-    rating: Mid
-    note: 118 advisories with CVSS+credits; fix-to-advisory ~30d; reports closed after EOL
-cisa_kev:
-  present: false
-  entries: []
-cve_count_12mo: 119
-cve_count_basis: exact
-max_cvss_12mo: 10.0
-supply_chain_compromise_12mo: false
-known_facts_applied: []
-qa:
-  factual: pass
-  legal: pass
-  quality: pass
-  revision_cycles: 0
-  flagged: true
-differential:
-  v: re-evaluated
-  r: re-evaluated
-  d: re-evaluated
-  i: re-evaluated
-  c: re-evaluated
-  t: re-evaluated
-  e: null
-next_review_due: '2026-12-24'
-tags:
-- llm-agent-builder
-- low-code
-- open-source
-- apache-2-0
-- archived-repository
-- end-of-life
-- workday
-- subsidiary
-- tier-d
-- unpatched-final-release
-- mass-assignment
-- sandbox-escape
-- retroactive-cves-excluded
-rank: 66
-sources:
-- https://docs.flowiseai.com/
-- https://docs.flowiseai.com/api-reference.md
-- https://docs.flowiseai.com/configuration/authorization/app-level.md
-- https://docs.flowiseai.com/configuration/environment-variables.md
-- https://docs.flowiseai.com/llms.txt
-- https://docs.flowiseai.com/readme.md
-- https://docs.flowiseai.com/tutorials/human-in-the-loop.md
-- https://docs.flowiseai.com/using-flowise/embed.md
-- https://fidelity.co.uk/factsheet-data/factsheet/US98138H1014USD-workday-inc/profile
-- https://flowiseai.com/
-- https://flowiseai.com/privacy
-- https://flowiseai.com/sunset
-- https://flowiseai.com/terms
-- https://github.com/CVEProject/cvelistV5
-- https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/61xxx/CVE-2025-61913.json
-- https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/40xxx/CVE-2026-40933.json
-- https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/46xxx/CVE-2026-46440.json
-- https://github.com/FlowiseAI/Flowise
-- https://github.com/FlowiseAI/Flowise/blob/main/LICENSE.md
-- https://github.com/FlowiseAI/Flowise/blob/main/SECURITY.md
-- https://github.com/FlowiseAI/Flowise/blob/main/packages/server/.env.example
-- https://github.com/FlowiseAI/Flowise/blob/main/packages/server/src/enterprise/LICENSE.md
-- https://github.com/FlowiseAI/Flowise/blob/main/packages/server/src/utils/telemetry.ts
-- https://github.com/FlowiseAI/Flowise/discussions/6727
-- https://github.com/FlowiseAI/Flowise/pull/4905
-- https://github.com/FlowiseAI/Flowise/pull/5231
-- https://github.com/FlowiseAI/Flowise/releases
-- https://github.com/FlowiseAI/Flowise/security/advisories
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-3gcm-f6qx-ff7p
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-3hjv-c53m-58jj
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-435c-mg9p-fv22
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-52fh-8v99-63c2
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-5cph-wvm9-45gj
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-7j65-65cr-6644
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-8vvx-qvq9-5948
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-c9gw-hvqq-f33r
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-hmgh-466j-fx4c
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-jrcq-qjw5-xx5q
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-php6-83fg-gw3g
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-pprx-4prj-35mj
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-qgvm-j2hm-6m38
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-vf3j-89vf-r697
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-wg86-r78f-74mp
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-wgpv-6j63-x5ph
-- https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-xc48-889x-5qmw
-- https://github.com/advisories?query=ecosystem%3Anpm+flowise
-- https://github.com/advisories?query=ecosystem%3Anpm+flowise-components
-- https://github.com/advisories?query=type%3Aunreviewed+flowise
-- https://github.com/cisagov/kev-data
-- https://github.com/fkie-cad/nvd-json-data-feeds
-- https://github.com/fkie-cad/nvd-json-data-feeds/blob/main/CVE-2025/CVE-2025-619xx/CVE-2025-61913.json
-- https://github.com/fkie-cad/nvd-json-data-feeds/blob/main/CVE-2026/CVE-2026-464xx/CVE-2026-46440.json
-- https://github.com/fkie-cad/nvd-json-data-feeds/blob/main/CVE-2026/CVE-2026-704xx/CVE-2026-70478.json
-- https://newsroom.workday.com/2025-08-14-Workday-Acquires-Flowise,-Bringing-Powerful-AI-Agent-Builder-Capabilities-to-the-Workday-Platform
-- https://registry.npmjs.org/flowise
-- https://registry.npmjs.org/flowise-components
-- https://www.npmjs.com/package/flowise
-- https://www.npmjs.com/package/flowise-components
-- https://www.prnewswire.com/news-releases/workday-acquires-flowise-bringing-powerful-ai-agent-builder-capabilities-to-the-workday-platform-302530557.html
-- https://www.securityweek.com/critical-flowise-vulnerability-in-attacker-crosshairs/
-finding: '119 CVE records were first publicly disclosed against Flowise in the trailing 12 months (2025-09-25 → 2026-09-25), 30 at CVSS 9.0 or above and the highest at 10.0 (CVE-2026-70478, NVD v3.1); eight further CVEs assigned in the window to advisories published before it are recorded as retroactive and not counted. The operator published 118 repository advisories with fixes through flowise 3.1.4. The product was wound down inside the window: code freeze 2026-07-29, repository archived 2026-08-13, end of life 2026-08-31, and SECURITY.md no longer accepts vulnerability reports; eleven records against the final 3.1.4 carry no patched version. FlowiseAI Inc. (Delaware) is a Workday, Inc. subsidiary since the acquisition announced 2025-08-14. No DPA, training-use statement, retention schedule or independent certification found. Framework v0.3.2 update; previous score 33/85.'
-meta_owner: Workday (via FlowiseAI Inc.) · acquired 2025-08-14 · archived 2026-08-13 · flowise 3.1.4
-meta_description: 'Independent security evaluation of Flowise (Workday). Score: 31/85. 119 CVEs in 12 months, max CVSS 10.0; repository archived Aug 2026, EOL Aug 31; 11 records unpatched on 3.1.4. Framework v0.3.2.'
-og_description: 'Independent security evaluation of Flowise (Workday). Score: 31/85. 119 CVEs in 12 months, max CVSS 10.0; archived Aug 2026, EOL. Framework v0.3.2.'
-category_line: LLM Agent Builder · Low-Code Agent Platform · Open Source (Apache 2.0, archived 2026-08-13)
-display_tags:
-- text: 119 CVEs · 12 Months (max CVSS 10.0)
-  color: red
-- text: 11 Records Unpatched on Final 3.1.4
-  color: red
-- text: Repository Archived · Aug 2026 · EOL Aug 31
-  color: amber
-- text: No Report Channel After EOL
-  color: amber
-- text: Workday Subsidiary · Acquired Aug 2025
-  color: dim
-- text: Apache 2.0 Core · 118 Vendor Advisories
-  color: safe
-key_finding: '119 CVE records first disclosed in 12 months (30 at CVSS 9.0+, highest 10.0: CVE-2026-70478, NVD v3.1), with mass-assignment and sandbox-escape classes recurring across 3.1.0–3.1.4 and eleven records against the final 3.1.4 with no patched version. Flowise was wound down mid-window: code freeze 2026-07-29, repository archived 2026-08-13, end of life 2026-08-31, new vulnerability reports no longer accepted; the operator is Workday (via FlowiseAI Inc.). No CISA KEV.'
-card_owner: Workday (via FlowiseAI Inc.) · EOL Aug 2026
-card_category: LLM Agent Builder · Low-Code · OSS (Apache 2.0, archived)
-card_tags:
-- text: 119 CVEs · 12 Months (max CVSS 10.0)
-  color: red
-- text: 11 Records Unpatched on Final 3.1.4
-  color: red
-- text: Repository Archived · Aug 2026 · EOL Aug 31
-  color: amber
-- text: Workday Subsidiary · Acquired Aug 2025
-  color: dim
-score_basis: consistent
----
-
-# Flowise
-
-119 CVE records were first publicly disclosed against Flowise in the trailing 12 months (2025-09-25 → 2026-09-25), 30 at CVSS 9.0 or above and the highest at 10.0 (CVE-2026-70478, NVD v3.1); eight further CVEs assigned in the window to advisories published before it are recorded as retroactive and not counted. The operator published 118 repository advisories with fixes through flowise 3.1.4. The product was wound down inside the window: code freeze 2026-07-29, repository archived 2026-08-13, end of life 2026-08-31, and SECURITY.md no longer accepts vulnerability reports; eleven records against the final 3.1.4 carry no patched version. FlowiseAI Inc. (Delaware) is a Workday, Inc. subsidiary since the acquisition announced 2025-08-14. No DPA, training-use statement, retention schedule or independent certification found. Framework v0.3.2 update; previous score 33/85.
-
-## Layer 0 Score: 31/85 (Tier D)
-
-**V** 12/20 · **R** 3/20 · **D** 6/15 · **I** 2/10 · **C** 4/10 · **T** 4/10
-
-## CISA KEV
-
-None. The KEV JSON (catalog 2026.09.24, 1,723 entries) was checked on 2026-09-25 for all 145 CVE IDs in the Flowise advisory universe and for vendor / product / description matches on "Flowise", "FlowiseAI" and "Workday"; no entry. VulnCheck reported in-the-wild exploitation attempts against CVE-2025-59528 (10.0, CNA v3.1; published 2025-09-22, before the window) on 2026-04-07; that CVE is not KEV-listed. Details in the Scorecard and Incident Timeline below.
-
-## Bias Disclosure
-
-This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
-
-Disclosure layer: none of Triggers 0–3 fires. Workday, Inc., the parent entity, is not a material Anthropic equity-holder, and no member of the set {Amazon, Google, Microsoft, NVIDIA} appears on Workday's public record as a material investor, board member or non-arms-length channel partner. At product level only, Flowise supports Claude as one of many LLM providers, and the operator's sunset statement names Claude Code among the coding agents it cites; neither is a disclosure trigger.
-
-## Evaluation History
-
-| Date | Type | Score | Tier | Framework |
-|---|---|---|---|---|
-| 2026-03-13 | Initial (Layer 0) | 37 | C | v0.3.1 |
-| 2026-03-24 | Update | 33 | D | v0.3.1 |
-| 2026-09-25 | Update | 31 | D | v0.3.2 |
-
-Provenance correction (2026-09-22): `evaluated_at` restored to the original Layer 0 date, 2026-03-13; the capture date 2026-03-24 stands as the first update (StrategyApproval-001 clause (c), approved 2026-09-22).
-
-## Full Evaluation
-
 # VERDICT Evaluation Report #007
 ## Flowise
 
@@ -599,3 +386,59 @@ Disclosure layer: none of Triggers 0–3 fires. Workday, Inc., the parent entity
 | Layer 1 | Behavioral testing on a self-hosted 3.1.4 install (30 runs × 4 levels, 3+ days) | Not scheduled (product at end of life) |
 | Layer C — routine | Routine differential (R, T, V; D/I/C per carry-forward conditions); dormancy check point 2027-07-29 | 365 days from 2026-09-25 (provisional, ReviewCadence-002) |
 | Layer C — interrupt | T1 / T2 sweep of CVE records against 3.1.4 and any KEV listing; T5 follow-up on Flowise Cloud status and npm deprecation | Continuous; next quarterly sweep |
+
+
+---
+
+```japanese-summary
+# Flowise 評価結果サマリー
+
+## 基本情報
+- 評価種別: 更新（Framework v0.3.2 差分評価、interrupt lane T1 ×n + T5、routine 折込。Attribution-CVE-002 / Criterion-VSource-001 適用）
+- スコア: 31/85 (Layer 0)
+- 前回スコア: 33/85（2026.03.24 更新、Tier D）／初回 37/85（2026.03.13、Tier C）
+- ティア: D
+- ランク: Ops pipeline が再計算（前回記録 64 / 70）
+- 評価日: 2026.09.25
+- 対象バージョン: flowise 3.1.4（npm、2026-07-29 公開、最終リリース）
+- 運営: Workday (via FlowiseAI Inc.) — FlowiseAI Inc.（Delaware 法人、EIN 37-2097367）、Workday, Inc. が 2025-08-14 に買収を発表
+- 独立性: ⚠️ Workday, Inc.（subsidiary）
+
+## 次元スコア
+- V (検証可能性): 12/20
+- R (耐性): 3/20
+- D (データ運用): 6/15
+- I (制御): 2/10
+- C (封じ込め): 4/10
+- T (透明性): 4/10
+
+## 主要ポジティブ所見
+- 窓内に 118 件の vendor advisory を公開（CVSS vector・影響/修正版・報告者クレジット付き）、修正リリース 7 本（3.0.8 → 3.1.4）
+- Custom MCP コマンド allowlist・HTTP blocklist・path traversal 保護が既定で有効、JS sandbox の既定を E2B へ変更（elttam advisory 記載）
+- self-hosted の telemetry は POSTHOG_PUBLIC_API_KEY 未設定なら無効（既定 OFF）、Privacy Policy も self-hosted 無収集と明記
+- 法人（FlowiseAI Inc.、Delaware、EIN）と親会社を公式ページ・Workday newsroom で確認、Apache-2.0 コアと sunset タイムラインを公開
+
+## 主要リスク所見
+- 直近 12 か月（2025-09-25 → 2026-09-25、最初の公開開示日基準）の CVE record 119 件、記録値 9.0 以上 30 件、最高 10.0（CVE-2026-70478、NVD v3.1）
+- 最終版 3.1.4 に対する未修正 record 11 件（2026-09-10 の advisory 6 件は "Patched versions: None"、VulnCheck CVE 5 件は "through 3.1.4"）
+- 同一クラスの再発: mass-assignment / cross-workspace 14 件、sandbox escape・code injection が 2025-10 → 2026-08 で反復、既知修正の bypass 2 件
+- 2026-07-29 code freeze、2026-08-13 repository archive、2026-08-31 EOL、SECURITY.md は新規脆弱性報告を受け付けない旨に差替え
+- ソース公開は OSS コア + 商用ライセンスの enterprise 層（V source code 2/4）、DPA なし、学習利用の言明なし、保持期間は「必要な限り」、独立認証なし、Flowise Cloud の EOL 後の状態は未確認 [UNVERIFIED]
+
+## インシデント
+- 計上 CVE 119 件。主な例: CVE-2026-70478（10.0 NVD v3.1、未認証 OAuth2 token refresh によるアクセストークン取得、3.1.3 で修正）、CVE-2025-61913（9.9 NVD v3.1、WriteFileTool/ReadFileTool、3.0.8 で修正）、CVE-2026-40933（9.9 計算値・CNA 記載 10.0、MCP adapter 経由 RCE、3.1.0 で修正）、CVE-2026-73602（9.9 NVD v3.1、vm2 sandbox escape、3.1.3 で修正）、CVE-2026-46442（9.9 NVD v3.1、node-custom-function の NodeVM escape、3.1.2 で修正）
+- 遡及 CVE 8 件（窓開始前に公開済みの advisory へ窓内で付与、件数・max_cvss に不算入）: CVE-2024-58351、CVE-2025-71333、CVE-2025-71338、CVE-2025-71332、CVE-2025-57164、CVE-2025-71324、CVE-2025-71334、CVE-2025-71336
+- CVE 無し advisory 7 件（2026-08-31 / 09-10、不算入、T で考慮）
+- 参考: CVE-2025-59528（10.0 CNA v3.1、2025-09-22 公開で窓外、3.0.6 で修正）への in-the-wild 攻撃試行を VulnCheck が 2026-04-07 に報告（SecurityWeek）
+- 供給網侵害: 確認なし
+
+## CISA KEV
+- 該当なし（KEV catalog 2026.09.24 を 145 CVE ID と vendor/product 文字列で照合）
+
+## HTMLカード用タグ
+- tags: llm-agent-builder, low-code, open-source, apache-2-0, archived-repository, end-of-life, workday, subsidiary, tier-d, 119-cves-12-months, max-cvss-10-0, unpatched-final-release
+- incident_tags: cve-2026-70478, cve-2025-61913, cve-2026-40933, cve-2026-73602, cve-2026-46442, mass-assignment, sandbox-escape, retroactive-cves-excluded, unpatched-3-1-4, sunset-2026-08
+- owner: Workday (via FlowiseAI Inc.)
+```
+
+Score: 31/85 (V 12 · R 3 · D 6 · I 2 · C 4 · T 4 = 31) · Tier D · previous 33/85 (2026-03-24) · framework v0.3.2 · cve_count_12mo 119 (exact, first disclosure) · max_cvss 10.0 (NVD v3.1, CVE-2026-70478) · 8 retroactive CVEs recorded, not counted · KEV none
