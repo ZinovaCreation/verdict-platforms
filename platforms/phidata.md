@@ -17,14 +17,14 @@ layer: '0'
 target_version: agno 3.0.11
 previous_evaluation_date: '2026-03-31'
 previous_score: 38
-score: 40
+score: 38
 max_score: 85
 tier: C
 verdict:
   v:
-    score: 16
+    score: 14
     rating: High
-    note: NY entity; Apache-2.0 OSS; changelogs; dated vendor list; SOC 2 claim only
+    note: NY entity; OSS core, closed Control Plane; changelogs; dated vendor list
   e:
     score: null
     rating: null
@@ -85,7 +85,7 @@ tags:
 - rebranded
 - critical-cve-12mo
 - tier-c
-rank: 53
+rank: 57
 sources:
 - https://www.agno.com/
 - https://www.agno.com/enterprise
@@ -125,8 +125,8 @@ sources:
 - https://www.cbinsights.com/company/phidata/financials
 finding: 'Four product-scoped CVEs published against the agno package in the trailing 12 months: CVE-2026-35002 (CVSS 9.8; eval() injection, fixed in 2.3.24 on 2026-01-08, 84 days before publication), CVE-2026-76832 (CVSS 8.8; PythonTools path traversal, also fixed in 2.3.24), CVE-2026-10105 (CVSS 8.3; ClickHouse SQL injection, fix released in 2.8.5 on 2026-07-27, 77 days after the public report) and CVE-2025-64168 (CVSS 7.1; cross-session state exposure, fixed in 2.2.2 two days before the maintainer advisory). Three of the four fixes shipped without a vendor advisory; the path-containment class recurred across four components. Agno Inc. (New York) publishes Terms (2025-01-21) and a Privacy Notice (2026-04-20) with a named third-party list and per-category retention, but no DPA or model-training statement; SDK telemetry is on by default; no SECURITY.md. Framework v0.3.2 update; previous score 38/85.'
 meta_owner: Agno Inc. · formerly Phidata · agno 3.0.11
-meta_description: 'Independent security evaluation of Agno (formerly Phidata). Score: 40/85. Four CVEs in 12 months incl. CVSS 9.8 eval-injection RCE (fixed 2.3.24). Self-hosted runtime; telemetry default ON. Framework v0.3.2.'
-og_description: 'Independent security evaluation of Agno (formerly Phidata). Score: 40/85. Four CVEs in 12 months, max CVSS 9.8 (fixed 2.3.24). Framework v0.3.2.'
+meta_description: 'Independent security evaluation of Agno (formerly Phidata). Score: 38/85. Four CVEs in 12 months incl. CVSS 9.8 eval-injection RCE (fixed 2.3.24). Self-hosted runtime; telemetry default ON. Framework v0.3.2.'
+og_description: 'Independent security evaluation of Agno (formerly Phidata). Score: 38/85. Four CVEs in 12 months, max CVSS 9.8 (fixed 2.3.24). Framework v0.3.2.'
 category_line: Agent Framework & Runtime · Open-Source (Apache 2.0)
 display_tags:
 - text: 4 CVEs · 12 Months (max CVSS 9.8)
@@ -160,9 +160,9 @@ score_basis: consistent
 
 Four product-scoped CVEs published against the agno package in the trailing 12 months: CVE-2026-35002 (CVSS 9.8; eval() injection, fixed in 2.3.24 on 2026-01-08, 84 days before publication), CVE-2026-76832 (CVSS 8.8; PythonTools path traversal, also fixed in 2.3.24), CVE-2026-10105 (CVSS 8.3; ClickHouse SQL injection, fix released in 2.8.5 on 2026-07-27, 77 days after the public report) and CVE-2025-64168 (CVSS 7.1; cross-session state exposure, fixed in 2.2.2 two days before the maintainer advisory). Three of the four fixes shipped without a vendor advisory; the path-containment class recurred across four components. Agno Inc. (New York) publishes Terms (2025-01-21) and a Privacy Notice (2026-04-20) with a named third-party list and per-category retention, but no DPA or model-training statement; SDK telemetry is on by default; no SECURITY.md. Framework v0.3.2 update; previous score 38/85.
 
-## Layer 0 Score: 40/85 (Tier C)
+## Layer 0 Score: 38/85 (Tier C)
 
-**V** 16/20 · **R** 4/20 · **D** 7/15 · **I** 6/10 · **C** 4/10 · **T** 3/10
+**V** 14/20 · **R** 4/20 · **D** 7/15 · **I** 6/10 · **C** 4/10 · **T** 3/10
 
 ## CISA KEV
 
@@ -187,25 +187,26 @@ Framework: VERDICT v0.3.2
 Previous evaluation: 2026-03-31 (Initial, Layer 0, 38/85, Tier C, v0.3.1)
 Disclosure layer (Trigger 0/1/2/3): None. The operator is Agno Inc.; its only recorded funding is a USD 5.4M seed round on 2024-08-29 with three venture investors including GreatPoint Ventures (CB Insights, secondary), and no Amazon / Google / Microsoft / NVIDIA equity, board or non-arms-length channel relationship appears in the sources consulted. Product level only: Anthropic is one of two AI service providers named in the operator's Privacy Notice; a model-provider relationship is not a disclosure trigger.
 Evaluator model: claude-fable-5-1
+Correction: 2026-09-27 — V "Source code disclosure" re-scored 4 → 2 under Criterion-VSource-001 (open core: the paid hosted Control Plane is closed source); total 40/85 → 38/85; Tier C unchanged. Evidence, dates and all other scores are unchanged; see Differential.
 
 
 ## Executive Summary
 
-Four product-scoped CVEs were published against Agno in the trailing 12 months (2025-09-25 → 2026-09-25), the highest being CVE-2026-35002, an eval()-based arbitrary code execution flaw rated CVSS 9.8 by NIST and fixed in v2.3.24 on 2026-01-08, 84 days before the CVE was published. The total moves from 38/85 (2026-03-31) to 40/85 and the tier stays C, but the composition changes: R falls from 14 to 4 on the CVE count with the 9.0+ penalty, the maximum-CVSS band, a 77-day interval between the public report of the ClickHouse SQL injection (CVE-2026-10105, issue #7866 opened 2026-05-11) and its release fix (v2.8.5, 2026-07-27), and a path-containment weakness class fixed separately in four components, while V rises from 11 to 16 and D from 3 to 7 on the legal pages now published by Agno Inc. — a New York-registered entity per its Terms of Service — which carry a dated third-party vendor list, GDPR legal bases and per-category retention. I, C and T each rise by one point on documented run cancellation, JWT-based RBAC scopes, base-directory containment defaults and the maintainer-published advisory for CVE-2025-64168. The record also corrects prior-record facts: the operator has published as Agno Inc. since at least its January 2025 Terms, the repository license is Apache-2.0, and two CVEs (CVE-2025-8665, CVE-2025-64168) already existed inside the prior record's window when it recorded zero.
+Four product-scoped CVEs were published against Agno in the trailing 12 months (2025-09-25 → 2026-09-25), the highest being CVE-2026-35002, an eval()-based arbitrary code execution flaw rated CVSS 9.8 by NIST and fixed in v2.3.24 on 2026-01-08, 84 days before the CVE was published. The total is unchanged at 38/85 (2026-03-31: 38/85) and the tier stays C, but the composition changes: R falls from 14 to 4 on the CVE count with the 9.0+ penalty, the maximum-CVSS band, a 77-day interval between the public report of the ClickHouse SQL injection (CVE-2026-10105, issue #7866 opened 2026-05-11) and its release fix (v2.8.5, 2026-07-27), and a path-containment weakness class fixed separately in four components, while V rises from 11 to 14 and D from 3 to 7 on the legal pages now published by Agno Inc. — a New York-registered entity per its Terms of Service — which carry a dated third-party vendor list, GDPR legal bases and per-category retention. I, C and T each rise by one point on documented run cancellation, JWT-based RBAC scopes, base-directory containment defaults and the maintainer-published advisory for CVE-2025-64168. The record also corrects prior-record facts: the operator has published as Agno Inc. since at least its January 2025 Terms, the repository license is Apache-2.0, and two CVEs (CVE-2025-8665, CVE-2025-64168) already existed inside the prior record's window when it recorded zero. As first published on 2026-09-25 the total read 40/85; V source code disclosure was corrected from 4 to 2 on 2026-09-27 (Criterion-VSource-001).
 
 
 ## Scorecard
 
 | Dimension | Score | Max | Rating |
 |---|---|---|---|
-| V Verifiability | 16 | 20 | High |
+| V Verifiability | 14 | 20 | High |
 | E Effectiveness | N/A | 15 | Layer 1 pending |
 | R Resilience | 4 | 20 | Low |
 | D Data Conduct | 7 | 15 | Mid |
 | I Identity & Control | 6 | 10 | Mid |
 | C Containment | 4 | 10 | Mid |
 | T Transparency | 3 | 10 | Low |
-| **Total (Layer 0)** | **40** | **85** | |
+| **Total (Layer 0)** | **38** | **85** | |
 
 Tier: C
 Category: Agent Framework & Runtime · Open-Source (Apache 2.0) · Operator: Agno Inc.
@@ -223,6 +224,7 @@ CISA KEV: None — KEV catalog version 2026.09.24 (1,723 entries; read from the 
 **Attribution scope decision:** `target_version` is bound to the PyPI `agno` package and the agno-agi/agno repository. The legacy `phidata` package/repository is excluded; no CVE assigned against a `phidata` version appeared in the OSV results for "agno" (a separate OSV query for "phidata" was not run in this session [UNVERIFIED]).
 **KEV check:** Performed against catalog 2026.09.24 (mirror cisagov/kev-data): no entries by CVE ID or vendor/product.
 **Post-draft evidence (2026-09-25):** The operator supplied browser captures of os.agno.com/legal/privacy (Last updated April 20, 2026) and os.agno.com/legal/tos (Last updated January 21, 2025), which the engine's tooling could not render. V (identity; third-party disclosure) and D (GDPR; sub-processors; retention) were re-scored before publication: draft 29 → 40, Tier D → C. AI training use stays 0 (no statement in the notice).
+**Correction (2026-09-27, Criterion-VSource-001):** As published on 2026-09-25, V "Source code disclosure" was scored 4 on the Apache-2.0 SDK and runtime alone. The paid hosted Control Plane (os.agno.com) is closed source, which makes Agno open core; Engine ratified Criterion-VSource-001 on 2026-09-25, codifying the existing practice (#060, #064, #065, #067, #068 = 2), and re-scored the criterion to 2. V 16 → 14, total 40 → 38, Tier C unchanged. No other evidence or score changed; `updated_at` stays 2026-09-25 because the differential itself was completed on that date. KNOWN_FACTS.md records the correction (KnownFacts-Agno-001 rev.2).
 **Prior-record omissions (stated as facts):**
 1. CVE-2025-8665 (published 2025-08-06, Medium) was inside the prior window (2025-03-31 → 2026-03-31) and is not carried in the prior record.
 2. CVE-2025-64168 / GHSA-vw84-hprm-cxmm (published 2025-10-31, High) was inside the prior window and is not carried in the prior record. The prior `cve_count_12mo: 0` (basis `exact`) did not match the public record at capture; the "Zero CVEs" language in the prior body, finding, key_finding and descriptions is replaced.
@@ -241,25 +243,25 @@ CISA KEV: None — KEV catalog version 2026.09.24 (1,723 entries; read from the 
 | CVE-2026-76832 | 2026-08-19 (CVE, VulnCheck) | 710d7e7, 2026-01-07 | 2.3.24, 2026-01-08 | fix preceded CVE by 223 d |
 | CVE-2026-10105 | 2026-05-11 (issue #7866) | PR #7883 | 2.8.5, 2026-07-27 | 77 d |
 
-**Score change:** 38 → 40 (+2). V 11 → 16, R 14 → 4, D 3 → 7, I 5 → 6, C 3 → 4, T 2 → 3. Tier C → C by the assignment rule (40 in the 35–44 band). The R-only change (−10) exceeded the 3-point escalation threshold; all six dimensions were re-evaluated.
+**Score change:** 38 → 38 (0). V 11 → 14, R 14 → 4, D 3 → 7, I 5 → 6, C 3 → 4, T 2 → 3. Tier C → C by the assignment rule (38 in the 35–44 band). As first published on 2026-09-25: 40/85 with V 16 (see Correction). The R-only change (−10) exceeded the 3-point escalation threshold; all six dimensions were re-evaluated.
 **Unverified items carried in this record:** issue #8823 body/status (R structural, non-scoring), v2.6.6 release notes read via a mirror (R supply-chain note), separate OSV query for "phidata" not run (attribution scope).
 
 
 ## Dimension Detail
 
-### V — Verifiability | 16/20
+### V — Verifiability | 14/20
 
 | Criterion | Result | Score | Evidence (source URL) |
 |---|---|---|---|
 | Developer / company identity | confirmed | 4 | Terms of Service (last updated 2025-01-21): "Agno Inc. … a company registered in New York, United States at 169 Madison Ave STE 2420, New York, NY 10016"; contact support@agno.com (Terms §24, Privacy Notice §16); consistent with the site copyright "© 2026 Agno Inc." and the repository LICENSE "Copyright 2025-2026 Agno Inc." The New York Department of State registry was not queried; the Terms' legal-entity clause is treated as the operator's public identification. https://os.agno.com/legal/tos ; https://os.agno.com/legal/privacy ; https://github.com/agno-agi/agno/blob/main/LICENSE |
-| Source code disclosure | confirmed | 4 | SDK and AgentOS runtime distributed under Apache-2.0 (LICENSE; README "Agno is distributed under the Apache-2.0 license"). PyPI `agno` releases carry GitHub Actions provenance attestations verified by PyPI. The hosted Control Plane (os.agno.com) is not open source and sits outside `target_version`. https://github.com/agno-agi/agno ; https://pypi.org/project/agno/ |
+| Source code disclosure | partial (open core) | 2 | SDK and AgentOS runtime distributed under Apache-2.0 (LICENSE; README "Agno is distributed under the Apache-2.0 license"). PyPI `agno` releases carry GitHub Actions provenance attestations verified by PyPI. The hosted Control Plane (os.agno.com), which the operator sells as paid plans, is closed source. Under Criterion-VSource-001 an OSI-licensed core with a closed hosted control plane scores 2, as for #064 Guardrails AI, #065 Weaviate and #067 Zep. First published 2026-09-25 as 4; corrected 2026-09-27. https://www.agno.com/agentos ; https://github.com/agno-agi/agno ; https://pypi.org/project/agno/ |
 | Version management transparency | confirmed | 3 | Per-release changelogs on GitHub Releases (verified v2.3.24, v2.7.2–v2.7.4, v2.8.0–v2.8.5) and a changelog page linked from agno.com; 264 PyPI releases to date. https://github.com/agno-agi/agno/releases |
 | Third-party dependency disclosure | confirmed | 3 | Privacy Notice §4 lists the third parties that receive personal data, by category and name (AI service providers: Anthropic, OpenAI; cloud: AWS; billing: Stripe; analytics/session replay: PostHog, Google Analytics, Google Tag Manager; auth: GitHub OAuth, Google OAuth; hosting: Webflow; CRM: Attio; community: Common Room; consent tooling: Termly.io). The notice carries "Last updated April 20, 2026"; there is no standalone sub-processor page or per-list change log. https://os.agno.com/legal/privacy |
 | Independent certification | not confirmed | 0 | agno.com and agno.com/enterprise display the line "SOC 2 compliant"; no report, trust center, auditor statement or customer-access statement located. Recorded as a vendor claim (Absolute Rule 4). https://www.agno.com/enterprise |
 | Functional reproducibility docs | confirmed | 2 | docs.agno.com carries an API reference (e.g. /reference/agents/agent) and behavioral documentation for telemetry, security, HITL and run cancellation. https://docs.agno.com/ |
 
-Positive findings: Legal entity, jurisdiction and postal address published in the Terms; full open-source distribution under Apache-2.0; per-release changelogs; PyPI build provenance attestations; a dated list of third-party data recipients.
-Recorded concerns: "SOC 2 compliant" claim without a public report or access statement; registry record not independently queried.
+Positive findings: Legal entity, jurisdiction and postal address published in the Terms; SDK and AgentOS runtime open source under Apache-2.0; per-release changelogs; PyPI build provenance attestations; a dated list of third-party data recipients.
+Recorded concerns: paid hosted Control Plane (os.agno.com) is closed source (open core); "SOC 2 compliant" claim without a public report or access statement; registry record not independently queried.
 
 ### R — Resilience | 4/20
 
@@ -385,7 +387,9 @@ This table records what risk factors the data shows. It does not recommend or pr
 | Date | Type | Score | Tier | Framework |
 |---|---|---|---|---|
 | 2026-03-31 | Initial (Layer 0) | 38 | C | v0.3.1 |
-| 2026-09-25 | Update (interrupt lane T1 ×4, folded routine; all dimensions re-evaluated) | 40 | C | v0.3.2 |
+| 2026-09-25 | Update (interrupt lane T1 ×4, folded routine; all dimensions re-evaluated) | 38 | C | v0.3.2 |
+
+Correction (2026-09-27): the 2026-09-25 update was first published as 40/85; V "Source code disclosure" was re-scored 4 → 2 under Criterion-VSource-001 (open core). Tier unchanged.
 
 ---
 
