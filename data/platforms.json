@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T07:45:32+00:00",
+  "generated_at": "2026-09-28T11:17:04+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -3106,7 +3106,91 @@
       "tags": []
     },
     {
-      "rank": 44,
+      "rank": 38,
+      "tier": "B",
+      "slug": "n8n",
+      "name": "n8n",
+      "operator": "n8n GmbH (Berlin)",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Workflow Automation · Fair-code",
+      "homepage": "https://n8n.io",
+      "github": "https://github.com/n8n-io/n8n",
+      "score": 46,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": "n8n GmbH HRB 212509 B; source-available (SUL, .ee); dated sub-processors; SOC 2"
+        },
+        "r": {
+          "score": 3,
+          "rating": "Low",
+          "note": "175 CVEs, max 10.0; KEV CVE-2025-68613; recurring sandbox-escape classes"
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": "DPA with SCCs; telemetry on (opt-out); no-training and retention stated"
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Timeout and node blocking documented; HITL opt-in for AI tools; RBAC documented"
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "Task runners default since 2.0; SSRF guard and external runners opt-in"
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "GHSA+CVE; 9 advisories >60 d after fix (to 2026-03); no AI framework ref"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": true,
+        "entries": [
+          {
+            "cve_id": "CVE-2025-68613",
+            "kev_added_date": "2026-03-11",
+            "fcec_deadline": "2026-03-25"
+          }
+        ]
+      },
+      "cve_count_12mo": 175,
+      "max_cvss_12mo": 10.0,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-13",
+      "updated_at": "2026-09-25",
+      "evaluator_model": "claude-opus-5-5",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "workflow-automation",
+        "ai-agent-orchestration",
+        "fair-code",
+        "sustainable-use-license",
+        "self-hosted",
+        "n8n-cloud",
+        "task-runners",
+        "expression-sandbox",
+        "sandbox-escape",
+        "cisa-kev",
+        "evaluator-coi",
+        "shared-investor",
+        "tier-b"
+      ]
+    },
+    {
+      "rank": 45,
       "tier": "B",
       "slug": "botpress",
       "name": "Botpress",
@@ -3170,7 +3254,7 @@
       "tags": []
     },
     {
-      "rank": 45,
+      "rank": 46,
       "tier": "C",
       "slug": "crewai",
       "name": "CrewAI",
@@ -3234,7 +3318,7 @@
       "tags": []
     },
     {
-      "rank": 45,
+      "rank": 46,
       "tier": "C",
       "slug": "runner-h",
       "name": "Runner H",
@@ -3321,7 +3405,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 48,
       "tier": "C",
       "slug": "openhands",
       "name": "OpenHands",
@@ -3396,7 +3480,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 48,
       "tier": "C",
       "slug": "relevance-ai",
       "name": "Relevance AI",
@@ -3469,7 +3553,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 48,
       "tier": "C",
       "slug": "zep",
       "name": "Zep",
@@ -3545,7 +3629,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 51,
       "tier": "C",
       "slug": "cohere",
       "name": "Cohere",
@@ -3624,7 +3708,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 51,
       "tier": "C",
       "slug": "superagent",
       "name": "Superagent",
@@ -3697,7 +3781,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "tier": "C",
       "slug": "llamaindex",
       "name": "LlamaIndex",
@@ -3761,7 +3845,7 @@
       "tags": []
     },
     {
-      "rank": 53,
+      "rank": 54,
       "tier": "C",
       "slug": "ag2",
       "name": "AG2",
@@ -3833,7 +3917,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 54,
       "tier": "C",
       "slug": "browser-use",
       "name": "Browser Use",
@@ -3903,83 +3987,6 @@
         "Felicis-backed",
         "LLM-agnostic",
         "ETH-Zurich-origin"
-      ]
-    },
-    {
-      "rank": 53,
-      "tier": "C",
-      "slug": "phidata",
-      "name": "Phidata (Agno)",
-      "operator": "Agno Inc.",
-      "independence": "independent",
-      "parent_entity": null,
-      "category": "Agent Framework",
-      "homepage": "https://www.agno.com",
-      "github": "https://github.com/agno-agi/agno",
-      "score": 40,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 16,
-          "rating": "High",
-          "note": "NY entity; Apache-2.0 OSS; changelogs; dated vendor list; SOC 2 claim only"
-        },
-        "r": {
-          "score": 4,
-          "rating": "Low",
-          "note": "4 CVEs, max CVSS 9.8; SQLi fix 77d after report; containment class recurs"
-        },
-        "d": {
-          "score": 7,
-          "rating": "Mid",
-          "note": "Telemetry default ON; GDPR bases, no DPA; dated vendor list; no training stmt"
-        },
-        "i": {
-          "score": 6,
-          "rating": "Mid",
-          "note": "Run cancellation documented; HITL optional; JWT RBAC scopes documented"
-        },
-        "c": {
-          "score": 4,
-          "rating": "Mid",
-          "note": "base_dir containment + confirmation gates; authz opt-in; isolation claimed only"
-        },
-        "t": {
-          "score": 3,
-          "rating": "Low",
-          "note": "1 of 4 CVEs vendor-advised; no SECURITY.md; technical security docs only"
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 4,
-      "max_cvss_12mo": 9.8,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-31",
-      "updated_at": "2026-09-25",
-      "evaluator_model": "claude-fable-5-1",
-      "framework_version": "v0.3.2",
-      "tags": [
-        "agent-framework",
-        "agent-runtime",
-        "multi-agent",
-        "open-source",
-        "apache-2-0",
-        "self-hosted",
-        "agentos",
-        "hitl",
-        "telemetry-default-on",
-        "rebranded",
-        "critical-cve-12mo",
-        "tier-c"
       ]
     },
     {
@@ -4060,6 +4067,83 @@
     {
       "rank": 57,
       "tier": "C",
+      "slug": "phidata",
+      "name": "Phidata (Agno)",
+      "operator": "Agno Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Agent Framework",
+      "homepage": "https://www.agno.com",
+      "github": "https://github.com/agno-agi/agno",
+      "score": 38,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": "NY entity; OSS core, closed Control Plane; changelogs; dated vendor list"
+        },
+        "r": {
+          "score": 4,
+          "rating": "Low",
+          "note": "4 CVEs, max CVSS 9.8; SQLi fix 77d after report; containment class recurs"
+        },
+        "d": {
+          "score": 7,
+          "rating": "Mid",
+          "note": "Telemetry default ON; GDPR bases, no DPA; dated vendor list; no training stmt"
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Run cancellation documented; HITL optional; JWT RBAC scopes documented"
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "base_dir containment + confirmation gates; authz opt-in; isolation claimed only"
+        },
+        "t": {
+          "score": 3,
+          "rating": "Low",
+          "note": "1 of 4 CVEs vendor-advised; no SECURITY.md; technical security docs only"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 4,
+      "max_cvss_12mo": 9.8,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "updated_at": "2026-09-25",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "agent-framework",
+        "agent-runtime",
+        "multi-agent",
+        "open-source",
+        "apache-2-0",
+        "self-hosted",
+        "agentos",
+        "hitl",
+        "telemetry-default-on",
+        "rebranded",
+        "critical-cve-12mo",
+        "tier-c"
+      ]
+    },
+    {
+      "rank": 58,
+      "tier": "C",
       "slug": "letta",
       "name": "Letta",
       "operator": "Letta Inc. · San Francisco (UC Berkeley)",
@@ -4131,7 +4215,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 59,
       "tier": "C",
       "slug": "autogpt",
       "name": "AutoGPT",
@@ -4204,7 +4288,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "tier": "C",
       "slug": "coze",
       "name": "Coze",
@@ -4268,7 +4352,7 @@
       "tags": []
     },
     {
-      "rank": 59,
+      "rank": 60,
       "tier": "C",
       "slug": "manus-ai",
       "name": "Manus AI",
@@ -4342,7 +4426,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "tier": "C",
       "slug": "wordware",
       "name": "Wordware",
@@ -4412,76 +4496,6 @@
         "enterprise-AI",
         "Spark-Capital"
       ]
-    },
-    {
-      "rank": 59,
-      "tier": "C",
-      "slug": "n8n",
-      "name": "n8n",
-      "operator": "Independent · n8n GmbH (Berlin)",
-      "independence": "unrecorded",
-      "parent_entity": null,
-      "category": "Workflow Automation · Open Source",
-      "homepage": null,
-      "github": null,
-      "score": 35,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 12,
-          "rating": "Mid",
-          "note": ""
-        },
-        "r": {
-          "score": 5,
-          "rating": "Low",
-          "note": ""
-        },
-        "d": {
-          "score": 3,
-          "rating": "Low",
-          "note": ""
-        },
-        "i": {
-          "score": 6,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
-          "score": 3,
-          "rating": "Low",
-          "note": ""
-        },
-        "t": {
-          "score": 6,
-          "rating": "Mid",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": true,
-        "entries": [
-          {
-            "cve_id": "CVE-2025-68613",
-            "kev_added_date": "2026-03-11",
-            "fcec_deadline": "2026-03-25"
-          }
-        ]
-      },
-      "cve_count_12mo": 12,
-      "max_cvss_12mo": 10.0,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-13",
-      "updated_at": "2026-03-24",
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
     },
     {
       "rank": 63,
@@ -4632,71 +4646,7 @@
       ]
     },
     {
-      "rank": 64,
-      "tier": "D",
-      "slug": "flowise",
-      "name": "Flowise",
-      "operator": "Acquired by Workday (Aug 2025)",
-      "independence": "unrecorded",
-      "parent_entity": null,
-      "category": "LLM Agent Builder · Open Source",
-      "homepage": null,
-      "github": null,
-      "score": 33,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 10,
-          "rating": "Mid",
-          "note": ""
-        },
-        "r": {
-          "score": 4,
-          "rating": "Low",
-          "note": ""
-        },
-        "d": {
-          "score": 4,
-          "rating": "Low",
-          "note": ""
-        },
-        "i": {
-          "score": 5,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "t": {
-          "score": 6,
-          "rating": "Mid",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 12,
-      "max_cvss_12mo": 9.8,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-13",
-      "updated_at": "2026-03-24",
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
-    },
-    {
-      "rank": 66,
+      "rank": 65,
       "tier": "D",
       "slug": "guardrails-ai",
       "name": "Guardrails AI",
@@ -4771,6 +4721,84 @@
         "tier-d",
         "evaluator-coi",
         "shared-investor"
+      ]
+    },
+    {
+      "rank": 66,
+      "tier": "D",
+      "slug": "flowise",
+      "name": "Flowise",
+      "operator": "Workday (via FlowiseAI Inc.)",
+      "independence": "subsidiary",
+      "parent_entity": "Workday, Inc.",
+      "category": "LLM Agent Builder · Open Source",
+      "homepage": "https://flowiseai.com",
+      "github": "https://github.com/FlowiseAI/Flowise",
+      "score": 31,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": "Delaware corp+EIN confirmed; OSS core + commercial enterprise layer; no SOC 2"
+        },
+        "r": {
+          "score": 3,
+          "rating": "Low",
+          "note": "119 CVEs in window, max 10.0 (NVD); 11 unpatched on final 3.1.4; classes recur"
+        },
+        "d": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Telemetry off without PostHog key; GDPR bases+SCC, no DPA; no training/retention"
+        },
+        "i": {
+          "score": 2,
+          "rating": "Low",
+          "note": "HITL optional (Human Input node); RBAC partial; no documented emergency stop"
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "NodeVM allowlist + HTTP blocklist; secrets need config; cloud isolation unknown"
+        },
+        "t": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "118 advisories with CVSS+credits; fix-to-advisory ~30d; reports closed after EOL"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 119,
+      "max_cvss_12mo": 10.0,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-13",
+      "updated_at": "2026-09-25",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "llm-agent-builder",
+        "low-code",
+        "open-source",
+        "apache-2-0",
+        "archived-repository",
+        "end-of-life",
+        "workday",
+        "subsidiary",
+        "tier-d",
+        "unpatched-final-release",
+        "mass-assignment",
+        "sandbox-escape",
+        "retroactive-cves-excluded"
       ]
     },
     {

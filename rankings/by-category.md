@@ -18,7 +18,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 59 | C | [Wordware](../platforms/wordware.md) | HeyDaily Inc. · San Francisco | 35/85 |
+| 60 | C | [Wordware](../platforms/wordware.md) | HeyDaily Inc. · San Francisco | 35/85 |
 
 ## AI Agent Platform
 
@@ -30,19 +30,19 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 59 | C | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | 35/85 |
+| 60 | C | [Coze](../platforms/coze.md) | ByteDance · SPRING (SG) PTE. LTD. | 35/85 |
 
 ## AI Agent Platform · Cloud SaaS
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 47 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | 43/85 |
+| 48 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | 43/85 |
 
 ## AI Agent Security Platform · OSS + Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 50 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | 42/85 |
+| 51 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | 42/85 |
 
 ## AI Agent Tool Integration · OSS SDK + Cloud
 
@@ -99,7 +99,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 47 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | 43/85 |
+| 48 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | 43/85 |
 
 ## AI Coding IDE · Proprietary
 
@@ -124,13 +124,13 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 23 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
-| 66 | D | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | 32/85 |
+| 65 | D | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | 32/85 |
 
 ## Agent Framework
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 53 | C | [Phidata (Agno)](../platforms/phidata.md) | Agno Inc. | 40/85 |
+| 57 | C | [Phidata (Agno)](../platforms/phidata.md) | Agno Inc. | 38/85 |
 
 ## Agent Management · OSS (MIT)
 
@@ -142,7 +142,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 47 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | 43/85 |
+| 48 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | 43/85 |
 
 ## Agent Orchestration · OSS (MIT)
 
@@ -154,19 +154,19 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 58 | C | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | 36/85 |
+| 59 | C | [AutoGPT](../platforms/autogpt.md) | Determinist Ltd · UK | 36/85 |
 
 ## Autonomous Browser Agent · Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 59 | C | [Manus AI](../platforms/manus-ai.md) | Butterfly Effect Pte. Ltd. · Singapore | 35/85 |
+| 60 | C | [Manus AI](../platforms/manus-ai.md) | Butterfly Effect Pte. Ltd. · Singapore | 35/85 |
 
 ## Browser Agent Library · Open Source (MIT)
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 53 | C | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | 40/85 |
+| 54 | C | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | 40/85 |
 
 ## Browser Agent SDK · Open Source (MIT)
 
@@ -184,7 +184,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 45 | C | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | 44/85 |
+| 46 | C | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | 44/85 |
 
 ## Browser Infrastructure · Cloud (Proprietary)
 
@@ -202,7 +202,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 44 | B | [Botpress](../platforms/botpress.md) | Botpress Inc. · Montreal, Canada | 45/85 |
+| 45 | B | [Botpress](../platforms/botpress.md) | Botpress Inc. · Montreal, Canada | 45/85 |
 
 ## Conversational AI · Cloud SaaS
 
@@ -244,7 +244,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 50 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | 42/85 |
+| 51 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | 42/85 |
 
 ## LLM Agent API · Managed SaaS
 
@@ -256,7 +256,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 64 | D | [Flowise](../platforms/flowise.md) | Acquired by Workday (Aug 2025) | 33/85 |
+| 66 | D | [Flowise](../platforms/flowise.md) | Workday (via FlowiseAI Inc.) | 31/85 |
 
 ## LLM Agent Framework · Open Source (MIT core)
 
@@ -293,7 +293,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 53 | C | [AG2](../platforms/ag2.md) | AG2AI Inc. · Community Fork | 40/85 |
+| 54 | C | [AG2](../platforms/ag2.md) | AG2AI Inc. · Community Fork | 40/85 |
 
 ## Multi-Agent Framework · Open Source (MIT)
 
@@ -311,7 +311,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 45 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | 44/85 |
+| 46 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | 44/85 |
 
 ## Multi-Agent Research · OSS (Apache 2.0)
 
@@ -330,13 +330,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 52 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | 41/85 |
+| 53 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | 41/85 |
 
 ## Stateful AI Agent Framework · Open Source (Apache 2.0)
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 57 | C | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | 37/85 |
+| 58 | C | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | 37/85 |
 
 ## Vector Database
 
@@ -370,11 +370,11 @@ _Auto-generated. Do not edit by hand._
 | 32 | B | [Zapier](../platforms/zapier.md) | Independent | 48/85 |
 | 38 | B | [Make.com](../platforms/make.md) | Independent (Celonis portfolio) | 46/85 |
 
-## Workflow Automation · Open Source
+## Workflow Automation · Fair-code
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 59 | C | [n8n](../platforms/n8n.md) | Independent · n8n GmbH (Berlin) | 35/85 |
+| 38 | B | [n8n](../platforms/n8n.md) | n8n GmbH (Berlin) | 46/85 |
 
 ## Workflow Automation · Open Source (MIT)
 

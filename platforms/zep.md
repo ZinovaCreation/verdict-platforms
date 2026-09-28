@@ -88,7 +88,7 @@ card_tags:
     color: amber
   - text: "CVE-2026-32247 (Cypher injection), patched"
     color: dim
-rank: 47
+rank: 48
 sources:
 - https://www.getzep.com/
 - https://help.getzep.com

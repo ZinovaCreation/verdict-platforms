@@ -73,7 +73,7 @@ tags:
 - Felicis-backed
 - LLM-agnostic
 - ETH-Zurich-origin
-rank: 53
+rank: 54
 sources:
 - https://browser-use.com/
 - https://docs.cloud.browser-use.com/pricing
