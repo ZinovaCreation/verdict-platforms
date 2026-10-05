@@ -222,7 +222,3 @@ Correction (2026-09-27): the 2026-09-25 update was first published as 40/85; V "
 | Layer 1 | Free-tier behavioral testing (30 runs × 4 difficulty levels across 3+ days) on the open-source SDK/runtime and the free Control Plane tier | After the Stage 3 backlog; not scheduled |
 | Layer C — routine | Full routine differential (R, T, V; D/I/C per carry-forward conditions against the per-dimension URLs cited above) | 365 days from 2026-09-25 (provisional, ReviewCadence-002) |
 | Layer C — interrupt | T1 / T2 / T3 sweep (NVD/GHSA/OSV for `agno`, KEV JSON); T5 follow-up on os.agno.com legal pages; read of issue #8823 to close the remaining structural-issues flag | Continuous; next quarterly sweep |
-
----
-
-```japanese-summary

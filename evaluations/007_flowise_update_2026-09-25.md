@@ -386,8 +386,3 @@ Disclosure layer: none of Triggers 0–3 fires. Workday, Inc., the parent entity
 | Layer 1 | Behavioral testing on a self-hosted 3.1.4 install (30 runs × 4 levels, 3+ days) | Not scheduled (product at end of life) |
 | Layer C — routine | Routine differential (R, T, V; D/I/C per carry-forward conditions); dormancy check point 2027-07-29 | 365 days from 2026-09-25 (provisional, ReviewCadence-002) |
 | Layer C — interrupt | T1 / T2 sweep of CVE records against 3.1.4 and any KEV listing; T5 follow-up on Flowise Cloud status and npm deprecation | Continuous; next quarterly sweep |
-
-
----
-
-```japanese-summary
