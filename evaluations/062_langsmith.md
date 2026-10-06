@@ -1,32 +1,3 @@
-LangSmith / LangChain, Inc. (Delaware C-corp, San Francisco) / 55/85 / Tier B / 評価 #062
-
-V (検証可能性): 14/20 High — 法人実体・連絡先・変更履歴は公開で確認可能。SOC 2 Type II は監査済みだがレポート本体は Trust Center のアクセス申請制。SDK は OSS、プラットフォーム本体はクローズドソース。
-R (耐性): 9/20 Mid — 直近12ヶ月で5件のCVE/脆弱性。最大 CVSS 8.8 (AgentSmith)。3 サーフェスで URL 検証不備のパターン再発。
-D (データ運用): 11/15 High — モデル学習への利用なし・顧客データ所有権・GDPR/HIPAA・US/EU リージョン・自己ホスト Enterprise が明文化。保持期間は 14日/400日 の2段階固定。サブプロセッサー一覧はアクセス制限あり。
-I (制御): 8/10 High — SAML SSO・SCIM・RBAC・監査ログ (Enterprise)、Human-in-the-loop は LangGraph ランタイムでネイティブ対応。緊急停止の統合ランブックは非公開。
-C (封じ込め): 6/10 Mid — LangSmith Sandboxes は microVM 隔離 (Private Preview)。LangSmith Deployment のテナント隔離は SOC 2 認証参照のみで詳細非公開。
-T (透明性): 7/10 High — GitHub Security Advisory は技術詳細・SLA・バグバウンティ規模を公開。NIST AI RMF / ISO 42001 への公開マッピングなし。Trust Center 自体がアクセス制限。
-
-定義的インシデント:
-- AgentSmith (CVSS 8.8、CVE 未割当、2025-06-17 公開、2024-11-06 パッチ): Prompt Hub の悪意ある AI エージェントが OpenAI API キー等を窃取
-- CVE-2026-25750 (CVSS 8.5、2026-01-07 公開): LangSmith Studio の baseUrl パラメータ未検証によるアカウント乗っ取り
-- CVE-2026-25528 (CVSS 6.4、2026-02-09 公開): LangSmith SDK 分散トレーシング baggage ヘッダー経由の SSRF
-- CVE-2026-40190 (CVSS 5.6、2026-04-09 公開): LangSmith JS SDK の lodash set() による Prototype Pollution
-- CVE-2026-41182 (Moderate、2026-04-14 公開): LangSmith SDK のストリーミング new_token イベントが出力リダクションを回避
-
-パターン記録: 3 つの異なるサーフェス (Prompt Hub / SDK 分散トレーシング / Studio フロントエンド) で攻撃者制御可能な URL/送信先入力の検証不備が反復。各パッチは個別に対応されたが、横断的な信頼境界 URL 検証パターンの統一適用は確認できず。
-
-CISA KEV: なし
-
-バイアス開示: LangChain, Inc. と Anthropic に資本関係なし (公開投資家記録)。LangChain は Claude を first-class LLM provider として支援しており間接的な商業関係あり。VERDICT は Claude (Anthropic) をツールとして使用するため標準バイアス開示を適用。
-
-═══ QA REVIEW ═══
-Factual:   PASS — All CVE IDs cross-checked against GitHub Security Advisory Database; CVSS scores match GHSA/NVD/Wiz/Miggo sources; SOC 2 Type II dates match changelog announcements (LangSmith 2024-07, LangGraph Platform 2025-08); operator identity (LangChain, Inc., Delaware C-corp, SF) confirmed via Wikipedia, Crunchbase, PrivCo, and ToS; KNOWN_FACTS.md has no entry for LangChain/LangSmith — no override applied
-Legal:     PASS — No intent attribution; no prescriptive negative recommendation; structural pattern recorded as fact ("recurring root-cause class") rather than judgment; positive findings included in every dimension; bias disclosure verbatim and present
-Quality:   PASS — All Output Format sections present; Executive Summary 5 sentences and lead with specific finding (55/85); Bias Disclosure verbatim; Japanese summary uses user-specified compact format per engine call rules for prompts #017+; AI-writing blocklist items not present in narrative sections
-Result:    CLEARED
-══════════════
-
 # VERDICT Evaluation Report — #062 LangSmith
 
 | Field | Value |
