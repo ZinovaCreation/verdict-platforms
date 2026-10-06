@@ -95,7 +95,7 @@ Highest compliance posture in this index: SOC 2, ISO 27001, FedRAMP, and HIPAA B
 
 ## CISA KEV
 
-該当なし — no Microsoft Copilot Studio packages appear in the CISA Known Exploited Vulnerabilities catalog. 5 published CVE(s) attributed to Microsoft Copilot Studio in the trailing 12 months (captured).
+None — no Microsoft Copilot Studio packages appear in the CISA Known Exploited Vulnerabilities catalog. 5 published CVE(s) attributed to Microsoft Copilot Studio in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

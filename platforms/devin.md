@@ -107,7 +107,7 @@ SOC 2 Type II + FedRAMP High. D:12/15 default no-training. Zero CVEs. VPC deploy
 
 ## CISA KEV
 
-該当なし — no Devin packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Devin in the trailing 12 months (captured).
+None — no Devin packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Devin in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

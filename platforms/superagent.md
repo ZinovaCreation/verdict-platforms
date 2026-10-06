@@ -110,7 +110,7 @@ Pivoted to AI security. Guard/Redact/Scan APIs. Zero CVEs. 2-person team. No con
 
 ## CISA KEV
 
-該当なし — no Superagent packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Superagent in the trailing 12 months (captured).
+None — no Superagent packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Superagent in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

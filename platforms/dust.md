@@ -107,7 +107,7 @@ SOC 2 Type II, GDPR-native French company. Highest data conduct score (13/15). Z
 
 ## CISA KEV
 
-該当なし — no Dust packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Dust in the trailing 12 months (captured).
+None — no Dust packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Dust in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

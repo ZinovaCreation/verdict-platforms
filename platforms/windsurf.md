@@ -108,7 +108,7 @@ SOC 2 II + FedRAMP High + HIPAA. ZDR default. Self-hosted. Cascade HITL. Cursor 
 
 ## CISA KEV
 
-該当なし — no Windsurf packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Windsurf in the trailing 12 months (captured).
+None — no Windsurf packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Windsurf in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

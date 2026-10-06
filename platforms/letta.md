@@ -109,7 +109,7 @@ Pioneered stateful agent architecture. Zero CVEs in trailing 12 months. Self-hos
 
 ## CISA KEV
 
-該当なし — no Letta packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Letta in the trailing 12 months (captured).
+None — no Letta packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Letta in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

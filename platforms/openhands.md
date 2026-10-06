@@ -108,7 +108,7 @@ Docker sandbox. HITL by default. D:1/15 — cloud permits AI training on user co
 
 ## CISA KEV
 
-該当なし — no OpenHands packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to OpenHands in the trailing 12 months (captured).
+None — no OpenHands packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to OpenHands in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

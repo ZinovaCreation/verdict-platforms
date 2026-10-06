@@ -107,7 +107,7 @@ SOC 2 + ISO 27001. Credentials never reach agent context. Recurring eval() code 
 
 ## CISA KEV
 
-該当なし — no Composio packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to Composio in the trailing 12 months (captured).
+None — no Composio packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to Composio in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

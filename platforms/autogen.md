@@ -104,7 +104,7 @@ Zero confirmed CVEs in the trailing 12 months — cleanest security record in th
 
 ## CISA KEV
 
-該当なし — no AutoGen packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to AutoGen in the trailing 12 months (captured).
+None — no AutoGen packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to AutoGen in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

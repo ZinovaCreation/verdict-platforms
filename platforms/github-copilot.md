@@ -104,7 +104,7 @@ SOC 1/2/3 + ISO 27001 + FedRAMP. Enterprise: IP indemnity + no training. Free/Pr
 
 ## CISA KEV
 
-該当なし — no GitHub Copilot packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to GitHub Copilot in the trailing 12 months (captured).
+None — no GitHub Copilot packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to GitHub Copilot in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

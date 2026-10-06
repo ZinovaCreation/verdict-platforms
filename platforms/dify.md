@@ -94,7 +94,7 @@ Strong transparency and 4 certifications. But React2Shell (CVE-2025-55182) resul
 
 ## CISA KEV
 
-該当なし — no Dify packages appear in the CISA Known Exploited Vulnerabilities catalog. 3 published CVE(s) attributed to Dify in the trailing 12 months (captured).
+None — no Dify packages appear in the CISA Known Exploited Vulnerabilities catalog. 3 published CVE(s) attributed to Dify in the trailing 12 months (captured).
 
 ## Updated-Date Source Note
 

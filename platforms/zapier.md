@@ -94,7 +94,7 @@ No public CVEs, but two verified incidents in 12 months — including a supply c
 
 ## CISA KEV
 
-該当なし — no Zapier packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Zapier in the trailing 12 months (captured).
+None — no Zapier packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Zapier in the trailing 12 months (captured).
 
 ## Updated-Date Source Note
 

@@ -107,7 +107,7 @@ V: 16/20 — highest among browser agents. TypeScript MIT SDK by Browserbase. ob
 
 ## CISA KEV
 
-該当なし — no Stagehand packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Stagehand in the trailing 12 months (captured).
+None — no Stagehand packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Stagehand in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

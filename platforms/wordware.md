@@ -109,7 +109,7 @@ Zero CVEs. $30M seed. Trust center (SOC 2 ref). Minimal privacy policy. AI train
 
 ## CISA KEV
 
-該当なし — no Wordware packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Wordware in the trailing 12 months (captured).
+None — no Wordware packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Wordware in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

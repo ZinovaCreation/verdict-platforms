@@ -95,7 +95,7 @@ CVE-2025-68664 "LangGrinch" (CVSS 9.3) in langchain-core — serialization injec
 
 ## CISA KEV
 
-該当なし — no LangChain packages appear in the CISA Known Exploited Vulnerabilities catalog. 3 published CVE(s) attributed to LangChain in the trailing 12 months (captured).
+None — no LangChain packages appear in the CISA Known Exploited Vulnerabilities catalog. 3 published CVE(s) attributed to LangChain in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

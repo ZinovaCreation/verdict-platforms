@@ -105,7 +105,7 @@ Best HITL (I:8/10). T:9/10. CVSS 9.3 Critical. 3 CVEs structural pattern. SOC 2 
 
 ## CISA KEV
 
-該当なし — no LangGraph packages appear in the CISA Known Exploited Vulnerabilities catalog. 3 published CVE(s) attributed to LangGraph in the trailing 12 months (captured).
+None — no LangGraph packages appear in the CISA Known Exploited Vulnerabilities catalog. 3 published CVE(s) attributed to LangGraph in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

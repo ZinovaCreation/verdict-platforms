@@ -95,7 +95,7 @@ Broadest compliance certification stack in this index: SOC 1/2/3 Type 2, FedRAMP
 
 ## CISA KEV
 
-該当なし — no AWS Bedrock Agents packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to AWS Bedrock Agents in the trailing 12 months (captured).
+None — no AWS Bedrock Agents packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to AWS Bedrock Agents in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

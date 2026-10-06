@@ -105,7 +105,7 @@ CVE-2026-25481 CVSS 9.4 RCE. But T: 8/10 — maintainer published CVE himself. 4
 
 ## CISA KEV
 
-該当なし — no Langroid packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to Langroid in the trailing 12 months (captured).
+None — no Langroid packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to Langroid in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

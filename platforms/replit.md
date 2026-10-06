@@ -105,7 +105,7 @@ SOC 2 II zero exceptions. Semgrep scanning. Agent containment failure (CSA). 200
 
 ## CISA KEV
 
-該当なし — no Replit packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Replit in the trailing 12 months (captured).
+None — no Replit packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Replit in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

@@ -109,7 +109,7 @@ SOC 2 + ISO 27001 + GDPR. I: 8/10 highest conv. AI. HIPAA-aligned. PII redaction
 
 ## CISA KEV
 
-該当なし — no Voiceflow packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Voiceflow in the trailing 12 months (captured).
+None — no Voiceflow packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Voiceflow in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

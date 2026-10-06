@@ -103,7 +103,7 @@ FedRAMP authorized, SOC 2, ISO 27001. Client data explicitly not used for IBM mo
 
 ## CISA KEV
 
-該当なし — no IBM watsonx Orchestrate packages appear in the CISA Known Exploited Vulnerabilities catalog. At least 10 published CVEs in the trailing 12 months (published as a bound; basis: lower_bound).
+None — no IBM watsonx Orchestrate packages appear in the CISA Known Exploited Vulnerabilities catalog. At least 10 published CVEs in the trailing 12 months (published as a bound; basis: lower_bound).
 
 ## Bias Disclosure
 

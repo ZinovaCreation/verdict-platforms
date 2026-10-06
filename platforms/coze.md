@@ -94,7 +94,7 @@ Terms of Service explicitly waive all privacy rights and deny any confidentialit
 
 ## CISA KEV
 
-該当なし — no Coze packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Coze in the trailing 12 months (captured).
+None — no Coze packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Coze in the trailing 12 months (captured).
 
 ## Updated-Date Source Note
 

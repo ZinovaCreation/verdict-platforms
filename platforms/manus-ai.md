@@ -108,7 +108,7 @@ Butterfly Effect Pte. Ltd. ($500M+ funding). Sandbox VMs. Zero CVEs. Browser Ope
 
 ## CISA KEV
 
-該当なし — no Manus AI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Manus AI in the trailing 12 months (captured).
+None — no Manus AI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Manus AI in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

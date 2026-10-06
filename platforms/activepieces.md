@@ -94,7 +94,7 @@ HIPAA-compliant — the only platform in this index to achieve it. Cloud hosted 
 
 ## CISA KEV
 
-該当なし — no Activepieces packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Activepieces in the trailing 12 months (captured).
+None — no Activepieces packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Activepieces in the trailing 12 months (captured).
 
 ## Updated-Date Source Note
 

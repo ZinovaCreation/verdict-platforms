@@ -94,7 +94,7 @@ Most certifications of any evaluated platform — SOC2, HIPAA, GDPR, ISO27001, P
 
 ## CISA KEV
 
-該当なし — no Pipedream packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Pipedream in the trailing 12 months (captured).
+None — no Pipedream packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Pipedream in the trailing 12 months (captured).
 
 ## Updated-Date Source Note
 

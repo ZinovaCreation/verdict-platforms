@@ -118,7 +118,7 @@ First perfect R: 20/20 in the index. One VM per browser session, destroyed after
 
 ## CISA KEV
 
-該当なし — no Browserbase packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Browserbase in the trailing 12 months (captured).
+None — no Browserbase packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Browserbase in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

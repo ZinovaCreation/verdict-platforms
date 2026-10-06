@@ -107,7 +107,7 @@ AutoGen fork. Zero AG2-specific CVEs. No MSRC. Controls autogen PyPI namespace.
 
 ## CISA KEV
 
-該当なし — no AG2 packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to AG2 in the trailing 12 months (captured).
+None — no AG2 packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to AG2 in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

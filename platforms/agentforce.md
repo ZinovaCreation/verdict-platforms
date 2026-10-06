@@ -95,7 +95,7 @@ FedRAMP High explicitly confirmed for Agentforce (Jun 2025) — first AI agent p
 
 ## CISA KEV
 
-該当なし — no Salesforce Agentforce packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to Salesforce Agentforce in the trailing 12 months (captured).
+None — no Salesforce Agentforce packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to Salesforce Agentforce in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

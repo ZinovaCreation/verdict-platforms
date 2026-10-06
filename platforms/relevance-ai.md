@@ -106,7 +106,7 @@ SOC 2 Type II. Customer data not used for training. Multi-region (US/AU/EU). Zer
 
 ## CISA KEV
 
-該当なし — no Relevance AI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Relevance AI in the trailing 12 months (captured).
+None — no Relevance AI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Relevance AI in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

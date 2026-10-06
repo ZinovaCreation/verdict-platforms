@@ -108,7 +108,7 @@ Ironclad ($3.2B+) backed. Local-first. Zero CVEs. YAML graphs + Git. No SECURITY
 
 ## CISA KEV
 
-該当なし — no Rivet packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Rivet in the trailing 12 months (captured).
+None — no Rivet packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Rivet in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

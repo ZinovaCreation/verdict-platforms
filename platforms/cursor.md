@@ -113,7 +113,7 @@ SOC 2 Type II. Privacy Mode zero-retention. 3 MCP CVEs (structural). $29.3B, $1B
 
 ## CISA KEV
 
-該当なし — no Cursor packages appear in the CISA Known Exploited Vulnerabilities catalog. 3 published CVE(s) attributed to Cursor in the trailing 12 months (captured).
+None — no Cursor packages appear in the CISA Known Exploited Vulnerabilities catalog. 3 published CVE(s) attributed to Cursor in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

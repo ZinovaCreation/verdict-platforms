@@ -105,7 +105,7 @@ Y Combinator W25 · $17M seed (Felicis). CVE-2025-47241 (CVSS 9.3) allowed_domai
 
 ## CISA KEV
 
-該当なし — no Browser Use packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to Browser Use in the trailing 12 months (captured).
+None — no Browser Use packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to Browser Use in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

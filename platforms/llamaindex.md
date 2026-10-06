@@ -93,7 +93,7 @@ CVE-2025-1793 (CVSS 9.8): SQL injection across 8 vector store integrations via L
 
 ## CISA KEV
 
-該当なし — no LlamaIndex packages appear in the CISA Known Exploited Vulnerabilities catalog. At least 3 published CVEs in the trailing 12 months (published as a bound; basis: range).
+None — no LlamaIndex packages appear in the CISA Known Exploited Vulnerabilities catalog. At least 3 published CVEs in the trailing 12 months (published as a bound; basis: range).
 
 ## Bias Disclosure
 

@@ -95,7 +95,7 @@ Broadest certification set among evaluated API platforms: SOC 2 Type II, ISO 270
 
 ## CISA KEV
 
-該当なし — no OpenAI Assistants API packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to OpenAI Assistants API in the trailing 12 months (captured).
+None — no OpenAI Assistants API packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to OpenAI Assistants API in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

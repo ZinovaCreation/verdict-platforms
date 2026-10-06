@@ -107,7 +107,7 @@ Highest score in the index. SOC 1/2/3, ISO 27001, ISO 42001, FedRAMP, HIPAA. Cus
 
 ## CISA KEV
 
-該当なし — no Amazon Q Business packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Amazon Q Business in the trailing 12 months (captured).
+None — no Amazon Q Business packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Amazon Q Business in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

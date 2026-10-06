@@ -106,7 +106,7 @@ WebContainers: code runs in browser, never on servers. Zero CVEs. Open-source. N
 
 ## CISA KEV
 
-該当なし — no Bolt.new packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Bolt.new in the trailing 12 months (captured).
+None — no Bolt.new packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Bolt.new in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

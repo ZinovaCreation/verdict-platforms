@@ -109,7 +109,7 @@ Zero CVEs in trailing 12 months. Full Apache 2.0 open source with monthly releas
 
 ## CISA KEV
 
-該当なし — no Haystack packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Haystack in the trailing 12 months (captured).
+None — no Haystack packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Haystack in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

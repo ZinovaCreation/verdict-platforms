@@ -117,7 +117,7 @@ Second perfect R: 20/20 in the index. French SAS, GDPR-native. Surfer 2 benchmar
 
 ## CISA KEV
 
-該当なし — no Runner H packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Runner H in the trailing 12 months (captured).
+None — no Runner H packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Runner H in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

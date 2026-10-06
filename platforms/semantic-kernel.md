@@ -95,7 +95,7 @@ Two CVSS 10.0 vulnerabilities published within 13 days in February 2026, both in
 
 ## CISA KEV
 
-該当なし — no Semantic Kernel packages appear in the CISA Known Exploited Vulnerabilities catalog. 2 published CVE(s) attributed to Semantic Kernel in the trailing 12 months (captured).
+None — no Semantic Kernel packages appear in the CISA Known Exploited Vulnerabilities catalog. 2 published CVE(s) attributed to Semantic Kernel in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

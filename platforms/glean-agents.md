@@ -161,7 +161,7 @@ Glean Agents scores 73/85 (Tier S) on VERDICT v0.3.2 Layer 0: SOC 2 Type II, ISO
 
 ## CISA KEV
 
-該当なし — no Glean Technologies product appears in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to a Glean Technologies product in the trailing 12 months (2025-09-24 – 2026-09-24); CVE-2026-54339 (`LeslieLeung/glean`, an unrelated self-hosted RSS reader) is excluded by product-scoped attribution.
+None — no Glean Technologies product appears in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to a Glean Technologies product in the trailing 12 months (2025-09-24 – 2026-09-24); CVE-2026-54339 (`LeslieLeung/glean`, an unrelated self-hosted RSS reader) is excluded by product-scoped attribution.
 
 ## Bias Disclosure
 

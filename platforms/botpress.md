@@ -95,7 +95,7 @@ Zero CVEs confirmed in the trailing 12-month window. SOC 2 certified and GDPR co
 
 ## CISA KEV
 
-該当なし — no Botpress packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Botpress in the trailing 12 months (captured).
+None — no Botpress packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Botpress in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

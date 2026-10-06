@@ -95,7 +95,7 @@ Highest score in this index. Broadest certification portfolio: SOC 2 Type II, IS
 
 ## CISA KEV
 
-該当なし — no Vertex AI Agent Builder packages appear in the CISA Known Exploited Vulnerabilities catalog. 2 published CVE(s) attributed to Vertex AI Agent Builder in the trailing 12 months (captured).
+None — no Vertex AI Agent Builder packages appear in the CISA Known Exploited Vulnerabilities catalog. 2 published CVE(s) attributed to Vertex AI Agent Builder in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

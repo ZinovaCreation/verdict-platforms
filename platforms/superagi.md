@@ -106,7 +106,7 @@ Unmaintained since ~2024. Unpatched CVE: plaintext passwords in API. No SECURITY
 
 ## CISA KEV
 
-該当なし — no SuperAGI packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to SuperAGI in the trailing 12 months (captured).
+None — no SuperAGI packages appear in the CISA Known Exploited Vulnerabilities catalog. 1 published CVE(s) attributed to SuperAGI in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

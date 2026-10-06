@@ -94,7 +94,7 @@ First multi-agent orchestration platform in this index. Uncrew vulnerability (CV
 
 ## CISA KEV
 
-該当なし — no CrewAI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to CrewAI in the trailing 12 months (captured).
+None — no CrewAI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to CrewAI in the trailing 12 months (captured).
 
 ## Updated-Date Source Note
 

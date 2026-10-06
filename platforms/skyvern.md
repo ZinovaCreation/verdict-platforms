@@ -110,7 +110,7 @@ SOC 2 Type II and HIPAA compliance — the only browser agent in the index with 
 
 ## CISA KEV
 
-該当なし — no Skyvern packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Skyvern in the trailing 12 months (captured).
+None — no Skyvern packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Skyvern in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

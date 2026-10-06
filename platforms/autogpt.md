@@ -106,7 +106,7 @@ T:10/10 (index highest). 6 advisories, 2 Critical SSRF. Recurring SSRF pattern. 
 
 ## CISA KEV
 
-該当なし — no AutoGPT packages appear in the CISA Known Exploited Vulnerabilities catalog. The original evaluation published its advisory count in GHSA units — '6 confirmed GHSAs' (preserved verbatim; no CVE-unit count published; basis: unrecorded).
+None — no AutoGPT packages appear in the CISA Known Exploited Vulnerabilities catalog. The original evaluation published its advisory count in GHSA units — '6 confirmed GHSAs' (preserved verbatim; no CVE-unit count published; basis: unrecorded).
 
 ## Bias Disclosure
 

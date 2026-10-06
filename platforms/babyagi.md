@@ -106,7 +106,7 @@ First popular autonomous agent (2023). Experimental only. Self-building agent, n
 
 ## CISA KEV
 
-該当なし — no BabyAGI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to BabyAGI in the trailing 12 months (captured).
+None — no BabyAGI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to BabyAGI in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

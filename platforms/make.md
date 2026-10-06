@@ -94,7 +94,7 @@ Zero public CVEs — by policy, not necessarily by reality. ISO 27001 and SOC 2 
 
 ## CISA KEV
 
-該当なし — no Make.com packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Make.com in the trailing 12 months (captured).
+None — no Make.com packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Make.com in the trailing 12 months (captured).
 
 ## Updated-Date Source Note
 

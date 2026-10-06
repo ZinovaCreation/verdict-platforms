@@ -109,7 +109,7 @@ NeurIPS 2023 role-playing paradigm. Zero CVEs. SECURITY.md 48-72h. No role-play 
 
 ## CISA KEV
 
-該当なし — no CAMEL-AI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to CAMEL-AI in the trailing 12 months (captured).
+None — no CAMEL-AI packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to CAMEL-AI in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

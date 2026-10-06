@@ -112,7 +112,7 @@ SOC 2 Type II + ISO 27001 + GDPR. D:13/15 no training on code. 4 security scanne
 
 ## CISA KEV
 
-該当なし — no Lovable packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Lovable in the trailing 12 months (captured).
+None — no Lovable packages appear in the CISA Known Exploited Vulnerabilities catalog. Zero published CVEs attributed to Lovable in the trailing 12 months (captured).
 
 ## Bias Disclosure
 

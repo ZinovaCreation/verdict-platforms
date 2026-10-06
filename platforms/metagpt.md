@@ -107,7 +107,7 @@ card_tags: *id001
 
 ## CISA KEV
 
-該当なし — no MetaGPT packages appear in the CISA Known Exploited Vulnerabilities catalog. 4 published CVE(s) attributed to MetaGPT in the trailing 12 months (captured).
+None — no MetaGPT packages appear in the CISA Known Exploited Vulnerabilities catalog. 4 published CVE(s) attributed to MetaGPT in the trailing 12 months (captured).
 
 ## Bias Disclosure
 
