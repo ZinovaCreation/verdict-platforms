@@ -27,7 +27,7 @@ Weaviate scores **62/85** on Layer 0 (Tier A) under VERDICT v0.3.1. The platform
 | T — Transparency | 7 | 10 | 70% | High |
 | **Total (Layer 0)** | **62** | **85** | **72.9%** | **Tier A** |
 
-**CISA KEV:** なし — No Weaviate CVEs appear in the CISA Known Exploited Vulnerabilities catalog as of evaluation date.
+**CISA KEV:** None — No Weaviate CVEs appear in the CISA Known Exploited Vulnerabilities catalog as of evaluation date.
 
 ---
 

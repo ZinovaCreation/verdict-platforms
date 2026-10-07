@@ -27,7 +27,7 @@ Pinecone scores 71/85 on Layer 0 public-documentation review. Across the six sco
 | T — Transparency | 8 | 10 | High |
 | **Layer 0 Total** | **71** | **85** | **—** |
 
-**CISA KEV:** なし (No Pinecone-related entries in the CISA Known Exploited Vulnerabilities catalog as of 2026.05.12.)
+**CISA KEV:** None (No Pinecone-related entries in the CISA Known Exploited Vulnerabilities catalog as of 2026.05.12.)
 
 **Tier:** S (71/85 = 83.5%)
 **Category:** Vector Database · Retrieval Infrastructure

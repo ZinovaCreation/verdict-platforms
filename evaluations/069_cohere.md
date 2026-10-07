@@ -27,7 +27,7 @@ Cohere Inc., a Canadian federal corporation headquartered in Toronto, scores 42/
 | T — Transparency | 7 | 10 | High |
 | **Total (Layer 0)** | **42** | **85** | **Tier C** |
 
-**CISA KEV:** ❌ なし (No Cohere entry confirmed in CISA KEV catalog at evaluation date)
+**CISA KEV:** ❌ None (No Cohere entry confirmed in CISA KEV catalog at evaluation date)
 
 ---
 

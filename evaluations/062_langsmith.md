@@ -35,7 +35,7 @@ LangSmith presents a mature commercial observability platform with documented SO
 | **Total (Layer 0)** | **55** | **85** | — |
 | E — Effectiveness | not evaluated | 15 | Layer 1+ only |
 
-**CISA KEV:** なし (No LangSmith or LangChain CVE confirmed in the CISA Known Exploited Vulnerabilities catalog as of 2026.05.12).
+**CISA KEV:** None (No LangSmith or LangChain CVE confirmed in the CISA Known Exploited Vulnerabilities catalog as of 2026.05.12).
 
 ---
 
