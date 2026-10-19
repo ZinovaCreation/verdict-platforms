@@ -63,7 +63,7 @@ qa:
   revision_cycles: 0
   flagged: false
 differential: null
-next_review_due: '2026-08-10'
+next_review_due: '2027-05-12'
 tags:
 - llm-observability
 - agent-evaluation

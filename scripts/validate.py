@@ -15,7 +15,8 @@ Checks performed per file:
       / Contextual Analysis (4-location check per ENGINE.md)
   7.  Bias Disclosure verbatim check (body must contain ENGINE.md mandated text)
   8.  Rating consistency: each axis rating matches threshold (70/40)
-  9.  next_review_due == base + 90 days (base = updated_at if present else evaluated_at)
+  9.  next_review_due == base + 365 days (ReviewCadence-002 routine interval;
+      base = updated_at if present else evaluated_at)
   10. Update evaluations must declare differential states
 
 Usage:
@@ -52,7 +53,7 @@ LAYER_1_AXES = ("v", "e", "r", "d", "i", "c", "t")
 
 RATING_HIGH_MIN = 0.70
 RATING_MID_MIN = 0.40
-REVIEW_CADENCE_DAYS = 90
+REVIEW_CADENCE_DAYS = 365  # ReviewCadence-002: routine review interval (ENGINE.md Layer C, routine lane)
 
 # ENGINE.md v0.3.1 mandated bias disclosure — verbatim
 BIAS_DISCLOSURE_VERBATIM = (
@@ -245,8 +246,8 @@ def validate_file(path: Path, validator: Draft202012Validator) -> list[str]:
         if next_due != expected_due:
             errors.append(
                 f"next_review_due: expected {expected_due} "
-                f"(base + {REVIEW_CADENCE_DAYS}d; base = updated_at if present "
-                f"else evaluated_at), got {next_due}"
+                f"(base + {REVIEW_CADENCE_DAYS}d routine interval, ReviewCadence-002; "
+                f"base = updated_at if present else evaluated_at), got {next_due}"
             )
 
     # 10. Differential evaluations

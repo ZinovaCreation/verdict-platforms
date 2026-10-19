@@ -63,7 +63,7 @@ qa:
   revision_cycles: 0
   flagged: false
 differential: null
-next_review_due: '2026-07-10'
+next_review_due: '2027-04-11'
 tags:
 - ai-coding-agent
 - enterprise-saas

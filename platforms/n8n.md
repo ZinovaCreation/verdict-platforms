@@ -74,7 +74,7 @@ differential:
   c: re-evaluated
   t: re-evaluated
   e: null
-next_review_due: '2026-12-24'
+next_review_due: '2027-09-25'
 tags:
 - workflow-automation
 - ai-agent-orchestration

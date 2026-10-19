@@ -63,7 +63,7 @@ qa:
   revision_cycles: 0
   flagged: false
 differential: null
-next_review_due: '2026-06-28'
+next_review_due: '2027-03-30'
 tags:
 - open-source-sdk
 - cloud-SaaS

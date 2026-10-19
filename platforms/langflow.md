@@ -89,7 +89,7 @@ differential:
   c: re-evaluated
   t: re-evaluated
   e: null
-next_review_due: '2026-12-22'
+next_review_due: '2027-09-23'
 tags:
 - open-source
 - mit

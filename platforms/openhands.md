@@ -63,7 +63,7 @@ qa:
   revision_cycles: 0
   flagged: false
 differential: null
-next_review_due: '2026-06-30'
+next_review_due: '2027-04-01'
 tags:
 - AI coding agent
 - open source

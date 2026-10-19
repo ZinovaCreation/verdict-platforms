@@ -7,7 +7,8 @@ Follows VERDICT Framework v0.3.1:
   - Layer 1 composite = V + E + R + D + I + C + T (max 100)
   - Rating auto-assigned per dimension (70%+ High, 40–69% Mid, 0–39% Low)
   - Tier auto-assigned from composite score (see TIER_THRESHOLDS)
-  - next_review_due = evaluated_at + 90 days
+  - next_review_due = base + 365 days (ReviewCadence-002 routine interval;
+    base = updated_at if present, else evaluated_at — same rule as validate.py check 9)
   - CISA KEV-present platforms surface in rankings
 
 Outputs:
@@ -69,7 +70,7 @@ TIER_THRESHOLDS = [
     ("D",  0),
 ]
 
-REVIEW_CADENCE_DAYS = 90
+REVIEW_CADENCE_DAYS = 365  # ReviewCadence-002: routine review interval (ENGINE.md Layer C, routine lane)
 
 # Canonical front-matter key order — preserved on every write-back so source
 # files stay readable for humans. Unknown keys are appended in original order.
@@ -279,7 +280,11 @@ def enrich_and_rank(posts: list[tuple[Path, frontmatter.Post]]) -> list[dict]:
 
         evaluated_at = coerce_date(m.get("evaluated_at"))
         authored_due = coerce_date(m.get("next_review_due")) if m.get("next_review_due") else ""
-        derived_due = plus_days(evaluated_at, REVIEW_CADENCE_DAYS) if evaluated_at else ""
+        # ReviewCadence-002: base = updated_at if present, else evaluated_at
+        # (same rule as validate.py check 9).
+        updated_at = coerce_date(m.get("updated_at")) if m.get("updated_at") else ""
+        review_base = updated_at or evaluated_at
+        derived_due = plus_days(review_base, REVIEW_CADENCE_DAYS) if review_base else ""
         next_due = authored_due or derived_due
 
         records.append({
