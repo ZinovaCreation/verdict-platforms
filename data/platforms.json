@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:48:14+00:00",
+  "generated_at": "2026-10-27T07:32:18+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -3254,7 +3254,80 @@
       "tags": []
     },
     {
-      "rank": 46,
+      "rank": 45,
+      "tier": "B",
+      "slug": "langroid",
+      "name": "Langroid",
+      "operator": "langroid (GitHub organization) · maintainer Prasad Chalasani · no legal entity named",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Multi-Agent LLM Framework · OSS (MIT)",
+      "homepage": "https://langroid.github.io/langroid",
+      "github": "https://github.com/langroid/langroid",
+      "score": 45,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": "MIT single-license OSS; contact confirmed; no legal entity named; API docs"
+        },
+        "r": {
+          "score": 6,
+          "rating": "Low",
+          "note": "8 CVEs in window, max 10.0; fixes at disclosure; recurring eval/SQL root cause"
+        },
+        "d": {
+          "score": 3,
+          "rating": "Low",
+          "note": "No privacy policy, DPA or retention terms; no telemetry found in source"
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": "Interactive-by-default tasks; termination docs; tool scoping documented"
+        },
+        "c": {
+          "score": 8,
+          "rating": "High",
+          "note": "AST allowlist + denylists (hybrid); restrictive defaults; self-hosted"
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "GitHub CNA advisories; two disclosures >30d after fix; scope narrowed 2026-07"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 8,
+      "max_cvss_12mo": 10.0,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "updated_at": "2026-10-27",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "open-source",
+        "MIT",
+        "python",
+        "academic-origin",
+        "multi-agent",
+        "actor-model",
+        "lightweight",
+        "self-hosted"
+      ]
+    },
+    {
+      "rank": 47,
       "tier": "C",
       "slug": "crewai",
       "name": "CrewAI",
@@ -3318,7 +3391,7 @@
       "tags": []
     },
     {
-      "rank": 46,
+      "rank": 47,
       "tier": "C",
       "slug": "runner-h",
       "name": "Runner H",
@@ -3405,7 +3478,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "tier": "C",
       "slug": "openhands",
       "name": "OpenHands",
@@ -3480,7 +3553,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "tier": "C",
       "slug": "relevance-ai",
       "name": "Relevance AI",
@@ -3553,7 +3626,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "tier": "C",
       "slug": "zep",
       "name": "Zep",
@@ -3629,7 +3702,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 52,
       "tier": "C",
       "slug": "cohere",
       "name": "Cohere",
@@ -3708,7 +3781,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 52,
       "tier": "C",
       "slug": "superagent",
       "name": "Superagent",
@@ -3781,7 +3854,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 54,
       "tier": "C",
       "slug": "llamaindex",
       "name": "LlamaIndex",
@@ -3845,7 +3918,7 @@
       "tags": []
     },
     {
-      "rank": 54,
+      "rank": 55,
       "tier": "C",
       "slug": "ag2",
       "name": "AG2",
@@ -3917,7 +3990,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 55,
       "tier": "C",
       "slug": "browser-use",
       "name": "Browser Use",
@@ -3990,7 +4063,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 57,
       "tier": "C",
       "slug": "rivet",
       "name": "Rivet",
@@ -4065,7 +4138,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 58,
       "tier": "C",
       "slug": "phidata",
       "name": "Phidata (Agno)",
@@ -4142,7 +4215,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 59,
       "tier": "C",
       "slug": "letta",
       "name": "Letta",
@@ -4215,7 +4288,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "tier": "C",
       "slug": "autogpt",
       "name": "AutoGPT",
@@ -4288,7 +4361,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 61,
       "tier": "C",
       "slug": "coze",
       "name": "Coze",
@@ -4352,7 +4425,7 @@
       "tags": []
     },
     {
-      "rank": 60,
+      "rank": 61,
       "tier": "C",
       "slug": "manus-ai",
       "name": "Manus AI",
@@ -4426,7 +4499,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 61,
       "tier": "C",
       "slug": "wordware",
       "name": "Wordware",
@@ -4495,79 +4568,6 @@
         "IDE",
         "enterprise-AI",
         "Spark-Capital"
-      ]
-    },
-    {
-      "rank": 63,
-      "tier": "D",
-      "slug": "langroid",
-      "name": "Langroid",
-      "operator": "Prasad Chalasani (CMU) · Individual",
-      "independence": "independent",
-      "parent_entity": null,
-      "category": "Multi-Agent LLM Framework · OSS (MIT)",
-      "homepage": "https://langroid.substack.com",
-      "github": "https://github.com/langroid",
-      "score": 34,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 10,
-          "rating": "Mid",
-          "note": ""
-        },
-        "r": {
-          "score": 5,
-          "rating": "Low",
-          "note": ""
-        },
-        "d": {
-          "score": 6,
-          "rating": "Mid",
-          "note": ""
-        },
-        "i": {
-          "score": 2,
-          "rating": "Low",
-          "note": ""
-        },
-        "c": {
-          "score": 3,
-          "rating": "Low",
-          "note": ""
-        },
-        "t": {
-          "score": 8,
-          "rating": "High",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 1,
-      "max_cvss_12mo": 9.4,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-31",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": [
-        "open-source",
-        "MIT",
-        "python",
-        "academic-origin",
-        "CMU",
-        "multi-agent",
-        "actor-model",
-        "lightweight"
       ]
     },
     {
