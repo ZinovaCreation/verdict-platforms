@@ -73,7 +73,7 @@ tags:
 - LangChain-ecosystem
 - SOC2-Type-II
 - high-adoption
-rank: 38
+rank: 39
 sources:
 - https://github.com/langchain-ai/langgraph
 - https://github.com/langchain-ai/langgraph/releases

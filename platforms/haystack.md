@@ -73,7 +73,7 @@ tags:
 - german-company
 - SOC2-enterprise
 - modular
-rank: 35
+rank: 36
 sources:
 - https://docs.haystack.deepset.ai/
 - https://github.com/deepset-ai/haystack

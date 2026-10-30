@@ -35,19 +35,19 @@ _Auto-generated — 70 platform(s). Do not edit by hand._
 | 29 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | LLM Observability | 51/85 | 13 | 17 | 3 | 8 | 4 | 6 |  |
 | 30 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 | 14 | 5 | 8 | 10 | 6 | 7 |  |
 | 31 | B | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | LLM Agent Framework · Open Source (MIT core) | 49/85 | 15 | 8 | 7 | 6 | 6 | 7 |  |
+| 32 | B | [Composio](../platforms/composio.md) | Sampark, Inc. d/b/a Composio · San Francisco | AI Agent Tool Integration · OSS SDK + Cloud | 48/85 | 14 | 11 | 9 | 6 | 3 | 5 |  |
 | 32 | B | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | IBM Corporation | Enterprise AI Agent Platform · Cloud SaaS + On-Prem | 48/85 | 11 | 7 | 9 | 7 | 6 | 8 |  |
 | 32 | B | [Replit](../platforms/replit.md) | Replit Inc. · $1.16B | AI Coding Agent / Cloud IDE | 48/85 | 10 | 14 | 6 | 5 | 5 | 8 |  |
 | 32 | B | [Zapier](../platforms/zapier.md) | Independent | Workflow Automation · Cloud SaaS | 48/85 | 10 | 15 | 9 | 3 | 6 | 5 |  |
-| 35 | B | [Bolt.new](../platforms/bolt-new.md) | StackBlitz · $700M | AI App Builder · OSS Core | 47/85 | 12 | 17 | 4 | 3 | 7 | 4 |  |
-| 35 | B | [Cursor](../platforms/cursor.md) | Anysphere · $29.3B | AI Coding IDE · Proprietary | 47/85 | 10 | 8 | 11 | 7 | 5 | 6 |  |
-| 35 | B | [Haystack](../platforms/haystack.md) | deepset GmbH · Berlin, Germany | AI Application Framework · Open Source (Apache 2.0) | 47/85 | 15 | 17 | 5 | 2 | 3 | 5 |  |
-| 38 | B | [Composio](../platforms/composio.md) | Composio Inc. · San Francisco | AI Agent Tool Integration · OSS SDK + Cloud | 46/85 | 10 | 8 | 10 | 6 | 6 | 6 |  |
-| 38 | B | [Dify](../platforms/dify.md) | Independent · $30M Series Pre-A (2026) | LLM Application Builder · Open Source | 46/85 | 16 | 6 | 10 | 4 | 3 | 7 |  |
-| 38 | B | [E2B](../platforms/e2b.md) | FoundryLabs, Inc. | AI Agent Code Execution Sandbox | 46/85 | 13 | 17 | 2 | 5 | 6 | 3 |  |
-| 38 | B | [LangGraph](../platforms/langgraph.md) | LangChain Inc. | Agent Orchestration · OSS (MIT) | 46/85 | 13 | 4 | 7 | 8 | 5 | 9 |  |
-| 38 | B | [Make.com](../platforms/make.md) | Independent (Celonis portfolio) | Workflow Automation · Cloud SaaS | 46/85 | 10 | 17 | 8 | 3 | 6 | 2 |  |
-| 38 | B | [Semantic Kernel](../platforms/semantic-kernel.md) | Microsoft Research · Migrating to Agent Framework | AI Orchestration SDK · Open Source (MIT) | 46/85 | 14 | 11 | 5 | 4 | 4 | 8 |  |
-| 38 | B | [n8n](../platforms/n8n.md) | n8n GmbH (Berlin) | Workflow Automation · Fair-code | 46/85 | 16 | 3 | 13 | 6 | 4 | 4 | ✅ |
+| 36 | B | [Bolt.new](../platforms/bolt-new.md) | StackBlitz · $700M | AI App Builder · OSS Core | 47/85 | 12 | 17 | 4 | 3 | 7 | 4 |  |
+| 36 | B | [Cursor](../platforms/cursor.md) | Anysphere · $29.3B | AI Coding IDE · Proprietary | 47/85 | 10 | 8 | 11 | 7 | 5 | 6 |  |
+| 36 | B | [Haystack](../platforms/haystack.md) | deepset GmbH · Berlin, Germany | AI Application Framework · Open Source (Apache 2.0) | 47/85 | 15 | 17 | 5 | 2 | 3 | 5 |  |
+| 39 | B | [Dify](../platforms/dify.md) | Independent · $30M Series Pre-A (2026) | LLM Application Builder · Open Source | 46/85 | 16 | 6 | 10 | 4 | 3 | 7 |  |
+| 39 | B | [E2B](../platforms/e2b.md) | FoundryLabs, Inc. | AI Agent Code Execution Sandbox | 46/85 | 13 | 17 | 2 | 5 | 6 | 3 |  |
+| 39 | B | [LangGraph](../platforms/langgraph.md) | LangChain Inc. | Agent Orchestration · OSS (MIT) | 46/85 | 13 | 4 | 7 | 8 | 5 | 9 |  |
+| 39 | B | [Make.com](../platforms/make.md) | Independent (Celonis portfolio) | Workflow Automation · Cloud SaaS | 46/85 | 10 | 17 | 8 | 3 | 6 | 2 |  |
+| 39 | B | [Semantic Kernel](../platforms/semantic-kernel.md) | Microsoft Research · Migrating to Agent Framework | AI Orchestration SDK · Open Source (MIT) | 46/85 | 14 | 11 | 5 | 4 | 4 | 8 |  |
+| 39 | B | [n8n](../platforms/n8n.md) | n8n GmbH (Berlin) | Workflow Automation · Fair-code | 46/85 | 16 | 3 | 13 | 6 | 4 | 4 | ✅ |
 | 45 | B | [Botpress](../platforms/botpress.md) | Botpress Inc. · Montreal, Canada | Chatbot / Agent Builder · Open Source (MIT integrations) | 45/85 | 12 | 14 | 7 | 5 | 2 | 5 |  |
 | 45 | B | [Langroid](../platforms/langroid.md) | langroid (GitHub organization) · maintainer Prasad Chalasani · no legal entity named | Multi-Agent LLM Framework · OSS (MIT) | 45/85 | 14 | 6 | 3 | 8 | 8 | 6 |  |
 | 47 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | Multi-Agent Orchestration · Open Source | 44/85 | 12 | 12 | 7 | 5 | 4 | 4 |  |

@@ -12,7 +12,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 38 | B | [E2B](../platforms/e2b.md) | FoundryLabs, Inc. | 46/85 |
+| 39 | B | [E2B](../platforms/e2b.md) | FoundryLabs, Inc. | 46/85 |
 
 ## AI Agent IDE · Cloud SaaS
 
@@ -48,7 +48,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 38 | B | [Composio](../platforms/composio.md) | Composio Inc. · San Francisco | 46/85 |
+| 32 | B | [Composio](../platforms/composio.md) | Sampark, Inc. d/b/a Composio · San Francisco | 48/85 |
 
 ## AI App Builder · Cloud SaaS
 
@@ -61,13 +61,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 35 | B | [Bolt.new](../platforms/bolt-new.md) | StackBlitz · $700M | 47/85 |
+| 36 | B | [Bolt.new](../platforms/bolt-new.md) | StackBlitz · $700M | 47/85 |
 
 ## AI Application Framework · Open Source (Apache 2.0)
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 35 | B | [Haystack](../platforms/haystack.md) | deepset GmbH · Berlin, Germany | 47/85 |
+| 36 | B | [Haystack](../platforms/haystack.md) | deepset GmbH · Berlin, Germany | 47/85 |
 
 ## AI Coding Agent
 
@@ -105,7 +105,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 35 | B | [Cursor](../platforms/cursor.md) | Anysphere · $29.3B | 47/85 |
+| 36 | B | [Cursor](../platforms/cursor.md) | Anysphere · $29.3B | 47/85 |
 
 ## AI Coding IDE · VS Code Fork
 
@@ -117,7 +117,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 38 | B | [Semantic Kernel](../platforms/semantic-kernel.md) | Microsoft Research · Migrating to Agent Framework | 46/85 |
+| 39 | B | [Semantic Kernel](../platforms/semantic-kernel.md) | Microsoft Research · Migrating to Agent Framework | 46/85 |
 
 ## AI Safety
 
@@ -148,7 +148,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 38 | B | [LangGraph](../platforms/langgraph.md) | LangChain Inc. | 46/85 |
+| 39 | B | [LangGraph](../platforms/langgraph.md) | LangChain Inc. | 46/85 |
 
 ## Autonomous AI Agent · Source-Available
 
@@ -268,7 +268,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 38 | B | [Dify](../platforms/dify.md) | Independent · $30M Series Pre-A (2026) | 46/85 |
+| 39 | B | [Dify](../platforms/dify.md) | Independent · $30M Series Pre-A (2026) | 46/85 |
 
 ## LLM Observability
 
@@ -368,13 +368,13 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 32 | B | [Zapier](../platforms/zapier.md) | Independent | 48/85 |
-| 38 | B | [Make.com](../platforms/make.md) | Independent (Celonis portfolio) | 46/85 |
+| 39 | B | [Make.com](../platforms/make.md) | Independent (Celonis portfolio) | 46/85 |
 
 ## Workflow Automation · Fair-code
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 38 | B | [n8n](../platforms/n8n.md) | n8n GmbH (Berlin) | 46/85 |
+| 39 | B | [n8n](../platforms/n8n.md) | n8n GmbH (Berlin) | 46/85 |
 
 ## Workflow Automation · Open Source (MIT)
 
