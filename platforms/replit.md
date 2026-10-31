@@ -73,7 +73,7 @@ tags:
 - container-isolation
 - education-market
 - Semgrep-scanning
-rank: 32
+rank: 31
 sources:
 - https://blog.replit.com/
 - https://blog.replit.com/2025-replit-in-review

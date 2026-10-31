@@ -85,7 +85,7 @@ tags:
 - rebranded
 - critical-cve-12mo
 - tier-c
-rank: 58
+rank: 57
 sources:
 - https://www.agno.com/
 - https://www.agno.com/enterprise

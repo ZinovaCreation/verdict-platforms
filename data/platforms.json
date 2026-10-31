@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:15:49+00:00",
+  "generated_at": "2026-10-31T08:33:51+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -1609,70 +1609,6 @@
     {
       "rank": 23,
       "tier": "B",
-      "slug": "activepieces",
-      "name": "Activepieces",
-      "operator": "Independent · Y Combinator",
-      "independence": "unrecorded",
-      "parent_entity": null,
-      "category": "Workflow Automation · Open Source (MIT)",
-      "homepage": null,
-      "github": null,
-      "score": 52,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 13,
-          "rating": "Mid",
-          "note": ""
-        },
-        "r": {
-          "score": 15,
-          "rating": "High",
-          "note": ""
-        },
-        "d": {
-          "score": 10,
-          "rating": "Mid",
-          "note": ""
-        },
-        "i": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
-          "score": 6,
-          "rating": "Mid",
-          "note": ""
-        },
-        "t": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 0,
-      "max_cvss_12mo": null,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-13",
-      "updated_at": "2026-05-13",
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
-    },
-    {
-      "rank": 23,
-      "tier": "B",
       "slug": "nemo-guardrails",
       "name": "NeMo Guardrails",
       "operator": "NVIDIA Corporation",
@@ -2048,7 +1984,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 28,
       "tier": "B",
       "slug": "arize-ai",
       "name": "Arize AI",
@@ -2122,7 +2058,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 29,
       "tier": "B",
       "slug": "cline",
       "name": "Cline",
@@ -2194,7 +2130,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 30,
       "tier": "B",
       "slug": "langchain",
       "name": "LangChain",
@@ -2258,7 +2194,7 @@
       "tags": []
     },
     {
-      "rank": 32,
+      "rank": 31,
       "tier": "B",
       "slug": "composio",
       "name": "Composio",
@@ -2334,7 +2270,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 31,
       "tier": "B",
       "slug": "watsonx-orchestrate",
       "name": "IBM watsonx Orchestrate",
@@ -2408,7 +2344,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 31,
       "tier": "B",
       "slug": "replit",
       "name": "Replit",
@@ -2481,7 +2417,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 31,
       "tier": "B",
       "slug": "zapier",
       "name": "Zapier",
@@ -2545,7 +2481,7 @@
       "tags": []
     },
     {
-      "rank": 36,
+      "rank": 35,
       "tier": "B",
       "slug": "bolt-new",
       "name": "Bolt.new",
@@ -2619,7 +2555,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 35,
       "tier": "B",
       "slug": "cursor",
       "name": "Cursor",
@@ -2696,7 +2632,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 35,
       "tier": "B",
       "slug": "haystack",
       "name": "Haystack",
@@ -2769,7 +2705,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 38,
       "tier": "B",
       "slug": "dify",
       "name": "Dify",
@@ -2833,7 +2769,7 @@
       "tags": []
     },
     {
-      "rank": 39,
+      "rank": 38,
       "tier": "B",
       "slug": "e2b",
       "name": "E2B",
@@ -2908,7 +2844,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 38,
       "tier": "B",
       "slug": "langgraph",
       "name": "LangGraph",
@@ -2981,7 +2917,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 38,
       "tier": "B",
       "slug": "make",
       "name": "Make.com",
@@ -3045,7 +2981,7 @@
       "tags": []
     },
     {
-      "rank": 39,
+      "rank": 38,
       "tier": "B",
       "slug": "semantic-kernel",
       "name": "Semantic Kernel",
@@ -3109,7 +3045,7 @@
       "tags": []
     },
     {
-      "rank": 39,
+      "rank": 38,
       "tier": "B",
       "slug": "n8n",
       "name": "n8n",
@@ -3193,7 +3129,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 44,
       "tier": "B",
       "slug": "botpress",
       "name": "Botpress",
@@ -3257,7 +3193,7 @@
       "tags": []
     },
     {
-      "rank": 45,
+      "rank": 44,
       "tier": "B",
       "slug": "langroid",
       "name": "Langroid",
@@ -3330,7 +3266,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 46,
       "tier": "C",
       "slug": "crewai",
       "name": "CrewAI",
@@ -3394,7 +3330,7 @@
       "tags": []
     },
     {
-      "rank": 47,
+      "rank": 46,
       "tier": "C",
       "slug": "runner-h",
       "name": "Runner H",
@@ -3481,7 +3417,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 48,
       "tier": "C",
       "slug": "openhands",
       "name": "OpenHands",
@@ -3556,7 +3492,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 48,
       "tier": "C",
       "slug": "relevance-ai",
       "name": "Relevance AI",
@@ -3629,7 +3565,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 48,
       "tier": "C",
       "slug": "zep",
       "name": "Zep",
@@ -3705,7 +3641,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 51,
       "tier": "C",
       "slug": "cohere",
       "name": "Cohere",
@@ -3784,7 +3720,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 51,
       "tier": "C",
       "slug": "superagent",
       "name": "Superagent",
@@ -3857,7 +3793,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 53,
       "tier": "C",
       "slug": "llamaindex",
       "name": "LlamaIndex",
@@ -3921,7 +3857,7 @@
       "tags": []
     },
     {
-      "rank": 55,
+      "rank": 54,
       "tier": "C",
       "slug": "ag2",
       "name": "AG2",
@@ -3993,7 +3929,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 54,
       "tier": "C",
       "slug": "browser-use",
       "name": "Browser Use",
@@ -4066,7 +4002,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 56,
       "tier": "C",
       "slug": "rivet",
       "name": "Rivet",
@@ -4141,7 +4077,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 57,
       "tier": "C",
       "slug": "phidata",
       "name": "Phidata (Agno)",
@@ -4218,7 +4154,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 58,
       "tier": "C",
       "slug": "letta",
       "name": "Letta",
@@ -4291,7 +4227,80 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 59,
+      "tier": "C",
+      "slug": "activepieces",
+      "name": "Activepieces",
+      "operator": "Activepieces Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Workflow Automation · Open Core (MIT core + Commercial License packages/ee)",
+      "homepage": "https://www.activepieces.com",
+      "github": "https://github.com/activepieces/activepieces",
+      "score": 36,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": "Legal entity + contacts published; open core; undated sub-processors; no SOC 2"
+        },
+        "r": {
+          "score": 4,
+          "rating": "Low",
+          "note": "8 CVEs, max CVSS 9.3; fixes shipped pre-publication; weakness classes recurred"
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": "GDPR bases stated; telemetry default ON; undated sub-processors; no AI-training"
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "RBAC matrix documented; approval step optional; no documented run-cancel control"
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "V8/namespace sandboxes available; default UNSANDBOXED; 2 cross-tenant CVEs fixed"
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Issues CVEs + advisories; 3-day incident disclosure; no AI safety framework"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 8,
+      "max_cvss_12mo": 9.3,
+      "supply_chain_compromise_12mo": true,
+      "evaluated_at": "2026-03-13",
+      "updated_at": "2026-10-31",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "open-core",
+        "mit",
+        "workflow-automation",
+        "self-hosted",
+        "eu-cloud-frankfurt",
+        "soc2-in-progress",
+        "trust-center",
+        "sandbox-advisories-2026"
+      ]
+    },
+    {
+      "rank": 59,
       "tier": "C",
       "slug": "autogpt",
       "name": "AutoGPT",

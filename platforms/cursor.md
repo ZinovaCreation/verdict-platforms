@@ -77,7 +77,7 @@ tags:
 - SCIM
 - RBAC
 - desktop application
-rank: 36
+rank: 35
 sources:
 - https://cursor.com/changelog
 - https://cursor.com/data-use
