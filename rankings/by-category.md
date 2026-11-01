@@ -36,13 +36,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 48 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | 43/85 |
+| 49 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | 43/85 |
 
 ## AI Agent Security Platform · OSS + Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 51 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | 42/85 |
+| 52 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | 42/85 |
 
 ## AI Agent Tool Integration · OSS SDK + Cloud
 
@@ -99,7 +99,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 48 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | 43/85 |
+| 49 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | 43/85 |
 
 ## AI Coding IDE · Proprietary
 
@@ -132,6 +132,12 @@ _Auto-generated. Do not edit by hand._
 |---:|:---:|---|---|---:|
 | 57 | C | [Phidata (Agno)](../platforms/phidata.md) | Agno Inc. | 38/85 |
 
+## Agent Framework · Open core (Apache-2.0 framework; closed hosted platform)
+
+| Rank | Tier | Platform | Operator | Score |
+|---:|:---:|---|---|---:|
+| 44 | B | [AG2](../platforms/ag2.md) | AG2AI, Inc. | 45/85 |
+
 ## Agent Management · OSS (MIT)
 
 | Rank | Tier | Platform | Operator | Score |
@@ -142,7 +148,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 48 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | 43/85 |
+| 49 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | 43/85 |
 
 ## Agent Orchestration · OSS (MIT)
 
@@ -166,7 +172,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 54 | C | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | 40/85 |
+| 55 | C | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | 40/85 |
 
 ## Browser Agent SDK · Open Source (MIT)
 
@@ -184,7 +190,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 46 | C | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | 44/85 |
+| 47 | C | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | 44/85 |
 
 ## Browser Infrastructure · Cloud (Proprietary)
 
@@ -244,7 +250,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 51 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | 42/85 |
+| 52 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | 42/85 |
 
 ## LLM Agent API · Managed SaaS
 
@@ -289,12 +295,6 @@ _Auto-generated. Do not edit by hand._
 |---:|:---:|---|---|---:|
 | 69 | D | [MetaGPT](../platforms/metagpt.md) | DeepWisdom · Shenzhen, China | 23/85 |
 
-## Multi-Agent Framework · OSS (Apache 2.0)
-
-| Rank | Tier | Platform | Operator | Score |
-|---:|:---:|---|---|---:|
-| 54 | C | [AG2](../platforms/ag2.md) | AG2AI Inc. · Community Fork | 40/85 |
-
 ## Multi-Agent Framework · Open Source (MIT)
 
 | Rank | Tier | Platform | Operator | Score |
@@ -311,7 +311,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 46 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | 44/85 |
+| 47 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | 44/85 |
 
 ## Multi-Agent Research · OSS (Apache 2.0)
 
@@ -330,7 +330,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 53 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | 41/85 |
+| 54 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | 41/85 |
 
 ## Stateful AI Agent Framework · Open Source (Apache 2.0)
 

@@ -47,18 +47,18 @@ _Auto-generated — 70 platform(s). Do not edit by hand._
 | 38 | B | [Make.com](../platforms/make.md) | Independent (Celonis portfolio) | Workflow Automation · Cloud SaaS | 46/85 | 10 | 17 | 8 | 3 | 6 | 2 |  |
 | 38 | B | [Semantic Kernel](../platforms/semantic-kernel.md) | Microsoft Research · Migrating to Agent Framework | AI Orchestration SDK · Open Source (MIT) | 46/85 | 14 | 11 | 5 | 4 | 4 | 8 |  |
 | 38 | B | [n8n](../platforms/n8n.md) | n8n GmbH (Berlin) | Workflow Automation · Fair-code | 46/85 | 16 | 3 | 13 | 6 | 4 | 4 | ✅ |
+| 44 | B | [AG2](../platforms/ag2.md) | AG2AI, Inc. | Agent Framework · Open core (Apache-2.0 framework; closed hosted platform) | 45/85 | 11 | 9 | 6 | 6 | 6 | 7 |  |
 | 44 | B | [Botpress](../platforms/botpress.md) | Botpress Inc. · Montreal, Canada | Chatbot / Agent Builder · Open Source (MIT integrations) | 45/85 | 12 | 14 | 7 | 5 | 2 | 5 |  |
 | 44 | B | [Langroid](../platforms/langroid.md) | langroid (GitHub organization) · maintainer Prasad Chalasani · no legal entity named | Multi-Agent LLM Framework · OSS (MIT) | 45/85 | 14 | 6 | 3 | 8 | 8 | 6 |  |
-| 46 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | Multi-Agent Orchestration · Open Source | 44/85 | 12 | 12 | 7 | 5 | 4 | 4 |  |
-| 46 | C | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | Browser Agent · Proprietary (EU) | 44/85 | 8 | 20 | 5 | 4 | 3 | 4 |  |
-| 48 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | AI Coding Agent · OSS (MIT) | 43/85 | 13 | 12 | 1 | 6 | 4 | 7 |  |
-| 48 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | AI Agent Platform · Cloud SaaS | 43/85 | 7 | 14 | 9 | 5 | 4 | 4 |  |
-| 48 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | Agent Memory Layer | 43/85 | 11 | 14 | 0 | 8 | 4 | 6 |  |
-| 51 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | Foundation Model API | 42/85 | 14 | 8 | 7 | 4 | 2 | 7 |  |
-| 51 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | AI Agent Security Platform · OSS + Cloud | 42/85 | 9 | 14 | 8 | 3 | 4 | 4 |  |
-| 53 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | RAG / Data Framework · Open Source (MIT core) | 41/85 | 15 | 7 | 5 | 4 | 5 | 5 |  |
-| 54 | C | [AG2](../platforms/ag2.md) | AG2AI Inc. · Community Fork | Multi-Agent Framework · OSS (Apache 2.0) | 40/85 | 12 | 14 | 5 | 3 | 4 | 2 |  |
-| 54 | C | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | Browser Agent Library · Open Source (MIT) | 40/85 | 14 | 9 | 4 | 4 | 3 | 6 |  |
+| 47 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | Multi-Agent Orchestration · Open Source | 44/85 | 12 | 12 | 7 | 5 | 4 | 4 |  |
+| 47 | C | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | Browser Agent · Proprietary (EU) | 44/85 | 8 | 20 | 5 | 4 | 3 | 4 |  |
+| 49 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | AI Coding Agent · OSS (MIT) | 43/85 | 13 | 12 | 1 | 6 | 4 | 7 |  |
+| 49 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | AI Agent Platform · Cloud SaaS | 43/85 | 7 | 14 | 9 | 5 | 4 | 4 |  |
+| 49 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | Agent Memory Layer | 43/85 | 11 | 14 | 0 | 8 | 4 | 6 |  |
+| 52 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | Foundation Model API | 42/85 | 14 | 8 | 7 | 4 | 2 | 7 |  |
+| 52 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | AI Agent Security Platform · OSS + Cloud | 42/85 | 9 | 14 | 8 | 3 | 4 | 4 |  |
+| 54 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | RAG / Data Framework · Open Source (MIT core) | 41/85 | 15 | 7 | 5 | 4 | 5 | 5 |  |
+| 55 | C | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | Browser Agent Library · Open Source (MIT) | 40/85 | 14 | 9 | 4 | 4 | 3 | 6 |  |
 | 56 | C | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | Visual AI Agent IDE · OSS (MIT) | 39/85 | 14 | 14 | 5 | 2 | 2 | 2 |  |
 | 57 | C | [Phidata (Agno)](../platforms/phidata.md) | Agno Inc. | Agent Framework | 38/85 | 14 | 4 | 7 | 6 | 4 | 3 |  |
 | 58 | C | [Letta](../platforms/letta.md) | Letta Inc. · San Francisco (UC Berkeley) | Stateful AI Agent Framework · Open Source (Apache 2.0) | 37/85 | 12 | 14 | 3 | 2 | 3 | 3 |  |

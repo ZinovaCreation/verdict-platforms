@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:34:16+00:00",
+  "generated_at": "2026-11-01T08:08:41+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -3131,6 +3131,77 @@
     {
       "rank": 44,
       "tier": "B",
+      "slug": "ag2",
+      "name": "AG2",
+      "operator": "AG2AI, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "Agent Framework · Open core (Apache-2.0 framework; closed hosted platform)",
+      "homepage": "https://docs.ag2.ai",
+      "github": "https://github.com/ag2ai/ag2",
+      "score": 45,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 11,
+          "rating": "Mid",
+          "note": "Legal entity on vendor pages; open core; release notes; no SOC 2, no API ref"
+        },
+        "r": {
+          "score": 9,
+          "rating": "Mid",
+          "note": "2 CVEs (max 8.8); 9.9 advisory without CVE; recurring filter bypass"
+        },
+        "d": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Library sends no telemetry; hosted policy allows training on anonymized data"
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Cancellation documented; HITL optional; delegation scope tabulated"
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Allow/block/readonly shell filters; unrestricted local default; self-hosted"
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": "SECURITY.md since 2026-04-07; 10 GHSAs; data security policy; no AI ID"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 2,
+      "max_cvss_12mo": 8.8,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-31",
+      "updated_at": "2026-10-31",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "open-core",
+        "apache-2.0",
+        "autogen-fork",
+        "python",
+        "multi-agent",
+        "ghsa-advisories"
+      ]
+    },
+    {
+      "rank": 44,
+      "tier": "B",
       "slug": "botpress",
       "name": "Botpress",
       "operator": "Botpress Inc. · Montreal, Canada",
@@ -3266,7 +3337,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 47,
       "tier": "C",
       "slug": "crewai",
       "name": "CrewAI",
@@ -3330,7 +3401,7 @@
       "tags": []
     },
     {
-      "rank": 46,
+      "rank": 47,
       "tier": "C",
       "slug": "runner-h",
       "name": "Runner H",
@@ -3417,7 +3488,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "tier": "C",
       "slug": "openhands",
       "name": "OpenHands",
@@ -3492,7 +3563,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "tier": "C",
       "slug": "relevance-ai",
       "name": "Relevance AI",
@@ -3565,7 +3636,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "tier": "C",
       "slug": "zep",
       "name": "Zep",
@@ -3641,7 +3712,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 52,
       "tier": "C",
       "slug": "cohere",
       "name": "Cohere",
@@ -3720,7 +3791,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 52,
       "tier": "C",
       "slug": "superagent",
       "name": "Superagent",
@@ -3793,7 +3864,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 54,
       "tier": "C",
       "slug": "llamaindex",
       "name": "LlamaIndex",
@@ -3857,79 +3928,7 @@
       "tags": []
     },
     {
-      "rank": 54,
-      "tier": "C",
-      "slug": "ag2",
-      "name": "AG2",
-      "operator": "AG2AI Inc. · Community Fork",
-      "independence": "independent",
-      "parent_entity": null,
-      "category": "Multi-Agent Framework · OSS (Apache 2.0)",
-      "homepage": "https://docs.ag2.ai",
-      "github": "https://github.com/ag2ai",
-      "score": 40,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 12,
-          "rating": "Mid",
-          "note": ""
-        },
-        "r": {
-          "score": 14,
-          "rating": "High",
-          "note": ""
-        },
-        "d": {
-          "score": 5,
-          "rating": "Low",
-          "note": ""
-        },
-        "i": {
-          "score": 3,
-          "rating": "Low",
-          "note": ""
-        },
-        "c": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "t": {
-          "score": 2,
-          "rating": "Low",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 0,
-      "max_cvss_12mo": null,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-31",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": [
-        "open-source",
-        "apache-2.0",
-        "autoGen-fork",
-        "community-governance",
-        "python",
-        "multi-agent",
-        "volunteer-maintained"
-      ]
-    },
-    {
-      "rank": 54,
+      "rank": 55,
       "tier": "C",
       "slug": "browser-use",
       "name": "Browser Use",
