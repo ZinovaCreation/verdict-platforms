@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T07:44:10+00:00",
+  "generated_at": "2026-11-06T08:24:30+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -838,7 +838,7 @@
       "parent_entity": null,
       "category": "No-Code Agent Builder · Enterprise SaaS",
       "homepage": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
-      "github": null,
+      "github": "https://github.com/microsoft",
       "score": 58,
       "max_score": 85,
       "layer": "0",

@@ -6,7 +6,7 @@ independence: parent
 parent_entity: null
 category: No-Code Agent Builder · Enterprise SaaS
 homepage: https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio
-github: null
+github: https://github.com/microsoft
 evaluation_number: 13
 evaluation_type: update
 evaluated_at: '2026-03-25'
