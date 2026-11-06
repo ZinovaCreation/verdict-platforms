@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:24:53+00:00",
+  "generated_at": "2026-11-06T08:37:28+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -3406,6 +3406,84 @@
     {
       "rank": 47,
       "tier": "C",
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "operator": "LlamaIndex, Inc.",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "RAG / Agent Data Framework · Open core (MIT framework; closed-source LlamaCloud)",
+      "homepage": "https://www.llamaindex.ai",
+      "github": "https://github.com/run-llama/llama_index",
+      "score": 44,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": "LlamaIndex, Inc. named in ToS; MIT framework, closed LlamaCloud; SOC 2 under NDA"
+        },
+        "r": {
+          "score": 8,
+          "rating": "Mid",
+          "note": "2 CVEs, max 7.5; CVE-2024-58339 no fix located; shared resource-exhaustion cause"
+        },
+        "d": {
+          "score": 10,
+          "rating": "Mid",
+          "note": "Public DPA w/ SCCs; no-training + 48h deletion in ToS; sub-processors undated"
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "cancel_run() documented; HITL optional via events; project-scoped API keys"
+        },
+        "c": {
+          "score": 2,
+          "rating": "Low",
+          "note": "Threat model places sandboxing in host app; no tenant-isolation statement"
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Detailed SECURITY.md threat model; same-day status disclosure; 3rd-party CNAs"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 2,
+      "max_cvss_12mo": 7.5,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "updated_at": "2026-11-06",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "rag-framework",
+        "open-core",
+        "mit",
+        "llamacloud",
+        "soc2-type2",
+        "hipaa",
+        "public-dpa",
+        "eu-region",
+        "no-training-default",
+        "resource-exhaustion",
+        "pickle-deserialization",
+        "no-kev",
+        "no-supply-chain-compromise"
+      ]
+    },
+    {
+      "rank": 47,
+      "tier": "C",
       "slug": "runner-h",
       "name": "Runner H",
       "operator": "H Company (H.AI SAS) · France · $220M",
@@ -3491,7 +3569,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 50,
       "tier": "C",
       "slug": "openhands",
       "name": "OpenHands",
@@ -3566,7 +3644,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 50,
       "tier": "C",
       "slug": "relevance-ai",
       "name": "Relevance AI",
@@ -3639,7 +3717,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 50,
       "tier": "C",
       "slug": "zep",
       "name": "Zep",
@@ -3715,7 +3793,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "tier": "C",
       "slug": "cohere",
       "name": "Cohere",
@@ -3794,7 +3872,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "tier": "C",
       "slug": "superagent",
       "name": "Superagent",
@@ -3865,70 +3943,6 @@
         "Swedish-origin",
         "small-team"
       ]
-    },
-    {
-      "rank": 54,
-      "tier": "C",
-      "slug": "llamaindex",
-      "name": "LlamaIndex",
-      "operator": "Independent · Norwest / Greylock · Series A Mar 2025",
-      "independence": "unrecorded",
-      "parent_entity": null,
-      "category": "RAG / Data Framework · Open Source (MIT core)",
-      "homepage": null,
-      "github": null,
-      "score": 41,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 15,
-          "rating": "High",
-          "note": ""
-        },
-        "r": {
-          "score": 7,
-          "rating": "Low",
-          "note": ""
-        },
-        "d": {
-          "score": 5,
-          "rating": "Low",
-          "note": ""
-        },
-        "i": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
-          "score": 5,
-          "rating": "Mid",
-          "note": ""
-        },
-        "t": {
-          "score": 5,
-          "rating": "Mid",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 3,
-      "max_cvss_12mo": 9.8,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-25",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
     },
     {
       "rank": 55,

@@ -68,13 +68,13 @@ _Auto-generated. Do not edit by hand._
 | Rank | Platform | Operator | Category | Score |
 |---:|---|---|---|---:|
 | 47 | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | Multi-Agent Orchestration · Open Source | 44/85 |
+| 47 | [LlamaIndex](../platforms/llamaindex.md) | LlamaIndex, Inc. | RAG / Agent Data Framework · Open core (MIT framework; closed-source LlamaCloud) | 44/85 |
 | 47 | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | Browser Agent · Proprietary (EU) | 44/85 |
-| 49 | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | AI Coding Agent · OSS (MIT) | 43/85 |
-| 49 | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | AI Agent Platform · Cloud SaaS | 43/85 |
-| 49 | [Zep](../platforms/zep.md) | Zep Software, Inc. | Agent Memory Layer | 43/85 |
-| 52 | [Cohere](../platforms/cohere.md) | Cohere Inc. | Foundation Model API | 42/85 |
-| 52 | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | AI Agent Security Platform · OSS + Cloud | 42/85 |
-| 54 | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | RAG / Data Framework · Open Source (MIT core) | 41/85 |
+| 50 | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | AI Coding Agent · OSS (MIT) | 43/85 |
+| 50 | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | AI Agent Platform · Cloud SaaS | 43/85 |
+| 50 | [Zep](../platforms/zep.md) | Zep Software, Inc. | Agent Memory Layer | 43/85 |
+| 53 | [Cohere](../platforms/cohere.md) | Cohere Inc. | Foundation Model API | 42/85 |
+| 53 | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | AI Agent Security Platform · OSS + Cloud | 42/85 |
 | 55 | [Browser Use](../platforms/browser-use.md) | Browser Use Inc. · Y Combinator W25 | Browser Agent Library · Open Source (MIT) | 40/85 |
 | 56 | [Rivet](../platforms/rivet.md) | Ironclad Inc. · San Francisco | Visual AI Agent IDE · OSS (MIT) | 39/85 |
 | 57 | [Phidata (Agno)](../platforms/phidata.md) | Agno Inc. | Agent Framework | 38/85 |

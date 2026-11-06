@@ -36,13 +36,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 49 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | 43/85 |
+| 50 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | 43/85 |
 
 ## AI Agent Security Platform · OSS + Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 52 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | 42/85 |
+| 53 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | 42/85 |
 
 ## AI Agent Tool Integration · OSS SDK + Cloud
 
@@ -99,7 +99,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 49 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | 43/85 |
+| 50 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | 43/85 |
 
 ## AI Coding IDE · Proprietary
 
@@ -148,7 +148,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 49 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | 43/85 |
+| 50 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | 43/85 |
 
 ## Agent Orchestration · OSS (MIT)
 
@@ -250,7 +250,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 52 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | 42/85 |
+| 53 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | 42/85 |
 
 ## LLM Agent API · Managed SaaS
 
@@ -326,11 +326,11 @@ _Auto-generated. Do not edit by hand._
 | 5 | S | [Vertex AI Agent Builder](../platforms/vertex-ai.md) | Google LLC (Alphabet Inc.) | 65/85 |
 | 11 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | 58/85 |
 
-## RAG / Data Framework · Open Source (MIT core)
+## RAG / Agent Data Framework · Open core (MIT framework; closed-source LlamaCloud)
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 54 | C | [LlamaIndex](../platforms/llamaindex.md) | Independent · Norwest / Greylock · Series A Mar 2025 | 41/85 |
+| 47 | C | [LlamaIndex](../platforms/llamaindex.md) | LlamaIndex, Inc. | 44/85 |
 
 ## Stateful AI Agent Framework · Open Source (Apache 2.0)
 
