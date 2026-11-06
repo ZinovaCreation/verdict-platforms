@@ -48,7 +48,7 @@ Full specification in [`verdict-engine/ENGINE.md`](https://github.com/zinova-lab
 | 7 | A | [Devin](./platforms/devin.md) | Cognition AI · $10.2B | AI Coding Agent · Cloud SaaS | 62/85 |  |
 | 7 | A | [Langfuse](./platforms/langfuse.md) | Langfuse GmbH | AI / LLM Application Observability | 62/85 |  |
 | 7 | A | [Weaviate](./platforms/weaviate.md) | Weaviate B.V. | Vector Database | 62/85 |  |
-| 10 | A | [Microsoft Copilot Studio](./platforms/copilot-studio.md) | Microsoft Corporation | No-Code Agent Builder · Enterprise SaaS | 61/85 |  |
+| 10 | A | [OpenAI Assistants API](./platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | LLM Agent API · Managed SaaS | 61/85 |  |
 <!-- END:TOP10 -->
 
 Full ranking: [`rankings/overall.md`](./rankings/overall.md)

@@ -13,11 +13,11 @@ _Auto-generated — 70 platform(s). Do not edit by hand._
 | 7 | A | [Devin](../platforms/devin.md) | Cognition AI · $10.2B | AI Coding Agent · Cloud SaaS | 62/85 | 11 | 17 | 12 | 7 | 7 | 8 |  |
 | 7 | A | [Langfuse](../platforms/langfuse.md) | Langfuse GmbH | AI / LLM Application Observability | 62/85 | 14 | 12 | 11 | 8 | 8 | 9 |  |
 | 7 | A | [Weaviate](../platforms/weaviate.md) | Weaviate B.V. | Vector Database | 62/85 | 16 | 14 | 13 | 6 | 6 | 7 |  |
-| 10 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | No-Code Agent Builder · Enterprise SaaS | 61/85 | 16 | 11 | 10 | 7 | 8 | 9 |  |
 | 10 | A | [OpenAI Assistants API](../platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | LLM Agent API · Managed SaaS | 61/85 | 17 | 15 | 13 | 4 | 5 | 7 |  |
-| 12 | A | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | Browser Infrastructure · Cloud (Proprietary) | 58/85 | 12 | 20 | 9 | 8 | 6 | 3 |  |
-| 12 | A | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | CRM-Native Agent Builder · Enterprise SaaS | 58/85 | 16 | 8 | 13 | 8 | 6 | 7 |  |
-| 12 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | AI Coding IDE · VS Code Fork | 58/85 | 10 | 14 | 12 | 7 | 6 | 9 |  |
+| 11 | A | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | Browser Infrastructure · Cloud (Proprietary) | 58/85 | 12 | 20 | 9 | 8 | 6 | 3 |  |
+| 11 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | No-Code Agent Builder · Enterprise SaaS | 58/85 | 14 | 11 | 11 | 8 | 4 | 10 |  |
+| 11 | A | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | CRM-Native Agent Builder · Enterprise SaaS | 58/85 | 16 | 8 | 13 | 8 | 6 | 7 |  |
+| 11 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | AI Coding IDE · VS Code Fork | 58/85 | 10 | 14 | 12 | 7 | 6 | 9 |  |
 | 15 | A | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | Enterprise AI Assistant · OSS + Cloud SaaS | 57/85 | 13 | 17 | 13 | 7 | 3 | 4 |  |
 | 15 | A | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | AI Coding Agent · Microsoft | 57/85 | 12 | 17 | 7 | 7 | 5 | 9 |  |
 | 17 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 | 11 | 20 | 3 | 8 | 6 | 8 |  |
