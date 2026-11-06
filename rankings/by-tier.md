@@ -21,10 +21,10 @@ _Auto-generated. Do not edit by hand._
 | 7 | [Langfuse](../platforms/langfuse.md) | Langfuse GmbH | AI / LLM Application Observability | 62/85 |
 | 7 | [Weaviate](../platforms/weaviate.md) | Weaviate B.V. | Vector Database | 62/85 |
 | 10 | [OpenAI Assistants API](../platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | LLM Agent API · Managed SaaS | 61/85 |
-| 11 | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | Browser Infrastructure · Cloud (Proprietary) | 58/85 |
-| 11 | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | No-Code Agent Builder · Enterprise SaaS | 58/85 |
-| 11 | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | CRM-Native Agent Builder · Enterprise SaaS | 58/85 |
-| 11 | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | AI Coding IDE · VS Code Fork | 58/85 |
+| 11 | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | CRM-Native Agent Builder · Enterprise SaaS | 59/85 |
+| 12 | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | Browser Infrastructure · Cloud (Proprietary) | 58/85 |
+| 12 | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | No-Code Agent Builder · Enterprise SaaS | 58/85 |
+| 12 | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | AI Coding IDE · VS Code Fork | 58/85 |
 | 15 | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | Enterprise AI Assistant · OSS + Cloud SaaS | 57/85 |
 | 15 | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | AI Coding Agent · Microsoft | 57/85 |
 | 17 | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 |

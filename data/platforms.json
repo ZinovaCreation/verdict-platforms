@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T09:13:59+00:00",
+  "generated_at": "2026-11-06T10:38:51+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -749,6 +749,78 @@
     {
       "rank": 11,
       "tier": "A",
+      "slug": "agentforce",
+      "name": "Salesforce Agentforce",
+      "operator": "Salesforce, Inc. (NYSE: CRM)",
+      "independence": "independent",
+      "parent_entity": null,
+      "category": "CRM-Native Agent Builder · Enterprise SaaS",
+      "homepage": "https://www.salesforce.com/agentforce/",
+      "github": "https://github.com/salesforce",
+      "score": 59,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": "Closed source; SOC 2/ISO login-gated; dated sub-processors; dated change log"
+        },
+        "r": {
+          "score": 14,
+          "rating": "High",
+          "note": "No CVE in window; Web-to-Lead injection recurs; SalesBleed fix 79–112 days"
+        },
+        "d": {
+          "score": 11,
+          "rating": "High",
+          "note": "DPA+SCC/BCR; no-training stated; masking off for agents; aggregated use"
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": "Confirmation default on standard actions; escalation topic; no stop runbook"
+        },
+        "c": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Trusted URLs bypassed twice; least privilege configurable; isolation claimed"
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": "CNA + advisories; ISO 42001; no vendor bulletin for in-window advisories"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 0,
+      "max_cvss_12mo": null,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "updated_at": "2026-11-06",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "prompt-injection",
+        "web-to-lead",
+        "cve-less-advisories",
+        "data-masking-disabled",
+        "iso-42001",
+        "hitl-defaults",
+        "closed-source"
+      ]
+    },
+    {
+      "rank": 12,
+      "tier": "A",
       "slug": "browserbase",
       "name": "Browserbase",
       "operator": "Browserbase Inc. · Y Combinator S24 · $67.5M",
@@ -829,7 +901,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "tier": "A",
       "slug": "copilot-studio",
       "name": "Microsoft Copilot Studio",
@@ -896,71 +968,7 @@
       ]
     },
     {
-      "rank": 11,
-      "tier": "A",
-      "slug": "agentforce",
-      "name": "Salesforce Agentforce",
-      "operator": "Salesforce, Inc. (NYSE: CRM)",
-      "independence": "unrecorded",
-      "parent_entity": null,
-      "category": "CRM-Native Agent Builder · Enterprise SaaS",
-      "homepage": null,
-      "github": null,
-      "score": 58,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 16,
-          "rating": "High",
-          "note": ""
-        },
-        "r": {
-          "score": 8,
-          "rating": "Mid",
-          "note": ""
-        },
-        "d": {
-          "score": 13,
-          "rating": "High",
-          "note": ""
-        },
-        "i": {
-          "score": 8,
-          "rating": "High",
-          "note": ""
-        },
-        "c": {
-          "score": 6,
-          "rating": "Mid",
-          "note": ""
-        },
-        "t": {
-          "score": 7,
-          "rating": "High",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 1,
-      "max_cvss_12mo": 9.4,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-25",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
-    },
-    {
-      "rank": 11,
+      "rank": 12,
       "tier": "A",
       "slug": "windsurf",
       "name": "Windsurf",

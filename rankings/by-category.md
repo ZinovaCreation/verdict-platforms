@@ -111,7 +111,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 11 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | 58/85 |
+| 12 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | 58/85 |
 
 ## AI Orchestration SDK · Open Source (MIT)
 
@@ -196,13 +196,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 11 | A | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | 58/85 |
+| 12 | A | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | 58/85 |
 
 ## CRM-Native Agent Builder · Enterprise SaaS
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 11 | A | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | 58/85 |
+| 11 | A | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | 59/85 |
 
 ## Chatbot / Agent Builder · Open Source (MIT integrations)
 
@@ -324,7 +324,7 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 5 | S | [Vertex AI Agent Builder](../platforms/vertex-ai.md) | Google LLC (Alphabet Inc.) | 65/85 |
-| 11 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | 58/85 |
+| 12 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | 58/85 |
 
 ## RAG / Agent Data Framework · Open core (MIT framework; closed-source LlamaCloud)
 

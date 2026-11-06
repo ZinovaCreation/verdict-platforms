@@ -76,7 +76,7 @@ next_review_due: '2027-11-06'
 tags:
   - evaluator-coi
   - direct-investment
-rank: 11
+rank: 12
 sources:
   - https://www.microsoft.com/en-us/privacy/privacystatement
   - https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance

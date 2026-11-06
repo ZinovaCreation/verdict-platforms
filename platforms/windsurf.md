@@ -75,7 +75,7 @@ tags:
 - self-hosted-option
 - Cognition-AI
 - Cascade-agent
-rank: 11
+rank: 12
 sources:
 - https://windsurf.com/
 - https://windsurf.com/blog/
