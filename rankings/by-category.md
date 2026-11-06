@@ -74,8 +74,8 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 4 | S | [Gemini Code Assist](../platforms/gemini-code-assist.md) | Google LLC | 67/85 |
-| 23 | B | [aider](../platforms/aider.md) | Aider AI LLC | 52/85 |
-| 29 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | 50/85 |
+| 22 | B | [aider](../platforms/aider.md) | Aider AI LLC | 52/85 |
+| 28 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | 50/85 |
 
 ## AI Coding Agent / Cloud IDE
 
@@ -123,7 +123,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 23 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
+| 22 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
 | 65 | D | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | 32/85 |
 
 ## Agent Framework
@@ -178,13 +178,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 23 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | 52/85 |
+| 22 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | 52/85 |
 
 ## Browser Agent · AGPL-3.0 + Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 23 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | 52/85 |
+| 22 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | 52/85 |
 
 ## Browser Agent · Proprietary (EU)
 
@@ -214,7 +214,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 23 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | 52/85 |
+| 22 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | 52/85 |
 
 ## Enterprise AI Agent Platform · Cloud SaaS + On-Prem
 
@@ -268,7 +268,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 30 | B | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | 49/85 |
+| 29 | B | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | 49/85 |
 
 ## LLM Application Builder · Open Source
 
@@ -281,13 +281,13 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 20 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | 55/85 |
-| 28 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | 51/85 |
+| 27 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | 51/85 |
 
 ## Managed Agent Platform · Enterprise SaaS
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 20 | A | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | 55/85 |
+| 29 | B | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | 49/85 |
 
 ## Multi-Agent Dev Framework · OSS (MIT)
 

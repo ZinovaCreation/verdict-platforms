@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:37:53+00:00",
+  "generated_at": "2026-11-06T09:13:36+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -1399,70 +1399,6 @@
     {
       "rank": 20,
       "tier": "A",
-      "slug": "bedrock",
-      "name": "AWS Bedrock Agents",
-      "operator": "Amazon Web Services, Inc.",
-      "independence": "unrecorded",
-      "parent_entity": null,
-      "category": "Managed Agent Platform · Enterprise SaaS",
-      "homepage": null,
-      "github": null,
-      "score": 55,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 14,
-          "rating": "High",
-          "note": ""
-        },
-        "r": {
-          "score": 11,
-          "rating": "Mid",
-          "note": ""
-        },
-        "d": {
-          "score": 12,
-          "rating": "High",
-          "note": ""
-        },
-        "i": {
-          "score": 8,
-          "rating": "High",
-          "note": ""
-        },
-        "c": {
-          "score": 5,
-          "rating": "Mid",
-          "note": ""
-        },
-        "t": {
-          "score": 5,
-          "rating": "Mid",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 1,
-      "max_cvss_12mo": null,
-      "supply_chain_compromise_12mo": true,
-      "evaluated_at": "2026-03-25",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
-    },
-    {
-      "rank": 20,
-      "tier": "A",
       "slug": "langsmith",
       "name": "LangSmith",
       "operator": "LangChain, Inc.",
@@ -1610,7 +1546,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 22,
       "tier": "B",
       "slug": "nemo-guardrails",
       "name": "NeMo Guardrails",
@@ -1686,7 +1622,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 22,
       "tier": "B",
       "slug": "skyvern",
       "name": "Skyvern",
@@ -1763,7 +1699,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 22,
       "tier": "B",
       "slug": "stagehand",
       "name": "Stagehand",
@@ -1839,7 +1775,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 22,
       "tier": "B",
       "slug": "voiceflow",
       "name": "Voiceflow",
@@ -1915,7 +1851,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 22,
       "tier": "B",
       "slug": "aider",
       "name": "aider",
@@ -1987,7 +1923,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 27,
       "tier": "B",
       "slug": "arize-ai",
       "name": "Arize AI",
@@ -2061,7 +1997,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 28,
       "tier": "B",
       "slug": "cline",
       "name": "Cline",
@@ -2133,7 +2069,74 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 29,
+      "tier": "B",
+      "slug": "bedrock",
+      "name": "AWS Bedrock Agents",
+      "operator": "Amazon Web Services, Inc.",
+      "independence": "subsidiary",
+      "parent_entity": "Amazon.com, Inc.",
+      "category": "Managed Agent Platform · Enterprise SaaS",
+      "homepage": "https://aws.amazon.com/bedrock/agentcore/",
+      "github": "https://github.com/aws",
+      "score": 49,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 12,
+          "rating": "Mid",
+          "note": "Legal entity on AWS Customer Agreement; closed-source service; SOC 2 gated"
+        },
+        "r": {
+          "score": 6,
+          "rating": "Low",
+          "note": "8 CVEs (CNA AMZN), max 9.0 v3.1; CVE-2026-16796 bypasses CVE-2026-12530 fix"
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": "No training use (FAQ, Service Terms); retention stated; abuse detection on"
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Session stop documented, no platform-wide stop; user confirmation optional"
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "Hybrid sandbox; broad default roles recorded by researchers; isolation claimed"
+        },
+        "t": {
+          "score": 8,
+          "rating": "High",
+          "note": "CNA, same-day bulletins, ISO/IEC 42001; no end-user AI identity disclosure"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 8,
+      "max_cvss_12mo": 9.0,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-25",
+      "updated_at": "2026-11-06",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "evaluator-coi",
+        "direct-investment"
+      ]
+    },
+    {
+      "rank": 29,
       "tier": "B",
       "slug": "langchain",
       "name": "LangChain",

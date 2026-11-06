@@ -30,7 +30,6 @@ _Auto-generated. Do not edit by hand._
 | 17 | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 |
 | 17 | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | Workflow Automation · API Integration | 56/85 |
 | 17 | [v0](../platforms/v0.md) | Vercel · $3.25B | AI App Builder · Cloud SaaS | 56/85 |
-| 20 | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | Managed Agent Platform · Enterprise SaaS | 55/85 |
 | 20 | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | LLM Observability | 55/85 |
 | 20 | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | AI Agent Platform | 55/85 |
 
@@ -38,14 +37,15 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Platform | Operator | Category | Score |
 |---:|---|---|---|---:|
-| 23 | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | AI Safety | 52/85 |
-| 23 | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | Browser Agent · AGPL-3.0 + Cloud | 52/85 |
-| 23 | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | Browser Agent SDK · Open Source (MIT) | 52/85 |
-| 23 | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | Conversational AI · Cloud SaaS | 52/85 |
-| 23 | [aider](../platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 |
-| 28 | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | LLM Observability | 51/85 |
-| 29 | [Cline](../platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 |
-| 30 | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | LLM Agent Framework · Open Source (MIT core) | 49/85 |
+| 22 | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | AI Safety | 52/85 |
+| 22 | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | Browser Agent · AGPL-3.0 + Cloud | 52/85 |
+| 22 | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | Browser Agent SDK · Open Source (MIT) | 52/85 |
+| 22 | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | Conversational AI · Cloud SaaS | 52/85 |
+| 22 | [aider](../platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 |
+| 27 | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | LLM Observability | 51/85 |
+| 28 | [Cline](../platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 |
+| 29 | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | Managed Agent Platform · Enterprise SaaS | 49/85 |
+| 29 | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | LLM Agent Framework · Open Source (MIT core) | 49/85 |
 | 31 | [Composio](../platforms/composio.md) | Sampark, Inc. d/b/a Composio · San Francisco | AI Agent Tool Integration · OSS SDK + Cloud | 48/85 |
 | 31 | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | IBM Corporation | Enterprise AI Agent Platform · Cloud SaaS + On-Prem | 48/85 |
 | 31 | [Replit](../platforms/replit.md) | Replit Inc. · $1.16B | AI Coding Agent / Cloud IDE | 48/85 |
