@@ -6,7 +6,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 7 | A | [Langfuse](../platforms/langfuse.md) | Langfuse GmbH | 62/85 |
+| 6 | A | [Langfuse](../platforms/langfuse.md) | Langfuse GmbH | 62/85 |
 
 ## AI Agent Code Execution Sandbox
 
@@ -24,7 +24,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 20 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | 55/85 |
+| 19 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | 55/85 |
 
 ## AI Agent Platform · Closed Source
 
@@ -54,8 +54,8 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 6 | A | [Lovable](../platforms/lovable.md) | Lovable Labs AB · Sweden · $6.6B | 63/85 |
-| 17 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | 56/85 |
+| 5 | A | [Lovable](../platforms/lovable.md) | Lovable Labs AB · Sweden · $6.6B | 63/85 |
+| 16 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | 56/85 |
 
 ## AI App Builder · OSS Core
 
@@ -74,7 +74,7 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 4 | S | [Gemini Code Assist](../platforms/gemini-code-assist.md) | Google LLC | 67/85 |
-| 22 | B | [aider](../platforms/aider.md) | Aider AI LLC | 52/85 |
+| 21 | B | [aider](../platforms/aider.md) | Aider AI LLC | 52/85 |
 | 28 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | 50/85 |
 
 ## AI Coding Agent / Cloud IDE
@@ -87,13 +87,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 7 | A | [Devin](../platforms/devin.md) | Cognition AI · $10.2B | 62/85 |
+| 6 | A | [Devin](../platforms/devin.md) | Cognition AI · $10.2B | 62/85 |
 
 ## AI Coding Agent · Microsoft
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 15 | A | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | 57/85 |
+| 14 | A | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | 57/85 |
 
 ## AI Coding Agent · OSS (MIT)
 
@@ -111,7 +111,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 12 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | 58/85 |
+| 11 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | 58/85 |
 
 ## AI Orchestration SDK · Open Source (MIT)
 
@@ -123,7 +123,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 22 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
+| 21 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
 | 65 | D | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | 32/85 |
 
 ## Agent Framework
@@ -178,13 +178,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 22 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | 52/85 |
+| 21 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | 52/85 |
 
 ## Browser Agent · AGPL-3.0 + Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 22 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | 52/85 |
+| 21 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | 52/85 |
 
 ## Browser Agent · Proprietary (EU)
 
@@ -196,13 +196,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 12 | A | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | 58/85 |
+| 11 | A | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | 58/85 |
 
 ## CRM-Native Agent Builder · Enterprise SaaS
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 11 | A | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | 59/85 |
+| 10 | A | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | 59/85 |
 
 ## Chatbot / Agent Builder · Open Source (MIT integrations)
 
@@ -214,7 +214,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 22 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | 52/85 |
+| 21 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | 52/85 |
 
 ## Enterprise AI Agent Platform · Cloud SaaS + On-Prem
 
@@ -238,7 +238,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 15 | A | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | 57/85 |
+| 14 | A | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | 57/85 |
 
 ## Experimental Autonomous Agent · OSS (MIT)
 
@@ -256,7 +256,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 10 | A | [OpenAI Assistants API](../platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | 61/85 |
+| 9 | A | [OpenAI Assistants API](../platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | 61/85 |
 
 ## LLM Agent Builder · Open Source
 
@@ -280,8 +280,8 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 20 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | 55/85 |
-| 27 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | 51/85 |
+| 19 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | 55/85 |
+| 26 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | 51/85 |
 
 ## Managed Agent Platform · Enterprise SaaS
 
@@ -299,7 +299,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 17 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | 56/85 |
+| 16 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | 56/85 |
 
 ## Multi-Agent LLM Framework · OSS (MIT)
 
@@ -323,8 +323,8 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 5 | S | [Vertex AI Agent Builder](../platforms/vertex-ai.md) | Google LLC (Alphabet Inc.) | 65/85 |
-| 12 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | 58/85 |
+| 11 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | 58/85 |
+| 26 | B | [Gemini Enterprise Agent Platform (formerly Vertex AI Agent Builder)](../platforms/vertex-ai.md) | Google LLC | 51/85 |
 
 ## RAG / Agent Data Framework · Open core (MIT framework; closed-source LlamaCloud)
 
@@ -343,7 +343,7 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 2 | S | [Pinecone](../platforms/pinecone.md) | Pinecone Systems, Inc. | 71/85 |
-| 7 | A | [Weaviate](../platforms/weaviate.md) | Weaviate B.V. | 62/85 |
+| 6 | A | [Weaviate](../platforms/weaviate.md) | Weaviate B.V. | 62/85 |
 
 ## Visual AI Agent Builder · Open Source
 
@@ -361,7 +361,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 17 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | 56/85 |
+| 16 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | 56/85 |
 
 ## Workflow Automation · Cloud SaaS
 

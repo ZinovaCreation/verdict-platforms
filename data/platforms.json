@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T07:23:29+00:00",
+  "generated_at": "2026-11-07T11:10:20+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -314,70 +314,6 @@
     },
     {
       "rank": 5,
-      "tier": "S",
-      "slug": "vertex-ai",
-      "name": "Vertex AI Agent Builder",
-      "operator": "Google LLC (Alphabet Inc.)",
-      "independence": "unrecorded",
-      "parent_entity": null,
-      "category": "No-Code Agent Builder · Enterprise SaaS",
-      "homepage": null,
-      "github": null,
-      "score": 65,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 18,
-          "rating": "High",
-          "note": ""
-        },
-        "r": {
-          "score": 14,
-          "rating": "High",
-          "note": ""
-        },
-        "d": {
-          "score": 13,
-          "rating": "High",
-          "note": ""
-        },
-        "i": {
-          "score": 6,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
-          "score": 5,
-          "rating": "Mid",
-          "note": ""
-        },
-        "t": {
-          "score": 9,
-          "rating": "High",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 2,
-      "max_cvss_12mo": null,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-26",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
-    },
-    {
-      "rank": 6,
       "tier": "A",
       "slug": "lovable",
       "name": "Lovable",
@@ -453,7 +389,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "tier": "A",
       "slug": "devin",
       "name": "Devin",
@@ -527,7 +463,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "tier": "A",
       "slug": "langfuse",
       "name": "Langfuse",
@@ -605,7 +541,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "tier": "A",
       "slug": "weaviate",
       "name": "Weaviate",
@@ -683,7 +619,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 9,
       "tier": "A",
       "slug": "openai",
       "name": "OpenAI Assistants API",
@@ -747,7 +683,7 @@
       "tags": []
     },
     {
-      "rank": 11,
+      "rank": 10,
       "tier": "A",
       "slug": "agentforce",
       "name": "Salesforce Agentforce",
@@ -819,7 +755,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 11,
       "tier": "A",
       "slug": "browserbase",
       "name": "Browserbase",
@@ -901,7 +837,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 11,
       "tier": "A",
       "slug": "copilot-studio",
       "name": "Microsoft Copilot Studio",
@@ -968,7 +904,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 11,
       "tier": "A",
       "slug": "windsurf",
       "name": "Windsurf",
@@ -1043,7 +979,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 14,
       "tier": "A",
       "slug": "dust",
       "name": "Dust",
@@ -1117,7 +1053,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 14,
       "tier": "A",
       "slug": "github-copilot",
       "name": "GitHub Copilot",
@@ -1191,7 +1127,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 16,
       "tier": "A",
       "slug": "autogen",
       "name": "AutoGen",
@@ -1263,7 +1199,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 16,
       "tier": "A",
       "slug": "pipedream",
       "name": "Pipedream",
@@ -1327,7 +1263,7 @@
       "tags": []
     },
     {
-      "rank": 17,
+      "rank": 16,
       "tier": "A",
       "slug": "v0",
       "name": "v0",
@@ -1405,7 +1341,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 19,
       "tier": "A",
       "slug": "langsmith",
       "name": "LangSmith",
@@ -1480,7 +1416,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 19,
       "tier": "A",
       "slug": "mistral-la-plateforme",
       "name": "Mistral La Plateforme",
@@ -1554,7 +1490,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 21,
       "tier": "B",
       "slug": "nemo-guardrails",
       "name": "NeMo Guardrails",
@@ -1630,7 +1566,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 21,
       "tier": "B",
       "slug": "skyvern",
       "name": "Skyvern",
@@ -1707,7 +1643,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 21,
       "tier": "B",
       "slug": "stagehand",
       "name": "Stagehand",
@@ -1783,7 +1719,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 21,
       "tier": "B",
       "slug": "voiceflow",
       "name": "Voiceflow",
@@ -1859,7 +1795,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 21,
       "tier": "B",
       "slug": "aider",
       "name": "aider",
@@ -1931,7 +1867,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 26,
       "tier": "B",
       "slug": "arize-ai",
       "name": "Arize AI",
@@ -2002,6 +1938,73 @@
         "evaluator-coi",
         "shared-investor",
         "commercial-channel"
+      ]
+    },
+    {
+      "rank": 26,
+      "tier": "B",
+      "slug": "vertex-ai",
+      "name": "Gemini Enterprise Agent Platform (formerly Vertex AI Agent Builder)",
+      "operator": "Google LLC",
+      "independence": "subsidiary",
+      "parent_entity": "Alphabet Inc.",
+      "category": "No-Code Agent Builder · Enterprise SaaS",
+      "homepage": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/overview",
+      "github": "https://github.com/google",
+      "score": 51,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 16,
+          "rating": "High",
+          "note": "Google LLC on legal page; open core (ADK Apache-2.0); SOC 2 gated via CRM"
+        },
+        "r": {
+          "score": 6,
+          "rating": "Low",
+          "note": "8 CVEs, 4 at CNA v4.0 >=9.0, max 10.0; adk web code injection recurred"
+        },
+        "d": {
+          "score": 13,
+          "rating": "High",
+          "note": "No-training SST §18; dated subprocessors; DPA+SCCs; tracing default on"
+        },
+        "i": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "Tool confirmation opt-in; Agent Identity delegation documented"
+        },
+        "c": {
+          "score": 3,
+          "rating": "Low",
+          "note": "gVisor sandbox, hybrid egress; default SA broad; cross-tenant CVEs on platform"
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": "CNA + bulletins; fix-to-notice 11-239d; ISO 42001; no AI-identity default"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 8,
+      "max_cvss_12mo": 10.0,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-26",
+      "updated_at": "2026-11-07",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "evaluator-coi",
+        "direct-investment"
       ]
     },
     {

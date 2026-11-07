@@ -43,12 +43,12 @@ Full specification in [`verdict-engine/ENGINE.md`](https://github.com/zinova-lab
 | 2 | S | [Pinecone](./platforms/pinecone.md) | Pinecone Systems, Inc. | Vector Database | 71/85 |  |
 | 3 | S | [Amazon Q Business](./platforms/amazon-q-business.md) | Amazon Web Services | Enterprise AI Assistant · Cloud SaaS (AWS) | 68/85 |  |
 | 4 | S | [Gemini Code Assist](./platforms/gemini-code-assist.md) | Google LLC | AI Coding Agent | 67/85 |  |
-| 5 | S | [Vertex AI Agent Builder](./platforms/vertex-ai.md) | Google LLC (Alphabet Inc.) | No-Code Agent Builder · Enterprise SaaS | 65/85 |  |
-| 6 | A | [Lovable](./platforms/lovable.md) | Lovable Labs AB · Sweden · $6.6B | AI App Builder · Cloud SaaS | 63/85 |  |
-| 7 | A | [Devin](./platforms/devin.md) | Cognition AI · $10.2B | AI Coding Agent · Cloud SaaS | 62/85 |  |
-| 7 | A | [Langfuse](./platforms/langfuse.md) | Langfuse GmbH | AI / LLM Application Observability | 62/85 |  |
-| 7 | A | [Weaviate](./platforms/weaviate.md) | Weaviate B.V. | Vector Database | 62/85 |  |
-| 10 | A | [OpenAI Assistants API](./platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | LLM Agent API · Managed SaaS | 61/85 |  |
+| 5 | A | [Lovable](./platforms/lovable.md) | Lovable Labs AB · Sweden · $6.6B | AI App Builder · Cloud SaaS | 63/85 |  |
+| 6 | A | [Devin](./platforms/devin.md) | Cognition AI · $10.2B | AI Coding Agent · Cloud SaaS | 62/85 |  |
+| 6 | A | [Langfuse](./platforms/langfuse.md) | Langfuse GmbH | AI / LLM Application Observability | 62/85 |  |
+| 6 | A | [Weaviate](./platforms/weaviate.md) | Weaviate B.V. | Vector Database | 62/85 |  |
+| 9 | A | [OpenAI Assistants API](./platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | LLM Agent API · Managed SaaS | 61/85 |  |
+| 10 | A | [Salesforce Agentforce](./platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | CRM-Native Agent Builder · Enterprise SaaS | 59/85 |  |
 <!-- END:TOP10 -->
 
 Full ranking: [`rankings/overall.md`](./rankings/overall.md)

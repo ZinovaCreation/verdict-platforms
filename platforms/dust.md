@@ -74,7 +74,7 @@ tags:
 - no-code
 - multi-model
 - regional-hosting
-rank: 15
+rank: 14
 sources:
 - https://docs.dust.tt/
 - https://dust.tt/

@@ -74,7 +74,7 @@ tags:
 - VPC-deployment
 - enterprise
 - Fortune-500-customers
-rank: 7
+rank: 6
 sources:
 - https://devin.ai/
 - https://devin.ai/enterprise

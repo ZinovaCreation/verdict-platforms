@@ -8,29 +8,29 @@ _Auto-generated — 70 platform(s). Do not edit by hand._
 | 2 | S | [Pinecone](../platforms/pinecone.md) | Pinecone Systems, Inc. | Vector Database | 71/85 | 16 | 20 | 11 | 8 | 8 | 8 |  |
 | 3 | S | [Amazon Q Business](../platforms/amazon-q-business.md) | Amazon Web Services | Enterprise AI Assistant · Cloud SaaS (AWS) | 68/85 | 14 | 20 | 13 | 6 | 6 | 9 |  |
 | 4 | S | [Gemini Code Assist](../platforms/gemini-code-assist.md) | Google LLC | AI Coding Agent | 67/85 | 17 | 17 | 11 | 6 | 6 | 10 |  |
-| 5 | S | [Vertex AI Agent Builder](../platforms/vertex-ai.md) | Google LLC (Alphabet Inc.) | No-Code Agent Builder · Enterprise SaaS | 65/85 | 18 | 14 | 13 | 6 | 5 | 9 |  |
-| 6 | A | [Lovable](../platforms/lovable.md) | Lovable Labs AB · Sweden · $6.6B | AI App Builder · Cloud SaaS | 63/85 | 10 | 17 | 13 | 8 | 7 | 8 |  |
-| 7 | A | [Devin](../platforms/devin.md) | Cognition AI · $10.2B | AI Coding Agent · Cloud SaaS | 62/85 | 11 | 17 | 12 | 7 | 7 | 8 |  |
-| 7 | A | [Langfuse](../platforms/langfuse.md) | Langfuse GmbH | AI / LLM Application Observability | 62/85 | 14 | 12 | 11 | 8 | 8 | 9 |  |
-| 7 | A | [Weaviate](../platforms/weaviate.md) | Weaviate B.V. | Vector Database | 62/85 | 16 | 14 | 13 | 6 | 6 | 7 |  |
-| 10 | A | [OpenAI Assistants API](../platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | LLM Agent API · Managed SaaS | 61/85 | 17 | 15 | 13 | 4 | 5 | 7 |  |
-| 11 | A | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | CRM-Native Agent Builder · Enterprise SaaS | 59/85 | 13 | 14 | 11 | 8 | 6 | 7 |  |
-| 12 | A | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | Browser Infrastructure · Cloud (Proprietary) | 58/85 | 12 | 20 | 9 | 8 | 6 | 3 |  |
-| 12 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | No-Code Agent Builder · Enterprise SaaS | 58/85 | 14 | 11 | 11 | 8 | 4 | 10 |  |
-| 12 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | AI Coding IDE · VS Code Fork | 58/85 | 10 | 14 | 12 | 7 | 6 | 9 |  |
-| 15 | A | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | Enterprise AI Assistant · OSS + Cloud SaaS | 57/85 | 13 | 17 | 13 | 7 | 3 | 4 |  |
-| 15 | A | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | AI Coding Agent · Microsoft | 57/85 | 12 | 17 | 7 | 7 | 5 | 9 |  |
-| 17 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 | 11 | 20 | 3 | 8 | 6 | 8 |  |
-| 17 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | Workflow Automation · API Integration | 56/85 | 11 | 16 | 12 | 5 | 8 | 4 |  |
-| 17 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | AI App Builder · Cloud SaaS | 56/85 | 13 | 17 | 8 | 5 | 6 | 7 |  |
-| 20 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | LLM Observability | 55/85 | 14 | 9 | 11 | 8 | 6 | 7 |  |
-| 20 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | AI Agent Platform | 55/85 | 14 | 17 | 11 | 4 | 2 | 7 |  |
-| 22 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | AI Safety | 52/85 | 18 | 17 | 5 | 4 | 3 | 5 |  |
-| 22 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | Browser Agent · AGPL-3.0 + Cloud | 52/85 | 14 | 17 | 4 | 6 | 5 | 6 |  |
-| 22 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | Browser Agent SDK · Open Source (MIT) | 52/85 | 16 | 17 | 4 | 5 | 5 | 5 |  |
-| 22 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | Conversational AI · Cloud SaaS | 52/85 | 10 | 14 | 10 | 8 | 4 | 6 |  |
-| 22 | B | [aider](../platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 | 14 | 17 | 5 | 8 | 5 | 3 |  |
-| 27 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | LLM Observability | 51/85 | 13 | 17 | 3 | 8 | 4 | 6 |  |
+| 5 | A | [Lovable](../platforms/lovable.md) | Lovable Labs AB · Sweden · $6.6B | AI App Builder · Cloud SaaS | 63/85 | 10 | 17 | 13 | 8 | 7 | 8 |  |
+| 6 | A | [Devin](../platforms/devin.md) | Cognition AI · $10.2B | AI Coding Agent · Cloud SaaS | 62/85 | 11 | 17 | 12 | 7 | 7 | 8 |  |
+| 6 | A | [Langfuse](../platforms/langfuse.md) | Langfuse GmbH | AI / LLM Application Observability | 62/85 | 14 | 12 | 11 | 8 | 8 | 9 |  |
+| 6 | A | [Weaviate](../platforms/weaviate.md) | Weaviate B.V. | Vector Database | 62/85 | 16 | 14 | 13 | 6 | 6 | 7 |  |
+| 9 | A | [OpenAI Assistants API](../platforms/openai.md) | OpenAI, L.L.C. · Deprecating August 2026 | LLM Agent API · Managed SaaS | 61/85 | 17 | 15 | 13 | 4 | 5 | 7 |  |
+| 10 | A | [Salesforce Agentforce](../platforms/agentforce.md) | Salesforce, Inc. (NYSE: CRM) | CRM-Native Agent Builder · Enterprise SaaS | 59/85 | 13 | 14 | 11 | 8 | 6 | 7 |  |
+| 11 | A | [Browserbase](../platforms/browserbase.md) | Browserbase Inc. · Y Combinator S24 · $67.5M | Browser Infrastructure · Cloud (Proprietary) | 58/85 | 12 | 20 | 9 | 8 | 6 | 3 |  |
+| 11 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | No-Code Agent Builder · Enterprise SaaS | 58/85 | 14 | 11 | 11 | 8 | 4 | 10 |  |
+| 11 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | AI Coding IDE · VS Code Fork | 58/85 | 10 | 14 | 12 | 7 | 6 | 9 |  |
+| 14 | A | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | Enterprise AI Assistant · OSS + Cloud SaaS | 57/85 | 13 | 17 | 13 | 7 | 3 | 4 |  |
+| 14 | A | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | AI Coding Agent · Microsoft | 57/85 | 12 | 17 | 7 | 7 | 5 | 9 |  |
+| 16 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 | 11 | 20 | 3 | 8 | 6 | 8 |  |
+| 16 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | Workflow Automation · API Integration | 56/85 | 11 | 16 | 12 | 5 | 8 | 4 |  |
+| 16 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | AI App Builder · Cloud SaaS | 56/85 | 13 | 17 | 8 | 5 | 6 | 7 |  |
+| 19 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | LLM Observability | 55/85 | 14 | 9 | 11 | 8 | 6 | 7 |  |
+| 19 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | AI Agent Platform | 55/85 | 14 | 17 | 11 | 4 | 2 | 7 |  |
+| 21 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | AI Safety | 52/85 | 18 | 17 | 5 | 4 | 3 | 5 |  |
+| 21 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | Browser Agent · AGPL-3.0 + Cloud | 52/85 | 14 | 17 | 4 | 6 | 5 | 6 |  |
+| 21 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | Browser Agent SDK · Open Source (MIT) | 52/85 | 16 | 17 | 4 | 5 | 5 | 5 |  |
+| 21 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | Conversational AI · Cloud SaaS | 52/85 | 10 | 14 | 10 | 8 | 4 | 6 |  |
+| 21 | B | [aider](../platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 | 14 | 17 | 5 | 8 | 5 | 3 |  |
+| 26 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | LLM Observability | 51/85 | 13 | 17 | 3 | 8 | 4 | 6 |  |
+| 26 | B | [Gemini Enterprise Agent Platform (formerly Vertex AI Agent Builder)](../platforms/vertex-ai.md) | Google LLC | No-Code Agent Builder · Enterprise SaaS | 51/85 | 16 | 6 | 13 | 6 | 3 | 7 |  |
 | 28 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 | 14 | 5 | 8 | 10 | 6 | 7 |  |
 | 29 | B | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | Managed Agent Platform · Enterprise SaaS | 49/85 | 12 | 6 | 13 | 6 | 4 | 8 |  |
 | 29 | B | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | LLM Agent Framework · Open Source (MIT core) | 49/85 | 15 | 8 | 7 | 6 | 6 | 7 |  |

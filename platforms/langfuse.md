@@ -78,7 +78,7 @@ tags:
 - self-hostable
 - air-gapped
 - clickhouse-acquired
-rank: 7
+rank: 6
 sources:
 - https://langfuse.com/
 - https://langfuse.com/security

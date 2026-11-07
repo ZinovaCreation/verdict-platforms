@@ -90,7 +90,7 @@ card_tags:
     color: amber
   - text: "Two path-traversal CVEs (CWE-22), patched"
     color: dim
-rank: 7
+rank: 6
 sources:
 - https://weaviate.io/
 - https://docs.weaviate.io
