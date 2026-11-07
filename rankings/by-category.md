@@ -36,13 +36,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 50 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | 43/85 |
+| 49 | C | [Relevance AI](../platforms/relevance-ai.md) | Relevance AI Pty Ltd · Sydney, Australia | 43/85 |
 
 ## AI Agent Security Platform · OSS + Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 53 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | 42/85 |
+| 52 | C | [Superagent](../platforms/superagent.md) | Superagent · Gothenburg, Sweden | 42/85 |
 
 ## AI Agent Tool Integration · OSS SDK + Cloud
 
@@ -99,7 +99,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 50 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | 43/85 |
+| 49 | C | [OpenHands](../platforms/openhands.md) | All Hands AI · Cambridge, MA | 43/85 |
 
 ## AI Coding IDE · Proprietary
 
@@ -117,7 +117,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 38 | B | [Semantic Kernel](../platforms/semantic-kernel.md) | Microsoft Research · Migrating to Agent Framework | 46/85 |
+| 54 | C | [Semantic Kernel](../platforms/semantic-kernel.md) | Microsoft Corporation | 41/85 |
 
 ## AI Safety
 
@@ -136,7 +136,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 44 | B | [AG2](../platforms/ag2.md) | AG2AI, Inc. | 45/85 |
+| 43 | B | [AG2](../platforms/ag2.md) | AG2AI, Inc. | 45/85 |
 
 ## Agent Management · OSS (MIT)
 
@@ -148,7 +148,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 50 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | 43/85 |
+| 49 | C | [Zep](../platforms/zep.md) | Zep Software, Inc. | 43/85 |
 
 ## Agent Orchestration · OSS (MIT)
 
@@ -190,7 +190,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 47 | C | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | 44/85 |
+| 46 | C | [Runner H](../platforms/runner-h.md) | H Company (H.AI SAS) · France · $220M | 44/85 |
 
 ## Browser Infrastructure · Cloud (Proprietary)
 
@@ -208,7 +208,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 44 | B | [Botpress](../platforms/botpress.md) | Botpress Inc. · Montreal, Canada | 45/85 |
+| 43 | B | [Botpress](../platforms/botpress.md) | Botpress Inc. · Montreal, Canada | 45/85 |
 
 ## Conversational AI · Cloud SaaS
 
@@ -250,7 +250,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 53 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | 42/85 |
+| 52 | C | [Cohere](../platforms/cohere.md) | Cohere Inc. | 42/85 |
 
 ## LLM Agent API · Managed SaaS
 
@@ -305,13 +305,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 44 | B | [Langroid](../platforms/langroid.md) | langroid (GitHub organization) · maintainer Prasad Chalasani · no legal entity named | 45/85 |
+| 43 | B | [Langroid](../platforms/langroid.md) | langroid (GitHub organization) · maintainer Prasad Chalasani · no legal entity named | 45/85 |
 
 ## Multi-Agent Orchestration · Open Source
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 47 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | 44/85 |
+| 46 | C | [CrewAI](../platforms/crewai.md) | Independent · $18M Series A · Andrew Ng investor | 44/85 |
 
 ## Multi-Agent Research · OSS (Apache 2.0)
 
@@ -330,7 +330,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 47 | C | [LlamaIndex](../platforms/llamaindex.md) | LlamaIndex, Inc. | 44/85 |
+| 46 | C | [LlamaIndex](../platforms/llamaindex.md) | LlamaIndex, Inc. | 44/85 |
 
 ## Stateful AI Agent Framework · Open Source (Apache 2.0)
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T10:39:17+00:00",
+  "generated_at": "2026-11-07T07:23:05+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -2997,70 +2997,6 @@
     {
       "rank": 38,
       "tier": "B",
-      "slug": "semantic-kernel",
-      "name": "Semantic Kernel",
-      "operator": "Microsoft Research · Migrating to Agent Framework",
-      "independence": "unrecorded",
-      "parent_entity": null,
-      "category": "AI Orchestration SDK · Open Source (MIT)",
-      "homepage": null,
-      "github": null,
-      "score": 46,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 14,
-          "rating": "High",
-          "note": ""
-        },
-        "r": {
-          "score": 11,
-          "rating": "Mid",
-          "note": ""
-        },
-        "d": {
-          "score": 5,
-          "rating": "Low",
-          "note": ""
-        },
-        "i": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "c": {
-          "score": 4,
-          "rating": "Mid",
-          "note": ""
-        },
-        "t": {
-          "score": 8,
-          "rating": "High",
-          "note": ""
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 2,
-      "max_cvss_12mo": 10.0,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-26",
-      "updated_at": null,
-      "evaluator_model": "unrecorded",
-      "framework_version": "v0.3.1",
-      "tags": []
-    },
-    {
-      "rank": 38,
-      "tier": "B",
       "slug": "n8n",
       "name": "n8n",
       "operator": "n8n GmbH (Berlin)",
@@ -3143,7 +3079,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 43,
       "tier": "B",
       "slug": "ag2",
       "name": "AG2",
@@ -3214,7 +3150,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 43,
       "tier": "B",
       "slug": "botpress",
       "name": "Botpress",
@@ -3278,7 +3214,7 @@
       "tags": []
     },
     {
-      "rank": 44,
+      "rank": 43,
       "tier": "B",
       "slug": "langroid",
       "name": "Langroid",
@@ -3351,7 +3287,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 46,
       "tier": "C",
       "slug": "crewai",
       "name": "CrewAI",
@@ -3415,7 +3351,7 @@
       "tags": []
     },
     {
-      "rank": 47,
+      "rank": 46,
       "tier": "C",
       "slug": "llamaindex",
       "name": "LlamaIndex",
@@ -3493,7 +3429,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 46,
       "tier": "C",
       "slug": "runner-h",
       "name": "Runner H",
@@ -3580,7 +3516,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 49,
       "tier": "C",
       "slug": "openhands",
       "name": "OpenHands",
@@ -3655,7 +3591,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 49,
       "tier": "C",
       "slug": "relevance-ai",
       "name": "Relevance AI",
@@ -3728,7 +3664,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 49,
       "tier": "C",
       "slug": "zep",
       "name": "Zep",
@@ -3804,7 +3740,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 52,
       "tier": "C",
       "slug": "cohere",
       "name": "Cohere",
@@ -3883,7 +3819,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 52,
       "tier": "C",
       "slug": "superagent",
       "name": "Superagent",
@@ -3953,6 +3889,73 @@
         "ai-firewall",
         "Swedish-origin",
         "small-team"
+      ]
+    },
+    {
+      "rank": 54,
+      "tier": "C",
+      "slug": "semantic-kernel",
+      "name": "Semantic Kernel",
+      "operator": "Microsoft Corporation",
+      "independence": "parent",
+      "parent_entity": null,
+      "category": "AI Orchestration SDK · Open Source (MIT)",
+      "homepage": "https://learn.microsoft.com/en-us/semantic-kernel/overview/",
+      "github": "https://github.com/microsoft/semantic-kernel",
+      "score": 41,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 13,
+          "rating": "Mid",
+          "note": "Microsoft Corporation on legal pages; full MIT OSS; tagged releases; no SOC 2"
+        },
+        "r": {
+          "score": 10,
+          "rating": "Mid",
+          "note": "2 CVEs, computed max 9.9 (CNA stated 10); .NET fix 10d after advisory"
+        },
+        "d": {
+          "score": 4,
+          "rating": "Low",
+          "note": "Version header default on, env-var opt-out; no SDK-level DPA or retention"
+        },
+        "i": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "Auto-invocation filter Terminate; HITL developer-built; delegation partial"
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "No built-in sandbox, plugins in-process; dynamic sessions opt-in; self-hosted"
+        },
+        "t": {
+          "score": 6,
+          "rating": "Mid",
+          "note": "GitHub CNA advisories; MSRC routing policy; RAI FAQ; no AI identity disclosure"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 2,
+      "max_cvss_12mo": 9.9,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-26",
+      "updated_at": "2026-11-07",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "evaluator-coi",
+        "direct-investment"
       ]
     },
     {

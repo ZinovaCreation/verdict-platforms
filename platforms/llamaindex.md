@@ -86,7 +86,7 @@ tags:
   - pickle-deserialization
   - no-kev
   - no-supply-chain-compromise
-rank: 47
+rank: 46
 sources:
   - https://github.com/run-llama/llama_index
   - https://github.com/run-llama/llama_index/blob/main/SECURITY.md

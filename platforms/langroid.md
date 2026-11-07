@@ -72,7 +72,7 @@ differential:
   c: re-evaluated
   t: re-evaluated
 next_review_due: '2027-10-27'
-rank: 44
+rank: 43
 tags:
 - open-source
 - MIT
