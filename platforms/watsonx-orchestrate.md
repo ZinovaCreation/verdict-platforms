@@ -1,114 +1,466 @@
 ---
 name: IBM watsonx Orchestrate
 slug: watsonx-orchestrate
-operator: IBM Corporation
-independence: independent
+operator: International Business Machines Corporation (IBM)
+independence: parent
 parent_entity: null
 category: Enterprise AI Agent Platform · Cloud SaaS + On-Prem
-homepage: null
-github: null
+homepage: https://www.ibm.com/products/watsonx-orchestrate
+github: https://github.com/IBM
 evaluation_number: 21
-evaluation_type: initial
+evaluation_type: update
 evaluated_at: '2026-03-30'
-evaluator_model: unrecorded
-framework_version: v0.3.1
+updated_at: '2026-11-09'
+evaluator_model: claude-fable-5-1
+framework_version: v0.3.2
 layer: '0'
-target_version: watsonx Orchestrate SaaS (current) / Cartridge 5.3.x / Developer Edition 2.3.0
-previous_evaluation_date: null
-previous_score: null
-score: 48
+target_version: watsonx Orchestrate SaaS (October 2026 release, deployed from 2026-11-04) / Cartridge for IBM Software Hub 5.4.x (fix level 5.4.4) / Developer Edition and ADK 2.19.1
+previous_evaluation_date: '2026-03-30'
+previous_score: 48
+score: 56
 max_score: 85
-tier: B
+tier: A
 verdict:
   v:
-    score: 11
-    rating: Mid
-    note: ''
+    score: 14
+    rating: High
+    note: 'IBM Corp. on legal page; closed source; dated Data Sheet; SOC 2 on request'
   e:
     score: null
     rating: null
     note: null
   r:
-    score: 7
-    rating: Low
-    note: ''
+    score: 11
+    rating: Mid
+    note: '4 Cartridge CVEs (max 6.5), same-day fix, shared authz root cause; 312 dep items'
   d:
-    score: 9
-    rating: Mid
-    note: ''
-  i:
-    score: 7
+    score: 12
     rating: High
-    note: ''
-  c:
-    score: 6
-    rating: Mid
-    note: ''
-  t:
+    note: 'No-training terms (SD 09/2026); 60 d/35 d deletion; dated sub-processors'
+  i:
     score: 8
     rating: High
-    note: ''
+    note: 'Kill switch (Agent Identity GA 2026-11-03); HITL optional; credential scopes'
+  c:
+    score: 4
+    rating: Mid
+    note: 'Container, read-only FS, package allowlist; least privilege configurable'
+  t:
+    score: 7
+    rating: High
+    note: 'IBM CNA + bulletins; TOMs in Data Sheet; internal AI principles; disclaimer on'
 cisa_kev:
   present: false
   entries: []
-cve_count_12mo: 10
-cve_count_basis: lower_bound
-max_cvss_12mo: 9.1
+cve_count_12mo: 4
+cve_count_basis: exact
+max_cvss_12mo: 6.5
 supply_chain_compromise_12mo: false
 known_facts_applied: []
 qa:
-  factual: unresolved
-  legal: unresolved
-  quality: unresolved
+  factual: pass
+  legal: pass
+  quality: pass
   revision_cycles: 0
   flagged: false
-differential: null
-next_review_due: '2027-03-30'
+differential:
+  v: re-evaluated
+  e: null
+  r: re-evaluated
+  d: re-evaluated
+  i: re-evaluated
+  c: re-evaluated
+  t: re-evaluated
+next_review_due: '2027-11-09'
 tags:
 - enterprise
 - closed-source
+- hybrid-deploy
 - IBM-cloud
 - FedRAMP
 - SOC2
 - multi-agent
 - governance
-- hybrid-deploy
+- agent-identity
+- dependency-bulletins
 - subscription
-rank: 31
-sources: []
-og_description: 'Independent security evaluation of IBM watsonx Orchestrate. Score: 48/85. FedRAMP authorized, SOC 2 certified. 10+ CVEs including CVSS 9.1. Langflow (CISA KEV) integrated. Framework v0.3.1.'
+rank: 16
+sources:
+- https://www.ibm.com/us-en/privacy
+- https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en
+- https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420
+- https://www.ibm.com/dpa
+- https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=availability-data-isolation-watsonx-orchestrate
+- https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=notes-whats-new-in-watsonx-orchestrate-saas
+- https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=credentials-overview
+- https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=agents-configuring-agent-behavior
+- https://www.ibm.com/new/announcements/agent-identity-in-ibm-watsonx-orchestrate-is-now-generally-available
+- https://www.ibm.com/new/announcements/ibm-watsonx-orchestrate-advances-enterprise-ai-agent-management-with-new-capabilities-at-techxchange-2026
+- https://developer.watson-orchestrate.ibm.com/tools/create_tool
+- https://developer.watson-orchestrate.ibm.com/connections/overview
+- https://developer.watson-orchestrate.ibm.com/llm/managing_llm
+- https://developer.watson-orchestrate.ibm.com/_releases/1.15.0/manage/channels
+- https://developer.watson-orchestrate.ibm.com/_releases/1.15.0/agents/deploy_agent
+- https://developer.watson-orchestrate.ibm.com/getting_started/concepts
+- https://developer.watson-orchestrate.ibm.com/release/knownissues
+- https://github.com/IBM/ibm-watsonx-orchestrate-adk
+- https://pypi.org/project/ibm-watsonx-orchestrate/
+- https://www.ibm.com/trust/security-psirt
+- https://www.ibm.com/support/pages/ibm-security-vulnerability-management
+- https://www.ibm.com/products/cloud/compliance/soc-2
+- https://newsroom.ibm.com/2026-04-01-IBM-Expands-FedRAMP-Portfolio-with-Authorization-of-11-Software-Solutions,-Including-watsonx
+- https://www.ibm.com/products/watsonx-orchestrate/pricing
+- https://aiagentindex.mit.edu/2025/watsonx-orchestrate/
+- https://community.ibm.com/community/user/blogs/shadan-ghadimi/2026/10/22/whats-new-in-watsonx-orchestrate-october-2026-update-for-builders
+- https://github.com/CVEProject/cvelistV5
+- https://www.ibm.com/support/pages/node/7293785
+- https://www.ibm.com/support/pages/node/7243596
+- https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-developer-edition-22
+- https://www.ibm.com/support/pages/node/7285076
+- https://www.ibm.com/support/pages/node/7280476
+- https://www.ibm.com/support/pages/node/7277310
+- https://www.ibm.com/support/pages/security-bulletin-vulnerability-fast-xml-parser-affects-ibm-watsonx-assistant-cartridge-and-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-3
+- https://www.ibm.com/support/pages/security-bulletin-vulnerability-pip-affects-ibm-watsonx-assistant-cartridge-and-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-0
+- https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-7
+- https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-6
+- https://www.ibm.com/support/pages/security-bulletin-vulnerability-pillowy-affects-ibm-watsonx-assistant-cartridge-and-ibm-watsonx-orchestrate-watsonx-assistant-cartridge
+- https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-developer-edition-9
+- https://www.ibm.com/support/pages/node/7267234
+- https://www.ibm.com/support/pages/node/7267233
+- https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-5
+- https://www.ibm.com/support/pages/node/7259287
+- https://www.ibm.com/support/pages/node/7259279
+- https://www.ibm.com/support/pages/node/7257724
+- https://www.ibm.com/support/pages/node/7255645
+- https://www.ibm.com/support/pages/security-bulletin-vulnerability-netty-affects-ibm-watsonx-assistant-cartridge-and-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-2
+- https://www.ibm.com/support/pages/security-bulletin-ibm-watsonx-orchestrate-developer-edition-vulnerable-denial-service-dos-due-tar
+- https://www.ibm.com/support/pages/node/7255089
+- https://www.ibm.com/support/pages/node/7255090
+- https://www.ibm.com/support/pages/security-bulletin-ibm-watsonx-orchestrate-developer-edition-vulnerable-exposed-dangerous-method-or-function-origin-validation-error-due-webpack-dev-server
+- https://www.ibm.com/support/pages/node/7253020
+- https://www.ibm.com/support/pages/node/7249547
+- https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+og_description: 'Independent security evaluation of IBM watsonx Orchestrate. Score: 56/85 (prev 48). Four Cartridge CVEs (max CVSS 6.5, same-day fix, shared authorization root cause); 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure. No-training terms, dated Data Sheet, Agent Identity kill switch. Framework v0.3.2.'
 category_line: Enterprise AI Agent Platform · Cloud SaaS + On-Prem
 display_tags: &id001
-- text: 10+ CVEs · CVSS 9.1
-  color: red
-- text: CVE-2025-0165 · SQL Injection
-  color: red
-- text: Langflow · CISA KEV Portfolio
+- text: 4 Cartridge CVEs · Max 6.5 · Same-Day Fix
   color: amber
-finding: 'Enterprise-grade compliance infrastructure: FedRAMP authorized, SOC 2, ISO 27001. Client data explicitly not used for IBM model training. However, 10+ dependency CVEs in the trailing 12 months (including CVSS 9.1) and one IBM-specific SQL injection (CVE-2025-0165). Langflow (CISA KEV listed, 30/85) now integrated via DataStax acquisition.'
+- text: Shared Authz Root Cause · 312 Dependency CVE Entries
+  color: warn
+- text: Kill Switch · Agent Identity GA
+  color: safe
+- text: No-Training Terms · Dated Data Sheet
+  color: safe
+- text: SOC 2 On Request · Closed Source
+  color: dim
+finding: 'Update 2026-11-09: 56/85 (prev 48). Four IBM-CNA CVEs name the watsonx Orchestrate Cartridge for Cloud Pak for Data 4.8.4–4.8.5 / 5.0.0–5.4.2 — CVE-2026-2477 (CNA v3.1 6.5, missing backend authorization on admin APIs), CVE-2025-1837 (5.4), CVE-2026-2700 (4.3), CVE-2025-0166 (2.7) — first disclosed in IBM bulletin 7293785 on 2026-10-23 with fix 5.4.4 available the same day; CVE records published 2026-11-08; three share a backend-authorization root cause. 22 further bulletins list 312 bundled-component CVE entries (Node.js, OpenSSL, PyTorch, fast-xml-parser, Apache HTTP Server) fixed 40–456 days after upstream disclosure. Service Description i126-9451-17 (09/2026) excludes Client Content and Outputs from model training; Data Sheet (2026-10-02) states 60-day deletion, 35-day backup expiry and eight third-party suppliers; DPA Z126-7870-07. Agent Identity GA (2026-11-03) adds a one-step kill switch. Closed source (MIT ADK is client tooling); SOC 2 on request; least privilege configurable; isolation vendor-stated. No KEV entry.'
 meta_owner: IBM
-meta_description: 'Independent security evaluation of IBM watsonx Orchestrate. Score: 48/85. FedRAMP authorized, SOC 2 certified. 10+ CVEs including CVSS 9.1. Langflow (CISA KEV) integrated. Framework v0.3.1.'
-key_finding: FedRAMP authorized, SOC 2, ISO 27001. Client data explicitly not used for IBM model training. 10+ dependency CVEs including CVSS 9.1, plus IBM-specific SQL injection (CVE-2025-0165). Langflow (CISA KEV, 30/85) integrated via DataStax acquisition.
-card_owner: IBM Corporation
+meta_description: 'Independent security evaluation of IBM watsonx Orchestrate. Score: 56/85 (prev 48). Four Cartridge CVEs (max CVSS 6.5, same-day fix, shared authorization root cause); 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure. No-training terms, dated Data Sheet, Agent Identity kill switch. Framework v0.3.2.'
+key_finding: 'Four IBM-CNA CVEs name the watsonx Orchestrate Cartridge (4.8.4–5.4.2) in the trailing 12 months — maximum CNA v3.1 6.5, three sharing a backend-authorization root cause — disclosed in IBM bulletin 7293785 on 2026-10-23 with fix 5.4.4 available that day, while 22 further bulletins list 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure. The 09/2026 Service Description excludes Client Content from model training, the 2026-10-02 Data Sheet dates sub-processors and deletion, and Agent Identity GA (2026-11-03) adds a one-step kill switch; source is closed, SOC 2 on request, isolation vendor-stated.'
+card_owner: International Business Machines Corporation (IBM)
 card_category: Enterprise AI Agent Platform · Cloud SaaS + On-Prem
 card_tags: *id001
+score_basis: consistent
 ---
 # IBM watsonx Orchestrate
 
-FedRAMP authorized, SOC 2, ISO 27001. Client data explicitly not used for IBM model training. 10+ dependency CVEs including CVSS 9.1, plus IBM-specific SQL injection (CVE-2025-0165). Langflow (CISA KEV, 30/85) integrated via DataStax acquisition.
+Four CVEs whose affected product is the IBM watsonx Orchestrate Cartridge for Cloud Pak for Data (4.8.4–4.8.5 and 5.0.0–5.4.2) were published by IBM as CNA on 2026-11-08, inside the trailing 12 months (2025-11-09 → 2026-11-09): CVE-2026-2477 (missing backend authorization on administrative API endpoints, CNA CVSS v3.1 6.5), CVE-2025-1837 (improper trust of server-side permission methods, 5.4), CVE-2026-2700 (backend fails to enforce role-based access control, 4.3) and CVE-2025-0166 (source-code information disclosure, 2.7), all first disclosed in IBM bulletin 7293785 on 2026-10-23 with the fixed release 5.4.4 available the same day; three share one root cause (server-side authorization not enforced behind the UI), recorded as a structural issue. The earlier product CVE, CVE-2025-0165 (SQL injection, CNA v3.1 7.6, 2025-08-30), predates the window. Twenty-two further IBM PSIRT bulletins in the window list 312 CVE entries for bundled third-party components (Node.js, OpenSSL, PyTorch, fast-xml-parser, Apache HTTP Server and others), each published with the fixed release, 40 to 456 days after the upstream disclosure of the twenty highest-severity items; under Attribution-CVE-001 these are dependency items and do not enter the count or maximum. The Service Description i126-9451-17 (09/2026) states that Client Content and Outputs are not used to train foundation or embedding models and confines service-improvement use to Auxiliary AI Features data with an opt-out; the Data Sheet (2026-10-02) states 60-day post-termination deletion, 35-day backup expiry and eight third-party suppliers; the DPA is Z126-7870-07. Agent Identity, generally available 2026-11-03, adds a one-step kill switch that undeploys an agent and ends its sessions, and tokens scoped to user and agent. The product is closed source (the MIT-licensed ADK is client tooling), SOC 2 reports are available on request, human confirmation before tool execution is builder-configured, and tenant isolation is stated by the vendor without public audit evidence. No CISA KEV entry names the product or any of its five CVEs; the IBM-vendor Langflow entry belongs to a separately evaluated product.
 
-## Layer 0 Score: 48/85 (Tier B)
+## Layer 0 Score: 56/85 (Tier A)
 
-**V** 11/20 · **R** 7/20 · **D** 9/15 · **I** 7/10 · **C** 6/10 · **T** 8/10
+**V** 14/20 · **R** 11/20 · **D** 12/15 · **I** 8/10 · **C** 4/10 · **T** 7/10 — previous 48/85 (2026-03-30, Tier B, v0.3.1); updated 2026-11-09 (routine lane, batch 1).
 
 ## CISA KEV
 
-None — no IBM watsonx Orchestrate packages appear in the CISA Known Exploited Vulnerabilities catalog. At least 10 published CVEs in the trailing 12 months (published as a bound; basis: lower_bound).
+None — no entry in the CISA Known Exploited Vulnerabilities catalog names IBM watsonx Orchestrate, and none of CVE-2026-2477, CVE-2026-2700, CVE-2025-1837, CVE-2025-0166 or CVE-2025-0165 is listed (catalogVersion 2026.11.06, dateReleased 2026-11-06, 1,769 entries; operator-supplied JSON checks retrieved 2026-11-08 and 2026-11-09). The one IBM-vendor entry added in the window (CVE-2026-9198, product Langflow, dateAdded 2026-08-04) is a Langflow record (#008), not a watsonx Orchestrate entry. 4 published CVEs attributed to the product scope in the trailing 12 months (exact); `max_cvss_12mo: 6.5` (CVE-2026-2477, CNA v3.1). Supply chain: none confirmed.
 
 ## Bias Disclosure
 
 This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic.
 
+Disclosure Triggers 0–3 were assessed and do not fire: International Business Machines Corporation is the ultimate parent (a listed company with no controlling owner) and is not a material Anthropic equity-holder; no member of the material set holds a recorded board seat, lead or strategic designation or USD 100 million position in IBM; AWS and Microsoft Azure appear as hosting sub-processors and the product is sold through the AWS Marketplace, which are non-trigger supplier and distribution relationships.
+
+Product-level integration, recorded separately: Anthropic is one of fourteen external LLM providers supported by the watsonx Orchestrate AI Gateway, and the October 2026 release notes list "Claude Sonnet 4.6 — Anthropic (via AWS Bedrock)" and discovery of Claude managed agents through AI Gateway (https://developer.watson-orchestrate.ibm.com/llm/managing_llm; https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=notes-whats-new-in-watsonx-orchestrate-saas).
+
+## Evaluation History
+
+| Date | Type | Score | Tier | Framework |
+|---|---|---|---|---|
+| 2026-03-30 | Initial (migrated capture) | 48/85 | B | v0.3.1 |
+| 2026-11-09 | Update (Layer 0, routine lane, batch 1; run 3 with operator input and verification) | 56/85 | A | v0.3.2 |
+
 ## Full Evaluation
 
-See evaluations/ for the complete Layer 0 report.
+# VERDICT Evaluation #021 — IBM watsonx Orchestrate (Update)
+
+| Field | Value |
+|---|---|
+| Evaluation number | #021 |
+| Platform | IBM watsonx Orchestrate |
+| Evaluation type | Update (Differential Evaluation, Layer 0) |
+| Evaluated at (original Layer 0) | 2026-03-30 |
+| Updated at | 2026-11-09 (run 3; research and operator retrievals dated 2026-11-08 JST, operator verification and CVE List re-scan 2026-11-09 JST) |
+| Evaluator | VERDICT evaluation engine · `evaluator_model: claude-fable-5-1` (as supplied at invocation, Batch1-TrancheA-Authorize-2026-10-31-A1; EvaluatorModel-Provenance-001) |
+| Target version | watsonx Orchestrate SaaS on IBM Cloud and AWS (continuous delivery; October 2026 end-of-month release, regional deployment from 2026-11-04) · IBM watsonx Orchestrate Cartridge for IBM Cloud Pak for Data / IBM Software Hub 5.4.x (5.4.4 named as the current fix level in the 2026-10-23 bulletin) · watsonx Orchestrate Developer Edition and Agent Development Kit (ADK) 2.19.1 (PyPI `ibm-watsonx-orchestrate`, released 2026-10-22) |
+| Framework | VERDICT v0.3.2 · zinova-lab/verdict-engine @ 493f1ba |
+| Previous evaluation | 2026-03-30 · 48/85 · Tier B · framework v0.3.1 (migrated capture) |
+| Operator of record | International Business Machines Corporation (IBM); `independence: parent`, `parent_entity: null` |
+| Lane | Routine (batch-1 scheduled; interval not elapsed) — Tranche B 7 of 14 |
+| Trailing 12-month window (R) | 2025-11-09 → 2026-11-09 |
+
+## Executive Summary
+
+Four CVEs whose affected product is the IBM watsonx Orchestrate Cartridge for Cloud Pak for Data (4.8.4–4.8.5 and 5.0.0–5.4.2) were published by IBM as CNA on 2026-11-08 — CVE-2026-2477 (missing backend authorization on administrative API endpoints, CNA CVSS v3.1 6.5), CVE-2026-2700 (backend fails to enforce role-based access control, 4.3), CVE-2025-1837 (improper trust of server-side permission methods, 5.4) and CVE-2025-0166 (source-code information disclosure, 2.7) — all first disclosed in IBM bulletin 7293785 on 2026-10-23 with the fixed release 5.4.4 available the same day, giving `cve_count_12mo: 4` (exact) and `max_cvss_12mo: 6.5` for the window 2025-11-09 → 2026-11-09 (CVE List re-scanned at 2026-11-09T05:47:48Z; CVE-2025-0165, 7.6, predates the window). Three of the four share one root cause — server-side authorization not enforced behind the UI — which is recorded as a structural issue, while the 22 further IBM bulletins in the window list 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure, recorded as dependency items under Attribution-CVE-001. The Layer 0 total moves from 48/85 to 56/85 (Tier B → A); the movement comes from R (7 → 11: product-scoped count and maximum replace a dependency-built "10+ / 9.1", same-day fix on the product CVEs, structural issue recorded), V (11 → 14: operator of record, dated Data Sheet, monthly release notes), D (9 → 12: the Service Description i126-9451-17 of 09/2026 excludes Client Content and Outputs from model training, with 60-day deletion and 35-day backup expiry in the Data Sheet of 2026-10-02) and I (7 → 8: a one-step kill switch shipped with Agent Identity GA on 2026-11-03), partly offset by C (6 → 4: least privilege configurable, isolation claimed but not independently evidenced) and T (8 → 7: no in-window product incident disclosure to time; internal AI principles only). The CISA KEV catalog (catalogVersion 2026.11.06, 1,769 entries, re-checked 2026-11-09) lists none of the five product CVEs; the one IBM-vendor addition in the window is a Langflow record, a separately evaluated product.
+
+## Scorecard
+
+| Dimension | Score | Max | Rating | Previous (2026-03-30) |
+|---|---|---|---|---|
+| V — Verifiability | 14 | 20 | High | 11 |
+| E — Effectiveness | — | 15 | not evaluated (Layer 1+) | — |
+| R — Resilience | 11 | 20 | Mid | 7 |
+| D — Data Conduct | 12 | 15 | High | 9 |
+| I — Identity & Control | 8 | 10 | High | 7 |
+| C — Containment | 4 | 10 | Mid | 6 |
+| T — Transparency | 7 | 10 | High | 8 |
+| **Layer 0 total** | **56** | **85** | | **48** |
+
+Tier: A
+Category: Enterprise AI Agent Platform · Cloud SaaS + On-Prem
+
+CISA KEV: None — no catalog entry names IBM watsonx Orchestrate; none of CVE-2026-2477, CVE-2026-2700, CVE-2025-1837, CVE-2025-0166 or CVE-2025-0165 is listed (catalogVersion 2026.11.06, dateReleased 2026-11-06T19:44:45Z, 1,769 entries; operator JSON checks retrieved 2026-11-08 and 2026-11-09, OperatorInput-001). The IBM-vendor entry added in the window (CVE-2026-9198, product Langflow, dateAdded 2026-08-04) belongs to a separately evaluated product (#008) and is not a watsonx Orchestrate entry.
+
+`cve_count_12mo: 4` (basis: exact) · `max_cvss_12mo: 6.5` · `supply_chain_compromise_12mo: false`
+
+## Differential
+
+**Previous evaluation:** 2026-03-30 · 48/85 · Tier B · framework v0.3.1 · migrated capture (`sources: []`, `qa` unresolved ×3, `evaluator_model: unrecorded`).
+
+**Trigger:** Scheduled batch-1 differential (LayerC-Triage-001; quarterly sweep 2026-10-27; Batch1-TrancheA-Authorize-2026-10-31-A1). Routine 365-day interval not elapsed. No interrupt trigger fired: the sweep recorded no T1 / T2 / T5 / dormancy row for this slug, and the record entered batch 1 on its recorded `cve_count_12mo: 10` (lower_bound).
+
+**Per-dimension state:**
+
+| Dimension | State | Basis |
+|---|---|---|
+| V | re-evaluated — migrated capture, no sources | carry-forward conditions 1–4 cannot be met |
+| R | re-evaluated — migrated capture, no sources | mandatory in every differential |
+| D | re-evaluated — migrated capture, no sources | carry-forward conditions 1–4 cannot be met |
+| I | re-evaluated — migrated capture, no sources | carry-forward conditions 1–4 cannot be met |
+| C | re-evaluated — migrated capture, no sources | carry-forward conditions 1–4 cannot be met |
+| T | re-evaluated — migrated capture, no sources | mandatory in every differential |
+| E | null | Layer 1+ only |
+
+**Carry-forward checks:** none performed. The base record cites no source URL for any dimension, so none of the four carry-forward conditions (URL resolves; no later effective date; no changing release note; no incident touching the dimension) can be positively satisfied (convention 2026-09-22).
+
+**Operator input (OperatorInput-001), retrieved by the operator 2026-11-08 JST:**
+
+1. Quarterly sweep 2026-10-27 (operations_sweep_procedure.md, dry run), public-layer rows for slug `watsonx-orchestrate`: none. No T1 / T2 / T5 / dormancy observation row.
+2. CISA KEV JSON feed (https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json): catalogVersion "2026.11.06", dateReleased 2026-11-06T19:44:45.1797Z, count 1,769. CVE-2025-0165 not in the catalog; no entry whose vendorProject, product, vulnerabilityName or shortDescription contains "watsonx" or "Orchestrate"; eight IBM-vendor entries in the whole catalog, one added in the window (CVE-2026-9198, vendorProject IBM, product Langflow, dateAdded 2026-08-04).
+3. Rendered text of pages the session tools could not read (IBM Terms site and ibm.com/docs return client errors to the session fetcher), supplied in run 2, retrieved by the operator with a browser on 2026-11-08 JST:
+   - https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en — Service Description "IBM watsonx Orchestrate", i126-9451-17 (09/2026), published 2026-09-30 (§1, §2, §5.1, §5.3, §5.8, §5.9, §5.11, §5.12, §6.2 reproduced verbatim).
+   - https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420 — Data Processing and Protection Data Sheet for IBM watsonx Orchestrate, published 2026-10-02 (reference …-19-10-2026-zz-en). The PDF's text layer carries no digits; day counts, section numbers, ISO numbers and the SOC type were recovered by the operator by OCR of the rendered pages and are marked [OCR] where used below.
+   - https://www.ibm.com/dpa — IBM Data Processing Addendum Z126-7870-07 (version 07, February 2026; published 2026-04-02; web effective 2026-03-02) and the catalog entry "Local Data Protection Laws covered by the DPA" (DPA-DPL-24, June 2025; not retrieved). The DPA carries no SCC text; transfers are by reference to Z126-8005 (not retrieved).
+   - https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=availability-data-isolation-watsonx-orchestrate — "Data isolation on IBM watsonx Orchestrate", Last Updated 2026-04-17.
+   - https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=notes-whats-new-in-watsonx-orchestrate-saas — "What's new in IBM watsonx Orchestrate", Last Updated 2026-11-04 (October 2026 end-of-month release; headings and region table complete, bodies truncated at 9,000 characters by the operator tool). The topic ID requested in run 1 (…whats-new-in-watsonx-orchestrate) now redirects to the product landing page.
+   - https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=credentials-overview (Last Updated 2026-11-04) and https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=agents-configuring-agent-behavior (Last Updated 2026-10-19); the run-1 URLs (SSAVQO/manage/credentials.html, SSAVQO/agent_builder/configuring_agent_behavior.html) resolve to these topics. Operator note recorded as supplied: neither page states a default tool-execution confirmation step, and an IBM Docs search for a built-in tool-confirmation setting returned no SaaS topic.
+4. Operator verification of the run-2 delivery (2026-11-09 JST): four IBM-CNA records whose affected product is "watsonx Orchestrate Cartridge for Cloud Pak for Data" were published on 2026-11-08 (CVE-2026-2477 18:29Z, CVE-2026-2700 18:30Z, CVE-2025-1837 15:57Z, CVE-2025-0166 15:57Z), after the run-2 CVE List snapshot (2026-11-08T03:15Z) and inside the window; their common reference is IBM bulletin node 7293785 (initial publication 2026-10-23; fix: Cartridge 5.4.4), rendered text supplied by the operator and read again by the session on 2026-11-09. KEV re-check 2026-11-09: catalogVersion unchanged (2026.11.06, 1,769), none of the five product CVEs listed. The session re-scanned the CVE List at commit 2026-11-09T05:47:48Z and found no further record naming the product.
+
+**Pages the session tools could not read in run 1, and their resolution (SourceCoverage-001 / OperatorInput-001):**
+
+| URL (run 1) | Bearing | Run 1 observation | Resolution (run 2, operator input 2026-11-08) |
+|---|---|---|---|
+| IBM Terms: Service Description i126-9451 (current) | D — training use, retention, DPA reference | client error; only the superseded i126-9451-11 (01/2024) edition was readable via a UK G-Cloud PDF | Read via operator input (i126-9451-17, 09/2026). D training use judged on §5.3 and §6.2; data minimization on §6.2. |
+| IBM Terms: Data Sheet for watsonx Orchestrate | V / D — sub-processors, retention, certifications, TOMs | client error | Read via operator input (published 2026-10-02; digits by OCR). V third-party dependency disclosure 3; D sub-processor transparency 3; D retention judged on §3 and §5. |
+| https://www.ibm.com/dpa | D — GDPR | redirect to a client-rendered catalog | Read via operator input (Z126-7870-07). D GDPR disclosure judged on the DPA plus the Data Sheet as DPA Exhibit. |
+| ibm.com/docs data-isolation topic | C — tenant isolation | client error | Read via operator input (2026-04-17). C tenant isolation 1 (claimed; no independent evidence public). |
+| ibm.com/docs What's new | V — version management | client error | Read via operator input (2026-11-04). V version management 3. |
+| ibm.com/docs credentials and agent-behavior topics | I — permission delegation, human-in-the-loop | client error | Read via operator input. I permission delegation 3; I human-in-the-loop 1 (no default confirmation step stated). |
+
+Still unread (stated, not scored as silence): the IBM FedRAMP Marketplace listing for watsonx Orchestrate (authorization stated in IBM's newsroom release of 2026-04-01); the "Data Transfer and Specific Terms" document Z126-8005 and "Local Data Protection Laws covered by the DPA" (DPA-DPL-24); the third-party supplier country list at http://www.ibm.com/terms/?id=i127-9379; the IBM affiliates list at www.ibm.com/cloud/subprocessors; the Service Description's opt-out instructions referenced in §6.2 ("refer to the Cloud Service's documentation"); the IBM security bulletin catalogue filtered by product (client-rendered), so the bulletin set below is the set located by web search and may be incomplete.
+
+**Prior-record omissions and corrections, stated as facts:**
+
+- The base record's `cve_count_12mo: 10` (lower_bound, published as "10+") and `max_cvss_12mo: 9.1` were built largely on third-party component CVEs listed in IBM bulletins. Attribution-CVE-001 (2026-09-22, after the base) counts only CVEs whose affected product is the evaluated target; under that rule the base window's product-scoped count was 1 (CVE-2025-0165) and its maximum was that record's CNA v3.1 7.6, not 9.1. The 9.1 corresponds to the cipher-base dependency CVE-2025-9287 (CNA v4.0 9.1; IBM bulletin 2025-12-29), which also post-dates the base window. The prior values are superseded by the recomputed fields; the base record's statement "IBM-specific SQL injection (CVE-2025-0165)" is confirmed as to the CVE's existence and description.
+- CVE-2025-0165 (first public disclosure 2025-08-30; IBM bulletin node 7243596) is outside the current window (2025-11-09 → 2026-11-09) and is recorded in the Incident Timeline as out of window.
+- CVE-2026-2477 and CVE-2026-2700 were recorded in the run-2 delivery (CVE List snapshot 2026-11-08T03:15Z) as bare RESERVED and not counted; both were published by IBM as CNA on 2026-11-08 (18:29Z and 18:30Z), together with CVE-2025-1837 and CVE-2025-0166, all referencing IBM bulletin 7293785 of 2026-10-23. That bulletin was not among the bulletins located by web search in runs 1–2 (the report stated the bulletin set as a lower bound); it was identified by the operator's verification. Convention-CVEReserved-001 no longer applies; all four are counted in this run (run 3). The run-2 delivery was held by the operator and not intaken.
+- The base record's display tag "Langflow · CISA KEV Portfolio" and the finding "Langflow (CISA KEV, 30/85) now integrated via DataStax acquisition" are not carried: Langflow is a separately evaluated product (#008); its KEV entry (CVE-2026-9198, dateAdded 2026-08-04) names Langflow, not watsonx Orchestrate, and no IBM bulletin or NVD record names watsonx Orchestrate as affected by it (DisplayHonesty-001). No watsonx Orchestrate documentation read in this session describes Langflow as a component of the product.
+- The base record's operator string "IBM Corporation" is confirmed as to the entity and is written out as the legal name on IBM's Privacy Statement: International Business Machines Corporation. The base recorded `independence: independent`; IBM is itself the ultimate parent (a listed company with no controlling owner), so the schema value is `parent` with `parent_entity: null` (the #013 form).
+- The base record's statements "FedRAMP authorized" and "Client data explicitly not used for IBM model training" are confirmed on vendor pages dated in or after the base window (IBM newsroom 2026-04-01; Service Description i126-9451-17 §5.3 and §6.2, 09/2026). The superseded Service Description edition i126-9451-11 (01/2024) §6.1.2 provided for use of content to improve the service with an opt-out; the current edition narrows this to Auxiliary AI Features data and states that such content is not used to improve or train AI models (§6.2).
+
+## Dimension Detail
+
+### V — Verifiability · 14/20 · High
+
+| Criterion | Result | Score | Evidence URL |
+|---|---|---|---|
+| Developer / company identity | Confirmed both. The IBM Privacy Statement (effective 2026-08-25) names International Business Machines Corporation, 1 North Castle Drive, Armonk, NY 10504 as the responsible entity with a privacy contact form and the Chief Privacy Office; the Service Description i126-9451-17 is issued under the IBM Client Relationship Agreement (Z126-6548). Official contacts: IBM PSIRT (psirt@us.ibm.com, HackerOne program, IBM Support) and chiefprivacyoffice@ca.ibm.com (Data Sheet §9). Corporate registration confirmed by the vendor's own legal page; no public registry was queried. | 4/4 | https://www.ibm.com/us-en/privacy · https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en (operator input 2026-11-08) · https://www.ibm.com/trust/security-psirt |
+| Source code disclosure | Closed source. The SaaS service, the Cartridge for IBM Software Hub and the Developer Edition container images are not published as source. IBM publishes the Agent Development Kit (CLI and SDK, PyPI `ibm-watsonx-orchestrate`) under the MIT License in `IBM/ibm-watsonx-orchestrate-adk`; the ADK is client tooling that drives the hosted or containerised runtime, not the product's core or control plane (Criterion-VSource-001; the same reading as #017), so the product scores as closed source. | 0/4 | https://github.com/IBM/ibm-watsonx-orchestrate-adk (LICENSE: "The MIT License", © 2024, 2025 IBM Corporation) · https://pypi.org/project/ibm-watsonx-orchestrate/ |
+| Version management transparency | Release notes + full changelog. IBM Docs publishes "What's new in IBM watsonx Orchestrate" per monthly release with a regional deployment-date table and per-feature entries, with per-month archive topics (January 2026 through September 2026 in the Docs index) and separate on-premises release topics (Software Hub, Kubernetes); the ADK developer site publishes per-version release notes and known issues, and the ADK repository publishes GitHub releases (2.19.1, 2026-10-22). Security fixes are published separately as PSIRT bulletins, not in the release notes. | 3/3 | https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=notes-whats-new-in-watsonx-orchestrate-saas (operator input 2026-11-08) · https://developer.watson-orchestrate.ibm.com/release/knownissues · https://github.com/IBM/ibm-watsonx-orchestrate-adk/releases |
+| Third-party dependency disclosure | Sub-processor list with update date. The Data Processing and Protection Data Sheet for IBM watsonx Orchestrate (published 2026-10-02) lists eight third-party suppliers that process Content — Akamai, Amazon Web Services, Deepgram, ElevenLabs, Groq, Microsoft Azure, Red Hat, Segment — with their activities, and names seventeen IBM processing locations; IBM affiliates per location are listed at www.ibm.com/cloud/subprocessors (not read); clients can subscribe to change notifications through IBM Terms or mycloudservices.ibm.com. | 3/3 | https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420 (operator input 2026-11-08) |
+| Independent certification | SOC 2 on request / customers-only. The Data Sheet §4.4 [OCR] lists ISO 27001, ISO 27017, ISO 27018, ISO 27701, Data Privacy Framework and SOC 2 Type 2 as maintained by the IBM corporation; the IBM Cloud SOC 2 page states "Contact an IBM representative to request SOC 2 reports" and its platform-services scope list does not name watsonx Orchestrate. No SOC 2 or SOC 3 report is publicly downloadable. | 2/4 | https://www.ibm.com/products/cloud/compliance/soc-2 · https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420 (operator input 2026-11-08) |
+| Functional reproducibility docs | Complete. The ADK developer documentation covers agents, tools (Python, OpenAPI, MCP), connections, knowledge, flows, channels, LLM providers and the CLI; the SaaS documentation covers agent behaviour configuration (instructions, guidelines, agent styles), credentials and deployment; an API reference and embedded-chat event model are published. | 2/2 | https://developer.watson-orchestrate.ibm.com/getting_started/concepts · https://developer.watson-orchestrate.ibm.com/llm/managing_llm · https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=agents-configuring-agent-behavior (operator input 2026-11-08) |
+
+**Positive findings.** The operator of record is named on IBM's own legal page and the product terms are published as a numbered, dated Service Description with a dated Data Sheet. Release notes are monthly with deployment dates per region. The ADK is MIT-licensed with a public repository, releases and known-issues pages. FedRAMP authorization on AWS GovCloud (U.S.) for watsonx Orchestrate was announced by IBM on 2026-04-01 (impact level not stated in the release; the FedRAMP Marketplace listing was not read); the SaaS release table lists an AWS GovCloud (us-gov-east-1) region.
+
+**Recorded concerns.** The product is closed source; the MIT ADK is client tooling. SOC 2 reports are obtainable only by request, and the IBM Cloud SOC 2 scope list read does not name the product (the Data Sheet names SOC 2 Type 2 at the IBM corporation level). Security fixes are not surfaced in the release notes.
+
+### R — Resilience · 11/20 · Mid
+
+CVE evaluation window: 2025-11-09 → 2026-11-09. Product scope bound to `target_version`: IBM watsonx Orchestrate SaaS, the watsonx Orchestrate Cartridge for IBM Cloud Pak for Data / IBM Software Hub, and the Developer Edition / ADK. Attribution rule applied to bundled dependencies: a CVE counts only when its CVE List record (or the CNA's advisory) names watsonx Orchestrate as the affected product — in practice an IBM-CNA record with an "IBM watsonx Orchestrate … " description; a CVE whose record names a third-party component (Node.js, OpenSSL, PyTorch, a Python or npm package, a container base image) that IBM ships inside the product is a dependency CVE, recorded in the Incident Timeline with `dependency: <vendor/product>` and excluded from `cve_count_12mo` and `max_cvss_12mo` (Attribution-CVE-001). CVSS source order per Attribution-CVE-002; every value below states its version and tier. Primary scan: every CVE List record for 2025 and 2026 (CVEProject/cvelistV5, sparse checkout at the commit of 2026-11-09T05:47:48Z) searched for "watsonx Orchestrate" in any field — five matches, all IBM CNA: CVE-2025-0165 (published 2025-08-30, outside the window) and CVE-2026-2477, CVE-2026-2700, CVE-2025-1837, CVE-2025-0166 (all published 2026-11-08, inside the window); a search for IBM-assigned records containing "watsonx" published 2026-11-07 → 2026-11-09 returned only the same two 2026 IDs. NVD and the CISA KEV JSON could not be queried from the session's shell (allowlist); the CVE List is the upstream of NVD and the operator supplied the KEV JSON checks (2026-11-08 and 2026-11-09).
+
+| Criterion | Result | Score | Evidence URL |
+|---|---|---|---|
+| CVE count (trailing 12 months) | 4 (exact). CVE-2026-2477, CVE-2026-2700, CVE-2025-1837 and CVE-2025-0166, all IBM CNA, state PUBLISHED 2026-11-08, affected product "watsonx Orchestrate Cartridge for Cloud Pak for Data" 4.8.4–4.8.5 and 5.0.0–5.4.2, first public disclosure in IBM bulletin 7293785 on 2026-10-23. CVE-2025-0165 (published 2025-08-30) predates the window. No CVSS 9.0+ product CVE, so no penalty. Nothing in the window names the SaaS service or the Developer Edition / ADK as affected. | 1/5 | https://github.com/CVEProject/cvelistV5 (cves/2026/2xxx/CVE-2026-2477.json, cves/2026/2xxx/CVE-2026-2700.json, cves/2025/1xxx/CVE-2025-1837.json, cves/2025/0xxx/CVE-2025-0166.json) · https://www.ibm.com/support/pages/node/7293785 |
+| Maximum CVSS severity | 6.5 — CVE-2026-2477, CNA (IBM) CVSS v3.1, vector CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N (computed 6.5; stated 6.5; no NIST Primary or CISA-ADP metric on the record as of 2026-11-09). The other three: CVE-2025-1837 CNA v3.1 5.4 (AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N; computed 5.4; stated 5.4), CVE-2026-2700 CNA v3.1 4.3 (AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N; computed 4.3; stated 4.3), CVE-2025-0166 CNA v3.1 2.7 (AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N; computed 2.7; stated 2.7). The IBM bulletin states the same four values with source IBM. For reference: CVE-2025-0165 (out of window) is CNA v3.1 7.6, and the highest dependency values in the window (CVE-2025-14009 NLTK, CNA @huntr_ai v3.0 10.0; CVE-2026-29167 Apache HTTP Server, CISA-ADP v3.1 9.8) do not enter this field. | 4/6 | https://github.com/CVEProject/cvelistV5 (the four records above) · https://www.ibm.com/support/pages/node/7293785 |
+| Patch response speed | ≤7 days. First public disclosure of all four product CVEs is IBM bulletin 7293785, initial publication 2026-10-23, whose remediation is "upgrading to IBM watsonx Orchestrate Cartridge 5.4.4", available at publication (0 days; IBM's PSIRT policy is to disclose once a fix or mitigation is issued). The CVE List records followed 16 days later (2026-11-08). For context, the dependency bulletins in the window show 40–456 days between upstream CVE publication and the IBM release that carries the fix for the twenty highest-severity items (CVE-2026-27837 40 d, CVE-2025-14009 48 d, CVE-2026-23745 66 d, CVE-2025-55130 77 d, CVE-2026-25990 82 d, CVE-2026-25896 87 d, CVE-2026-33671 88 d, CVE-2025-66034 101 d, CVE-2026-29167 113 d, CVE-2026-5241 118 d, CVE-2026-26278 123 d, CVE-2025-9287 131 d, CVE-2026-34481 137 d, CVE-2026-1703 140 d, CVE-2025-8869 180 d, CVE-2025-30360 197 d, CVE-2025-46653 271 d, CVE-2025-26791 287 d, CVE-2025-25193 322 d, CVE-2025-22871 336 d, CVE-2025-32434 456 d); those intervals are recorded in the Incident Timeline and Contextual Analysis and do not score this criterion now that product CVEs exist to time. | 3/3 | https://www.ibm.com/support/pages/node/7293785 · https://www.ibm.com/support/pages/ibm-security-vulnerability-management · https://github.com/CVEProject/cvelistV5 (per-CVE `datePublished`) |
+| Structural issues | Same root cause recurring. Three of the four in-window product CVEs describe one defect class — server-side authorization not enforced behind UI-level restrictions: CVE-2026-2477 (CWE-862 Missing Authorization: "fails to enforce backend authorization checks, allowing low-privileged users to directly invoke administrative API endpoints"), CVE-2026-2700 (CWE-284 Improper Access Control: "backend fails to enforce role-based access control") and CVE-2025-1837 (CWE-650: "improper trust of server-side permission methods") — across the same release range 4.8.4–5.4.2, with CVE-2025-0165 (CWE-89, out of window) and CVE-2025-0166 (CWE-540) as the isolated items. The three were disclosed together in one bulletin and fixed in one release; the criterion records the shared root cause, not the number of disclosure events. | 0/3 | https://www.ibm.com/support/pages/node/7293785 · https://github.com/CVEProject/cvelistV5 (problemTypes on the four records) |
+| Supply chain compromise (trailing 12 months) | None. Searches for `ibm-watsonx-orchestrate` PyPI / npm / SDK compromise, package malware and dependency compromise located no public confirmation of an unauthorized write to IBM's package (`ibm-watsonx-orchestrate` on PyPI, latest 2.19.1, 2026-10-22), repository (`IBM/ibm-watsonx-orchestrate-adk`), build pipeline or the IBM container registry serving Developer Edition images (SupplyChain-Criterion-001 / -001a). | 3/3 | https://pypi.org/project/ibm-watsonx-orchestrate/ · https://github.com/IBM/ibm-watsonx-orchestrate-adk |
+
+**Positive findings.** IBM acts as CNA for its own product CVEs, published the four with the fixed release available on the day of first disclosure (2026-10-23), named the affected versions and the fix in the bulletin, and published the CVE List records with CWE and vectors; the maximum product severity in the window is Medium (6.5); no product CVE names the SaaS service; no supply chain compromise and no KEV entry.
+
+**Recorded concerns.** Three of the four product CVEs share one root cause (backend authorization not enforced), which the structural criterion records. The CVE List records appeared 16 days after the bulletin, so a reader following NVD or the CVE List alone would have seen the fix-available bulletin before any CVE record existed. The in-window dependency bulletins read list 312 CVE entries for bundled components across 22 bulletins (duplicates across the Cartridge and Developer Edition not removed; the Developer Edition 2.17.0 bulletin page is truncated, so the figure is a lower bound), with IBM fixed releases arriving 40–456 days after upstream disclosure for the twenty highest-severity items; several items were disclosed upstream before the window began (PyTorch CVE-2025-32434, 2025-04-18; Go CVE-2025-22871, 2025-04-08; Netty CVE-2025-25193, 2025-02-10) and were fixed in the product during the window. The Incident Timeline also carries dependency IDs outside the twenty timed items — CVE-2022-45868 (H2; IBM 8.4 v3.0), CVE-2023-44270 (PostCSS; IBM 5.3 v3.0), CVE-2024-11831 (serialize-javascript; IBM 5.4 v3.1), CVE-2024-21538 (cross-spawn; IBM 7.5 v3.1), CVE-2024-28863 (node-tar; IBM 6.5 v3.0) and, outside the window, CVE-2025-3730 (PyTorch; IBM 5.5 v3.1) — whose upstream records were not read in this session (2022–2024 IDs fall outside the CVE List years scanned); the IBM bulletin value is the only score recorded for them. Under Attribution-CVE-001 the dependency items do not enter the count or maximum. The product bulletin 7293785 was not located by web search in runs 1–2 and was identified through operator verification; the IBM bulletin catalogue's product filter is client-rendered, so the bulletin set remains a lower bound.
+
+### D — Data Conduct · 12/15 · High
+
+| Criterion | Result | Score | Evidence URL |
+|---|---|---|---|
+| GDPR compliance disclosure | DPA standard provision + explicit statement. The IBM Data Processing Addendum Z126-7870-07 (version 07, February 2026) is incorporated into the agreement with the watsonx Orchestrate Data Sheet as its DPA Exhibit (Service Description §2); the DPA sets out Controller/Processor roles, documented-instruction processing, TOMs, data-subject requests, government-request handling, audit, deletion, sub-processor notice with a 30-day objection period, transfers to non-adequate countries by reference to Z126-8005 (not retrieved), breach notification "without undue delay" and assistance; the Data Sheet §8 addresses transborder processing and the Data Privacy Framework appears in §4.4 [OCR]. The DPA carries no SCC text itself (operator note). | 3/3 | https://www.ibm.com/dpa (operator input 2026-11-08) · https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420 (operator input 2026-11-08) |
+| Data minimization | Default ON, opt-out available. Service Description §6.2 (09/2026): IBM may use Content and other information resulting from use of the Auxiliary AI Features (Agentic Control Plane and other IBM-developed auxiliary AI capabilities) — "messages and responses, actions taken, features used, performance, error and diagnostic information, and usage patterns" — to manage and improve the Cloud Service, and "Client can opt out … at any time by referring to the Cloud Service's documentation"; data from agents the Client builds, deploys or consumes through the agent catalog is stated as not collected for improvement. The documentation page carrying the opt-out instructions was not read. Developer Edition: IBM telemetry in the ADK is an opt-in flag (`--with-ibm-telemetry`, default off, for local observability) in the MIT source. | 1/3 | https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en (operator input 2026-11-08) · https://github.com/IBM/ibm-watsonx-orchestrate-adk (src/ibm_watsonx_orchestrate/cli/commands/server/server_command.py) |
+| AI training use | Not used + retention period stated. Service Description §5.3: "Unless separately authorized by Client through a voluntary feedback submission, IBM will not use the Client Content or model Outputs to train any foundation models or embedding models"; §6.2: "IBM will not use such Content to improve or train AI models". Data Sheet §3 [OCR]: Content is processed for 60 days after termination or expiration, with backups expiring 35 days after termination; §5: IBM deletes Content at the end of that period. | 4/4 | https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en (operator input 2026-11-08) · https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420 (operator input 2026-11-08) |
+| Sub-processor transparency | List with update date. Data Sheet published 2026-10-02 (reference …-19-10-2026-zz-en) with the eight third-party suppliers and their activities (§7) and the IBM processing locations (§6); changes to third-party suppliers update the Data Sheet with subscription notice. The supplier country list (i127-9379) and IBM affiliates list (ibm.com/cloud/subprocessors) were not read. No Anthropic entry appears in the supplier table; external LLM providers reached through the AI Gateway are governed by Service Description §5.3 as Non-IBM Products or BYO models (operator note). | 3/3 | https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420 (operator input 2026-11-08) |
+| Data retention disclosure | Stated but not per category. Data Sheet §3 [OCR] gives one period for all Content (60 days after termination) and one for backups (35 days); no retention period is published for the Auxiliary AI Features data described in Service Description §6.2 (messages, actions, diagnostics, usage patterns), for audit or trace records, or for the Premier LLM abuse-monitoring storage that §5.9 describes as "temporary". | 1/2 | https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420 (operator input 2026-11-08) · https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en (operator input 2026-11-08) |
+
+**Positive findings.** The no-training statement is in the contract (Service Description §5.3, §6.2), not only in marketing; a numbered, dated DPA and a dated Data Sheet are public; Content and backup deletion periods are stated; encryption in transit and at rest and least-privileged, logged IBM access are stated as TOMs; the Premium plan in AWS us-east-1 adds HIPAA to the certifications and Healthcare Information to the permitted data types.
+
+**Recorded concerns.** Auxiliary AI Features data is used for service improvement by default, with the opt-out procedure held in documentation not read here; no per-category retention for operational and diagnostic data; third-party model hosting (Groq, Microsoft Azure for the Premier LLM) carries its own terms, including Microsoft's temporary storage and human review of inputs and outputs that trigger abuse monitoring (§5.9); the Data Sheet's digits are not in its text layer and were recovered by OCR.
+
+### I — Identity & Control · 8/10 · High
+
+| Criterion | Result | Score | Evidence URL |
+|---|---|---|---|
+| Emergency stop documentation | Procedure documented + immediate stop possible. Agent Identity (generally available 2026-11-03): "The new kill switch undeploys an agent from the live environment and ends its active sessions in one step"; administrators turn Agent Identity on from Agent identities under Govern & operate once the tenant is connected to IBM Verify or Microsoft Entra, so the kill switch presupposes that configuration. Independently of Agent Identity, the ADK documents undeploying an agent from the live environment (`orchestrate agents undeploy`). The MIT AI Agent Index 2025 entry, written before the GA, records "no option to stop an agent once it starts running" — recorded as the prior state. | 4/4 | https://www.ibm.com/new/announcements/agent-identity-in-ibm-watsonx-orchestrate-is-now-generally-available · https://developer.watson-orchestrate.ibm.com/_releases/1.15.0/agents/deploy_agent · https://aiagentindex.mit.edu/2025/watsonx-orchestrate/ |
+| Human-in-the-loop design | Optional. "Configuring agent behavior" (2026-10-19) gives escalation to a human as an example of an instruction the builder writes; agentic workflows support user-activity steps that pause for a person; no default confirmation step before tool execution is stated on the SaaS credentials or agent-behaviour pages, and the operator's IBM Docs search found no built-in tool-confirmation setting. The Service Description §5.3 assigns to the Client "the appropriate level of supervision of the AI agent". | 1/3 | https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=agents-configuring-agent-behavior (operator input 2026-11-08) · https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en (operator input 2026-11-08) |
+| Permission delegation transparency | Scope + delegation targets documented. "Credentials overview" (2026-11-04) defines team credentials (one shared service-account identity for all users of an agent, set by builders or administrators) and member credentials (the individual user's identity in the external application, collected in draft, live or via SSO), tabulates who provides each, where it is collected and when, lists the supported authentication types per credential model and per channel (embedded chat, in-portal chat, other channels), and states that credentials are stored by the platform. Agent Identity adds a token "scoped to that specific user and agent" and an audit record of "which connection and tool were involved, and which user the agent acted for"; TechXchange 2026 names HashiCorp Vault for credential access. | 3/3 | https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=credentials-overview (operator input 2026-11-08) · https://developer.watson-orchestrate.ibm.com/connections/overview · https://www.ibm.com/new/announcements/agent-identity-in-ibm-watsonx-orchestrate-is-now-generally-available |
+
+**Positive findings.** A one-step platform kill switch that both undeploys and terminates sessions is documented; delegated access is documented at the level of credential model, authentication type and channel; Agent Identity records user, agent, connection and tool per action.
+
+**Recorded concerns.** Human confirmation before tool execution is builder-configured, not a platform default; the kill switch is part of an administrator-enabled feature that requires an external identity provider; the IBM Docs topic describing the kill switch procedure was not read (the announcement is the source).
+
+### C — Containment · 4/10 · Mid
+
+| Criterion | Result | Score | Evidence URL |
+|---|---|---|---|
+| Sandbox design | Hybrid. Python tools: "Each Python tool runs inside an isolated container with its own virtual environment"; "tools execute in a read-only filesystem"; "watsonx Orchestrate validates all packages against a tenant-specific Python package allowlist" (validated at import time); the SaaS runtime "cannot access your company's internal network". Package control is allowlist-based; no egress allowlist, CPU/time limit or syscall policy for tool execution is documented, so the design is recorded as hybrid. | 2/4 | https://developer.watson-orchestrate.ibm.com/tools/create_tool |
+| Least privilege | Configurable. Team credentials give every user of an agent one shared identity by design; member credentials and Agent Identity scoped tokens are available configurations; administrators can restrict what remote MCP servers expose and the tenant package allowlist; no documentation read states a default-deny posture for agent-to-tool or agent-to-connection access. | 1/3 | https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=credentials-overview (operator input 2026-11-08) · https://www.ibm.com/new/announcements/agent-identity-in-ibm-watsonx-orchestrate-is-now-generally-available · https://community.ibm.com/community/user/blogs/shadan-ghadimi/2026/10/22/whats-new-in-watsonx-orchestrate-october-2026-update-for-builders |
+| Tenant isolation (cloud) | Claimed but unverified. "Data isolation on IBM watsonx Orchestrate" (2026-04-17): "As a multi-tenant SaaS platform, watsonx Orchestrate ensures strict logical data isolation across all watsonx Orchestrate plans"; Premium adds dedicated database instances (Service Description §1.1.5) and, on AWS, data isolation is "currently available only on HIPAA-compliant clusters"; TechXchange 2026 describes a Premium Runtime with hardware-virtualized container isolation. The Data Sheet §4.2 states annual penetration testing by IBM teams separate from the development team; SOC 2 reports are on request only, so no independent evidence is public. No cross-tenant incident is on the public record. | 1/3 | https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=availability-data-isolation-watsonx-orchestrate (operator input 2026-11-08) · https://www.ibm.com/new/announcements/ibm-watsonx-orchestrate-advances-enterprise-ai-agent-management-with-new-capabilities-at-techxchange-2026 |
+
+**Positive findings.** Tool execution is containerised with a read-only filesystem and a per-tenant package allowlist enforced at import; the SaaS runtime is stated not to reach customer internal networks; a Premium tier with dedicated database instances and hardware-virtualized isolation is offered.
+
+**Recorded concerns.** Shared team credentials are a first-class model; least privilege depends on configuration; isolation evidence is vendor-stated and the supporting audit reports are not public; outbound network policy for tools is not documented.
+
+### T — Transparency · 7/10 · High
+
+| Criterion | Result | Score | Evidence URL |
+|---|---|---|---|
+| CVE publication posture | Issues CVEs + advisories. IBM is a CNA (CVE-2025-0165, CVE-2025-0166, CVE-2025-1837, CVE-2026-2477 and CVE-2026-2700 assigned by IBM) and publishes PSIRT security bulletins naming the affected product, versions, CWE, CVSS and the fixed release for both product and bundled-component vulnerabilities (product bulletin 7293785, 2026-10-23, with CVE records on 2026-11-08); reports are accepted through IBM Support, HackerOne, psirt@us.ibm.com (PGP) and an anonymous form under a Safe Harbor policy. | 2/2 | https://www.ibm.com/trust/security-psirt · https://www.ibm.com/support/pages/node/7293785 · https://www.ibm.com/support/pages/node/7243596 |
+| Incident disclosure speed | None to time. The 2026-10-23 bulletin is a vulnerability disclosure (four CVEs, fix available), not a security-incident disclosure; no security incident affecting watsonx Orchestrate in the window was located on IBM's PSIRT pages, newsroom, status communications or in independent reporting; the one CVE-less bulletin (gunicorn HTTP request smuggling, 2026-01-30) is a dependency advisory published with the fix. With no in-window product incident disclosure, the criterion scores 0 per its scale (">60d or none"). | 0/2 | https://www.ibm.com/support/pages/node/7259279 · https://www.ibm.com/trust/security-psirt |
+| Security policy publication | Detailed technical + organizational measures. Data Sheet §4: base TOMs per IBM's Data Security and Privacy Principles, annual independent penetration testing, encryption in transit on public and private networks and at rest, least-privileged logged and monitored IBM access (§6); DPA §2 and §5 (TOMs, audit); IBM PSIRT process (FIRST PSIRT framework, four stages). | 2/2 | https://www.ibm.com/terms/?id=4A4E5A6099FC11ECAB2681C6B89D4420 (operator input 2026-11-08) · https://www.ibm.com/support/pages/ibm-security-vulnerability-management |
+| AI safety framework reference | Internal framework documented. The MIT AI Agent Index records IBM's "Principles for Trust and Transparency" as the referenced AI safety framework; Service Description §5.3(b) sets AI use restrictions and references the EU AI Act high-risk definition; the governed catalog announced at TechXchange 2026 is described as aligned to OWASP, CoSAI and the IBM AI Risk Atlas for catalog risk signals. No external AI management standard (ISO/IEC 42001, NIST AI RMF) is stated as adopted for watsonx Orchestrate itself; IBM's ISO 42001 certification on record covers Granite models. | 1/2 | https://aiagentindex.mit.edu/2025/watsonx-orchestrate/ · https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en (operator input 2026-11-08) · https://www.ibm.com/new/announcements/ibm-granite-iso-42001 |
+| AI system identity disclosure | Disclosed by default. The embedded web chat header carries an AI disclaimer control whose option (`header.showAiDisclaimer`, spelled `showAiDisclaime` in the docs) defaults to `true`; Service Description §5.3(b)(iv) prohibits use "in a manner that … conceals the fact a user is interacting with AI". | 2/2 | https://developer.watson-orchestrate.ibm.com/_releases/1.15.0/manage/channels · https://www.ibm.com/support/customer/csol/terms/?id=i126-9451&lc=en (operator input 2026-11-08) |
+
+**Positive findings.** CNA status with dated bulletins that name the fixed release; contractual TOMs and a published PSIRT process; AI disclaimer on by default in the embedded chat and a contractual prohibition on concealing AI interaction.
+
+**Recorded concerns.** No external AI management standard is stated for the product; the product filter of IBM's bulletin catalogue is client-rendered, so a reader must locate bulletins by search.
+
+## Incident Timeline
+
+Product-own items (IBM CNA; affected product "watsonx Orchestrate Cartridge for Cloud Pak for Data"):
+
+| Date | Identifier | CVSS | Description | Patch status | KEV |
+|---|---|---|---|---|---|
+| 2026-10-23 (first public disclosure; CVE records published 2026-11-08) | CVE-2026-2477 — IBM bulletin node 7293785 | CNA (IBM) v3.1 6.5, CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N (computed 6.5; stated 6.5); no NIST Primary or CISA-ADP metric | CWE-862 Missing Authorization: the Cartridge 4.8.4–4.8.5 and 5.0.0–5.4.2 fails to enforce backend authorization checks, allowing low-privileged users to directly invoke administrative API endpoints, bypassing UI-level access restrictions. | Fixed — Cartridge 5.4.4, available at bulletin publication (0 d) | No |
+| 2026-10-23 (CVE record 2026-11-08) | CVE-2025-1837 — IBM bulletin node 7293785 | CNA (IBM) v3.1 5.4, CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N (computed 5.4; stated 5.4) | CWE-650: an authenticated user could perform unauthorized actions due to improper trust of server-side permission methods. | Fixed — Cartridge 5.4.4 (0 d) | No |
+| 2026-10-23 (CVE record 2026-11-08) | CVE-2026-2700 — IBM bulletin node 7293785 | CNA (IBM) v3.1 4.3, CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N (computed 4.3; stated 4.3) | CWE-284 Improper Access Control: low-privileged users can execute administrative functions by directly invoking backend APIs; the backend fails to enforce role-based access control. | Fixed — Cartridge 5.4.4 (0 d) | No |
+| 2026-10-23 (CVE record 2026-11-08) | CVE-2025-0166 — IBM bulletin node 7293785 | CNA (IBM) v3.1 2.7, CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N (computed 2.7; stated 2.7) | CWE-540: could disclose sensitive source code information that should not be accessible. | Fixed — Cartridge 5.4.4 (0 d) | No |
+
+Dependency items (Attribution-CVE-001; `dependency: <vendor/product>`), one row per IBM bulletin located in the window; "IBM" scores are the values stated in the bulletin with the version IBM states; CNA / ADP values from the CVE List are given for the highest item in each row where read. Bulletin publication date = fixed release available (IBM PSIRT policy).
+
+| Date | Identifier | CVSS | Description | Patch status | KEV |
+|---|---|---|---|---|---|
+| 2026-09-29 | IBM bulletin — Developer Edition 2.17.0 (`dependency:` multiple — Apache HTTP Server, Hugging Face transformers, others; 90 entries listed, page truncated, one rejected ID) | highest CVE-2026-29167: IBM 9.8 v3.1; CISA-ADP v3.1 9.8; no CNA vector · CVE-2026-5241: CNA @huntr_ai v3.0 8.0, Red Hat SADP v3.1 7.7 | Bundled-component vulnerabilities fixed in Developer Edition 2.17.0. Upstream → IBM fix: 113 d (CVE-2026-29167), 118 d (CVE-2026-5241). | Fixed 2.17.0 | No |
+| 2026-08-25 | IBM bulletin node 7285076 (`dependency: apache/log4j`) | CVE-2026-34481: IBM 7.5 v3.1; CNA apache v4.0 6.3 | Apache Log4j JsonTemplateLayout; Assistant Builder Component 5.0–5.4.1. Upstream → fix 137 d. | Fixed 5.4.2 | No |
+| 2026-07-18 | IBM bulletin node 7280476 — Cartridge 5.4.0 (`dependency:` multiple, 22 entries) | highest CVE-2025-32434: IBM 9.8 v3.1; CNA GitHub_M v4.0 9.3 | PyTorch torch.load RCE and 21 further component CVEs; Cartridge 4.8.4–5.3.3. Upstream (2025-04-18) → fix 456 d. | Fixed 5.4.0 | No |
+| 2026-06-22 | IBM bulletins node 7277310 (`dependency: micromatch/picomatch`, 2 entries), fast-xml-parser-3 (`dependency: NaturalIntelligence/fast-xml-parser`), pip-0 (`dependency: pypa/pip`) | CVE-2026-33671: IBM 7.5 v3.1; CNA GitHub_M v3.1 7.5 · CVE-2026-26278: IBM 7.5 v3.1; CNA GitHub_M v3.1 7.5 · CVE-2026-1703: IBM 2.0 v4.0; CNA PSF v4.0 2.0 | Assistant Builder Component 5.0–5.3.1. Upstream → fix 88 d / 123 d / 140 d. | Fixed 5.4 | No |
+| 2026-05-18 | IBM bulletins Cartridge -7 (`dependency:` multiple, 50 entries) and -6 (`dependency:` multiple, 18 entries) | highest CVE-2026-25896: IBM 9.3 v3.1; CNA GitHub_M v3.1 9.3; Red Hat SADP v3.1 7.1 · CVE-2022-45868 (H2): IBM 8.4 v3.0 | fast-xml-parser, Node.js, OpenSSL, H2 and others; Cartridge 4.8.4–5.3.1. Upstream → fix 87 d (CVE-2026-25896). | Fixed 5.3.2 | No |
+| 2026-05-04 | IBM bulletin "Pillowy" (`dependency: python-pillow/Pillow`) | CVE-2026-25990: IBM 7.5 v3.1; CNA GitHub_M v4.0 8.6; Red Hat SADP v3.1 7.3 | Assistant Builder Component 5.0–5.3.0. Upstream → fix 82 d. | Fixed 5.3.1 | No |
+| 2026-04-07 | IBM bulletin — Developer Edition 2.7.0 (`dependency:` multiple, 29 entries) | highest CVE-2025-14009 (NLTK): IBM 10.0 v3.0; CNA @huntr_ai v3.0 10.0; Red Hat SADP v3.1 8.8 · CVE-2026-27837 (dottie.js): IBM 9.8; CNA GitHub_M v3.1 6.3 · CVE-2025-55130 (Node.js): IBM 9.1; CNA hackerone v3.0 7.1 | Developer Edition 1.4.0–2.6.0. Upstream → fix 48 d / 40 d / 77 d. | Fixed 2.7.0 | No |
+| 2026-03-23 | IBM bulletins node 7267234 (`dependency: pypa/pip`) and node 7267233 (`dependency: isaacs/node-tar`) | CVE-2025-8869: IBM 5.9 v4.0; CNA PSF v4.0 5.9 · CVE-2026-23745: IBM 6.1 v3.1; CNA GitHub_M v4.0 8.2; Red Hat SADP v3.1 8.2 | UAB Component 5.1.0–5.3.0. Upstream → fix 180 d / 66 d. | Fixed 5.3.1 | No |
+| 2026-03-10 | IBM bulletin Cartridge -5 (`dependency:` multiple, 85 entries) | highest CVE-2025-66034 (fontTools): IBM 9.8 v3.1; CNA GitHub_M v3.1 6.3 · CVE-2025-22871 (Go net/http): IBM 9.1; CISA-ADP v3.1 9.1 | Cartridge 4.8.4–5.3. Upstream → fix 101 d / 336 d. | Fixed 5.3.1 | No |
+| 2026-01-30 | IBM bulletins node 7259287 (`dependency: moxystudio/node-cross-spawn`) and node 7259279 (`dependency: benoitc/gunicorn`; CVE-less advisory, not counted) | CVE-2024-21538: IBM 7.5 v3.1 · gunicorn: no CVE or score stated | Developer Edition 1.4.0–2.2.0; HTTP request smuggling in gunicorn and ReDoS in cross-spawn. | Fixed 2.3.0 | No |
+| 2026-01-22 | IBM bulletin node 7257724 (`dependency: node-formidable/formidable`) | CVE-2025-46653: IBM 8.8 v3.1; CNA mitre v3.1 3.1 | UAB Component 5.1.0–5.2.1. Upstream → fix 271 d. | Fixed 5.2.2 | No |
+| 2025-12-29 | IBM bulletins node 7255645 (`dependency: browserify/cipher-base`) and netty-2 (`dependency: netty/netty`) | CVE-2025-9287: IBM 9.1 v3.1; CNA harborist v4.0 9.1 · CVE-2025-25193: IBM 5.5 v3.1; CNA GitHub_M v3.1 5.5 | Assistant Builder Component 5.0–5.2.2. Upstream → fix 131 d / 322 d. The 9.1 is the value the base record carried as `max_cvss_12mo`. | Fixed 5.3.0 | No |
+| 2025-12-17 | IBM bulletins — Developer Edition 1.15.0: tar DoS (`dependency: isaacs/node-tar`), node 7255089 (`dependency: postcss/postcss`), node 7255090 (`dependency: yahoo/serialize-javascript`), webpack-dev-server (`dependency: webpack/webpack-dev-server`, 2 entries) | CVE-2024-28863: IBM 6.5 v3.0 · CVE-2023-44270: IBM 5.3 v3.0 · CVE-2024-11831: IBM 5.4 v3.1 · CVE-2025-30360: IBM 6.5 v3.1; CNA GitHub_M v3.1 6.5 | Developer Edition 1.4.0–1.14.0. Upstream → fix 197 d (CVE-2025-30360). | Fixed 1.15.0 | No |
+| 2025-11-28 | IBM bulletin node 7253020 (`dependency: cure53/DOMPurify`) | CVE-2025-26791: IBM 6.1 v3.1; CNA mitre v3.1 4.5 | Mutation XSS in DOMPurify; Developer Edition 1.4.0–1.14.0. Upstream → fix 287 d. | Fixed 1.15.0 | No |
+| 2025-10-29 (outside window) | IBM bulletin node 7249547 (`dependency: pytorch/pytorch`) | CVE-2025-3730: IBM 5.5 v3.1 | Developer Edition 1.4.0–1.12.0. | Fixed 1.13.0 | No |
+| 2025-08-30 (outside window) | CVE-2025-0165 — IBM bulletin node 7243596 (product-own; IBM CNA) | CNA (IBM) v3.1 7.6, vector AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L (computed 7.6; stated 7.6); no NIST Primary score | SQL injection in IBM watsonx Orchestrate Cartridge for IBM Cloud Pak for Data 4.8.4, 4.8.5 and 5.0.0–5.2.0; a remote attacker could view, add, modify or delete back-end database information. Published and fixed on the same date. | Fixed (bulletin 2025-08-30) | No |
+
+Bulletin URLs: https://www.ibm.com/support/pages/node/7293785 · https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-developer-edition-22 · https://www.ibm.com/support/pages/node/7285076 · https://www.ibm.com/support/pages/node/7280476 · https://www.ibm.com/support/pages/node/7277310 · https://www.ibm.com/support/pages/security-bulletin-vulnerability-fast-xml-parser-affects-ibm-watsonx-assistant-cartridge-and-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-3 · https://www.ibm.com/support/pages/security-bulletin-vulnerability-pip-affects-ibm-watsonx-assistant-cartridge-and-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-0 · https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-7 · https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-6 · https://www.ibm.com/support/pages/security-bulletin-vulnerability-pillowy-affects-ibm-watsonx-assistant-cartridge-and-ibm-watsonx-orchestrate-watsonx-assistant-cartridge · https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-developer-edition-9 · https://www.ibm.com/support/pages/node/7267234 · https://www.ibm.com/support/pages/node/7267233 · https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-5 · https://www.ibm.com/support/pages/node/7259287 · https://www.ibm.com/support/pages/node/7259279 · https://www.ibm.com/support/pages/node/7257724 · https://www.ibm.com/support/pages/node/7255645 · https://www.ibm.com/support/pages/security-bulletin-vulnerability-netty-affects-ibm-watsonx-assistant-cartridge-and-ibm-watsonx-orchestrate-watsonx-assistant-cartridge-2 · https://www.ibm.com/support/pages/security-bulletin-ibm-watsonx-orchestrate-developer-edition-vulnerable-denial-service-dos-due-tar · https://www.ibm.com/support/pages/node/7255089 · https://www.ibm.com/support/pages/node/7255090 · https://www.ibm.com/support/pages/security-bulletin-ibm-watsonx-orchestrate-developer-edition-vulnerable-exposed-dangerous-method-or-function-origin-validation-error-due-webpack-dev-server · https://www.ibm.com/support/pages/node/7253020 · https://www.ibm.com/support/pages/node/7249547 · https://www.ibm.com/support/pages/node/7243596
+
+## Contextual Analysis
+
+Evidence rule for this report: every factual claim is tied to a URL retrieved during the evaluation session or to rendered text supplied by the operator with its retrieval date; pages that could not be read are listed as unread in the Differential section rather than scored as silence.
+
+The vulnerability record of watsonx Orchestrate in the window has two parts. The product's own part is one bulletin: on 2026-10-23 IBM disclosed four defects in the Cartridge for Cloud Pak for Data (versions 4.8.4 through 5.4.2) and shipped 5.4.4 the same day; the CVE List records followed on 2026-11-08. Three of the four describe one condition — the user interface restricted administrative functions while the backend APIs did not check authorization or role, so a low-privileged user calling the API directly could perform administrative actions — and the fourth is a source-code information disclosure. The same-day fix is what the patch-speed criterion rewards; the shared root cause is what the structural criterion records. The second part is the software bill of materials: 22 further IBM bulletins apply a consistent pattern — each names the affected IBM product and version range, lists the bundled component CVEs with IBM's CVSS values and names the fixed release — and, read against the upstream CVE records, show that the product shipped the vulnerable component for several months after public disclosure (a median in the range of three to four months for the twenty highest-severity items, more than a year for the PyTorch and Go items). Under the product-scoped attribution rule the count and maximum read 4 and 6.5; the dependency lag is reported here and in the Incident Timeline and no longer scores the patch-speed criterion now that product CVEs exist. A reader comparing this record with the base record should note that R rises from 7 to 11 because the counting rule changed on 2026-09-22 (the base figures "10+" and 9.1 were built on dependency CVEs), not because the bulletin volume fell; the number of IBM bulletins for the product in this window is higher than in the base window.
+
+IBM's own disclosure position, as stated on its PSIRT pages, is that it does not disclose or confirm a vulnerability until analysis is complete and a fix or mitigation has been issued; the product bulletin and the dependency bulletins both follow it. Two of the four product CVE IDs (CVE-2025-0166, CVE-2025-1837) were reserved in 2025 and published in November 2026, so the interval between IBM's internal awareness and public disclosure is not on the public record. IBM's CVSS values in the dependency bulletins frequently differ from the CNA values on the CVE List (for example fontTools CVE-2025-66034: IBM 9.8, CNA 6.3; Formidable CVE-2025-46653: IBM 8.8, CNA 3.1), in both directions; the report records both where read and does not adjudicate which better describes exposure inside the product. For the four product CVEs the bulletin and the CVE List carry identical values. The earlier product CVE, CVE-2025-0165 (SQL injection, CNA v3.1 7.6), was likewise published with its fix on the same day; it predates this window.
+
+On data conduct, the contract moved in the client's favour between the two Service Description editions read: the 01/2024 edition (§6.1.2) allowed use of content to improve the service with an opt-out; the 09/2026 edition (§5.3, §6.2) states that Client Content and Outputs are not used to train foundation or embedding models, confines service-improvement use to Auxiliary AI Features data with an opt-out, and excludes catalog-agent data from collection. The Data Sheet names the third-party model and voice hosts (Groq, Microsoft Azure, ElevenLabs, Deepgram) as suppliers, and the Service Description discloses that Microsoft may temporarily store and have authorised employees review inputs and outputs flagged by abuse monitoring for the Premier LLM add-on, and that ISO 27001 does not extend to the Groq platform. These are disclosures, recorded as such.
+
+On control and containment, the November 2026 Agent Identity GA is the material change: a named identity per agent, tokens scoped to user and agent, a per-action audit record and a one-step kill switch. The MIT AI Agent Index entry, compiled before this release, recorded no way to stop a running agent; the two statements are dated and both stand. Human confirmation before an action remains something a builder writes into instructions or a workflow step; IBM's Service Description places the "appropriate level of supervision of the AI agent" with the Client. Tool execution is containerised with a read-only filesystem and a tenant package allowlist, which is more than many hosted agent platforms document, but outbound network policy for tools and a default-deny posture for connections are not described in the pages read, and the isolation claims rest on vendor statements whose audit evidence (SOC 2) is available on request only.
+
+Operator of record: International Business Machines Corporation, named on the IBM Privacy Statement (effective 2026-08-25) as the responsible entity, with the Service Description issued under the IBM Client Relationship Agreement; `independence: parent`, `parent_entity: null` (IBM is a listed company with no controlling owner; the #013 form). The base record's "IBM Corporation" is the same entity. FedRAMP: IBM's newsroom release of 2026-04-01 names watsonx Orchestrate among eleven solutions authorized on AWS GovCloud (U.S.); the impact level is not stated in the release and the FedRAMP Marketplace listing was not read, so the authorization is recorded on the vendor's statement.
+
+Disclosure Triggers 0–3: none fire. IBM is not in the material Anthropic equity-holder set; no member of that set holds a recorded board seat, lead or strategic designation or USD 100 million position in International Business Machines Corporation; the chain of control ends at IBM. Amazon Web Services and Microsoft Azure appear as hosting sub-processors and the product is sold through the AWS Marketplace — supplier and distribution relationships that ENGINE.md lists as non-triggers. Product-level integration, recorded separately and not a disclosure trigger: Anthropic is one of fourteen external LLM providers that the watsonx Orchestrate AI Gateway supports (alongside OpenAI, Google, Mistral, Azure OpenAI, AWS Bedrock and others); the October 2026 release notes list "Claude Sonnet 4.6 — Anthropic (via AWS Bedrock)" with an updated model ID and the discovery of "Claude managed agents" through AI Gateway. No Anthropic entry appears in the Data Sheet's sub-processor table; external models are governed by Service Description §5.3. A model-provider relationship is the premise of VERDICT and is not itself a conflict.
+
+## VERDICT Record
+
+**Summary.** IBM watsonx Orchestrate scores 56/85 (Tier A), up from 48: four product-own CVEs in the Cartridge (maximum 6.5, three sharing a backend-authorization root cause) disclosed with the fix available the same day, no KEV entry or supply chain compromise, contractual no-training terms with a dated Data Sheet and DPA, and a one-step agent kill switch, against a dependency record of 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure, closed source, SOC 2 reports on request only, and least privilege and isolation that depend on configuration and vendor statement.
+
+**Risk Factor Summary by Use Case**
+
+| Use case | Recorded factors |
+|---|---|
+| Internal testing | 30-day trial (Absolute Rule 2 observed: no trial used); Developer Edition runs locally via the MIT ADK with opt-in IBM telemetry; beta or experimental functionality is contractually excluded from personal data and production use (Service Description §5.11). |
+| Credential-handling workflows | Team credentials are a shared identity for all users of an agent; member credentials and Agent Identity scoped tokens are available; credentials stored by the platform (HashiCorp Vault named at TechXchange 2026); no default confirmation before tool execution; OAuth, API-key, basic and JWT-bearer types documented per channel. |
+| On-premises Cartridge (Cloud Pak for Data / Software Hub) | Cartridge 4.8.4–4.8.5 and 5.0.0–5.4.2 carry CVE-2026-2477 (6.5), CVE-2025-1837 (5.4), CVE-2026-2700 (4.3) and CVE-2025-0166 (2.7); fix is 5.4.4 (bulletin 2026-10-23), no workaround published; the three authorization CVEs are exploitable by authenticated low-privileged users against administrative APIs. |
+| Cloud multi-tenant deployment | Logical isolation stated for all plans; Premium adds dedicated database instances and, on AWS, HIPAA-cluster-only availability; audit evidence on request; no cross-tenant incident on record; eight third-party suppliers process Content. |
+| Regulated-data workloads | DPA Z126-7870-07 with Data Sheet as exhibit; no-training terms; 60-day deletion / 35-day backup expiry; ISO 27001/27017/27018/27701 and SOC 2 Type 2 at IBM corporation level [OCR]; FedRAMP on AWS GovCloud per IBM's 2026-04-01 release (level not stated; marketplace not read); HIPAA on Premium us-east-1 only; Premier LLM inputs/outputs may be temporarily stored and reviewed by Microsoft under abuse monitoring. |
+
+**Reference Information (options, not instructions)**
+
+1. Organizations running the Cartridge may confirm their version against the 4.8.4–4.8.5 / 5.0.0–5.4.2 range in bulletin 7293785 and the 5.4.4 fix level, since no workaround is published for the four product CVEs.
+2. Organizations may compare the component CVEs in the IBM bulletin for their installed Cartridge or Developer Edition version against the upstream disclosure dates to estimate their own exposure interval, since IBM's bulletins are published at fix availability.
+3. Organizations may review whether their agents use team or member credentials per connection, and whether Agent Identity (IBM Verify or Microsoft Entra) is enabled, since the kill switch and per-user scoped tokens depend on that configuration.
+4. Organizations handling regulated data may request the SOC 2 Type 2 report and the FedRAMP package through their IBM representative, and locate the §6.2 opt-out procedure for Auxiliary AI Features data in the product documentation.
+
+**Bias Disclosure**
+
+"This evaluation uses Claude (Anthropic) as its tooling. Anthropic operates in the AI agent market and may compete with some evaluated vendors. VERDICT discloses this relationship in every report and applies identical evaluation criteria to all platforms regardless of their relationship to Anthropic."
+
+## Evaluation History
+
+| Date | Type | Score | Tier | Framework |
+|---|---|---|---|---|
+| 2026-03-30 | Initial (migrated capture) | 48/85 | B | v0.3.1 |
+| 2026-11-09 | Update (differential, full re-evaluation; run 3 with operator input and verification) | 56/85 | A | v0.3.2 |
+
+## Future Evaluation Plan
+
+- Layer 1 (behavioral testing): not scheduled; watsonx Orchestrate offers a 30-day trial rather than a standing free tier, so 30-run × 4-level testing across 3+ days without vendor-provided trial access is not available (Absolute Rule 2). The Developer Edition server and chat commands are marked "[requires entitlement]" in the ADK CLI and pull images from us.icr.io/watson-orchestrate-private (https://github.com/IBM/ibm-watsonx-orchestrate-adk, src/ibm_watsonx_orchestrate/cli/main.py).
+- Layer C: routine review 365 days from `updated_at` (pipeline-derived `next_review_due`); interrupt lane active for T1–T6. Watch items: any further IBM-CNA CVE naming watsonx Orchestrate (T1), in particular further authorization-enforcement defects in the Cartridge after 5.4.4; NIST Primary or CISA-ADP metrics appearing on the four 2026-11-08 records; the FedRAMP Marketplace listing and impact level; the IBM Docs topic for the Agent Identity kill switch and the §6.2 opt-out procedure; whether the product gains an ISO/IEC 42001 scope statement.
+- Dormancy test: not applicable — SaaS October 2026 release deployed from 2026-11-04; ADK 2.19.1 released 2026-10-22; Cartridge 5.4.4 named 2026-10-23.
+
+---
+
+**Score tag line:** `V14 R11 D12 I8 C4 T7 = 56/85 · Tier A · prev 48 · cve_count_12mo 4 (exact) · max_cvss_12mo 6.5 · KEV none · supply_chain false`
+Dimension sum check: 14 + 11 + 12 + 8 + 4 + 7 = 56 ✔

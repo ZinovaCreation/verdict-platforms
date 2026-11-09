@@ -20,24 +20,24 @@ _Auto-generated — 70 platform(s). Do not edit by hand._
 | 14 | A | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | Enterprise AI Assistant · OSS + Cloud SaaS | 57/85 | 13 | 17 | 13 | 7 | 3 | 4 |  |
 | 14 | A | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | AI Coding Agent · Microsoft | 57/85 | 12 | 17 | 7 | 7 | 5 | 9 |  |
 | 16 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 | 11 | 20 | 3 | 8 | 6 | 8 |  |
+| 16 | A | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | International Business Machines Corporation (IBM) | Enterprise AI Agent Platform · Cloud SaaS + On-Prem | 56/85 | 14 | 11 | 12 | 8 | 4 | 7 |  |
 | 16 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | Workflow Automation · API Integration | 56/85 | 11 | 16 | 12 | 5 | 8 | 4 |  |
 | 16 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | AI App Builder · Cloud SaaS | 56/85 | 13 | 17 | 8 | 5 | 6 | 7 |  |
-| 19 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | LLM Observability | 55/85 | 14 | 9 | 11 | 8 | 6 | 7 |  |
-| 19 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | AI Agent Platform | 55/85 | 14 | 17 | 11 | 4 | 2 | 7 |  |
-| 21 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | AI Safety | 52/85 | 18 | 17 | 5 | 4 | 3 | 5 |  |
-| 21 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | Browser Agent · AGPL-3.0 + Cloud | 52/85 | 14 | 17 | 4 | 6 | 5 | 6 |  |
-| 21 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | Browser Agent SDK · Open Source (MIT) | 52/85 | 16 | 17 | 4 | 5 | 5 | 5 |  |
-| 21 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | Conversational AI · Cloud SaaS | 52/85 | 10 | 14 | 10 | 8 | 4 | 6 |  |
-| 21 | B | [aider](../platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 | 14 | 17 | 5 | 8 | 5 | 3 |  |
-| 26 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | LLM Observability | 51/85 | 13 | 17 | 3 | 8 | 4 | 6 |  |
-| 26 | B | [Gemini Enterprise Agent Platform (formerly Vertex AI Agent Builder)](../platforms/vertex-ai.md) | Google LLC | No-Code Agent Builder · Enterprise SaaS | 51/85 | 16 | 6 | 13 | 6 | 3 | 7 |  |
-| 28 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 | 14 | 5 | 8 | 10 | 6 | 7 |  |
-| 29 | B | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | Managed Agent Platform · Enterprise SaaS | 49/85 | 12 | 6 | 13 | 6 | 4 | 8 |  |
-| 29 | B | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | LLM Agent Framework · Open Source (MIT core) | 49/85 | 15 | 8 | 7 | 6 | 6 | 7 |  |
-| 31 | B | [Composio](../platforms/composio.md) | Sampark, Inc. d/b/a Composio · San Francisco | AI Agent Tool Integration · OSS SDK + Cloud | 48/85 | 14 | 11 | 9 | 6 | 3 | 5 |  |
-| 31 | B | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | IBM Corporation | Enterprise AI Agent Platform · Cloud SaaS + On-Prem | 48/85 | 11 | 7 | 9 | 7 | 6 | 8 |  |
-| 31 | B | [Replit](../platforms/replit.md) | Replit Inc. · $1.16B | AI Coding Agent / Cloud IDE | 48/85 | 10 | 14 | 6 | 5 | 5 | 8 |  |
-| 31 | B | [Zapier](../platforms/zapier.md) | Independent | Workflow Automation · Cloud SaaS | 48/85 | 10 | 15 | 9 | 3 | 6 | 5 |  |
+| 20 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | LLM Observability | 55/85 | 14 | 9 | 11 | 8 | 6 | 7 |  |
+| 20 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | AI Agent Platform | 55/85 | 14 | 17 | 11 | 4 | 2 | 7 |  |
+| 22 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | AI Safety | 52/85 | 18 | 17 | 5 | 4 | 3 | 5 |  |
+| 22 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | Browser Agent · AGPL-3.0 + Cloud | 52/85 | 14 | 17 | 4 | 6 | 5 | 6 |  |
+| 22 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | Browser Agent SDK · Open Source (MIT) | 52/85 | 16 | 17 | 4 | 5 | 5 | 5 |  |
+| 22 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | Conversational AI · Cloud SaaS | 52/85 | 10 | 14 | 10 | 8 | 4 | 6 |  |
+| 22 | B | [aider](../platforms/aider.md) | Aider AI LLC | AI Coding Agent | 52/85 | 14 | 17 | 5 | 8 | 5 | 3 |  |
+| 27 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | LLM Observability | 51/85 | 13 | 17 | 3 | 8 | 4 | 6 |  |
+| 27 | B | [Gemini Enterprise Agent Platform (formerly Vertex AI Agent Builder)](../platforms/vertex-ai.md) | Google LLC | No-Code Agent Builder · Enterprise SaaS | 51/85 | 16 | 6 | 13 | 6 | 3 | 7 |  |
+| 29 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | AI Coding Agent | 50/85 | 14 | 5 | 8 | 10 | 6 | 7 |  |
+| 30 | B | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | Managed Agent Platform · Enterprise SaaS | 49/85 | 12 | 6 | 13 | 6 | 4 | 8 |  |
+| 30 | B | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | LLM Agent Framework · Open Source (MIT core) | 49/85 | 15 | 8 | 7 | 6 | 6 | 7 |  |
+| 32 | B | [Composio](../platforms/composio.md) | Sampark, Inc. d/b/a Composio · San Francisco | AI Agent Tool Integration · OSS SDK + Cloud | 48/85 | 14 | 11 | 9 | 6 | 3 | 5 |  |
+| 32 | B | [Replit](../platforms/replit.md) | Replit Inc. · $1.16B | AI Coding Agent / Cloud IDE | 48/85 | 10 | 14 | 6 | 5 | 5 | 8 |  |
+| 32 | B | [Zapier](../platforms/zapier.md) | Independent | Workflow Automation · Cloud SaaS | 48/85 | 10 | 15 | 9 | 3 | 6 | 5 |  |
 | 35 | B | [Bolt.new](../platforms/bolt-new.md) | StackBlitz · $700M | AI App Builder · OSS Core | 47/85 | 12 | 17 | 4 | 3 | 7 | 4 |  |
 | 35 | B | [Cursor](../platforms/cursor.md) | Anysphere · $29.3B | AI Coding IDE · Proprietary | 47/85 | 10 | 8 | 11 | 7 | 5 | 6 |  |
 | 35 | B | [Haystack](../platforms/haystack.md) | deepset GmbH · Berlin, Germany | AI Application Framework · Open Source (Apache 2.0) | 47/85 | 15 | 17 | 5 | 2 | 3 | 5 |  |

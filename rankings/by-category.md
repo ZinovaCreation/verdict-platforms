@@ -24,7 +24,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 19 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | 55/85 |
+| 20 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | 55/85 |
 
 ## AI Agent Platform · Closed Source
 
@@ -48,7 +48,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 31 | B | [Composio](../platforms/composio.md) | Sampark, Inc. d/b/a Composio · San Francisco | 48/85 |
+| 32 | B | [Composio](../platforms/composio.md) | Sampark, Inc. d/b/a Composio · San Francisco | 48/85 |
 
 ## AI App Builder · Cloud SaaS
 
@@ -74,14 +74,14 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 4 | S | [Gemini Code Assist](../platforms/gemini-code-assist.md) | Google LLC | 67/85 |
-| 21 | B | [aider](../platforms/aider.md) | Aider AI LLC | 52/85 |
-| 28 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | 50/85 |
+| 22 | B | [aider](../platforms/aider.md) | Aider AI LLC | 52/85 |
+| 29 | B | [Cline](../platforms/cline.md) | Cline Bot, Inc. | 50/85 |
 
 ## AI Coding Agent / Cloud IDE
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 31 | B | [Replit](../platforms/replit.md) | Replit Inc. · $1.16B | 48/85 |
+| 32 | B | [Replit](../platforms/replit.md) | Replit Inc. · $1.16B | 48/85 |
 
 ## AI Coding Agent · Cloud SaaS
 
@@ -123,7 +123,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 21 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
+| 22 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | 52/85 |
 | 65 | D | [Guardrails AI](../platforms/guardrails-ai.md) | Harvey (via Guardrails AI, Inc.) | 32/85 |
 
 ## Agent Framework
@@ -178,13 +178,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 21 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | 52/85 |
+| 22 | B | [Stagehand](../platforms/stagehand.md) | Browserbase Inc. · $67.5M · 21.7k stars | 52/85 |
 
 ## Browser Agent · AGPL-3.0 + Cloud
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 21 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | 52/85 |
+| 22 | B | [Skyvern](../platforms/skyvern.md) | Skyvern Inc. · Y Combinator S23 · $9.5M | 52/85 |
 
 ## Browser Agent · Proprietary (EU)
 
@@ -214,13 +214,13 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 21 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | 52/85 |
+| 22 | B | [Voiceflow](../platforms/voiceflow.md) | Voiceflow Inc. · Toronto, Canada | 52/85 |
 
 ## Enterprise AI Agent Platform · Cloud SaaS + On-Prem
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 31 | B | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | IBM Corporation | 48/85 |
+| 16 | A | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | International Business Machines Corporation (IBM) | 56/85 |
 
 ## Enterprise AI Assistant · Agent Platform · Cloud SaaS
 
@@ -268,7 +268,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 29 | B | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | 49/85 |
+| 30 | B | [LangChain](../platforms/langchain.md) | Independent · Sequoia / IVP · $1.25B Unicorn (Oct 2025) | 49/85 |
 
 ## LLM Application Builder · Open Source
 
@@ -280,14 +280,14 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 19 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | 55/85 |
-| 26 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | 51/85 |
+| 20 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | 55/85 |
+| 27 | B | [Arize AI](../platforms/arize-ai.md) | Arize AI, Inc. | 51/85 |
 
 ## Managed Agent Platform · Enterprise SaaS
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 29 | B | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | 49/85 |
+| 30 | B | [AWS Bedrock Agents](../platforms/bedrock.md) | Amazon Web Services, Inc. | 49/85 |
 
 ## Multi-Agent Dev Framework · OSS (MIT)
 
@@ -324,7 +324,7 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 11 | A | [Microsoft Copilot Studio](../platforms/copilot-studio.md) | Microsoft Corporation | 58/85 |
-| 26 | B | [Gemini Enterprise Agent Platform (formerly Vertex AI Agent Builder)](../platforms/vertex-ai.md) | Google LLC | 51/85 |
+| 27 | B | [Gemini Enterprise Agent Platform (formerly Vertex AI Agent Builder)](../platforms/vertex-ai.md) | Google LLC | 51/85 |
 
 ## RAG / Agent Data Framework · Open core (MIT framework; closed-source LlamaCloud)
 
@@ -367,7 +367,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 31 | B | [Zapier](../platforms/zapier.md) | Independent | 48/85 |
+| 32 | B | [Zapier](../platforms/zapier.md) | Independent | 48/85 |
 | 38 | B | [Make.com](../platforms/make.md) | Independent (Celonis portfolio) | 46/85 |
 
 ## Workflow Automation · Fair-code

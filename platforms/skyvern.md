@@ -77,7 +77,7 @@ tags:
 - insurance
 - healthcare
 - finance
-rank: 21
+rank: 22
 sources:
 - https://github.com/Skyvern-AI/skyvern
 - https://www.skyvern.com/

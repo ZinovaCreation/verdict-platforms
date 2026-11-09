@@ -84,7 +84,7 @@ tags:
 - tool-integration
 - firewall
 - security-incident-2026
-rank: 31
+rank: 32
 sources:
 - https://composio.dev/legal/dpa
 - https://composio.dev/terms

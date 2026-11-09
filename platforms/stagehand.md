@@ -76,7 +76,7 @@ tags:
 - 1Password-integration
 - Browserbase-parent
 - Notable-Capital-Series-B
-rank: 21
+rank: 22
 sources:
 - https://github.com/browserbase/stagehand
 - https://github.com/browserbase/stagehand/releases

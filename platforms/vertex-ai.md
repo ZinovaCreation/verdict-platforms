@@ -76,7 +76,7 @@ next_review_due: '2027-11-07'
 tags:
   - evaluator-coi
   - direct-investment
-rank: 26
+rank: 27
 sources:
   - https://cloud.google.com/terms/google-entity
   - https://cloud.google.com/terms

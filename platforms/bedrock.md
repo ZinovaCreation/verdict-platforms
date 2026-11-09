@@ -76,7 +76,7 @@ next_review_due: '2027-11-06'
 tags:
 - evaluator-coi
 - direct-investment
-rank: 29
+rank: 30
 sources:
 - https://aws.amazon.com/agreement/
 - https://aws.amazon.com/privacy/
