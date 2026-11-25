@@ -19,10 +19,10 @@ _Auto-generated — 70 platform(s). Do not edit by hand._
 | 11 | A | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | AI Coding IDE · VS Code Fork | 58/85 | 10 | 14 | 12 | 7 | 6 | 9 |  |
 | 14 | A | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | Enterprise AI Assistant · OSS + Cloud SaaS | 57/85 | 13 | 17 | 13 | 7 | 3 | 4 |  |
 | 14 | A | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | AI Coding Agent · Microsoft | 57/85 | 12 | 17 | 7 | 7 | 5 | 9 |  |
-| 16 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 | 11 | 20 | 3 | 8 | 6 | 8 |  |
-| 16 | A | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | International Business Machines Corporation (IBM) | Enterprise AI Agent Platform · Cloud SaaS + On-Prem | 56/85 | 14 | 11 | 12 | 8 | 4 | 7 |  |
-| 16 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | Workflow Automation · API Integration | 56/85 | 11 | 16 | 12 | 5 | 8 | 4 |  |
-| 16 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | AI App Builder · Cloud SaaS | 56/85 | 13 | 17 | 8 | 5 | 6 | 7 |  |
+| 14 | A | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | International Business Machines Corporation (IBM) | Enterprise AI Agent Platform · Cloud SaaS + On-Prem | 57/85 | 14 | 12 | 12 | 8 | 4 | 7 |  |
+| 17 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 | 11 | 20 | 3 | 8 | 6 | 8 |  |
+| 17 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | Workflow Automation · API Integration | 56/85 | 11 | 16 | 12 | 5 | 8 | 4 |  |
+| 17 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | AI App Builder · Cloud SaaS | 56/85 | 13 | 17 | 8 | 5 | 6 | 7 |  |
 | 20 | A | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | LLM Observability | 55/85 | 14 | 9 | 11 | 8 | 6 | 7 |  |
 | 20 | A | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | AI Agent Platform | 55/85 | 14 | 17 | 11 | 4 | 2 | 7 |  |
 | 22 | B | [NeMo Guardrails](../platforms/nemo-guardrails.md) | NVIDIA Corporation | AI Safety | 52/85 | 18 | 17 | 5 | 4 | 3 | 5 |  |

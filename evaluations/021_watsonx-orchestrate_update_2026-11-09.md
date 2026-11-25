@@ -14,10 +14,11 @@
 | Operator of record | International Business Machines Corporation (IBM); `independence: parent`, `parent_entity: null` |
 | Lane | Routine (batch-1 scheduled; interval not elapsed) — Tranche B 7 of 14 |
 | Trailing 12-month window (R) | 2025-11-09 → 2026-11-09 |
+| Correction | 2026-11-21 — R "CVE count (trailing 12 months)" re-scored 1 → 2: a count of 4 falls in the 3–5 band of ENGINE.md (2 points), and the −1 penalty applies only where a CVSS 9.0+ CVE exists. R 11 → 12; total 56/85 → 57/85; Tier A unchanged. Evidence, dates and all other scores are unchanged; see Differential. |
 
 ## Executive Summary
 
-Four CVEs whose affected product is the IBM watsonx Orchestrate Cartridge for Cloud Pak for Data (4.8.4–4.8.5 and 5.0.0–5.4.2) were published by IBM as CNA on 2026-11-08 — CVE-2026-2477 (missing backend authorization on administrative API endpoints, CNA CVSS v3.1 6.5), CVE-2026-2700 (backend fails to enforce role-based access control, 4.3), CVE-2025-1837 (improper trust of server-side permission methods, 5.4) and CVE-2025-0166 (source-code information disclosure, 2.7) — all first disclosed in IBM bulletin 7293785 on 2026-10-23 with the fixed release 5.4.4 available the same day, giving `cve_count_12mo: 4` (exact) and `max_cvss_12mo: 6.5` for the window 2025-11-09 → 2026-11-09 (CVE List re-scanned at 2026-11-09T05:47:48Z; CVE-2025-0165, 7.6, predates the window). Three of the four share one root cause — server-side authorization not enforced behind the UI — which is recorded as a structural issue, while the 22 further IBM bulletins in the window list 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure, recorded as dependency items under Attribution-CVE-001. The Layer 0 total moves from 48/85 to 56/85 (Tier B → A); the movement comes from R (7 → 11: product-scoped count and maximum replace a dependency-built "10+ / 9.1", same-day fix on the product CVEs, structural issue recorded), V (11 → 14: operator of record, dated Data Sheet, monthly release notes), D (9 → 12: the Service Description i126-9451-17 of 09/2026 excludes Client Content and Outputs from model training, with 60-day deletion and 35-day backup expiry in the Data Sheet of 2026-10-02) and I (7 → 8: a one-step kill switch shipped with Agent Identity GA on 2026-11-03), partly offset by C (6 → 4: least privilege configurable, isolation claimed but not independently evidenced) and T (8 → 7: no in-window product incident disclosure to time; internal AI principles only). The CISA KEV catalog (catalogVersion 2026.11.06, 1,769 entries, re-checked 2026-11-09) lists none of the five product CVEs; the one IBM-vendor addition in the window is a Langflow record, a separately evaluated product.
+Four CVEs whose affected product is the IBM watsonx Orchestrate Cartridge for Cloud Pak for Data (4.8.4–4.8.5 and 5.0.0–5.4.2) were published by IBM as CNA on 2026-11-08 — CVE-2026-2477 (missing backend authorization on administrative API endpoints, CNA CVSS v3.1 6.5), CVE-2026-2700 (backend fails to enforce role-based access control, 4.3), CVE-2025-1837 (improper trust of server-side permission methods, 5.4) and CVE-2025-0166 (source-code information disclosure, 2.7) — all first disclosed in IBM bulletin 7293785 on 2026-10-23 with the fixed release 5.4.4 available the same day, giving `cve_count_12mo: 4` (exact) and `max_cvss_12mo: 6.5` for the window 2025-11-09 → 2026-11-09 (CVE List re-scanned at 2026-11-09T05:47:48Z; CVE-2025-0165, 7.6, predates the window). Three of the four share one root cause — server-side authorization not enforced behind the UI — which is recorded as a structural issue, while the 22 further IBM bulletins in the window list 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure, recorded as dependency items under Attribution-CVE-001. The Layer 0 total moves from 48/85 to 57/85 (Tier B → A); the movement comes from R (7 → 12: product-scoped count and maximum replace a dependency-built "10+ / 9.1", same-day fix on the product CVEs, structural issue recorded), V (11 → 14: operator of record, dated Data Sheet, monthly release notes), D (9 → 12: the Service Description i126-9451-17 of 09/2026 excludes Client Content and Outputs from model training, with 60-day deletion and 35-day backup expiry in the Data Sheet of 2026-10-02) and I (7 → 8: a one-step kill switch shipped with Agent Identity GA on 2026-11-03), partly offset by C (6 → 4: least privilege configurable, isolation claimed but not independently evidenced) and T (8 → 7: no in-window product incident disclosure to time; internal AI principles only). The CISA KEV catalog (catalogVersion 2026.11.06, 1,769 entries, re-checked 2026-11-09) lists none of the five product CVEs; the one IBM-vendor addition in the window is a Langflow record, a separately evaluated product.
 
 ## Scorecard
 
@@ -25,12 +26,12 @@ Four CVEs whose affected product is the IBM watsonx Orchestrate Cartridge for Cl
 |---|---|---|---|---|
 | V — Verifiability | 14 | 20 | High | 11 |
 | E — Effectiveness | — | 15 | not evaluated (Layer 1+) | — |
-| R — Resilience | 11 | 20 | Mid | 7 |
+| R — Resilience | 12 | 20 | Mid | 7 |
 | D — Data Conduct | 12 | 15 | High | 9 |
 | I — Identity & Control | 8 | 10 | High | 7 |
 | C — Containment | 4 | 10 | Mid | 6 |
 | T — Transparency | 7 | 10 | High | 8 |
-| **Layer 0 total** | **56** | **85** | | **48** |
+| **Layer 0 total** | **57** | **85** | | **48** |
 
 Tier: A
 Category: Enterprise AI Agent Platform · Cloud SaaS + On-Prem
@@ -44,6 +45,8 @@ CISA KEV: None — no catalog entry names IBM watsonx Orchestrate; none of CVE-2
 **Previous evaluation:** 2026-03-30 · 48/85 · Tier B · framework v0.3.1 · migrated capture (`sources: []`, `qa` unresolved ×3, `evaluator_model: unrecorded`).
 
 **Trigger:** Scheduled batch-1 differential (LayerC-Triage-001; quarterly sweep 2026-10-27; Batch1-TrancheA-Authorize-2026-10-31-A1). Routine 365-day interval not elapsed. No interrupt trigger fired: the sweep recorded no T1 / T2 / T5 / dormancy row for this slug, and the record entered batch 1 on its recorded `cve_count_12mo: 10` (lower_bound).
+
+**Correction (2026-11-21, Erratum-021-001):** As published on 2026-11-09, R "CVE count (trailing 12 months)" was scored 1 for a count of 4 (exact). ENGINE.md assigns 2 points to the 3–5 band, and the −1 penalty applies only where a CVSS 9.0+ CVE exists; the maximum in the window is 6.5. Engine re-scored the criterion to 2 on 2026-11-21. R 11 → 12, total 56 → 57, Tier A unchanged. No evidence, count, date or other score changed; `updated_at` stays 2026-11-09 because the differential itself was completed on that date.
 
 **Per-dimension state:**
 
@@ -111,13 +114,13 @@ Still unread (stated, not scored as silence): the IBM FedRAMP Marketplace listin
 
 **Recorded concerns.** The product is closed source; the MIT ADK is client tooling. SOC 2 reports are obtainable only by request, and the IBM Cloud SOC 2 scope list read does not name the product (the Data Sheet names SOC 2 Type 2 at the IBM corporation level). Security fixes are not surfaced in the release notes.
 
-### R — Resilience · 11/20 · Mid
+### R — Resilience · 12/20 · Mid
 
 CVE evaluation window: 2025-11-09 → 2026-11-09. Product scope bound to `target_version`: IBM watsonx Orchestrate SaaS, the watsonx Orchestrate Cartridge for IBM Cloud Pak for Data / IBM Software Hub, and the Developer Edition / ADK. Attribution rule applied to bundled dependencies: a CVE counts only when its CVE List record (or the CNA's advisory) names watsonx Orchestrate as the affected product — in practice an IBM-CNA record with an "IBM watsonx Orchestrate … " description; a CVE whose record names a third-party component (Node.js, OpenSSL, PyTorch, a Python or npm package, a container base image) that IBM ships inside the product is a dependency CVE, recorded in the Incident Timeline with `dependency: <vendor/product>` and excluded from `cve_count_12mo` and `max_cvss_12mo` (Attribution-CVE-001). CVSS source order per Attribution-CVE-002; every value below states its version and tier. Primary scan: every CVE List record for 2025 and 2026 (CVEProject/cvelistV5, sparse checkout at the commit of 2026-11-09T05:47:48Z) searched for "watsonx Orchestrate" in any field — five matches, all IBM CNA: CVE-2025-0165 (published 2025-08-30, outside the window) and CVE-2026-2477, CVE-2026-2700, CVE-2025-1837, CVE-2025-0166 (all published 2026-11-08, inside the window); a search for IBM-assigned records containing "watsonx" published 2026-11-07 → 2026-11-09 returned only the same two 2026 IDs. NVD and the CISA KEV JSON could not be queried from the session's shell (allowlist); the CVE List is the upstream of NVD and the operator supplied the KEV JSON checks (2026-11-08 and 2026-11-09).
 
 | Criterion | Result | Score | Evidence URL |
 |---|---|---|---|
-| CVE count (trailing 12 months) | 4 (exact). CVE-2026-2477, CVE-2026-2700, CVE-2025-1837 and CVE-2025-0166, all IBM CNA, state PUBLISHED 2026-11-08, affected product "watsonx Orchestrate Cartridge for Cloud Pak for Data" 4.8.4–4.8.5 and 5.0.0–5.4.2, first public disclosure in IBM bulletin 7293785 on 2026-10-23. CVE-2025-0165 (published 2025-08-30) predates the window. No CVSS 9.0+ product CVE, so no penalty. Nothing in the window names the SaaS service or the Developer Edition / ADK as affected. | 1/5 | https://github.com/CVEProject/cvelistV5 (cves/2026/2xxx/CVE-2026-2477.json, cves/2026/2xxx/CVE-2026-2700.json, cves/2025/1xxx/CVE-2025-1837.json, cves/2025/0xxx/CVE-2025-0166.json) · https://www.ibm.com/support/pages/node/7293785 |
+| CVE count (trailing 12 months) | 4 (exact). CVE-2026-2477, CVE-2026-2700, CVE-2025-1837 and CVE-2025-0166, all IBM CNA, state PUBLISHED 2026-11-08, affected product "watsonx Orchestrate Cartridge for Cloud Pak for Data" 4.8.4–4.8.5 and 5.0.0–5.4.2, first public disclosure in IBM bulletin 7293785 on 2026-10-23. CVE-2025-0165 (published 2025-08-30) predates the window. No CVSS 9.0+ product CVE, so no penalty. Nothing in the window names the SaaS service or the Developer Edition / ADK as affected. Band 3–5 → 2. First published 2026-11-09 as 1; corrected 2026-11-21. | 2/5 | https://github.com/CVEProject/cvelistV5 (cves/2026/2xxx/CVE-2026-2477.json, cves/2026/2xxx/CVE-2026-2700.json, cves/2025/1xxx/CVE-2025-1837.json, cves/2025/0xxx/CVE-2025-0166.json) · https://www.ibm.com/support/pages/node/7293785 |
 | Maximum CVSS severity | 6.5 — CVE-2026-2477, CNA (IBM) CVSS v3.1, vector CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N (computed 6.5; stated 6.5; no NIST Primary or CISA-ADP metric on the record as of 2026-11-09). The other three: CVE-2025-1837 CNA v3.1 5.4 (AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N; computed 5.4; stated 5.4), CVE-2026-2700 CNA v3.1 4.3 (AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N; computed 4.3; stated 4.3), CVE-2025-0166 CNA v3.1 2.7 (AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N; computed 2.7; stated 2.7). The IBM bulletin states the same four values with source IBM. For reference: CVE-2025-0165 (out of window) is CNA v3.1 7.6, and the highest dependency values in the window (CVE-2025-14009 NLTK, CNA @huntr_ai v3.0 10.0; CVE-2026-29167 Apache HTTP Server, CISA-ADP v3.1 9.8) do not enter this field. | 4/6 | https://github.com/CVEProject/cvelistV5 (the four records above) · https://www.ibm.com/support/pages/node/7293785 |
 | Patch response speed | ≤7 days. First public disclosure of all four product CVEs is IBM bulletin 7293785, initial publication 2026-10-23, whose remediation is "upgrading to IBM watsonx Orchestrate Cartridge 5.4.4", available at publication (0 days; IBM's PSIRT policy is to disclose once a fix or mitigation is issued). The CVE List records followed 16 days later (2026-11-08). For context, the dependency bulletins in the window show 40–456 days between upstream CVE publication and the IBM release that carries the fix for the twenty highest-severity items (CVE-2026-27837 40 d, CVE-2025-14009 48 d, CVE-2026-23745 66 d, CVE-2025-55130 77 d, CVE-2026-25990 82 d, CVE-2026-25896 87 d, CVE-2026-33671 88 d, CVE-2025-66034 101 d, CVE-2026-29167 113 d, CVE-2026-5241 118 d, CVE-2026-26278 123 d, CVE-2025-9287 131 d, CVE-2026-34481 137 d, CVE-2026-1703 140 d, CVE-2025-8869 180 d, CVE-2025-30360 197 d, CVE-2025-46653 271 d, CVE-2025-26791 287 d, CVE-2025-25193 322 d, CVE-2025-22871 336 d, CVE-2025-32434 456 d); those intervals are recorded in the Incident Timeline and Contextual Analysis and do not score this criterion now that product CVEs exist to time. | 3/3 | https://www.ibm.com/support/pages/node/7293785 · https://www.ibm.com/support/pages/ibm-security-vulnerability-management · https://github.com/CVEProject/cvelistV5 (per-CVE `datePublished`) |
 | Structural issues | Same root cause recurring. Three of the four in-window product CVEs describe one defect class — server-side authorization not enforced behind UI-level restrictions: CVE-2026-2477 (CWE-862 Missing Authorization: "fails to enforce backend authorization checks, allowing low-privileged users to directly invoke administrative API endpoints"), CVE-2026-2700 (CWE-284 Improper Access Control: "backend fails to enforce role-based access control") and CVE-2025-1837 (CWE-650: "improper trust of server-side permission methods") — across the same release range 4.8.4–5.4.2, with CVE-2025-0165 (CWE-89, out of window) and CVE-2025-0166 (CWE-540) as the isolated items. The three were disclosed together in one bulletin and fixed in one release; the criterion records the shared root cause, not the number of disclosure events. | 0/3 | https://www.ibm.com/support/pages/node/7293785 · https://github.com/CVEProject/cvelistV5 (problemTypes on the four records) |
@@ -217,7 +220,7 @@ Bulletin URLs: https://www.ibm.com/support/pages/node/7293785 · https://www.ibm
 
 Evidence rule for this report: every factual claim is tied to a URL retrieved during the evaluation session or to rendered text supplied by the operator with its retrieval date; pages that could not be read are listed as unread in the Differential section rather than scored as silence.
 
-The vulnerability record of watsonx Orchestrate in the window has two parts. The product's own part is one bulletin: on 2026-10-23 IBM disclosed four defects in the Cartridge for Cloud Pak for Data (versions 4.8.4 through 5.4.2) and shipped 5.4.4 the same day; the CVE List records followed on 2026-11-08. Three of the four describe one condition — the user interface restricted administrative functions while the backend APIs did not check authorization or role, so a low-privileged user calling the API directly could perform administrative actions — and the fourth is a source-code information disclosure. The same-day fix is what the patch-speed criterion rewards; the shared root cause is what the structural criterion records. The second part is the software bill of materials: 22 further IBM bulletins apply a consistent pattern — each names the affected IBM product and version range, lists the bundled component CVEs with IBM's CVSS values and names the fixed release — and, read against the upstream CVE records, show that the product shipped the vulnerable component for several months after public disclosure (a median in the range of three to four months for the twenty highest-severity items, more than a year for the PyTorch and Go items). Under the product-scoped attribution rule the count and maximum read 4 and 6.5; the dependency lag is reported here and in the Incident Timeline and no longer scores the patch-speed criterion now that product CVEs exist. A reader comparing this record with the base record should note that R rises from 7 to 11 because the counting rule changed on 2026-09-22 (the base figures "10+" and 9.1 were built on dependency CVEs), not because the bulletin volume fell; the number of IBM bulletins for the product in this window is higher than in the base window.
+The vulnerability record of watsonx Orchestrate in the window has two parts. The product's own part is one bulletin: on 2026-10-23 IBM disclosed four defects in the Cartridge for Cloud Pak for Data (versions 4.8.4 through 5.4.2) and shipped 5.4.4 the same day; the CVE List records followed on 2026-11-08. Three of the four describe one condition — the user interface restricted administrative functions while the backend APIs did not check authorization or role, so a low-privileged user calling the API directly could perform administrative actions — and the fourth is a source-code information disclosure. The same-day fix is what the patch-speed criterion rewards; the shared root cause is what the structural criterion records. The second part is the software bill of materials: 22 further IBM bulletins apply a consistent pattern — each names the affected IBM product and version range, lists the bundled component CVEs with IBM's CVSS values and names the fixed release — and, read against the upstream CVE records, show that the product shipped the vulnerable component for several months after public disclosure (a median in the range of three to four months for the twenty highest-severity items, more than a year for the PyTorch and Go items). Under the product-scoped attribution rule the count and maximum read 4 and 6.5; the dependency lag is reported here and in the Incident Timeline and no longer scores the patch-speed criterion now that product CVEs exist. A reader comparing this record with the base record should note that R rises from 7 to 12 because the counting rule changed on 2026-09-22 (the base figures "10+" and 9.1 were built on dependency CVEs), not because the bulletin volume fell; the number of IBM bulletins for the product in this window is higher than in the base window.
 
 IBM's own disclosure position, as stated on its PSIRT pages, is that it does not disclose or confirm a vulnerability until analysis is complete and a fix or mitigation has been issued; the product bulletin and the dependency bulletins both follow it. Two of the four product CVE IDs (CVE-2025-0166, CVE-2025-1837) were reserved in 2025 and published in November 2026, so the interval between IBM's internal awareness and public disclosure is not on the public record. IBM's CVSS values in the dependency bulletins frequently differ from the CNA values on the CVE List (for example fontTools CVE-2025-66034: IBM 9.8, CNA 6.3; Formidable CVE-2025-46653: IBM 8.8, CNA 3.1), in both directions; the report records both where read and does not adjudicate which better describes exposure inside the product. For the four product CVEs the bulletin and the CVE List carry identical values. The earlier product CVE, CVE-2025-0165 (SQL injection, CNA v3.1 7.6), was likewise published with its fix on the same day; it predates this window.
 
@@ -231,7 +234,7 @@ Disclosure Triggers 0–3: none fire. IBM is not in the material Anthropic equit
 
 ## VERDICT Record
 
-**Summary.** IBM watsonx Orchestrate scores 56/85 (Tier A), up from 48: four product-own CVEs in the Cartridge (maximum 6.5, three sharing a backend-authorization root cause) disclosed with the fix available the same day, no KEV entry or supply chain compromise, contractual no-training terms with a dated Data Sheet and DPA, and a one-step agent kill switch, against a dependency record of 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure, closed source, SOC 2 reports on request only, and least privilege and isolation that depend on configuration and vendor statement.
+**Summary.** IBM watsonx Orchestrate scores 57/85 (Tier A), up from 48: four product-own CVEs in the Cartridge (maximum 6.5, three sharing a backend-authorization root cause) disclosed with the fix available the same day, no KEV entry or supply chain compromise, contractual no-training terms with a dated Data Sheet and DPA, and a one-step agent kill switch, against a dependency record of 312 bundled-component CVE entries fixed 40–456 days after upstream disclosure, closed source, SOC 2 reports on request only, and least privilege and isolation that depend on configuration and vendor statement.
 
 **Risk Factor Summary by Use Case**
 
@@ -259,7 +262,9 @@ Disclosure Triggers 0–3: none fire. IBM is not in the material Anthropic equit
 | Date | Type | Score | Tier | Framework |
 |---|---|---|---|---|
 | 2026-03-30 | Initial (migrated capture) | 48/85 | B | v0.3.1 |
-| 2026-11-09 | Update (differential, full re-evaluation; run 3 with operator input and verification) | 56/85 | A | v0.3.2 |
+| 2026-11-09 | Update (differential, full re-evaluation; run 3 with operator input and verification) | 57/85 | A | v0.3.2 |
+
+Correction (2026-11-21): the 2026-11-09 update was first published as 56/85; R "CVE count (trailing 12 months)" was re-scored 1 → 2 (count 4, band 3–5). Tier unchanged.
 
 ## Future Evaluation Plan
 
@@ -269,58 +274,5 @@ Disclosure Triggers 0–3: none fire. IBM is not in the material Anthropic equit
 
 ---
 
-**Score tag line:** `V14 R11 D12 I8 C4 T7 = 56/85 · Tier A · prev 48 · cve_count_12mo 4 (exact) · max_cvss_12mo 6.5 · KEV none · supply_chain false`
-Dimension sum check: 14 + 11 + 12 + 8 + 4 + 7 = 56 ✔
-
-
-```japanese-summary
-# IBM watsonx Orchestrate 評価結果サマリー
-
-## 基本情報
-- 評価種別: 更新（差分評価、Layer 0）
-- スコア: 56/85 (Layer 0)
-- 前回スコア: 48/85（2026.03.30、Tier B、framework v0.3.1）
-- ランク: パイプライン算出（基準レコード rank 31 を保持）/ 総評価数はパイプライン算出
-- 評価日: 2026.11.09（原評価日 2026.03.30）
-- 対象バージョン: watsonx Orchestrate SaaS（2026年10月月末リリース、2026-11-04 より展開）/ Cartridge for IBM Software Hub 5.4.x（修正版 5.4.4）/ Developer Edition・ADK 2.19.1
-- 運営: International Business Machines Corporation（IBM）
-- 独立性: ⚠️ parent（IBM 自身が最終親会社、parent_entity: null）
-
-## 次元スコア
-- V (検証可能性): 14/20
-- R (耐性): 11/20
-- D (データ運用): 12/15
-- I (制御): 8/10
-- C (封じ込め): 4/10
-- T (透明性): 7/10
-
-## 主要ポジティブ所見
-- 製品固有 CVE 4 件（Cartridge for Cloud Pak for Data 4.8.4–4.8.5 / 5.0.0–5.4.2、CVE List 2025–2026 全件走査 2026-11-09T05:47Z、basis exact）は 2026-10-23 の IBM 速報 7293785 で初公開、同日に修正版 5.4.4 を提供（パッチ対応速度 3/3）。最高 CVSS は CVE-2026-2477 の CNA v3.1 6.5（Medium）。SaaS・Developer Edition を影響製品とする CVE はなし。CVE-2025-0165（v3.1 7.6）は 2025-08-30 公開で窓外。
-- Service Description i126-9451-17（09/2026）§5.3・§6.2：Client Content と Output を基盤モデル・埋め込みモデルの学習に使用しないと明記。Data Sheet（2026-10-02 公開）：解約後 60 日で削除、バックアップは 35 日で失効、第三者サプライヤー 8 社を列挙。DPA Z126-7870-07。
-- Agent Identity GA（2026-11-03）：ライブ環境からのアンデプロイとアクティブセッション終了を一操作で行うキルスイッチ、ユーザー×エージェントにスコープしたトークン、監査記録。
-- Python ツールは隔離コンテナ・読み取り専用ファイルシステム・テナント単位のパッケージ許可リストで実行。埋め込みチャットの AI 開示表示は既定で有効。
-- IBM は CNA として CVE を発行し、修正版と同時に PSIRT 速報を公開。FedRAMP（AWS GovCloud、IBM 2026-04-01 発表、影響レベル未記載）。
-
-## 主要リスク所見
-- 製品固有 CVE 4 件のうち 3 件（CVE-2026-2477 CWE-862、CVE-2026-2700 CWE-284、CVE-2025-1837 CWE-650）は「UI では制限されているがバックエンド API が認可・ロールを検証しない」という同一の根本原因（構造的問題 0/3）。CVE List 記録は速報の 16 日後（2026-11-08）に公開。
-- 窓内の IBM 速報 22 件に同梱コンポーネントの CVE が 312 件記載（Node.js、OpenSSL、PyTorch、fast-xml-parser、Apache HTTP Server 等。版間重複あり、Developer Edition 2.17.0 速報は切り詰め表示のため下限値）。上位 20 件の上流公開→IBM 修正版は 40〜456 日（依存コンポーネントの遅延として記録、製品 CVE が存在するため本基準の採点対象外）。
-- クローズドソース（MIT ライセンスの ADK はクライアントツール）。SOC 2 レポートは IBM 担当者への依頼で提供、IBM Cloud の SOC 2 スコープ一覧に製品名なし。
-- ツール実行前の人による確認は既定ではなくビルダー設定。最小権限は設定依存（チーム資格情報は共有 ID）。テナント分離はベンダー記述のみで、公開された監査証跡なし。
-- Auxiliary AI Features のデータはサービス改善のため既定で利用（オプトアウトはドキュメント参照、当該ページ未読）。運用・診断データの保持期間は未記載。Premier LLM（Microsoft Azure 経由）では濫用監視で入出力が一時保存・人による確認の対象になり得る。
-- 未読ページ：FedRAMP Marketplace の掲載、Z126-8005、i127-9379、ibm.com/cloud/subprocessors、§6.2 オプトアウト手順、製品フィルタ付き IBM 速報カタログ。
-
-## インシデント
-- 2026-10-23（CVE 記録公開 2026-11-08）：IBM 速報 7293785 — CVE-2026-2477（CNA v3.1 6.5、CWE-862 管理 API のバックエンド認可欠如）、CVE-2025-1837（5.4、CWE-650）、CVE-2026-2700（4.3、CWE-284）、CVE-2025-0166（2.7、CWE-540）。影響：Cartridge 4.8.4–4.8.5 / 5.0.0–5.4.2。修正：Cartridge 5.4.4（速報公開時に提供）、回避策なし。
-- 依存コンポーネント速報（dependency 扱い、カウント外）：2026-09-29 Developer Edition 2.17.0（90 件、最高 CVE-2026-29167 Apache HTTP Server、CISA-ADP v3.1 9.8）／2026-07-18 Cartridge 5.4.0（22 件、CVE-2025-32434 PyTorch、IBM 9.8 v3.1、上流公開から 456 日）／2026-05-18 Cartridge 5.3.2（50 件＋18 件、CVE-2026-25896 fast-xml-parser、CNA v3.1 9.3）／2026-04-07 Developer Edition 2.7.0（29 件、CVE-2025-14009 NLTK、CNA v3.0 10.0）／2026-03-10 Cartridge 5.3.1（85 件）ほか。
-- CVE なし速報：2026-01-30 gunicorn HTTP リクエストスマグリング（Developer Edition 2.3.0 で修正）。
-- 窓外：CVE-2025-0165（2025-08-30、IBM CNA v3.1 7.6、Cartridge 4.8.4–5.2.0 の SQL インジェクション、同日修正）。
-- run 2 で bare RESERVED とした CVE-2026-2477 / CVE-2026-2700 は 2026-11-08 に公開され、本 run 3 で計上。
-
-## CISA KEV
-- 該当なし（catalogVersion 2026.11.06、1,769 件、オペレーター JSON 確認 2026-11-08 および 2026-11-09）。製品 CVE 5 件はいずれも未掲載。IBM ベンダーの窓内追加 1 件（CVE-2026-9198、Langflow、2026-08-04）は別評価製品（#008）であり本レコードの KEV ではない。
-
-## HTMLカード用タグ
-- tags: enterprise, closed-source, hybrid-deploy, IBM-cloud, FedRAMP, SOC2, multi-agent, governance, agent-identity, dependency-bulletins, subscription
-- incident_tags: cartridge-cves-2026-10, authz-root-cause, dependency-bulletins, dependency-fix-lag
-- owner: IBM
-```
+**Score tag line:** `V14 R12 D12 I8 C4 T7 = 57/85 · Tier A · prev 48 · cve_count_12mo 4 (exact) · max_cvss_12mo 6.5 · KEV none · supply_chain false`
+Dimension sum check: 14 + 12 + 12 + 8 + 4 + 7 = 57 ✔

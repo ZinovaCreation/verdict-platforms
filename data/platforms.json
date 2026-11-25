@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:04:10+00:00",
+  "generated_at": "2026-11-25T08:56:57+00:00",
   "framework_version": "v0.3.2",
   "count": 70,
   "platforms": [
@@ -1127,7 +1127,83 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 14,
+      "tier": "A",
+      "slug": "watsonx-orchestrate",
+      "name": "IBM watsonx Orchestrate",
+      "operator": "International Business Machines Corporation (IBM)",
+      "independence": "parent",
+      "parent_entity": null,
+      "category": "Enterprise AI Agent Platform · Cloud SaaS + On-Prem",
+      "homepage": "https://www.ibm.com/products/watsonx-orchestrate",
+      "github": "https://github.com/IBM",
+      "score": 57,
+      "max_score": 85,
+      "layer": "0",
+      "verdict": {
+        "v": {
+          "score": 14,
+          "rating": "High",
+          "note": "IBM Corp. on legal page; closed source; dated Data Sheet; SOC 2 on request"
+        },
+        "r": {
+          "score": 12,
+          "rating": "Mid",
+          "note": "4 Cartridge CVEs (max 6.5), same-day fix, shared authz root cause; 312 dep items"
+        },
+        "d": {
+          "score": 12,
+          "rating": "High",
+          "note": "No-training terms (SD 09/2026); 60 d/35 d deletion; dated sub-processors"
+        },
+        "i": {
+          "score": 8,
+          "rating": "High",
+          "note": "Kill switch (Agent Identity GA 2026-11-03); HITL optional; credential scopes"
+        },
+        "c": {
+          "score": 4,
+          "rating": "Mid",
+          "note": "Container, read-only FS, package allowlist; least privilege configurable"
+        },
+        "t": {
+          "score": 7,
+          "rating": "High",
+          "note": "IBM CNA + bulletins; TOMs in Data Sheet; internal AI principles; disclaimer on"
+        },
+        "e": {
+          "score": null,
+          "rating": null,
+          "note": null
+        }
+      },
+      "cisa_kev": {
+        "present": false,
+        "entries": []
+      },
+      "cve_count_12mo": 4,
+      "max_cvss_12mo": 6.5,
+      "supply_chain_compromise_12mo": false,
+      "evaluated_at": "2026-03-30",
+      "updated_at": "2026-11-09",
+      "evaluator_model": "claude-fable-5-1",
+      "framework_version": "v0.3.2",
+      "tags": [
+        "enterprise",
+        "closed-source",
+        "hybrid-deploy",
+        "IBM-cloud",
+        "FedRAMP",
+        "SOC2",
+        "multi-agent",
+        "governance",
+        "agent-identity",
+        "dependency-bulletins",
+        "subscription"
+      ]
+    },
+    {
+      "rank": 17,
       "tier": "A",
       "slug": "autogen",
       "name": "AutoGen",
@@ -1199,83 +1275,7 @@
       ]
     },
     {
-      "rank": 16,
-      "tier": "A",
-      "slug": "watsonx-orchestrate",
-      "name": "IBM watsonx Orchestrate",
-      "operator": "International Business Machines Corporation (IBM)",
-      "independence": "parent",
-      "parent_entity": null,
-      "category": "Enterprise AI Agent Platform · Cloud SaaS + On-Prem",
-      "homepage": "https://www.ibm.com/products/watsonx-orchestrate",
-      "github": "https://github.com/IBM",
-      "score": 56,
-      "max_score": 85,
-      "layer": "0",
-      "verdict": {
-        "v": {
-          "score": 14,
-          "rating": "High",
-          "note": "IBM Corp. on legal page; closed source; dated Data Sheet; SOC 2 on request"
-        },
-        "r": {
-          "score": 11,
-          "rating": "Mid",
-          "note": "4 Cartridge CVEs (max 6.5), same-day fix, shared authz root cause; 312 dep items"
-        },
-        "d": {
-          "score": 12,
-          "rating": "High",
-          "note": "No-training terms (SD 09/2026); 60 d/35 d deletion; dated sub-processors"
-        },
-        "i": {
-          "score": 8,
-          "rating": "High",
-          "note": "Kill switch (Agent Identity GA 2026-11-03); HITL optional; credential scopes"
-        },
-        "c": {
-          "score": 4,
-          "rating": "Mid",
-          "note": "Container, read-only FS, package allowlist; least privilege configurable"
-        },
-        "t": {
-          "score": 7,
-          "rating": "High",
-          "note": "IBM CNA + bulletins; TOMs in Data Sheet; internal AI principles; disclaimer on"
-        },
-        "e": {
-          "score": null,
-          "rating": null,
-          "note": null
-        }
-      },
-      "cisa_kev": {
-        "present": false,
-        "entries": []
-      },
-      "cve_count_12mo": 4,
-      "max_cvss_12mo": 6.5,
-      "supply_chain_compromise_12mo": false,
-      "evaluated_at": "2026-03-30",
-      "updated_at": "2026-11-09",
-      "evaluator_model": "claude-fable-5-1",
-      "framework_version": "v0.3.2",
-      "tags": [
-        "enterprise",
-        "closed-source",
-        "hybrid-deploy",
-        "IBM-cloud",
-        "FedRAMP",
-        "SOC2",
-        "multi-agent",
-        "governance",
-        "agent-identity",
-        "dependency-bulletins",
-        "subscription"
-      ]
-    },
-    {
-      "rank": 16,
+      "rank": 17,
       "tier": "A",
       "slug": "pipedream",
       "name": "Pipedream",
@@ -1339,7 +1339,7 @@
       "tags": []
     },
     {
-      "rank": 16,
+      "rank": 17,
       "tier": "A",
       "slug": "v0",
       "name": "v0",

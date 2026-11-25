@@ -55,7 +55,7 @@ _Auto-generated. Do not edit by hand._
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
 | 5 | A | [Lovable](../platforms/lovable.md) | Lovable Labs AB · Sweden · $6.6B | 63/85 |
-| 16 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | 56/85 |
+| 17 | A | [v0](../platforms/v0.md) | Vercel · $3.25B | 56/85 |
 
 ## AI App Builder · OSS Core
 
@@ -220,7 +220,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 16 | A | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | International Business Machines Corporation (IBM) | 56/85 |
+| 14 | A | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | International Business Machines Corporation (IBM) | 57/85 |
 
 ## Enterprise AI Assistant · Agent Platform · Cloud SaaS
 
@@ -299,7 +299,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 16 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | 56/85 |
+| 17 | A | [AutoGen](../platforms/autogen.md) | Microsoft Research | 56/85 |
 
 ## Multi-Agent LLM Framework · OSS (MIT)
 
@@ -361,7 +361,7 @@ _Auto-generated. Do not edit by hand._
 
 | Rank | Tier | Platform | Operator | Score |
 |---:|:---:|---|---|---:|
-| 16 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | 56/85 |
+| 17 | A | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | 56/85 |
 
 ## Workflow Automation · Cloud SaaS
 

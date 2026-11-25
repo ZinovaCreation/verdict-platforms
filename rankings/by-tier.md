@@ -26,10 +26,10 @@ _Auto-generated. Do not edit by hand._
 | 11 | [Windsurf](../platforms/windsurf.md) | Cognition AI · $10.2B | AI Coding IDE · VS Code Fork | 58/85 |
 | 14 | [Dust](../platforms/dust.md) | Dust SAS · Paris, France | Enterprise AI Assistant · OSS + Cloud SaaS | 57/85 |
 | 14 | [GitHub Copilot](../platforms/github-copilot.md) | GitHub (Microsoft) | AI Coding Agent · Microsoft | 57/85 |
-| 16 | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 |
-| 16 | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | International Business Machines Corporation (IBM) | Enterprise AI Agent Platform · Cloud SaaS + On-Prem | 56/85 |
-| 16 | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | Workflow Automation · API Integration | 56/85 |
-| 16 | [v0](../platforms/v0.md) | Vercel · $3.25B | AI App Builder · Cloud SaaS | 56/85 |
+| 14 | [IBM watsonx Orchestrate](../platforms/watsonx-orchestrate.md) | International Business Machines Corporation (IBM) | Enterprise AI Agent Platform · Cloud SaaS + On-Prem | 57/85 |
+| 17 | [AutoGen](../platforms/autogen.md) | Microsoft Research | Multi-Agent Framework · Open Source (MIT) | 56/85 |
+| 17 | [Pipedream](../platforms/pipedream.md) | Acquired by Workday (Dec 2025) | Workflow Automation · API Integration | 56/85 |
+| 17 | [v0](../platforms/v0.md) | Vercel · $3.25B | AI App Builder · Cloud SaaS | 56/85 |
 | 20 | [LangSmith](../platforms/langsmith.md) | LangChain, Inc. | LLM Observability | 55/85 |
 | 20 | [Mistral La Plateforme](../platforms/mistral-la-plateforme.md) | Mistral AI SAS | AI Agent Platform | 55/85 |
 
